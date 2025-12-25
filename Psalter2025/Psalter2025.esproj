@@ -7,4 +7,11 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\Psalter2025\browser\</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\app\src\**" />
+    <TypeScriptConfiguration Remove="src\app\src\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\app\components\" />
+  </ItemGroup>
 </Project>
