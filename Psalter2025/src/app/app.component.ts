@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { PsalterService } from './services/psalter-service';
 
 @Component({
@@ -7,11 +7,18 @@ import { PsalterService } from './services/psalter-service';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  constructor(public dataService: PsalterService) {
+  constructor(public service: PsalterService) {
   }
 
+  ngAfterViewInit() {
+    this.service.currentPsalter$.subscribe(x => this.audio.nativeElement.load())
+  }
+
+  @ViewChild('player')
+  audio: ElementRef<HTMLAudioElement>;
+
   toggleScore() {
-    this.dataService.showScore = !this.dataService.showScore;
-    sessionStorage.setItem('showScore', this.dataService.showScore.toString())
+    this.service.showScore = !this.service.showScore;
+    sessionStorage.setItem('showScore', this.service.showScore.toString())
   }
 }

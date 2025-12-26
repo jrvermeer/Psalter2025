@@ -9,9 +9,9 @@ import { Swiper, SwiperEvents } from 'swiper/types';
   styleUrl: './psalter-page.component.css'
 })
 export class PsalterPageComponent {
-  constructor(public dataService: PsalterService) {
+  constructor(public service: PsalterService) {
     this.updateWindowSizeSettings()
-    console.log('page showScore', this.dataService.showScore)
+    console.log('page showScore', this.service.showScore)
   }
 
   ngAfterViewInit() {
@@ -20,7 +20,7 @@ export class PsalterPageComponent {
     //Object.assign(this.swiper.nativeElement, swiperParams);
 
     // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
-    this.dataService.getPsalters().subscribe(x => {
+    this.service.getPsalters().subscribe(x => {
       this.psalters = x
       setTimeout(() => {
         this.swiper.nativeElement.initialize();
@@ -40,7 +40,7 @@ export class PsalterPageComponent {
   numHiddenVerses = 0;
   getVerses(psalter: Psalter) {
     this.numHiddenVerses = 0;
-    if (!this.dataService.showScore)
+    if (!this.service.showScore)
       return psalter.verses;
 
     if (psalter.numVersesInsideStaff < psalter.verses.length) {
@@ -60,7 +60,7 @@ export class PsalterPageComponent {
   slideChange(evt: Event) {
     var swiper = (evt as CustomEvent).detail[0] as Swiper;
     let psalter = this.psalters[swiper.activeIndex];
-    this.dataService.currentPsalter = psalter;
+    this.service.currentPsalter$.next(psalter);
     sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
   }
 }

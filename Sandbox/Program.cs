@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Sandbox;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -6,19 +7,34 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
-        var json = await File.ReadAllTextAsync("C:\\Users\\verme\\Downloads\\psalter.json");
+        var json = await File.ReadAllTextAsync("C:\\Users\\verme\\Downloads\\psalter_oldschema.json");
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
-        var newSchema = oldSchema.Select(x => new NewSchema
-        {
-            number = x.number.ToString(),
-            title = x.heading,
-            psalm = x.psalm?.ToString(),
-            verses = x.lyrics.Split("\n\n").Select(x => RemoveVerseNumber(x).Trim()).ToList(),
-            secondTune = x.Title.Contains("2nd"),
-            numVersesInsideStaff = x.NumVersesInsideStaff
-        }).ToList();
+        var newSchema = oldSchema.Select(x => Convert(x)).ToList();
 
-        File.WriteAllText("C:\\Users\\verme\\Downloads\\psalter_updated.json", JsonSerializer.Serialize(newSchema));
+        File.WriteAllText("C:\\Users\\verme\\Downloads\\psalter.json", JsonSerializer.Serialize(newSchema));
+    }
+
+    private static NewSchema Convert(OldSchema old)
+    {
+        var oldVerses = old.lyrics.Split("\n\n").ToList();
+        var chorus = oldVerses.FirstOrDefault(x => x.StartsWith("(CHORUS"));
+
+        if (chorus != null)
+        {
+            oldVerses.Remove(chorus);
+            chorus = chorus.Substring(chorus.IndexOf("\n")).Trim();
+        }
+
+        return new NewSchema
+        {
+            number = old.number.ToString(),
+            title = old.heading,
+            psalm = old.psalm?.ToString(),
+            verses = oldVerses.Select(x => RemoveVerseNumber(x).Trim()).ToList(),
+            chorus = chorus,
+            secondTune = old.Title.Contains("2nd"),
+            numVersesInsideStaff = old.NumVersesInsideStaff
+        };
     }
 
     public static string RemoveVerseNumber(string verse)
@@ -49,6 +65,7 @@ public class NewSchema
     public required string title { get; set; }
     public string? psalm { get; set; }
     public required List<string> verses { get; set; }
+    public string? chorus { get; set; }
     public required bool secondTune { get; set; }
     public int? numVersesInsideStaff { get; set; }
 }

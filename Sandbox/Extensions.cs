@@ -9,6 +9,12 @@ namespace Sandbox
 {
     public static class Extensions
     {
+        public static string TrimStart(this string s, string start)
+        {
+            if (s.StartsWith(start, StringComparison.OrdinalIgnoreCase))
+                return s.Substring(start.Length);
 
+            return s;
+        }
     }
 }

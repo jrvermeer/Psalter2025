@@ -1,5 +1,6 @@
 :host {
-
+    height: 100%;
+    display: block;
     --app-primary-color: gray;
     --app-navbar-height: 68px;
 }
