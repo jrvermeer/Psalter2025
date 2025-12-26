@@ -1,6 +1,7 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
-import { SwiperContainer } from 'swiper/element';
+import { SwiperContainer, SwiperSlide } from 'swiper/element';
 import { Psalter, PsalterService } from '../../services/psalter-service';
+import { Swiper, SwiperEvents } from 'swiper/types';
 
 @Component({
   selector: 'psalter-page',
@@ -10,6 +11,7 @@ import { Psalter, PsalterService } from '../../services/psalter-service';
 export class PsalterPageComponent {
   constructor(public dataService: PsalterService) {
     this.updateWindowSizeSettings()
+    console.log('page showScore', this.dataService.showScore)
   }
 
   ngAfterViewInit() {
@@ -20,16 +22,31 @@ export class PsalterPageComponent {
     // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
     this.dataService.getPsalters().subscribe(x => {
       this.psalters = x
-      setTimeout(() => this.swiper.nativeElement.initialize(), 1);
+      setTimeout(() => {
+        this.swiper.nativeElement.initialize();
+        let lastIndex = sessionStorage.getItem('lastIndex')
+        if (lastIndex)
+          this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
+      }, 1);
     })
   }
 
   enableNavArrows = false;
   psalters: Psalter[];
 
-  getVersesOutsideStaff(psalter: Psalter) {
-    if (psalter.numVersesInsideStaff < psalter.verses.length)
+  @ViewChild('swiper')
+  swiper: ElementRef<SwiperContainer>;
+
+  numHiddenVerses = 0;
+  getVerses(psalter: Psalter) {
+    this.numHiddenVerses = 0;
+    if (!this.dataService.showScore)
+      return psalter.verses;
+
+    if (psalter.numVersesInsideStaff < psalter.verses.length) {
+      this.numHiddenVerses = psalter.numVersesInsideStaff;
       return psalter.verses.slice(psalter.numVersesInsideStaff - 1);
+    }
 
     return null
   }
@@ -40,7 +57,10 @@ export class PsalterPageComponent {
     this.enableNavArrows = window.innerWidth > 1000;
   }
 
-
-  @ViewChild('swiper')
-  swiper: ElementRef<SwiperContainer>;
+  slideChange(evt: Event) {
+    var swiper = (evt as CustomEvent).detail[0] as Swiper;
+    let psalter = this.psalters[swiper.activeIndex];
+    this.dataService.currentPsalter = psalter;
+    sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
+  }
 }

@@ -1,4 +1,20 @@
 :host {
+
+    --app-primary-color: gray;
+    --app-navbar-height: 68px;
+}
+
+psalter-page {
     display: block;
-    height: 100%;
+    margin-bottom: var(--app-navbar-height);
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: var(--app-navbar-height);
+  background-color: var(--app-primary-color);
 }

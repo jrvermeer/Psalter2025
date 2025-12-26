@@ -1,2 +1,11 @@
 
 <psalter-page></psalter-page>
+
+<nav>
+  <button (click)="toggleScore()">{{dataService.showScore ? 'Hide' : 'Show'}} score</button>
+
+  <audio controls *ngIf="dataService.currentPsalter">
+    <source src="assets/1912/Audio/_{{dataService.currentPsalter.number + (dataService.currentPsalter.secondTune ? '_2' : '')}}.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</nav>

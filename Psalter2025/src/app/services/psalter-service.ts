@@ -1,16 +1,17 @@
 import { HttpClient } from "@angular/common/http";
-import { Injectable } from "@angular/core";
+import { EventEmitter, Injectable } from "@angular/core";
 
 @Injectable({providedIn: 'root'})
 export class PsalterService {
   constructor(private http: HttpClient) {
-
   }
 
   getPsalters() {
-    return this.http.get<Psalter[]>('assets/psalter_updated.json')
-      ;
+    return this.http.get<Psalter[]>('assets/1912/psalter.json');
   }
+
+  currentPsalter: Psalter
+  showScore = (sessionStorage.getItem('showScore') ?? 'true') == 'true';
 }
 
 export class Psalter {
