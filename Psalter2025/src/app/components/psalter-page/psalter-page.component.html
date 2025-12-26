@@ -1,6 +1,9 @@
-<swiper-container>
-  <swiper-slide *ngFor="let num of psalters">
-    <h1>{{num}}</h1>
-    <img src="https://raw.githubusercontent.com/jrvermeer/PsalterFiles/refs/heads/master/1912/Score/_{{num}}.webp" />
+<swiper-container #swiper keyboard-enabled virtual init="false"
+                  [navigation]="enableNavArrows">
+  <swiper-slide *ngFor="let num of dataService.psalters">
+    <div class="ui-slide-container">
+      <h1>{{num}}</h1>
+      <img src="https://raw.githubusercontent.com/jrvermeer/PsalterFiles/refs/heads/master/1912/Score/_{{num}}.webp" loading="lazy" />
+    </div>
   </swiper-slide>
 </swiper-container>

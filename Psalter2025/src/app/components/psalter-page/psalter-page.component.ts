@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { SwiperContainer } from 'swiper/element';
+import { PsalterService } from '../../services/psalter-service';
 
 @Component({
   selector: 'psalter-page',
@@ -6,9 +8,28 @@ import { Component } from '@angular/core';
   styleUrl: './psalter-page.component.css'
 })
 export class PsalterPageComponent {
-  constructor() {
-    for (let i = 1; i <= 434; i++)
-      this.psalters.push(i);
+  constructor(public dataService: PsalterService) {
+    this.updateWindowSizeSettings()
   }
-  psalters: number[] = [];
+
+  ngAfterViewInit() {
+    console.log('swiper:', this.swiper)
+
+    //Object.assign(this.swiper.nativeElement, swiperParams);
+
+    // have to initialize here for virtual swipers, else it initializes before the *ngFor finishes building the view and nothing works
+    this.swiper.nativeElement.initialize();
+  }
+
+  enableNavArrows = false;
+
+  @HostListener('window:resize', ['$event'])
+  updateWindowSizeSettings() {
+    console.log('resize', window.innerWidth)
+    this.enableNavArrows = window.innerWidth > 1000;
+  }
+
+
+  @ViewChild('swiper')
+  swiper: ElementRef<SwiperContainer>;
 }
