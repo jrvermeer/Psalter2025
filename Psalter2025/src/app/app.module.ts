@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PsalterPageComponent } from './components/psalter-page/psalter-page.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { PsalterPageComponent } from './components/psalter-page/psalter-page.com
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

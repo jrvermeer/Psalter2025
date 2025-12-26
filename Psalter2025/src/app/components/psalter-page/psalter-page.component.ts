@@ -1,6 +1,6 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { SwiperContainer } from 'swiper/element';
-import { PsalterService } from '../../services/psalter-service';
+import { Psalter, PsalterService } from '../../services/psalter-service';
 
 @Component({
   selector: 'psalter-page',
@@ -17,11 +17,22 @@ export class PsalterPageComponent {
 
     //Object.assign(this.swiper.nativeElement, swiperParams);
 
-    // have to initialize here for virtual swipers, else it initializes before the *ngFor finishes building the view and nothing works
-    this.swiper.nativeElement.initialize();
+    // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
+    this.dataService.getPsalters().subscribe(x => {
+      this.psalters = x
+      setTimeout(() => this.swiper.nativeElement.initialize(), 1);
+    })
   }
 
   enableNavArrows = false;
+  psalters: Psalter[];
+
+  getVersesOutsideStaff(psalter: Psalter) {
+    if (psalter.numVersesInsideStaff < psalter.verses.length)
+      return psalter.verses.slice(psalter.numVersesInsideStaff - 1);
+
+    return null
+  }
 
   @HostListener('window:resize', ['$event'])
   updateWindowSizeSettings() {

@@ -1,14 +1,28 @@
+import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
 @Injectable({providedIn: 'root'})
 export class PsalterService {
-  constructor() {
+  constructor(private http: HttpClient) {
 
-    for (let i = 1; i <= 434; i++)
-      this.psalters.push(i);
-  
   }
 
+  getPsalters() {
+    return this.http.get<Psalter[]>('assets/psalter_updated.json')
+      ;
+  }
+}
 
-  psalters: number[] = [];
+export class Psalter {
+  constructor(c?: Partial<Psalter>) {
+    Object.assign(this, c)
+  }
+  number: string
+  title: string
+  psalm: string
+  verses: string[]
+
+  // 1912
+  secondTune: boolean
+  numVersesInsideStaff: number
 }

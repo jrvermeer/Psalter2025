@@ -7,9 +7,33 @@ swiper-slide {
     display: flex;
     justify-content: center;
 }
+
 .ui-slide-container {
     max-width: 800px;
+    padding: 8px;
 }
+
+.ui-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 img {
     max-width: 100%;
+}
+
+table.verses {
+    margin: auto;
+    /*font-size: 1.2em;*/
+}
+.verse {
+    white-space: pre;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.ui-verse-number {
+    vertical-align: top;
+    padding-right: 8px;
 }

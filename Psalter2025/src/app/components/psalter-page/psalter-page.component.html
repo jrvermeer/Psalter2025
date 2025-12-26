@@ -1,9 +1,27 @@
 <swiper-container #swiper keyboard-enabled virtual init="false"
+                  speed="200"
                   [navigation]="enableNavArrows">
-  <swiper-slide *ngFor="let num of dataService.psalters">
+  <swiper-slide *ngFor="let psalter of psalters">
     <div class="ui-slide-container">
-      <h1>{{num}}</h1>
-      <img src="https://raw.githubusercontent.com/jrvermeer/PsalterFiles/refs/heads/master/1912/Score/_{{num}}.webp" loading="lazy" />
+      <div class="ui-header">
+        <div class="d-flex align-center">
+          <h1>{{psalter.number}} </h1>
+          <h3 *ngIf="psalter.secondTune" class="ml-1">(2nd tune)</h3>
+        </div>
+        <h2>{{psalter.title}}</h2>
+      </div>
+      <img src="https://raw.githubusercontent.com/jrvermeer/PsalterFiles/refs/heads/master/1912/Score/_{{psalter.number + (psalter.secondTune ? '_2' : '')}}.webp" loading="lazy" />
+
+      <table class="verses">
+        <tbody>
+          <tr *ngFor="let verse of getVersesOutsideStaff(psalter); let i = index">
+            <td class="ui-verse-number">{{psalter.numVersesInsideStaff + i + 1}}.</td>
+            <td class="verse">{{verse}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div >
+      </div>
     </div>
   </swiper-slide>
 </swiper-container>
