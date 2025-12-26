@@ -20,7 +20,8 @@ swiper-slide {
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
+  filter: contrast(0.875);
 }
 
 table.verses {
