@@ -7,13 +7,18 @@ export class PsalterService {
     this.currentPsalter$.subscribe(x => this.currentPsalter = x)
   }
 
+  currentPsalter$ = new EventEmitter<Psalter>()
+  currentPsalter: Psalter
+  showScore = (sessionStorage.getItem('showScore') ?? 'true') == 'true';
+
   getPsalters() {
     return this.http.get<Psalter[]>('assets/1912/psalter.json');
   }
 
-  currentPsalter$ = new EventEmitter<Psalter>()
-  currentPsalter: Psalter
-  showScore = (sessionStorage.getItem('showScore') ?? 'true') == 'true';
+  toggleScore() {
+    this.showScore = !this.showScore;
+    sessionStorage.setItem('showScore', this.showScore.toString())
+  }
 }
 
 export class Psalter {

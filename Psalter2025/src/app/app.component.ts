@@ -16,9 +16,4 @@ export class AppComponent {
 
   @ViewChild('player')
   audio: ElementRef<HTMLAudioElement>;
-
-  toggleScore() {
-    this.service.showScore = !this.service.showScore;
-    sessionStorage.setItem('showScore', this.service.showScore.toString())
-  }
 }
