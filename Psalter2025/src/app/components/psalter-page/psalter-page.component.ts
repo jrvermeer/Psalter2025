@@ -52,7 +52,7 @@ export class PsalterPageComponent {
     return null
   }
 
-  @HostListener('window:resize', ['$event'])
+  @HostListener('window:resize')
   updateWindowSizeSettings() {
     console.log('resize', window.innerWidth)
     this.enableNavArrows = window.innerWidth > 1000;

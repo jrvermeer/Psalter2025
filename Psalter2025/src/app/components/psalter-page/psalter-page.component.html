@@ -1,41 +1,46 @@
 <swiper-container #swiper init="false"
-                  keyboard-enabled
-                  virtual
-                  speed="200"
-                  [navigation]="enableNavArrows"
-                  (swiperslidechange)="slideChange($event)"
-                  (swiperclick)="service.toggleScore()">
-  <swiper-slide *ngFor="let psalter of psalters">
-    <div class="ui-slide-container">
-      <div class="ui-header">
-        <div class="d-flex align-end">
-          <h1>{{psalter.number}} </h1>
-          <span *ngIf="psalter.secondTune" class="ml-1">(2nd tune)</span>
+  keyboard-enabled
+  virtual
+  speed="200"
+  [navigation]="enableNavArrows"
+  (swiperslidechange)="slideChange($event)">
+  @for (psalter of psalters; track psalter) {
+    <swiper-slide>
+      <div class="ui-slide-container" (click)="service.toggleScore()">
+        <div class="ui-header">
+          <div class="d-flex align-end">
+            <h1>{{psalter.number}} </h1>
+            @if (psalter.secondTune) {
+              <span class="ml-1">(2nd tune)</span>
+            }
+          </div>
+          <h2 class="ml-1">{{psalter.title}}</h2>
         </div>
-        <h2 class="ml-1">{{psalter.title}}</h2>
+        @if (service.showScore) {
+          <img
+            src="assets/1912/Score/_{{psalter.number + (psalter.secondTune ? '_2' : '')}}.webp"
+            loading="lazy" />
+        }
+        <table class="verses">
+          <tbody>
+            @for (verse of getVerses(psalter); track verse; let i = $index) {
+              <tr>
+                <td class="ui-verse-descriptor">{{numHiddenVerses + i + 1}}.</td>
+                <td class="verse">{{verse}}</td>
+              </tr>
+              @if (psalter.chorus) {
+                <tr>
+                  <td class="ui-verse-descriptor"></td>
+                  <td class="verse">
+                    <div class="ui-verse-descriptor">(chorus)</div>
+                    {{psalter.chorus}}
+                  </td>
+                </tr>
+              }
+            }
+          </tbody>
+        </table>
       </div>
-      
-      <img *ngIf="service.showScore"
-           src="assets/1912/Score/_{{psalter.number + (psalter.secondTune ? '_2' : '')}}.webp"
-           loading="lazy" />
-
-      <table class="verses">
-        <tbody>
-          <ng-container *ngFor="let verse of getVerses(psalter); let i = index">
-            <tr>
-              <td class="ui-verse-descriptor">{{numHiddenVerses + i + 1}}.</td>
-              <td class="verse">{{verse}}</td>
-            </tr>
-            <tr *ngIf="psalter.chorus">
-              <td class="ui-verse-descriptor"></td>
-              <td class="verse">
-                <div class="ui-verse-descriptor">(chorus)</div>
-                {{psalter.chorus}}
-              </td>
-            </tr>
-          </ng-container>
-        </tbody>
-      </table>
-    </div>
-  </swiper-slide>
+    </swiper-slide>
+  }
 </swiper-container>
