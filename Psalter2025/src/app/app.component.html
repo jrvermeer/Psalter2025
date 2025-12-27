@@ -2,12 +2,14 @@
 <psalter-page></psalter-page>
 
 <nav>
-  <button (click)="service.toggleScore()">{{service.showScore ? 'Hide' : 'Show'}} score</button>
+    <button (click)="lightTheme = !lightTheme">{{lightTheme ? 'Dark theme' : 'Light theme'}}</button>
 
-  @if (service.currentPsalter) {
+    <button (click)="service.toggleScore()">{{service.showScore ? 'Hide' : 'Show'}} score</button>
+
+    @if (service.currentPsalter) {
     <audio #player controls>
-      <source src="assets/1912/Audio/_{{service.currentPsalter.number + (service.currentPsalter.secondTune ? '_2' : '')}}.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
+        <source src="assets/1912/Audio/_{{service.currentPsalter.number + (service.currentPsalter.secondTune ? '_2' : '')}}.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
-  }
+    }
 </nav>

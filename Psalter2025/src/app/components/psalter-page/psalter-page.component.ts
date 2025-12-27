@@ -23,7 +23,7 @@ export class PsalterPageComponent {
     // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
     this.service.getPsalters().subscribe(x => {
       this.psalters = x
-      setTimeout(() => {
+      setTimeout(() => { 
         this.swiper.nativeElement.initialize();
         let lastIndex = sessionStorage.getItem('lastIndex')
         if (lastIndex)

@@ -29,7 +29,6 @@ swiper-slide {
 img {
   width: var(--ui-max-width);
   max-width: 100%;
-  filter: contrast(0.875);
 }
 
 table.verses {

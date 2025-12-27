@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostBinding, ViewChild } from '@angular/core';
 import { PsalterService } from './services/psalter-service';
 
 @Component({
@@ -17,4 +17,7 @@ export class AppComponent {
 
   @ViewChild('player')
   audio: ElementRef<HTMLAudioElement>;
+
+  @HostBinding("class.ui-light-theme")
+  lightTheme = false;
 }

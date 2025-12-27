@@ -4,17 +4,17 @@
   speed="200"
   [navigation]="enableNavArrows"
   (swiperslidechange)="slideChange($event)">
-  @for (psalter of psalters; track psalter) {
+  @for (psalter of psalters; track $index) {
     <swiper-slide>
-      <div class="ui-slide-container" (click)="service.toggleScore()">
+      <div class="ui-slide-container" (click)="service.toggleScore()"> 
         <div class="ui-header">
           <div class="d-flex align-end">
-            <h1>{{psalter.number}} </h1>
+            <h1>{{psalter.number}}</h1>
             @if (psalter.secondTune) {
               <span class="ml-1">(2nd tune)</span>
             }
           </div>
-          <h2 class="ml-1">{{psalter.title}}</h2>
+          <h3 class="ml-1">{{psalter.title}}</h3>
         </div>
         @if (service.showScore) {
           <img
@@ -23,7 +23,7 @@
         }
         <table class="verses">
           <tbody>
-            @for (verse of getVerses(psalter); track verse; let i = $index) {
+            @for (verse of getVerses(psalter); track $index; let i = $index) {
               <tr>
                 <td class="ui-verse-descriptor">{{numHiddenVerses + i + 1}}.</td>
                 <td class="verse">{{verse}}</td>
