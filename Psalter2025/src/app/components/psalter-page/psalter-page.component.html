@@ -4,7 +4,7 @@
                   speed="200"
                   [navigation]="enableNavArrows"
                   (swiperslidechange)="slideChange($event)"
-                  (click)="service.toggleScore()">
+                  (swiperclick)="service.toggleScore()">
   <swiper-slide *ngFor="let psalter of psalters">
     <div class="ui-slide-container">
       <div class="ui-header">

@@ -1,5 +1,6 @@
 :host {
   height: calc(100% - var(--app-navbar-height));
+  --ui-max-width: 700px;
 }
 
 swiper-container {
@@ -14,7 +15,7 @@ swiper-slide {
 }
 
 .ui-slide-container {
-  width: 800px;
+  width: var(--ui-max-width);
   max-width: 100%;
   padding: 8px;
 }
@@ -26,7 +27,7 @@ swiper-slide {
 }
 
 img {
-  width: 800px;
+  width: var(--ui-max-width);
   max-width: 100%;
   filter: contrast(0.875);
 }

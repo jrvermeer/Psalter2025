@@ -11,7 +11,7 @@ export class AppComponent {
   }
 
   ngAfterViewInit() {
-    this.service.currentPsalter$.subscribe(x => this.audio.nativeElement.load())
+    this.service.currentPsalter$.subscribe(x => this.audio?.nativeElement.load())
   }
 
   @ViewChild('player')
