@@ -4,9 +4,10 @@ import { Psalter, PsalterService } from '../../services/psalter-service';
 import { Swiper, SwiperEvents } from 'swiper/types';
 
 @Component({
-  selector: 'psalter-page',
-  templateUrl: './psalter-page.component.html',
-  styleUrl: './psalter-page.component.css'
+    selector: 'psalter-page',
+    templateUrl: './psalter-page.component.html',
+    styleUrl: './psalter-page.component.css',
+    standalone: false
 })
 export class PsalterPageComponent {
   constructor(public service: PsalterService) {

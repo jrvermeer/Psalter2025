@@ -2,9 +2,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { PsalterService } from './services/psalter-service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    standalone: false
 })
 export class AppComponent {
   constructor(public service: PsalterService) {
