@@ -13,6 +13,26 @@
     ],
     "scoreFiles": [
       "assets\\2025\\Score\\_1A.webp"
-    ]
+    ],
+    "audioFile": "assets\\1912\\Audio\\_1.mp3",
+    "oldNumber": 1
+  },
+  {
+    "number": 1,
+    "letter": "B",
+    "title": "Blest is he who loves God\u0027s precepts",
+    "isCompletePsalm": true,
+    "verses": [
+      "Blest is he who loves God\u0027s precepts, \nWho from sin restrains His feet, \nHe who will not stand with sinners, \nHe who shuns the scorners\u0027 seat.",
+      "Blest is he who makes the statutes \nOf the Lord his chief delight,\nIn God\u0027s law, divinely perfect, \nMeditating day and night.",
+      "He is like a tree well planted \nBy the flowing river\u0027s side, \nEver green of leaf and fruitful: \nThus shall all his works abide.",
+      "Like the driven chaff the wicked \nShall be swept from off the land; \nWith the just they shall not gather, \nNor shall in the judgment stand.",
+      "Well the Lord will guard the righteous, \nFor their way to Him is known; \nBut the way of evildoers \nShall by Him be overthrown."
+    ],
+    "scoreFiles": [
+      "assets\\2025/Score/_1B.webp"
+    ],
+    "audioFile": "assets\\1912\\Audio\\_2.mp3",
+    "oldNumber": 2
   }
 ]

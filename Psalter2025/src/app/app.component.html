@@ -1,5 +1,9 @@
-
-<psalter-page [psalters]="psalters"></psalter-page>
+@if (storage.oldPsalter){
+<psalter-page [psalters]="oldPsalters"></psalter-page>
+}
+@else {
+<psalter-page [psalters]="newPsalters"></psalter-page>
+}
 
 <nav class="ui-light-theme">
     <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>

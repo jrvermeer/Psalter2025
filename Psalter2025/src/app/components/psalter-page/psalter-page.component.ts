@@ -1,8 +1,9 @@
 import { Component, ElementRef, HostListener, Input, SimpleChanges, ViewChild } from '@angular/core';
 import { SwiperContainer, SwiperSlide } from 'swiper/element';
 import { Psalter, PsalterService } from '../../services/psalter-service';
-import { Swiper, SwiperEvents } from 'swiper/types';
+import { Swiper } from 'swiper/types';
 import { StorageService } from '../../services/storage-service';
+import { AppComponent } from '../../app.component';
 
 @Component({
     selector: 'psalter-page',
@@ -13,7 +14,8 @@ import { StorageService } from '../../services/storage-service';
 export class PsalterPageComponent {
   constructor(
     public service: PsalterService,
-    public storage: StorageService,) {
+    public storage: StorageService,
+    public app: AppComponent) {
       this.updateWindowSizeSettings()
   }
 
@@ -60,17 +62,18 @@ export class PsalterPageComponent {
     var swiper = (evt as CustomEvent).detail[0] as Swiper;
     let psalter = this.psalters[swiper.activeIndex];
     this.service.currentPsalter$.next(psalter);
-    sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
+    //sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
   }
 
   private resetSwiper() {
     // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
-    this.swiper.nativeElement.swiper?.update()
-    this.swiper.nativeElement.initialize();
-    //let lastIndex = sessionStorage.getItem('lastIndex')
-    //if (lastIndex)
-    //  this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
-    //else
-    this.service.currentPsalter$.next(this.psalters[0]);
+    setTimeout(() => {
+        this.swiper.nativeElement.initialize();
+      //let lastIndex = sessionStorage.getItem('lastIndex')
+      //if (lastIndex)
+      //  this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
+      //else
+      this.service.currentPsalter$.next(this.psalters[0]);
+    }, 1)
   }
 }

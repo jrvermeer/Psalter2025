@@ -14,7 +14,8 @@
     "scoreFiles": [
       "assets\\1912/Score/_1.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_1.mp3"
+    "audioFile": "assets\\1912\\Audio\\_1.mp3",
+    "newNumber": "1A"
   },
   {
     "number": 2,
@@ -31,7 +32,8 @@
     "scoreFiles": [
       "assets\\1912/Score/_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_2.mp3"
+    "audioFile": "assets\\1912\\Audio\\_2.mp3",
+    "newNumber": "1B"
   },
   {
     "number": 2,

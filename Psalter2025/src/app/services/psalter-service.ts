@@ -38,8 +38,10 @@ export class Psalter {
   // 2025
   letter: string
   isCompletePsalm: boolean
+  oldNumber: number;
 
   // 1912
   secondTune: boolean
   numVersesInsideStaff: number
+  newNumber: string
 }

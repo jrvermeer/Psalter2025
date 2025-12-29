@@ -18,6 +18,7 @@ swiper-slide {
   width: var(--ui-max-width);
   max-width: 100%;
   padding: 8px;
+  text-align: center;
 }
 
 .ui-header {

@@ -16,9 +16,11 @@ export class AppComponent {
     @Inject(DOCUMENT) private document: Document) {
 
     this.toggleTheme(storage.darkTheme);
-    this.togglePsalter(storage.oldPsalter);
-  }
 
+    this.service.get1912().subscribe(x => this.oldPsalters = x);
+    this.service.get2025().subscribe(x => this.newPsalters = x);
+  }
+   
   toggleTheme(darkTheme?: boolean) {
     if (darkTheme == undefined)
       darkTheme = !this.storage.darkTheme;
@@ -35,18 +37,21 @@ export class AppComponent {
     if (oldPsalter == undefined)
       oldPsalter = !this.storage.oldPsalter;
 
+    this.cancelAudio();
+
     if (oldPsalter)
-      this.service.get1912().subscribe(x => this.psalters = x);
+      this.service.get1912().subscribe(x => this.oldPsalters = x);
     else
-      this.service.get2025().subscribe(x => this.psalters = x);
+      this.service.get2025().subscribe(x => this.newPsalters = x);
 
     this.storage.oldPsalter = oldPsalter;
   }
 
-  audio: HTMLAudioElement | null;
+  audio: HTMLAudioElement;
   currentVerse = 1;
 
-  psalters: Psalter[];
+  oldPsalters: Psalter[]
+  newPsalters: Psalter[];
 
   get isPlaying() { return this.audio && !this.audio.paused }
   playPause() {
@@ -61,12 +66,17 @@ export class AppComponent {
       this.audio.onended = () => {
         this.currentVerse++;
         if (this.currentVerse > this.service.currentPsalter.verses.length)
-          this.audio = null
+          this.cancelAudio()
         else
           setTimeout(() => this.audio?.play(), 1000)
       }
-      this.service.currentPsalter$.subscribe(x => this.audio = null)
+      this.service.currentPsalter$.subscribe(x => this.cancelAudio())
     }
+  }
+
+  private cancelAudio() {
+    this.audio?.pause();
+    this.audio = null;
   }
 
 }
