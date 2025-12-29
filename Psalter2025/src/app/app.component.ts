@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostBinding, ViewChild } from '@angular/core';
+import { Component, DOCUMENT, Inject, Renderer2 } from '@angular/core';
 import { PsalterService } from './services/psalter-service';
 
 @Component({
@@ -8,16 +8,37 @@ import { PsalterService } from './services/psalter-service';
     standalone: false
 })
 export class AppComponent {
-  constructor(public service: PsalterService) {
+  constructor(public service: PsalterService,
+    private renderer: Renderer2,
+    @Inject(DOCUMENT) private document: Document) {
+
+    let isDarkTheme = localStorage.getItem('dark-theme') == 'true'
+    this.setDarkTheme(isDarkTheme);
   }
 
-  ngAfterViewInit() {
-    this.service.currentPsalter$.subscribe(x => this.audio?.nativeElement.load())
+  darkTheme = false;
+  setDarkTheme(darkTheme: boolean) {
+    let darkThemeClass = 'ui-dark-theme';
+    let lightThemeClass = 'ui-light-theme';
+
+    this.renderer.removeClass(this.document.body, darkTheme ? lightThemeClass : darkThemeClass)
+    this.renderer.addClass(this.document.body, darkTheme ? darkThemeClass : lightThemeClass)
+    this.darkTheme = darkTheme;
+    localStorage.setItem('dark-theme', darkTheme.toString())
   }
 
-  @ViewChild('player')
-  audio: ElementRef<HTMLAudioElement>;
+  audio: HTMLAudioElement;
+  get isPlaying() { return this.audio && !this.audio.paused }
+  playPause() {
+    let src = `assets/1912/Audio/_${this.service.currentPsalter.number + (this.service.currentPsalter.secondTune ? '_2' : '')}.mp3`
 
-  @HostBinding("class.ui-light-theme")
-  lightTheme = false;
+    if (this.isPlaying)
+      this.audio.pause();
+    else {
+      this.audio = new Audio(src);
+      this.audio.play();
+      this.service.currentPsalter$.subscribe(x => this.audio.pause())
+    }
+  }
+
 }

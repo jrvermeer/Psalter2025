@@ -6,7 +6,7 @@
   (swiperslidechange)="slideChange($event)">
   @for (psalter of psalters; track $index) {
     <swiper-slide>
-      <div class="ui-slide-container" (click)="service.toggleScore()"> 
+      <div class="ui-slide-container"> 
         <div class="ui-header">
           <div class="d-flex align-end">
             <h1>{{psalter.number}}</h1>

@@ -1,7 +1,6 @@
 :host {
     height: 100%;
     display: block;
-    --app-primary-color: gray;
     --app-navbar-height: 68px;
 }
 
@@ -11,11 +10,13 @@ psalter-page {
 }
 
 nav {
+  display: flex;
+  align-items: center;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 999;
   height: var(--app-navbar-height);
-  background-color: var(--app-primary-color);
+  background-color: white;
 }

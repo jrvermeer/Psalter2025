@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { PsalterPageComponent } from './components/psalter-page/psalter-page.component';
 import { provideHttpClient } from '@angular/common/http';
 
+import { MatButtonModule } from '@angular/material/button'
+import { MatIconModule } from '@angular/material/icon'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +16,10 @@ import { provideHttpClient } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent],

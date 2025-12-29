@@ -1,15 +1,14 @@
 
 <psalter-page></psalter-page>
 
-<nav>
-    <button (click)="lightTheme = !lightTheme">{{lightTheme ? 'Dark theme' : 'Light theme'}}</button>
+<nav class="ui-light-theme">
+    <button matIconButton (click)="setDarkTheme(!darkTheme)"><mat-icon>{{ darkTheme ? 'light_mode' : 'dark_mode' }}</mat-icon></button>
+    <button matIconButton (click)="service.toggleScore()"><mat-icon>{{service.showScore ? 'music_off' : 'music_note'}}</mat-icon></button>
 
-    <button (click)="service.toggleScore()">{{service.showScore ? 'Hide' : 'Show'}} score</button>
+    <span class="flex-space"></span>
 
-    @if (service.currentPsalter) {
-    <audio #player controls>
-        <source src="assets/1912/Audio/_{{service.currentPsalter.number + (service.currentPsalter.secondTune ? '_2' : '')}}.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    }
+    <button matFab (click)="playPause()"><mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon></button>
+
+    <span class="flex-space"></span>
+
 </nav>
