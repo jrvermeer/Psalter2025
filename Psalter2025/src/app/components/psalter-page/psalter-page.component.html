@@ -1,46 +1,52 @@
 <swiper-container #swiper init="false"
-  keyboard-enabled
-  virtual
-  speed="200"
-  [navigation]="enableNavArrows"
-  (swiperslidechange)="slideChange($event)">
-  @for (psalter of psalters; track $index) {
+                  keyboard-enabled
+                  virtual
+                  speed="200"
+                  [navigation]="enableNavArrows"
+                  (swiperslidechange)="slideChange($event)">
+    @for (psalter of psalters; track $index) {
     <swiper-slide>
-      <div class="ui-slide-container"> 
-        <div class="ui-header">
-          <div class="d-flex align-end">
-            <h1>{{psalter.number}}</h1>
-            @if (psalter.secondTune) {
-              <span class="ml-1">(2nd tune)</span>
+        <div class="ui-slide-container">
+            <div class="ui-header">
+                <div class="d-flex align-end">
+                    <h1>{{psalter.number}}</h1>
+                    @if (psalter.letter){
+                        <h3>{{psalter.letter}}</h3>
+                    }
+                    @if (psalter.secondTune) {
+                        <span class="ml-1">(2nd tune)</span>
+                    }
+                    @if (psalter.psalm) {
+                        <a matButton href="https://www.biblegateway.com/passage/?search=psalm {{psalter.psalm}}" target="_blank">Psalm {{psalter.psalm}}</a>
+                    }
+                </div>
+                <h3 class="ml-1">{{psalter.title}}</h3>
+            </div>
+            @if (storage.showScore && psalter.scoreFiles?.length) {
+                @for(scoreSrc of psalter.scoreFiles; track $index){
+                    <img [src]="scoreSrc" loading="lazy" />
+                }
             }
-          </div>
-          <h3 class="ml-1">{{psalter.title}}</h3>
+            <table class="verses swiper-no-swiping">
+                <tbody>
+                    @for (verse of getVerses(psalter); track $index; let i = $index) {
+                        <tr>
+                            <td class="ui-verse-descriptor">{{numHiddenVerses + i + 1}}.</td>
+                            <td class="verse">{{verse}}</td>
+                        </tr>
+                        @if (psalter.chorus) {
+                            <tr>
+                                <td class="ui-verse-descriptor"></td>
+                                <td class="verse">
+                                    <div class="ui-verse-descriptor">(chorus)</div>
+                                    {{psalter.chorus}}
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
         </div>
-        @if (service.showScore) {
-          <img
-            src="assets/1912/Score/_{{psalter.number + (psalter.secondTune ? '_2' : '')}}.webp"
-            loading="lazy" />
-        }
-        <table class="verses">
-          <tbody>
-            @for (verse of getVerses(psalter); track $index; let i = $index) {
-              <tr>
-                <td class="ui-verse-descriptor">{{numHiddenVerses + i + 1}}.</td>
-                <td class="verse">{{verse}}</td>
-              </tr>
-              @if (psalter.chorus) {
-                <tr>
-                  <td class="ui-verse-descriptor"></td>
-                  <td class="verse">
-                    <div class="ui-verse-descriptor">(chorus)</div>
-                    {{psalter.chorus}}
-                  </td>
-                </tr>
-              }
-            }
-          </tbody>
-        </table>
-      </div>
     </swiper-slide>
-  }
+    }
 </swiper-container>

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Sandbox;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
 internal class Program
@@ -11,7 +12,12 @@ internal class Program
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
         var newSchema = oldSchema.Select(x => Convert(x)).ToList();
 
-        File.WriteAllText("C:\\Users\\verme\\Downloads\\psalter.json", JsonSerializer.Serialize(newSchema));
+        File.WriteAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\assets\\1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
+        {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+            WriteIndented = true,
+        }));
     }
 
     private static NewSchema Convert(OldSchema old)
@@ -25,16 +31,24 @@ internal class Program
             chorus = chorus.Substring(chorus.IndexOf("\n")).Trim();
         }
 
-        return new NewSchema
+        var newSchema = new NewSchema
         {
-            number = old.number.ToString(),
-            title = old.heading,
-            psalm = old.psalm?.ToString(),
-            verses = oldVerses.Select(x => RemoveVerseNumber(x).Trim()).ToList(),
-            chorus = chorus,
-            secondTune = old.Title.Contains("2nd"),
-            numVersesInsideStaff = old.NumVersesInsideStaff
+            Number = old.number,
+            SecondTune = old.Title.Contains("2nd") ? true : null,
+
+            Title = old.heading,
+            Psalm = old.psalm?.ToString(),
+            Verses = oldVerses.Select(x => RemoveVerseNumber(x).Trim()).ToList(),
+            Chorus = chorus,
+            NumVersesInsideStaff = old.NumVersesInsideStaff,
+            ScoreFiles = ["assets\\" + old.scoreFileName],            
         };
+
+        newSchema.AudioFile = $"assets\\1912\\Audio\\_{old.number}{(newSchema.SecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
+        if (!File.Exists($"C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\{newSchema.AudioFile}"))
+            newSchema.AudioFile = null;
+
+        return newSchema;
     }
 
     public static string RemoveVerseNumber(string verse)
@@ -56,16 +70,21 @@ public class OldSchema
     public int number {get; set;}
     public int numverses {get; set;}
     public int? psalm {get; set;}
-    public string scoreFileName { get; set;}
+    public string scoreFileName { get; set; }
 }
 
 public class NewSchema
 {
-    public required string number { get; set; }
-    public required string title { get; set; }
-    public string? psalm { get; set; }
-    public required List<string> verses { get; set; }
-    public string? chorus { get; set; }
-    public required bool secondTune { get; set; }
-    public int? numVersesInsideStaff { get; set; }
+    public required int Number { get; set; }
+    public string? Letter { get; set; } // 2025
+    public bool? SecondTune { get; set; } // 1912
+
+    public required string Title { get; set; }
+    public string? Psalm { get; set; }
+    public required List<string> Verses { get; set; }
+    public string? Chorus { get; set; }
+    public bool? IsCompletePsalm { get; set; } // 2025
+    public int? NumVersesInsideStaff { get; set; } // 1912
+    public required List<string> ScoreFiles { get; set; }
+    public string? AudioFile { get; set; }
 }

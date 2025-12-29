@@ -1,7 +1,8 @@
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, Input, SimpleChanges, ViewChild } from '@angular/core';
 import { SwiperContainer, SwiperSlide } from 'swiper/element';
 import { Psalter, PsalterService } from '../../services/psalter-service';
 import { Swiper, SwiperEvents } from 'swiper/types';
+import { StorageService } from '../../services/storage-service';
 
 @Component({
     selector: 'psalter-page',
@@ -10,29 +11,26 @@ import { Swiper, SwiperEvents } from 'swiper/types';
     standalone: false
 })
 export class PsalterPageComponent {
-  constructor(public service: PsalterService) {
-    this.updateWindowSizeSettings()
-    console.log('page showScore', this.service.showScore)
+  constructor(
+    public service: PsalterService,
+    public storage: StorageService,) {
+      this.updateWindowSizeSettings()
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (this.swiper && changes['psalters']) {
+      this.resetSwiper();
+    }
   }
 
   ngAfterViewInit() {
-    console.log('swiper:', this.swiper)
-
-    //Object.assign(this.swiper.nativeElement, swiperParams);
-
-    // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
-    this.service.getPsalters().subscribe(x => {
-      this.psalters = x
-      setTimeout(() => { 
-        this.swiper.nativeElement.initialize();
-        let lastIndex = sessionStorage.getItem('lastIndex')
-        if (lastIndex)
-          this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
-      }, 1);
-    })
+    if (this.psalters)
+      this.resetSwiper();
   }
 
   enableNavArrows = false;
+
+  @Input()
   psalters: Psalter[];
 
   @ViewChild('swiper')
@@ -41,7 +39,7 @@ export class PsalterPageComponent {
   numHiddenVerses = 0;
   getVerses(psalter: Psalter) {
     this.numHiddenVerses = 0;
-    if (!this.service.showScore)
+    if (!this.storage.showScore)
       return psalter.verses;
 
     if (psalter.numVersesInsideStaff < psalter.verses.length) {
@@ -63,5 +61,16 @@ export class PsalterPageComponent {
     let psalter = this.psalters[swiper.activeIndex];
     this.service.currentPsalter$.next(psalter);
     sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
+  }
+
+  private resetSwiper() {
+    // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
+    this.swiper.nativeElement.swiper?.update()
+    this.swiper.nativeElement.initialize();
+    //let lastIndex = sessionStorage.getItem('lastIndex')
+    //if (lastIndex)
+    //  this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
+    //else
+    this.service.currentPsalter$.next(this.psalters[0]);
   }
 }

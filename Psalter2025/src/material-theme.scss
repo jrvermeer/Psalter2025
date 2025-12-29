@@ -23,8 +23,10 @@ html {
     density: 0,
   ));
 
-  --mat-sys-surface: light-dark(#eee, #101010);
+  --mat-sys-surface: light-dark(#eee, #141414);
   --mat-sys-on-surface: light-dark(#444, #e0e3e2);
+  --mat-icon-button-state-layer-size: 60px;
+  --mat-icon-button-touch-target-size: 60px;
 }
 
 body {
@@ -54,7 +56,7 @@ body {
 }
 
 .ui-dark-theme img {
-  filter: contrast(0.875) invert(1);
+  filter: contrast(0.84) invert(1);
 }
 
 .ui-light-theme img {

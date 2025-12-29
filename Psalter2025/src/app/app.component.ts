@@ -1,5 +1,6 @@
 import { Component, DOCUMENT, Inject, Renderer2 } from '@angular/core';
-import { PsalterService } from './services/psalter-service';
+import { Psalter, PsalterService } from './services/psalter-service';
+import { StorageService } from './services/storage-service';
 
 @Component({
     selector: 'app-root',
@@ -8,36 +9,63 @@ import { PsalterService } from './services/psalter-service';
     standalone: false
 })
 export class AppComponent {
-  constructor(public service: PsalterService,
+  constructor(
+    public service: PsalterService,
+    public storage: StorageService,
     private renderer: Renderer2,
     @Inject(DOCUMENT) private document: Document) {
 
-    let isDarkTheme = localStorage.getItem('dark-theme') == 'true'
-    this.setDarkTheme(isDarkTheme);
+    this.toggleTheme(storage.darkTheme);
+    this.togglePsalter(storage.oldPsalter);
   }
 
-  darkTheme = false;
-  setDarkTheme(darkTheme: boolean) {
+  toggleTheme(darkTheme?: boolean) {
+    if (darkTheme == undefined)
+      darkTheme = !this.storage.darkTheme;
+
     let darkThemeClass = 'ui-dark-theme';
     let lightThemeClass = 'ui-light-theme';
 
     this.renderer.removeClass(this.document.body, darkTheme ? lightThemeClass : darkThemeClass)
     this.renderer.addClass(this.document.body, darkTheme ? darkThemeClass : lightThemeClass)
-    this.darkTheme = darkTheme;
-    localStorage.setItem('dark-theme', darkTheme.toString())
+    this.storage.darkTheme = darkTheme;
   }
 
-  audio: HTMLAudioElement;
+  togglePsalter(oldPsalter?: boolean) {
+    if (oldPsalter == undefined)
+      oldPsalter = !this.storage.oldPsalter;
+
+    if (oldPsalter)
+      this.service.get1912().subscribe(x => this.psalters = x);
+    else
+      this.service.get2025().subscribe(x => this.psalters = x);
+
+    this.storage.oldPsalter = oldPsalter;
+  }
+
+  audio: HTMLAudioElement | null;
+  currentVerse = 1;
+
+  psalters: Psalter[];
+
   get isPlaying() { return this.audio && !this.audio.paused }
   playPause() {
-    let src = `assets/1912/Audio/_${this.service.currentPsalter.number + (this.service.currentPsalter.secondTune ? '_2' : '')}.mp3`
-
     if (this.isPlaying)
-      this.audio.pause();
-    else {
-      this.audio = new Audio(src);
+      this.audio?.pause();
+    else if (this.audio) 
       this.audio.play();
-      this.service.currentPsalter$.subscribe(x => this.audio.pause())
+    else {
+      this.audio = new Audio(this.service.currentPsalter.audioFile);
+      this.currentVerse = 1;
+      this.audio.play();
+      this.audio.onended = () => {
+        this.currentVerse++;
+        if (this.currentVerse > this.service.currentPsalter.verses.length)
+          this.audio = null
+        else
+          setTimeout(() => this.audio?.play(), 1000)
+      }
+      this.service.currentPsalter$.subscribe(x => this.audio = null)
     }
   }
 

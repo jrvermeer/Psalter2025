@@ -1,14 +1,17 @@
 
-<psalter-page></psalter-page>
+<psalter-page [psalters]="psalters"></psalter-page>
 
 <nav class="ui-light-theme">
-    <button matIconButton (click)="setDarkTheme(!darkTheme)"><mat-icon>{{ darkTheme ? 'light_mode' : 'dark_mode' }}</mat-icon></button>
-    <button matIconButton (click)="service.toggleScore()"><mat-icon>{{service.showScore ? 'music_off' : 'music_note'}}</mat-icon></button>
+    <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>
 
     <span class="flex-space"></span>
 
-    <button matFab (click)="playPause()"><mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon></button>
+    <button matFab (click)="playPause()" [disabled]="!service.currentPsalter?.audioFile"><mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon></button>
 
     <span class="flex-space"></span>
 
+    <button matIconButton (click)="storage.showScore = !storage.showScore">
+        <mat-icon>{{storage.showScore ? 'music_note' : 'music_off' }}</mat-icon>
+    </button>
+    <button matIconButton (click)="toggleTheme()"><mat-icon>{{ storage.darkTheme ? 'dark_mode' : 'light_mode' }}</mat-icon></button>
 </nav>

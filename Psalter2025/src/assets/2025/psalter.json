@@ -1,0 +1,18 @@
+[
+  {
+    "number": 1,
+    "letter": "A",
+    "title": "That Man Is Blest Who, Fearing God",
+    "isCompletePsalm": true,
+    "verses": [
+      "That man is blest who, fearing God, \nFrom sin restrains his feet, \nWho will not stand with wicked men, \nWho shuns the scorners\u0027 seat.",
+      "Yea, blest is he who makes God\u0027s law \nHis portion and delight, \nAnd meditates upon that law \nWith gladness day and night.",
+      "That man is nourished like a tree \nSet by the river\u0027s side; \nIts leaf is green, its fruit is sure, \nAnd thus his works abide.",
+      "The wicked like the driven chaff \nAre swept from off the land; \nThey shall not gather with the just, \nNor in the judgment stand.",
+      "The Lord will guard the righteous well, \nTheir way to Him is known; \nThe way of sinners, far from God, \nShall surely be o\u0027er-thrown."
+    ],
+    "scoreFiles": [
+      "assets\\2025\\Score\\_1A.webp"
+    ]
+  }
+]
