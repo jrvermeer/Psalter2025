@@ -22,19 +22,22 @@ export class PsalterPageComponent {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (this.swiper && changes['psalters']) {
-      let goToPsalter: number
-      if (this.service.currentPsalter?.otherPsalterNumber)
-        goToPsalter = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == this.service.currentPsalter.otherPsalterNumber)
+      let goToIndex: number
+      let isFirstInitialization = !changes['psalters'].previousValue;
+      if (!isFirstInitialization && this.service.currentPsalter?.otherPsalterNumber)
+        goToIndex = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == this.service.currentPsalter.otherPsalterNumber)
+      else if (isFirstInitialization && this.storage.lastIndex)
+        goToIndex = this.storage.lastIndex;
 
       this.resetSwiper();
 
-      if (goToPsalter)
-        this.swiper.nativeElement.swiper.slideTo(goToPsalter, 0);
+      if (goToIndex)
+        this.swiper.nativeElement.swiper.slideTo(goToIndex, 0);
     }
   }
 
   ngAfterViewInit() {
-    if (this.psalters)
+    if (this.psalters) 
       this.resetSwiper();
   }
 
@@ -70,7 +73,7 @@ export class PsalterPageComponent {
     var swiper = (evt as CustomEvent).detail[0] as Swiper;
     let psalter = this.psalters[swiper.activeIndex];
     this.service.currentPsalter$.next(psalter);
-    //sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
+    this.storage.lastIndex = swiper.activeIndex;
   }
 
   goToRandom() {

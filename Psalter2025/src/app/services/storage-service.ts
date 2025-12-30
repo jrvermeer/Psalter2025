@@ -13,9 +13,21 @@ export class StorageService {
   get oldPsalter() { return localStorage.getItem('oldPsalter') == 'true'; }
   set oldPsalter(val: boolean) { localStorage.setItem('oldPsalter', val.toString()) }
 
-  get textScale() {
-    let scale = localStorage.getItem('textScale')
-    return scale ? parseFloat(scale) : 1;
-  }
+  get textScale() { return this.getFloat('textScale', 1) }
   set textScale(val: number) { localStorage.setItem('textScale', val.toString()) }
+
+  get lastIndex() { return this.getInt('lastIndex') }
+  set lastIndex(val: number) { localStorage.setItem('lastIndex', val.toString()) }
+
+  private getFloat(key: string, defaultIfEmpty?: number) {
+
+    let val = localStorage.getItem(key)
+    return val ? parseFloat(val) : defaultIfEmpty;
+  }
+
+  private getInt(key: string, defaultIfEmpty?: number) {
+
+    let val = localStorage.getItem(key)
+    return val ? parseInt(val) : defaultIfEmpty;
+  }
 }
