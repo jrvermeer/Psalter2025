@@ -4,7 +4,10 @@
 
 <nav>
     <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>
-    <pre style="font-size: 12px;">textScale: {{storage.textScale}}</pre>
+    <div style="font-size: 12px;">
+        <pre>textScale: {{storage.textScale}}</pre>
+        <pre>scaleFactor: {{scaleFactor}}</pre>
+    </div>
 
     <span class="flex-space"></span>
 

@@ -77,7 +77,7 @@ export class AppComponent {
   }
 
   initialPinchDistance: number
-
+  scaleFactor: number;
   @HostListener('touchstart', ['$event'])
   touchStart(evt: TouchEvent) {
     if (evt.touches.length === 2) {
@@ -94,8 +94,8 @@ export class AppComponent {
 
       const currentPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1]);
 
-      const scaleFactor = currentPinchDistance / this.initialPinchDistance;
-      let newScale = this.storage.textScale * scaleFactor;
+      this.scaleFactor = currentPinchDistance / this.initialPinchDistance;
+      let newScale = this.storage.textScale * this.scaleFactor;
       newScale = Math.max(newScale, 0.5);
       newScale = Math.min(newScale, 1.5);
       this.storage.textScale = newScale;
@@ -106,6 +106,7 @@ export class AppComponent {
   @HostListener('touchend', ['$event'])
   touchEnd(evt: TouchEvent) {
     this.initialPinchDistance = null;
+    this.scaleFactor = null;
   }
 
   private calculateDistance(touch1: Touch, touch2: Touch) {
