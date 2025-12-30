@@ -76,14 +76,16 @@ export class AppComponent {
     this.audio = null;
   }
 
+  initialPinchTextScale: number;
   initialPinchDistance: number
   scaleFactor: number;
+
   @HostListener('touchstart', ['$event'])
   touchStart(evt: TouchEvent) {
     if (evt.touches.length === 2) {
       evt.preventDefault();
       this.initialPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1])
-      console.log('touch start:', this.initialPinchDistance)
+      this.initialPinchTextScale = this.storage.textScale;
     }
   }
 
@@ -95,9 +97,9 @@ export class AppComponent {
       const currentPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1]);
 
       this.scaleFactor = currentPinchDistance / this.initialPinchDistance;
-      let newScale = this.storage.textScale * this.scaleFactor;
-      newScale = Math.max(newScale, 0.5);
-      newScale = Math.min(newScale, 1.5);
+      let newScale = this.initialPinchTextScale * this.scaleFactor;
+      newScale = Math.max(newScale, 1);
+      newScale = Math.min(newScale, 2);
       this.storage.textScale = newScale;
       this.scaleTextSize(newScale);
     }
@@ -107,6 +109,7 @@ export class AppComponent {
   touchEnd(evt: TouchEvent) {
     this.initialPinchDistance = null;
     this.scaleFactor = null;
+    this.initialPinchTextScale = null
   }
 
   private calculateDistance(touch1: Touch, touch2: Touch) {
