@@ -19,6 +19,20 @@ nav {
   z-index: 999;
   height: var(--app-navbar-height);
   background-color: var(--mat-sys-surface-container-low);
+
+  .ui-end-buttons {
+    min-width: calc(var(--mat-icon-button-state-layer-size) * 3);
+    text-align: end;
+  }
+}
+
+.ui-searching {
+  color: var(--mat-sys-primary);
+  border: 1px solid var(--mat-sys-outline);
+}
+
+.ui-search-field {
+  flex: 1;
 }
 
 pre {

@@ -26,8 +26,6 @@ export class PsalterPageComponent {
       let isFirstInitialization = !changes['psalters'].previousValue;
       if (!isFirstInitialization && this.service.currentPsalter?.otherPsalterNumber)
         goToIndex = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == this.service.currentPsalter.otherPsalterNumber)
-      else if (isFirstInitialization && this.storage.lastIndex)
-        goToIndex = this.storage.lastIndex;
 
       this.resetSwiper();
 
@@ -37,14 +35,21 @@ export class PsalterPageComponent {
   }
 
   ngAfterViewInit() {
-    if (this.psalters) 
-      this.resetSwiper();
+    this.resetSwiper();
+
+    if (this.initial)
+      this.goToPsalter(this.initial);
+    else if (this.storage.lastIndex)
+      this.goToIndex(this.storage.lastIndex, false);
   }
 
   enableNavArrows = false;
 
   @Input()
   psalters: Psalter[];
+
+  @Input()
+  initial: Psalter;
 
   @ViewChild('swiper')
   swiper: ElementRef<SwiperContainer>;
@@ -78,7 +83,17 @@ export class PsalterPageComponent {
 
   goToRandom() {
     const i = Math.floor(Math.random() * this.psalters.length)
-    this.swiper.nativeElement.swiper.slideTo(i);
+    this.goToIndex(i);
+  }
+
+  goToPsalter(psalter: Psalter) {
+    const i = this.psalters.indexOf(psalter);
+    this.goToIndex(i)
+  }
+
+  goToIndex(i: number, animate = true) {
+    if (i > -1)
+      this.swiper.nativeElement.swiper.slideTo(i, animate ? undefined : 0);
   }
 
   public getPsalmDisplayText(psalter: Psalter) {

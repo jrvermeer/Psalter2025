@@ -63,8 +63,7 @@ internal class Program
 
     public static string RemoveVerseNumber(string verse)
     {
-        var i = verse.IndexOf(". ");
-        return verse.Substring(i + 2);
+        return new string(verse.SkipWhile(x => char.IsNumber(x) || x == '.' || x == ' ').ToArray());
     }
 }
 

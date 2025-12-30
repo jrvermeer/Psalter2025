@@ -1,11 +1,12 @@
-import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef } from '@angular/core';
+import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild } from '@angular/core';
 import { Psalter, PsalterService } from './services/psalter-service';
 import { StorageService } from './services/storage-service';
+import { PsalterPageComponent } from './components/psalter-page/psalter-page.component';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
+    styleUrl: './app.component.scss',
     standalone: false
 })
 export class AppComponent {
@@ -23,6 +24,12 @@ export class AppComponent {
   audio: HTMLAudioElement;
   currentVerse = 1;
   psalters: Psalter[]
+  searching = false
+  searchType: 'number' | 'text' = 'number';
+  goToPsalter: Psalter;
+
+  @ViewChild(PsalterPageComponent)
+  psalterPage: PsalterPageComponent
 
   toggleTheme(darkTheme?: boolean) {
     if (darkTheme == undefined)

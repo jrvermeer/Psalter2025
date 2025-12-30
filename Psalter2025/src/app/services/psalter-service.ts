@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { EventEmitter, Injectable } from "@angular/core";
-import { of, tap } from "rxjs";
+import { of, tap, map } from "rxjs";
 
 @Injectable({providedIn: 'root'})
 export class PsalterService {
