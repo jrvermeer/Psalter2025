@@ -8,21 +8,21 @@
     <swiper-slide>
         <div class="ui-slide-container">
             <div class="ui-header">
-                <div class="d-flex-col align-start">
-                    <div class="d-flex align-end">
-                        <h1>{{psalter.number}}</h1>
-                        @if (psalter.letter) {
-                            <h2>{{psalter.letter}}</h2>
-                        }
-                        @if (psalter.secondTune) {
-                            <span class="ml-1">(2nd tune)</span>
-                        }
-                    </div>
-                    @if (psalter.psalm) { 
-                        <a matButton href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}" target="_blank" class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
+                <div class="d-flex align-end">
+                    <h1>{{psalter.number}}</h1>
+                    @if (psalter.letter) {
+                        <h2>{{psalter.letter}}</h2>
+                    }
+                    @if (psalter.secondTune) {
+                        <span class="ml-1">(2nd tune)</span>
                     }
                 </div>
                 <h2 class="ml-1">{{psalter.title}}</h2>
+            </div>
+            <div class="d-flex-col align-start">
+                @if (psalter.psalm) {
+                <a matButton href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}" target="_blank" class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
+                }
             </div>
             @if (storage.showScore && psalter.scoreFiles?.length) {
                 @for(scoreSrc of psalter.scoreFiles; track $index) {
