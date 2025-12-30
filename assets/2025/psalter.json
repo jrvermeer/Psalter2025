@@ -15,7 +15,7 @@
       "assets\\2025\\Score\\_1A.webp"
     ],
     "audioFile": "assets\\1912\\Audio\\_1.mp3",
-    "oldNumber": 1
+    "otherPsalterNumber": "1"
   },
   {
     "number": 1,
@@ -33,6 +33,6 @@
       "assets\\2025/Score/_1B.webp"
     ],
     "audioFile": "assets\\1912\\Audio\\_2.mp3",
-    "oldNumber": 2
+    "otherPsalterNumber": "2"
   }
 ]
