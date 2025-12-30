@@ -64,12 +64,20 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.d-flex {
+.d-flex, .d-flex-col {
   display: flex;
+}
+
+.d-flex-col {
+    flex-direction: column;
 }
 
 .flex-space {
   flex: 1;
+}
+
+.align-start {
+  align-items: start;
 }
 
 .align-center {

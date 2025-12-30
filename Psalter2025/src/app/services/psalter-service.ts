@@ -27,19 +27,19 @@ export class Psalter {
     Object.assign(this, c)
   }
   number: number
+  letter: string // 2025
   title: string
-  psalm: string
+
+  psalm: number
+  psalmVerses: string // 2025
+  isCompletePsalm: boolean // 2025
+
   verses: string[]
   chorus: string
   audioFile: string
   scoreFiles: string[]
   otherPsalterNumber: string
 
-  // 2025
-  letter: string
-  isCompletePsalm: boolean
-
-  // 1912
-  secondTune: boolean
-  numVersesInsideStaff: number
+  secondTune: boolean // 1912
+  numVersesInsideStaff: number // 1912
 }

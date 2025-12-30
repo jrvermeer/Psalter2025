@@ -26,6 +26,7 @@ internal class Program
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping // don't serialize apostrophes as \u000
         }));
     }
 
@@ -46,7 +47,7 @@ internal class Program
             SecondTune = old.Title.Contains("2nd") ? true : null,
 
             Title = old.heading,
-            Psalm = old.psalm?.ToString(),
+            Psalm = old.psalm,
             Verses = oldVerses.Select(x => RemoveVerseNumber(x).Trim()).ToList(),
             Chorus = chorus,
             NumVersesInsideStaff = old.NumVersesInsideStaff,
@@ -89,12 +90,14 @@ public class NewSchema
     public bool? SecondTune { get; set; } // 1912
 
     public required string Title { get; set; }
-    public string? Psalm { get; set; }
+    public int? Psalm { get; set; }
+    public string? PsalmVerses { get; set; } // 2025
+    public bool? IsCompletePsalm { get; set; } // 2025
+
     public required List<string> Verses { get; set; }
     public string? Chorus { get; set; }
-    public bool? IsCompletePsalm { get; set; } // 2025
     public int? NumVersesInsideStaff { get; set; } // 1912
     public required List<string> ScoreFiles { get; set; }
     public string? AudioFile { get; set; }
-    public string OtherPsalterNumber { get; set; }
+    public string? OtherPsalterNumber { get; set; }
 }

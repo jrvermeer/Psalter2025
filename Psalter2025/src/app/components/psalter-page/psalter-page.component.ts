@@ -6,10 +6,10 @@ import { StorageService } from '../../services/storage-service';
 import { AppComponent } from '../../app.component';
 
 @Component({
-    selector: 'psalter-page',
-    templateUrl: './psalter-page.component.html',
-    styleUrl: './psalter-page.component.css',
-    standalone: false
+  selector: 'psalter-page',
+  templateUrl: './psalter-page.component.html',
+  styleUrl: './psalter-page.component.css',
+  standalone: false
 })
 export class PsalterPageComponent {
   constructor(
@@ -17,7 +17,7 @@ export class PsalterPageComponent {
     public storage: StorageService,
     public app: AppComponent,
     private cdRef: ChangeDetectorRef) {
-      this.updateWindowSizeSettings()
+    this.updateWindowSizeSettings()
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -34,7 +34,7 @@ export class PsalterPageComponent {
   }
 
   ngAfterViewInit() {
-    if (this.psalters) 
+    if (this.psalters)
       this.resetSwiper();
   }
 
@@ -76,6 +76,28 @@ export class PsalterPageComponent {
   goToRandom() {
     const i = Math.floor(Math.random() * this.psalters.length)
     this.swiper.nativeElement.swiper.slideTo(i);
+  }
+
+  public getPsalmDisplayText(psalter: Psalter) {
+    if (!psalter.psalm)
+      return null;
+    if (psalter.isCompletePsalm)
+      return 'complete';
+    if (psalter.isCompletePsalm === false)
+      return `partial (vv. ${psalter.psalmVerses})`
+
+    return `Psalm ${psalter.psalm}`;
+  }
+
+  public getPsalmSearchText(psalter: Psalter) {
+    if (!psalter.psalm)
+      return null;
+
+    let search = `Psalm ${psalter.psalm}`
+    if (psalter.psalmVerses)
+      search += `:${psalter.psalmVerses}`
+
+    return search;
   }
 
   private resetSwiper() {

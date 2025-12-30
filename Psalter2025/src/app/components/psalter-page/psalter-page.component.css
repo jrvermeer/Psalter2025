@@ -27,6 +27,11 @@ swiper-slide {
   justify-content: space-between;
 }
 
+.ui-psalm-link {
+  --mat-button-text-container-height: 2em;
+  padding-left: 0;
+}
+
 img {
   width: var(--ui-max-width);
   max-width: 100%;

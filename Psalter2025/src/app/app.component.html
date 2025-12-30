@@ -4,6 +4,7 @@
 
 <nav>
     <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>
+    <button matIconButton (click)="psalterPage.goToRandom()"><mat-icon>casino</mat-icon></button>
     <!-- <div style="font-size: 12px;">
         <pre>textScale: {{storage.textScale}}</pre>
         <pre>scaleFactor: {{scaleFactor}}</pre>
@@ -15,7 +16,6 @@
 
     <span class="flex-space"></span>
 
-    <button matIconButton (click)="psalterPage.goToRandom()"><mat-icon>casino</mat-icon></button>
     <button matIconButton (click)="storage.showScore = !storage.showScore"><mat-icon>{{storage.showScore ? 'music_note' : 'music_off' }}</mat-icon></button>
     <button matIconButton (click)="toggleTheme()"><mat-icon>{{ storage.darkTheme ? 'dark_mode' : 'light_mode' }}</mat-icon></button>
 </nav>
