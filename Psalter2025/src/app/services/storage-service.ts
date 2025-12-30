@@ -7,11 +7,15 @@ export class StorageService {
   get showScore() { return localStorage.getItem('showScore') == 'true'; }
   set showScore(val: boolean) { localStorage.setItem('showScore', val.toString()) }
 
-
   get darkTheme() { return localStorage.getItem('darkTheme') == 'true'; }
   set darkTheme(val: boolean) { localStorage.setItem('darkTheme', val.toString()) }
 
-
   get oldPsalter() { return localStorage.getItem('oldPsalter') == 'true'; }
   set oldPsalter(val: boolean) { localStorage.setItem('oldPsalter', val.toString()) }
+
+  get textScale() {
+    let scale = localStorage.getItem('textScale')
+    return scale ? parseFloat(scale) : 1;
+  }
+  set textScale(val: number) { localStorage.setItem('textScale', val.toString()) }
 }

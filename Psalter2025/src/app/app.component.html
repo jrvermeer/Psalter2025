@@ -1,11 +1,9 @@
-@if (storage.oldPsalter){
-<psalter-page [psalters]="oldPsalters"></psalter-page>
-}
-@else {
-<psalter-page [psalters]="newPsalters"></psalter-page>
-}
 
-<nav class="ui-light-theme">
+<psalter-page #psalterPage [psalters]="psalters"></psalter-page>
+
+<pre>textScale: {{storage.textScale}}</pre>
+
+<nav>
     <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>
 
     <span class="flex-space"></span>
@@ -14,8 +12,7 @@
 
     <span class="flex-space"></span>
 
-    <button matIconButton (click)="storage.showScore = !storage.showScore">
-        <mat-icon>{{storage.showScore ? 'music_note' : 'music_off' }}</mat-icon>
-    </button>
+    <button matIconButton (click)="psalterPage.goToRandom()"><mat-icon>casino</mat-icon></button>
+    <button matIconButton (click)="storage.showScore = !storage.showScore"><mat-icon>{{storage.showScore ? 'music_note' : 'music_off' }}</mat-icon></button>
     <button matIconButton (click)="toggleTheme()"><mat-icon>{{ storage.darkTheme ? 'dark_mode' : 'light_mode' }}</mat-icon></button>
 </nav>

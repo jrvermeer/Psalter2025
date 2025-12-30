@@ -1,4 +1,4 @@
-import { Component, DOCUMENT, Inject, Renderer2 } from '@angular/core';
+import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef } from '@angular/core';
 import { Psalter, PsalterService } from './services/psalter-service';
 import { StorageService } from './services/storage-service';
 
@@ -16,11 +16,13 @@ export class AppComponent {
     @Inject(DOCUMENT) private document: Document) {
 
     this.toggleTheme(storage.darkTheme);
-
-    this.service.get1912().subscribe(x => this.oldPsalters = x);
-    this.service.get2025().subscribe(x => this.newPsalters = x);
+    this.togglePsalter(storage.oldPsalter);
   }
-   
+
+  audio: HTMLAudioElement;
+  currentVerse = 1;
+  psalters: Psalter[]
+
   toggleTheme(darkTheme?: boolean) {
     if (darkTheme == undefined)
       darkTheme = !this.storage.darkTheme;
@@ -40,18 +42,12 @@ export class AppComponent {
     this.cancelAudio();
 
     if (oldPsalter)
-      this.service.get1912().subscribe(x => this.oldPsalters = x);
+      this.service.get1912().subscribe(x => this.psalters= x);
     else
-      this.service.get2025().subscribe(x => this.newPsalters = x);
+      this.service.get2025().subscribe(x => this.psalters= x);
 
     this.storage.oldPsalter = oldPsalter;
   }
-
-  audio: HTMLAudioElement;
-  currentVerse = 1;
-
-  oldPsalters: Psalter[]
-  newPsalters: Psalter[];
 
   get isPlaying() { return this.audio && !this.audio.paused }
   playPause() {
@@ -79,4 +75,47 @@ export class AppComponent {
     this.audio = null;
   }
 
+  initialPinchDistance: number
+
+  @HostListener('touchstart', ['$event'])
+  touchStart(evt: TouchEvent) {
+    if (evt.touches.length === 2) {
+      evt.preventDefault();
+      this.initialPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1])
+      console.log('touch start:', this.initialPinchDistance)
+    }
+  }
+
+  @HostListener('touchmove', ['$event'])
+  touchMove(evt: TouchEvent) {
+    if (evt.touches.length === 2 && this.initialPinchDistance > 0) {
+      evt.preventDefault();
+
+      const currentPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1]);
+
+      const scaleFactor = currentPinchDistance / this.initialPinchDistance;
+      let newScale = this.storage.textScale * scaleFactor;
+      newScale = Math.max(newScale, 0.5);
+      newScale = Math.min(newScale, 3);
+      this.storage.textScale = newScale;
+      this.scaleTextSize(newScale);
+    }
+  }
+
+  @HostListener('touchend', ['$event'])
+  touchEnd(evt: TouchEvent) {
+    this.initialPinchDistance = null;
+  }
+
+  private calculateDistance(touch1: Touch, touch2: Touch) {
+    return Math.hypot(
+      touch1.pageX - touch2.pageX,
+      touch1.pageY - touch2.pageY
+    );
+  };
+
+  private scaleTextSize(scale: number) {
+    this.renderer.setStyle(this.document.body, 'font-size', `${scale}em`)
+    this.renderer.setStyle(this.document.body, 'line-height', `${scale + 0.25}rem`)
+  }
 }

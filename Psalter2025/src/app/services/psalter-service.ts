@@ -1,6 +1,5 @@
 import { HttpClient } from "@angular/common/http";
 import { EventEmitter, Injectable } from "@angular/core";
-import { StorageService } from "./storage-service";
 import { of, tap } from "rxjs";
 
 @Injectable({providedIn: 'root'})
@@ -34,14 +33,13 @@ export class Psalter {
   chorus: string
   audioFile: string
   scoreFiles: string[]
+  otherPsalterNumber: string
 
   // 2025
   letter: string
   isCompletePsalm: boolean
-  oldNumber: number;
 
   // 1912
   secondTune: boolean
   numVersesInsideStaff: number
-  newNumber: string
 }

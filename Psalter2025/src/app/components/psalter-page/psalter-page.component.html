@@ -46,8 +46,8 @@
                     }
                 </tbody>
             </table>
-            @if(psalter.newNumber || psalter.oldNumber){
-                <button matButton (click)="app.togglePsalter()">[{{psalter.newNumber ?? psalter.oldNumber}}]</button>
+            @if(psalter.otherPsalterNumber){
+                <button matButton (click)="app.togglePsalter()">[{{psalter.otherPsalterNumber}}]</button>
             }
         </div>
     </swiper-slide>

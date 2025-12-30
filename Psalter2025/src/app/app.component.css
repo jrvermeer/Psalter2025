@@ -18,5 +18,10 @@ nav {
   right: 0;
   z-index: 999;
   height: var(--app-navbar-height);
-  background-color: white;
+  background-color: var(--mat-sys-surface-container-low);
+}
+
+pre {
+  position: fixed;
+  bottom: var(--app-navbar-height);
 }

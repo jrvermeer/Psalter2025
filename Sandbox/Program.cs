@@ -12,6 +12,15 @@ internal class Program
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
         var newSchema = oldSchema.Select(x => Convert(x)).ToList();
 
+        var newPsalterJson = File.ReadAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\assets\\2025\\psalter.json");
+        var newPsalters = JsonSerializer.Deserialize<List<NewSchema>>(newPsalterJson, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+        foreach (var newPsalter in newPsalters)
+        {
+            var oldPsalter = newSchema.FirstOrDefault(x => x.Number.ToString() == newPsalter.OtherPsalterNumber);
+            if (oldPsalter != null)
+                oldPsalter.OtherPsalterNumber = newPsalter.Number + newPsalter.Letter;
+        }
+
         File.WriteAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\assets\\1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
@@ -87,4 +96,5 @@ public class NewSchema
     public int? NumVersesInsideStaff { get; set; } // 1912
     public required List<string> ScoreFiles { get; set; }
     public string? AudioFile { get; set; }
+    public string OtherPsalterNumber { get; set; }
 }

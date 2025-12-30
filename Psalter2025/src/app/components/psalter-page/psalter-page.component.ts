@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, Input, SimpleChanges, ViewChild } from '@angular/core';
+import { ChangeDetectorRef, Component, ElementRef, HostListener, Input, SimpleChanges, ViewChild } from '@angular/core';
 import { SwiperContainer, SwiperSlide } from 'swiper/element';
 import { Psalter, PsalterService } from '../../services/psalter-service';
 import { Swiper } from 'swiper/types';
@@ -15,7 +15,8 @@ export class PsalterPageComponent {
   constructor(
     public service: PsalterService,
     public storage: StorageService,
-    public app: AppComponent) {
+    public app: AppComponent,
+    private cdRef: ChangeDetectorRef) {
       this.updateWindowSizeSettings()
   }
 
@@ -65,15 +66,25 @@ export class PsalterPageComponent {
     //sessionStorage.setItem('lastIndex', swiper.activeIndex.toString());
   }
 
+  goToRandom() {
+    const i = Math.floor(Math.random() * this.psalters.length)
+    this.swiper.nativeElement.swiper.slideTo(i);
+  }
+
   private resetSwiper() {
+    if (this.swiper.nativeElement.swiper) {
+      this.swiper.nativeElement.swiper?.destroy(true, true)
+
+      // have to clear angular DOM so swiper doesn't keep the old psalter slides
+      let psalters = this.psalters;
+      this.psalters = [];
+      this.cdRef.detectChanges();
+      this.psalters = psalters
+    }
+
     // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
-    setTimeout(() => {
-        this.swiper.nativeElement.initialize();
-      //let lastIndex = sessionStorage.getItem('lastIndex')
-      //if (lastIndex)
-      //  this.swiper.nativeElement.swiper.slideTo(parseInt(lastIndex))
-      //else
-      this.service.currentPsalter$.next(this.psalters[0]);
-    }, 1)
+    this.cdRef.detectChanges();
+    this.swiper.nativeElement.initialize();
+    this.service.currentPsalter$.next(this.psalters[0]);
   }
 }
