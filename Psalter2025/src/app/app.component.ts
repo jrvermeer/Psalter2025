@@ -43,9 +43,9 @@ export class AppComponent {
     this.cancelAudio();
 
     if (oldPsalter)
-      this.service.get1912().subscribe(x => this.psalters= x);
+      this.service.get1912().subscribe(x => this.psalters = x);
     else
-      this.service.get2025().subscribe(x => this.psalters= x);
+      this.service.get2025().subscribe(x => this.psalters = x);
 
     this.storage.oldPsalter = oldPsalter;
   }

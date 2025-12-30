@@ -22,12 +22,19 @@ export class PsalterPageComponent {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (this.swiper && changes['psalters']) {
+      let goToPsalter: number
+      if (this.service.currentPsalter?.otherPsalterNumber)
+        goToPsalter = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == this.service.currentPsalter.otherPsalterNumber)
+
       this.resetSwiper();
+
+      if (goToPsalter)
+        this.swiper.nativeElement.swiper.slideTo(goToPsalter, 0);
     }
   }
 
   ngAfterViewInit() {
-    if (this.psalters)
+    if (this.psalters) 
       this.resetSwiper();
   }
 
