@@ -3,36 +3,73 @@
     "number": 1,
     "letter": "A",
     "title": "That Man Is Blest Who, Fearing God",
+    "psalm": 1,
     "isCompletePsalm": true,
     "verses": [
-      "That man is blest who, fearing God, \nFrom sin restrains his feet, \nWho will not stand with wicked men, \nWho shuns the scorners\u0027 seat.",
-      "Yea, blest is he who makes God\u0027s law \nHis portion and delight, \nAnd meditates upon that law \nWith gladness day and night.",
-      "That man is nourished like a tree \nSet by the river\u0027s side; \nIts leaf is green, its fruit is sure, \nAnd thus his works abide.",
+      "That man is blest who, fearing God, \nFrom sin restrains his feet, \nWho will not stand with wicked men, \nWho shuns the scorners' seat.",
+      "Yea, blest is he who makes God's law \nHis portion and delight, \nAnd meditates upon that law \nWith gladness day and night.",
+      "That man is nourished like a tree \nSet by the river's side; \nIts leaf is green, its fruit is sure, \nAnd thus his works abide.",
       "The wicked like the driven chaff \nAre swept from off the land; \nThey shall not gather with the just, \nNor in the judgment stand.",
-      "The Lord will guard the righteous well, \nTheir way to Him is known; \nThe way of sinners, far from God, \nShall surely be o\u0027er-thrown."
+      "The Lord will guard the righteous well, \nTheir way to Him is known; \nThe way of sinners, far from God, \nShall surely be o'er-thrown."
     ],
     "scoreFiles": [
       "assets\\2025\\Score\\_1A.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_1.mp3",
     "otherPsalterNumber": "1"
   },
   {
     "number": 1,
     "letter": "B",
-    "title": "Blest is he who loves God\u0027s precepts",
+    "title": "Blest is he who loves God's precepts",
+    "psalm": 1,
     "isCompletePsalm": true,
     "verses": [
-      "Blest is he who loves God\u0027s precepts, \nWho from sin restrains His feet, \nHe who will not stand with sinners, \nHe who shuns the scorners\u0027 seat.",
-      "Blest is he who makes the statutes \nOf the Lord his chief delight,\nIn God\u0027s law, divinely perfect, \nMeditating day and night.",
-      "He is like a tree well planted \nBy the flowing river\u0027s side, \nEver green of leaf and fruitful: \nThus shall all his works abide.",
+      "Blest is he who loves God's precepts, \nWho from sin restrains His feet, \nHe who will not stand with sinners, \nHe who shuns the scorners' seat.",
+      "Blest is he who makes the statutes \nOf the Lord his chief delight,\nIn God's law, divinely perfect, \nMeditating day and night.",
+      "He is like a tree well planted \nBy the flowing river's side, \nEver green of leaf and fruitful: \nThus shall all his works abide.",
       "Like the driven chaff the wicked \nShall be swept from off the land; \nWith the just they shall not gather, \nNor shall in the judgment stand.",
       "Well the Lord will guard the righteous, \nFor their way to Him is known; \nBut the way of evildoers \nShall by Him be overthrown."
     ],
     "scoreFiles": [
       "assets\\2025/Score/_1B.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_2.mp3",
     "otherPsalterNumber": "2"
+  },
+  {
+    "number": 2,
+    "letter": "A",
+    "title": "Wherefore Do The Nations Rage?",
+    "psalm": 2,
+    "isCompletePsalm": true,
+    "verses": [
+      "Wherefore do the nations rage\nAnd the people vainly dream\nThat in triumph they can wage\nWar against the King supreme?\nChrist His Son a scoff they make,\nAnd the rulers plotting say:\nTheir dominion let us break,\nLet us cast their yoke away.",
+      "But the Lord will scorn them all,\nCalm He sits enthroned on high;\nSoon His wrath will on them fall,\nSore displeased He will reply:\nYet according to my will\nI have set my King to reign,\nAnd on Zion's holy hill\nMy Anointed I maintain.",
+      "This His word shall be made known,\nThis Jehovah's firm decree:\nThou art my beloved Son,\nYea, I have begotten Thee.\nAll the earth at thy request\nI will give Thee for Thy own;\nThen Thy might shall be confessed\nAnd Thy foes be overthrown.",
+      "Therefore, kings, be wise, give ear;\nHearken, judges of the earth;\nLearn to serve the LORD with fear,\nMingle trembling with your mirth.\nKiss the Son, lest o'er your way\nHis consuming wrath should break;\nBut supremely blest are they\nWho in Christ their refuge take."
+    ],
+    "scoreFiles": [
+      "assets\\2025/Score/_2A.jpg"
+    ],
+    "otherPsalterNumber": "3"
+  },
+
+  {
+    "number": 2,
+    "title": "Oh, Wherefore Do The Nations Rage",
+    "letter": "B",
+    "psalm": 2,
+    "isCompletePsalm": false,
+    "psalmVerses": "1-5, 7-12",
+    "verses": [
+      "Oh, wherefore do the nations rage,\nAnd kings and rulers strive in vain,\nAgainst the Lord of earth and heaven\nTo overthrow Messiah's reign?",
+      "Their strength is weakness in the sight\nOf Him who sits enthroned above;\nHe speaks, and judgments fall on them\nWho tempt His wrath and scorn His love.",
+      "By God's decree His Son receives\nThe nations for His heritage;\nThe conquering Christ supreme shall reign\nAs King of kings, from age to age.",
+      "Be wise, ye rulers of the earth,\nAnd serve the Lord with godly fear;\nWith reverent joy confess the Son\nWhile yet in mercy He is near.",
+      "Delay not, lest His anger rise,\nAnd ye should perish in your way;\nLo, all that put their trust in Him\nAre blest indeed, and blest for aye."
+    ],
+    "scoreFiles": [
+      "assets\\2025/Score/_2B.jpg"
+    ],
+    "otherPsalterNumber": "4"
   }
 ]
