@@ -54,7 +54,7 @@ export class PsalterPageComponent {
 
     if (psalter.numVersesInsideStaff < psalter.verses.length) {
       this.numHiddenVerses = psalter.numVersesInsideStaff;
-      return psalter.verses.slice(psalter.numVersesInsideStaff - 1);
+      return psalter.verses.slice(psalter.numVersesInsideStaff);
     }
 
     return null
