@@ -20,8 +20,3 @@ nav {
   height: var(--app-navbar-height);
   background-color: var(--mat-sys-surface-container-low);
 }
-
-pre {
-  position: fixed;
-  bottom: var(--app-navbar-height);
-}

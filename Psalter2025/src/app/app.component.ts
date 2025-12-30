@@ -17,6 +17,7 @@ export class AppComponent {
 
     this.toggleTheme(storage.darkTheme);
     this.togglePsalter(storage.oldPsalter);
+    this.scaleTextSize(storage.textScale);
   }
 
   audio: HTMLAudioElement;
@@ -96,7 +97,7 @@ export class AppComponent {
       const scaleFactor = currentPinchDistance / this.initialPinchDistance;
       let newScale = this.storage.textScale * scaleFactor;
       newScale = Math.max(newScale, 0.5);
-      newScale = Math.min(newScale, 3);
+      newScale = Math.min(newScale, 1.5);
       this.storage.textScale = newScale;
       this.scaleTextSize(newScale);
     }
