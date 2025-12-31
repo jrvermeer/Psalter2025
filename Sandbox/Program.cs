@@ -12,7 +12,7 @@ internal class Program
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
         var newSchema = oldSchema.Select(x => Convert(x)).ToList();
 
-        var newPsalterJson = File.ReadAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\assets\\2025\\psalter.json");
+        var newPsalterJson = File.ReadAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\2025\\psalter.json");
         var newPsalters = JsonSerializer.Deserialize<List<NewSchema>>(newPsalterJson, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
         foreach (var newPsalter in newPsalters)
         {
@@ -21,7 +21,7 @@ internal class Program
                 oldPsalter.OtherPsalterNumber = newPsalter.Number + newPsalter.Letter;
         }
 
-        File.WriteAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\assets\\1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
+        File.WriteAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
@@ -52,10 +52,10 @@ internal class Program
             Verses = oldVerses.Select(x => RemoveVerseNumber(x).Trim()).ToList(),
             Chorus = chorus,
             NumVersesInsideStaff = old.NumVersesInsideStaff,
-            ScoreFiles = ["assets\\" + old.scoreFileName],            
+            ScoreFiles = [old.scoreFileName],            
         };
 
-        newSchema.AudioFile = $"assets\\1912\\Audio\\_{old.number}{(newSchema.SecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
+        newSchema.AudioFile = $"1912\\Audio\\_{old.number}{(newSchema.SecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
         if (!File.Exists($"C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\{newSchema.AudioFile}"))
             newSchema.AudioFile = null;
 

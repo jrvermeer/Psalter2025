@@ -32,7 +32,17 @@ export class AppComponent {
         this.searchInputControl.valueChanges
             .pipe(debounceTime(200))
             .subscribe(x => this.updateSearchResults())
-    }
+
+        window.addEventListener('beforeinstallprompt', (e: Event) => {
+            // Prevent the default browser prompt
+            console.log('beforeinstallprompt', e)
+            e.preventDefault();
+            // Stash the event so it can be triggered later
+            //this.deferredPrompt = e;
+            // Show your custom install button/UI
+            //this.showInstallButton = true;
+        });
+    }   
 
     audio: HTMLAudioElement;
     currentVerse = 1;

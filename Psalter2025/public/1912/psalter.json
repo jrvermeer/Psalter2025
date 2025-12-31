@@ -12,9 +12,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_1.webp"
+      "1912/Score/_1.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_1.mp3",
+    "audioFile": "1912\\Audio\\_1.mp3",
     "otherPsalterNumber": "1A"
   },
   {
@@ -30,9 +30,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_2.webp"
+      "1912/Score/_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_2.mp3",
+    "audioFile": "1912\\Audio\\_2.mp3",
     "otherPsalterNumber": "1B"
   },
   {
@@ -49,7 +49,7 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_2_2.webp"
+      "1912/Score/_2_2.webp"
     ]
   },
   {
@@ -64,9 +64,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_3.webp"
+      "1912/Score/_3.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_3.mp3",
+    "audioFile": "1912\\Audio\\_3.mp3",
     "otherPsalterNumber": "2A"
   },
   {
@@ -82,9 +82,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_4.webp"
+      "1912/Score/_4.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_4.mp3",
+    "audioFile": "1912\\Audio\\_4.mp3",
     "otherPsalterNumber": "2B"
   },
   {
@@ -100,9 +100,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_5.webp"
+      "1912/Score/_5.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_5.mp3"
+    "audioFile": "1912\\Audio\\_5.mp3"
   },
   {
     "number": 6,
@@ -118,9 +118,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_6.webp"
+      "1912/Score/_6.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_6.mp3"
+    "audioFile": "1912\\Audio\\_6.mp3"
   },
   {
     "number": 7,
@@ -133,9 +133,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_7.webp"
+      "1912/Score/_7.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_7.mp3"
+    "audioFile": "1912\\Audio\\_7.mp3"
   },
   {
     "number": 8,
@@ -149,9 +149,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_8.webp"
+      "1912/Score/_8.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_8.mp3"
+    "audioFile": "1912\\Audio\\_8.mp3"
   },
   {
     "number": 9,
@@ -164,9 +164,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_9.webp"
+      "1912/Score/_9.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_9.mp3"
+    "audioFile": "1912\\Audio\\_9.mp3"
   },
   {
     "number": 10,
@@ -179,9 +179,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_10.webp"
+      "1912/Score/_10.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_10.mp3"
+    "audioFile": "1912\\Audio\\_10.mp3"
   },
   {
     "number": 11,
@@ -195,9 +195,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_11.webp"
+      "1912/Score/_11.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_11.mp3"
+    "audioFile": "1912\\Audio\\_11.mp3"
   },
   {
     "number": 12,
@@ -211,9 +211,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_12.webp"
+      "1912/Score/_12.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_12.mp3"
+    "audioFile": "1912\\Audio\\_12.mp3"
   },
   {
     "number": 13,
@@ -230,9 +230,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_13.webp"
+      "1912/Score/_13.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_13.mp3"
+    "audioFile": "1912\\Audio\\_13.mp3"
   },
   {
     "number": 14,
@@ -249,9 +249,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_14.webp"
+      "1912/Score/_14.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_14.mp3"
+    "audioFile": "1912\\Audio\\_14.mp3"
   },
   {
     "number": 15,
@@ -264,9 +264,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_15.webp"
+      "1912/Score/_15.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_15.mp3"
+    "audioFile": "1912\\Audio\\_15.mp3"
   },
   {
     "number": 16,
@@ -285,9 +285,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_16.webp"
+      "1912/Score/_16.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_16.mp3"
+    "audioFile": "1912\\Audio\\_16.mp3"
   },
   {
     "number": 17,
@@ -302,7 +302,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_17.webp"
+      "1912/Score/_17.webp"
     ]
   },
   {
@@ -319,9 +319,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_17_2.webp"
+      "1912/Score/_17_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_17_2.mp3"
+    "audioFile": "1912\\Audio\\_17_2.mp3"
   },
   {
     "number": 18,
@@ -340,9 +340,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_18.webp"
+      "1912/Score/_18.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_18.mp3"
+    "audioFile": "1912\\Audio\\_18.mp3"
   },
   {
     "number": 19,
@@ -357,9 +357,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_19.webp"
+      "1912/Score/_19.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_19.mp3"
+    "audioFile": "1912\\Audio\\_19.mp3"
   },
   {
     "number": 20,
@@ -372,9 +372,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_20.webp"
+      "1912/Score/_20.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_20.mp3"
+    "audioFile": "1912\\Audio\\_20.mp3"
   },
   {
     "number": 21,
@@ -388,9 +388,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_21.webp"
+      "1912/Score/_21.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_21.mp3"
+    "audioFile": "1912\\Audio\\_21.mp3"
   },
   {
     "number": 22,
@@ -403,9 +403,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_22.webp"
+      "1912/Score/_22.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_22.mp3"
+    "audioFile": "1912\\Audio\\_22.mp3"
   },
   {
     "number": 23,
@@ -421,9 +421,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_23.webp"
+      "1912/Score/_23.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_23.mp3"
+    "audioFile": "1912\\Audio\\_23.mp3"
   },
   {
     "number": 23,
@@ -440,7 +440,7 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_23_2.webp"
+      "1912/Score/_23_2.webp"
     ]
   },
   {
@@ -454,9 +454,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_24.webp"
+      "1912/Score/_24.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_24.mp3"
+    "audioFile": "1912\\Audio\\_24.mp3"
   },
   {
     "number": 25,
@@ -470,9 +470,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_25.webp"
+      "1912/Score/_25.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_25.mp3"
+    "audioFile": "1912\\Audio\\_25.mp3"
   },
   {
     "number": 26,
@@ -487,9 +487,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_26.webp"
+      "1912/Score/_26.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_26.mp3"
+    "audioFile": "1912\\Audio\\_26.mp3"
   },
   {
     "number": 27,
@@ -504,9 +504,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_27.webp"
+      "1912/Score/_27.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_27.mp3"
+    "audioFile": "1912\\Audio\\_27.mp3"
   },
   {
     "number": 28,
@@ -521,9 +521,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_28.webp"
+      "1912/Score/_28.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_28.mp3"
+    "audioFile": "1912\\Audio\\_28.mp3"
   },
   {
     "number": 29,
@@ -536,9 +536,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_29.webp"
+      "1912/Score/_29.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_29.mp3"
+    "audioFile": "1912\\Audio\\_29.mp3"
   },
   {
     "number": 30,
@@ -551,9 +551,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_30.webp"
+      "1912/Score/_30.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_30.mp3"
+    "audioFile": "1912\\Audio\\_30.mp3"
   },
   {
     "number": 31,
@@ -570,9 +570,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_31.webp"
+      "1912/Score/_31.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_31.mp3"
+    "audioFile": "1912\\Audio\\_31.mp3"
   },
   {
     "number": 32,
@@ -586,9 +586,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_32.webp"
+      "1912/Score/_32.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_32.mp3"
+    "audioFile": "1912\\Audio\\_32.mp3"
   },
   {
     "number": 33,
@@ -603,7 +603,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_33.webp"
+      "1912/Score/_33.webp"
     ]
   },
   {
@@ -620,9 +620,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_33_2.webp"
+      "1912/Score/_33_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_33_2.mp3"
+    "audioFile": "1912\\Audio\\_33_2.mp3"
   },
   {
     "number": 34,
@@ -642,9 +642,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_34.webp"
+      "1912/Score/_34.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_34.mp3"
+    "audioFile": "1912\\Audio\\_34.mp3"
   },
   {
     "number": 35,
@@ -660,9 +660,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_35.webp"
+      "1912/Score/_35.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_35.mp3"
+    "audioFile": "1912\\Audio\\_35.mp3"
   },
   {
     "number": 36,
@@ -677,9 +677,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_36.webp"
+      "1912/Score/_36.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_36.mp3"
+    "audioFile": "1912\\Audio\\_36.mp3"
   },
   {
     "number": 37,
@@ -693,9 +693,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_37.webp"
+      "1912/Score/_37.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_37.mp3"
+    "audioFile": "1912\\Audio\\_37.mp3"
   },
   {
     "number": 38,
@@ -710,9 +710,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_38.webp"
+      "1912/Score/_38.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_38.mp3"
+    "audioFile": "1912\\Audio\\_38.mp3"
   },
   {
     "number": 39,
@@ -726,9 +726,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_39.webp"
+      "1912/Score/_39.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_39.mp3"
+    "audioFile": "1912\\Audio\\_39.mp3"
   },
   {
     "number": 40,
@@ -744,9 +744,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_40.webp"
+      "1912/Score/_40.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_40.mp3"
+    "audioFile": "1912\\Audio\\_40.mp3"
   },
   {
     "number": 41,
@@ -763,9 +763,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_41.webp"
+      "1912/Score/_41.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_41.mp3"
+    "audioFile": "1912\\Audio\\_41.mp3"
   },
   {
     "number": 42,
@@ -780,9 +780,9 @@
     "chorus": "O how love I Thy law!\nO how love I Thy law!\nIt is my meditation all the day.",
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_42.webp"
+      "1912/Score/_42.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_42.mp3"
+    "audioFile": "1912\\Audio\\_42.mp3"
   },
   {
     "number": 43,
@@ -798,9 +798,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_43.webp"
+      "1912/Score/_43.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_43.mp3"
+    "audioFile": "1912\\Audio\\_43.mp3"
   },
   {
     "number": 44,
@@ -814,9 +814,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_44.webp"
+      "1912/Score/_44.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_44.mp3"
+    "audioFile": "1912\\Audio\\_44.mp3"
   },
   {
     "number": 45,
@@ -832,9 +832,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_45.webp"
+      "1912/Score/_45.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_45.mp3"
+    "audioFile": "1912\\Audio\\_45.mp3"
   },
   {
     "number": 46,
@@ -848,7 +848,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_46.webp"
+      "1912/Score/_46.webp"
     ]
   },
   {
@@ -864,9 +864,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_46_2.webp"
+      "1912/Score/_46_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_46_2.mp3"
+    "audioFile": "1912\\Audio\\_46_2.mp3"
   },
   {
     "number": 47,
@@ -887,9 +887,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_47.webp"
+      "1912/Score/_47.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_47.mp3"
+    "audioFile": "1912\\Audio\\_47.mp3"
   },
   {
     "number": 48,
@@ -907,9 +907,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_48.webp"
+      "1912/Score/_48.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_48.mp3"
+    "audioFile": "1912\\Audio\\_48.mp3"
   },
   {
     "number": 49,
@@ -923,9 +923,9 @@
     "chorus": "All earth to Him her homage brings,\nThe Lord of lords, the King of kings.",
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_49.webp"
+      "1912/Score/_49.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_49.mp3"
+    "audioFile": "1912\\Audio\\_49.mp3"
   },
   {
     "number": 50,
@@ -938,9 +938,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_50.webp"
+      "1912/Score/_50.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_50.mp3"
+    "audioFile": "1912\\Audio\\_50.mp3"
   },
   {
     "number": 51,
@@ -953,9 +953,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_51.webp"
+      "1912/Score/_51.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_51.mp3"
+    "audioFile": "1912\\Audio\\_51.mp3"
   },
   {
     "number": 52,
@@ -969,9 +969,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_52.webp"
+      "1912/Score/_52.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_52.mp3"
+    "audioFile": "1912\\Audio\\_52.mp3"
   },
   {
     "number": 53,
@@ -986,9 +986,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_53.webp"
+      "1912/Score/_53.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_53.mp3"
+    "audioFile": "1912\\Audio\\_53.mp3"
   },
   {
     "number": 54,
@@ -1003,9 +1003,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_54.webp"
+      "1912/Score/_54.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_54.mp3"
+    "audioFile": "1912\\Audio\\_54.mp3"
   },
   {
     "number": 55,
@@ -1018,9 +1018,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_55.webp"
+      "1912/Score/_55.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_55.mp3"
+    "audioFile": "1912\\Audio\\_55.mp3"
   },
   {
     "number": 56,
@@ -1033,9 +1033,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_56.webp"
+      "1912/Score/_56.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_56.mp3"
+    "audioFile": "1912\\Audio\\_56.mp3"
   },
   {
     "number": 57,
@@ -1048,9 +1048,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_57.webp"
+      "1912/Score/_57.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_57.mp3"
+    "audioFile": "1912\\Audio\\_57.mp3"
   },
   {
     "number": 58,
@@ -1063,9 +1063,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_58.webp"
+      "1912/Score/_58.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_58.mp3"
+    "audioFile": "1912\\Audio\\_58.mp3"
   },
   {
     "number": 59,
@@ -1082,9 +1082,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_59.webp"
+      "1912/Score/_59.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_59.mp3"
+    "audioFile": "1912\\Audio\\_59.mp3"
   },
   {
     "number": 60,
@@ -1099,9 +1099,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_60.webp"
+      "1912/Score/_60.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_60.mp3"
+    "audioFile": "1912\\Audio\\_60.mp3"
   },
   {
     "number": 61,
@@ -1115,9 +1115,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_61.webp"
+      "1912/Score/_61.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_61.mp3"
+    "audioFile": "1912\\Audio\\_61.mp3"
   },
   {
     "number": 62,
@@ -1131,9 +1131,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_62.webp"
+      "1912/Score/_62.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_62.mp3"
+    "audioFile": "1912\\Audio\\_62.mp3"
   },
   {
     "number": 63,
@@ -1147,9 +1147,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_63.webp"
+      "1912/Score/_63.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_63.mp3"
+    "audioFile": "1912\\Audio\\_63.mp3"
   },
   {
     "number": 64,
@@ -1162,9 +1162,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_64.webp"
+      "1912/Score/_64.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_64.mp3"
+    "audioFile": "1912\\Audio\\_64.mp3"
   },
   {
     "number": 65,
@@ -1178,9 +1178,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_65.webp"
+      "1912/Score/_65.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_65.mp3"
+    "audioFile": "1912\\Audio\\_65.mp3"
   },
   {
     "number": 66,
@@ -1194,9 +1194,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_66.webp"
+      "1912/Score/_66.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_66.mp3"
+    "audioFile": "1912\\Audio\\_66.mp3"
   },
   {
     "number": 67,
@@ -1211,9 +1211,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_67.webp"
+      "1912/Score/_67.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_67.mp3"
+    "audioFile": "1912\\Audio\\_67.mp3"
   },
   {
     "number": 68,
@@ -1227,9 +1227,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_68.webp"
+      "1912/Score/_68.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_68.mp3"
+    "audioFile": "1912\\Audio\\_68.mp3"
   },
   {
     "number": 69,
@@ -1246,9 +1246,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_69.webp"
+      "1912/Score/_69.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_69.mp3"
+    "audioFile": "1912\\Audio\\_69.mp3"
   },
   {
     "number": 70,
@@ -1263,9 +1263,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_70.webp"
+      "1912/Score/_70.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_70.mp3"
+    "audioFile": "1912\\Audio\\_70.mp3"
   },
   {
     "number": 71,
@@ -1280,9 +1280,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_71.webp"
+      "1912/Score/_71.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_71.mp3"
+    "audioFile": "1912\\Audio\\_71.mp3"
   },
   {
     "number": 72,
@@ -1296,9 +1296,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_72.webp"
+      "1912/Score/_72.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_72.mp3"
+    "audioFile": "1912\\Audio\\_72.mp3"
   },
   {
     "number": 73,
@@ -1314,9 +1314,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_73.webp"
+      "1912/Score/_73.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_73.mp3"
+    "audioFile": "1912\\Audio\\_73.mp3"
   },
   {
     "number": 74,
@@ -1330,9 +1330,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_74.webp"
+      "1912/Score/_74.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_74.mp3"
+    "audioFile": "1912\\Audio\\_74.mp3"
   },
   {
     "number": 75,
@@ -1348,9 +1348,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_75.webp"
+      "1912/Score/_75.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_75.mp3"
+    "audioFile": "1912\\Audio\\_75.mp3"
   },
   {
     "number": 76,
@@ -1364,9 +1364,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_76.webp"
+      "1912/Score/_76.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_76.mp3"
+    "audioFile": "1912\\Audio\\_76.mp3"
   },
   {
     "number": 77,
@@ -1381,9 +1381,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_77.webp"
+      "1912/Score/_77.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_77.mp3"
+    "audioFile": "1912\\Audio\\_77.mp3"
   },
   {
     "number": 78,
@@ -1396,9 +1396,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_78.webp"
+      "1912/Score/_78.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_78.mp3"
+    "audioFile": "1912\\Audio\\_78.mp3"
   },
   {
     "number": 79,
@@ -1411,9 +1411,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_79.webp"
+      "1912/Score/_79.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_79.mp3"
+    "audioFile": "1912\\Audio\\_79.mp3"
   },
   {
     "number": 80,
@@ -1435,9 +1435,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_80.webp"
+      "1912/Score/_80.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_80.mp3"
+    "audioFile": "1912\\Audio\\_80.mp3"
   },
   {
     "number": 81,
@@ -1451,9 +1451,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_81.webp"
+      "1912/Score/_81.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_81.mp3"
+    "audioFile": "1912\\Audio\\_81.mp3"
   },
   {
     "number": 82,
@@ -1466,9 +1466,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_82.webp"
+      "1912/Score/_82.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_82.mp3"
+    "audioFile": "1912\\Audio\\_82.mp3"
   },
   {
     "number": 83,
@@ -1481,9 +1481,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_83.webp"
+      "1912/Score/_83.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_83.mp3"
+    "audioFile": "1912\\Audio\\_83.mp3"
   },
   {
     "number": 84,
@@ -1495,9 +1495,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_84.webp"
+      "1912/Score/_84.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_84.mp3"
+    "audioFile": "1912\\Audio\\_84.mp3"
   },
   {
     "number": 85,
@@ -1510,9 +1510,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_85.webp"
+      "1912/Score/_85.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_85.mp3"
+    "audioFile": "1912\\Audio\\_85.mp3"
   },
   {
     "number": 86,
@@ -1525,9 +1525,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_86.webp"
+      "1912/Score/_86.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_86.mp3"
+    "audioFile": "1912\\Audio\\_86.mp3"
   },
   {
     "number": 87,
@@ -1540,9 +1540,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_87.webp"
+      "1912/Score/_87.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_87.mp3"
+    "audioFile": "1912\\Audio\\_87.mp3"
   },
   {
     "number": 88,
@@ -1555,9 +1555,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_88.webp"
+      "1912/Score/_88.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_88.mp3"
+    "audioFile": "1912\\Audio\\_88.mp3"
   },
   {
     "number": 89,
@@ -1572,9 +1572,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_89.webp"
+      "1912/Score/_89.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_89.mp3"
+    "audioFile": "1912\\Audio\\_89.mp3"
   },
   {
     "number": 90,
@@ -1591,9 +1591,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_90.webp"
+      "1912/Score/_90.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_90.mp3"
+    "audioFile": "1912\\Audio\\_90.mp3"
   },
   {
     "number": 91,
@@ -1608,7 +1608,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_91.webp"
+      "1912/Score/_91.webp"
     ]
   },
   {
@@ -1625,9 +1625,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_91_2.webp"
+      "1912/Score/_91_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_91_2.mp3"
+    "audioFile": "1912\\Audio\\_91_2.mp3"
   },
   {
     "number": 92,
@@ -1645,9 +1645,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_92.webp"
+      "1912/Score/_92.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_92.mp3"
+    "audioFile": "1912\\Audio\\_92.mp3"
   },
   {
     "number": 93,
@@ -1661,9 +1661,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_93.webp"
+      "1912/Score/_93.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_93.mp3"
+    "audioFile": "1912\\Audio\\_93.mp3"
   },
   {
     "number": 94,
@@ -1679,9 +1679,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_94.webp"
+      "1912/Score/_94.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_94.mp3"
+    "audioFile": "1912\\Audio\\_94.mp3"
   },
   {
     "number": 95,
@@ -1694,9 +1694,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_95.webp"
+      "1912/Score/_95.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_95.mp3"
+    "audioFile": "1912\\Audio\\_95.mp3"
   },
   {
     "number": 96,
@@ -1710,9 +1710,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_96.webp"
+      "1912/Score/_96.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_96.mp3"
+    "audioFile": "1912\\Audio\\_96.mp3"
   },
   {
     "number": 97,
@@ -1726,9 +1726,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_97.webp"
+      "1912/Score/_97.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_97.mp3"
+    "audioFile": "1912\\Audio\\_97.mp3"
   },
   {
     "number": 98,
@@ -1742,9 +1742,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_98.webp"
+      "1912/Score/_98.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_98.mp3"
+    "audioFile": "1912\\Audio\\_98.mp3"
   },
   {
     "number": 99,
@@ -1759,9 +1759,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_99.webp"
+      "1912/Score/_99.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_99.mp3"
+    "audioFile": "1912\\Audio\\_99.mp3"
   },
   {
     "number": 100,
@@ -1775,9 +1775,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_100.webp"
+      "1912/Score/_100.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_100.mp3"
+    "audioFile": "1912\\Audio\\_100.mp3"
   },
   {
     "number": 101,
@@ -1792,9 +1792,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_101.webp"
+      "1912/Score/_101.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_101.mp3"
+    "audioFile": "1912\\Audio\\_101.mp3"
   },
   {
     "number": 102,
@@ -1809,9 +1809,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_102.webp"
+      "1912/Score/_102.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_102.mp3"
+    "audioFile": "1912\\Audio\\_102.mp3"
   },
   {
     "number": 103,
@@ -1825,9 +1825,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_103.webp"
+      "1912/Score/_103.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_103.mp3"
+    "audioFile": "1912\\Audio\\_103.mp3"
   },
   {
     "number": 104,
@@ -1847,9 +1847,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_104.webp"
+      "1912/Score/_104.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_104.mp3"
+    "audioFile": "1912\\Audio\\_104.mp3"
   },
   {
     "number": 105,
@@ -1865,9 +1865,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_105.webp"
+      "1912/Score/_105.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_105.mp3"
+    "audioFile": "1912\\Audio\\_105.mp3"
   },
   {
     "number": 106,
@@ -1883,9 +1883,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_106.webp"
+      "1912/Score/_106.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_106.mp3"
+    "audioFile": "1912\\Audio\\_106.mp3"
   },
   {
     "number": 107,
@@ -1899,9 +1899,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_107.webp"
+      "1912/Score/_107.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_107.mp3"
+    "audioFile": "1912\\Audio\\_107.mp3"
   },
   {
     "number": 108,
@@ -1918,9 +1918,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_108.webp"
+      "1912/Score/_108.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_108.mp3"
+    "audioFile": "1912\\Audio\\_108.mp3"
   },
   {
     "number": 109,
@@ -1934,9 +1934,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_109.webp"
+      "1912/Score/_109.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_109.mp3"
+    "audioFile": "1912\\Audio\\_109.mp3"
   },
   {
     "number": 110,
@@ -1949,9 +1949,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_110.webp"
+      "1912/Score/_110.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_110.mp3"
+    "audioFile": "1912\\Audio\\_110.mp3"
   },
   {
     "number": 111,
@@ -1965,9 +1965,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_111.webp"
+      "1912/Score/_111.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_111.mp3"
+    "audioFile": "1912\\Audio\\_111.mp3"
   },
   {
     "number": 112,
@@ -1981,9 +1981,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_112.webp"
+      "1912/Score/_112.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_112.mp3"
+    "audioFile": "1912\\Audio\\_112.mp3"
   },
   {
     "number": 113,
@@ -2005,9 +2005,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_113.webp"
+      "1912/Score/_113.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_113.mp3"
+    "audioFile": "1912\\Audio\\_113.mp3"
   },
   {
     "number": 114,
@@ -2027,9 +2027,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_114.webp"
+      "1912/Score/_114.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_114.mp3"
+    "audioFile": "1912\\Audio\\_114.mp3"
   },
   {
     "number": 115,
@@ -2043,9 +2043,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_115.webp"
+      "1912/Score/_115.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_115.mp3"
+    "audioFile": "1912\\Audio\\_115.mp3"
   },
   {
     "number": 116,
@@ -2059,9 +2059,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_116.webp"
+      "1912/Score/_116.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_116.mp3"
+    "audioFile": "1912\\Audio\\_116.mp3"
   },
   {
     "number": 116,
@@ -2076,7 +2076,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_116_2.webp"
+      "1912/Score/_116_2.webp"
     ]
   },
   {
@@ -2091,9 +2091,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_117.webp"
+      "1912/Score/_117.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_117.mp3"
+    "audioFile": "1912\\Audio\\_117.mp3"
   },
   {
     "number": 118,
@@ -2106,9 +2106,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_118.webp"
+      "1912/Score/_118.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_118.mp3"
+    "audioFile": "1912\\Audio\\_118.mp3"
   },
   {
     "number": 119,
@@ -2124,9 +2124,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_119.webp"
+      "1912/Score/_119.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_119.mp3"
+    "audioFile": "1912\\Audio\\_119.mp3"
   },
   {
     "number": 120,
@@ -2141,9 +2141,9 @@
     "chorus": "O my soul, why art thou grieving?\nWhat disquiets and dismays?\nHope in God; His help receiving,\nI shall yet my Saviour praise.",
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_120.webp"
+      "1912/Score/_120.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_120.mp3"
+    "audioFile": "1912\\Audio\\_120.mp3"
   },
   {
     "number": 121,
@@ -2157,9 +2157,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_121.webp"
+      "1912/Score/_121.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_121.mp3"
+    "audioFile": "1912\\Audio\\_121.mp3"
   },
   {
     "number": 122,
@@ -2174,9 +2174,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_122.webp"
+      "1912/Score/_122.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_122.mp3"
+    "audioFile": "1912\\Audio\\_122.mp3"
   },
   {
     "number": 123,
@@ -2190,9 +2190,9 @@
     "chorus": "Rise, help and redeem us, Thy mercy we trust.",
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_123.webp"
+      "1912/Score/_123.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_123.mp3"
+    "audioFile": "1912\\Audio\\_123.mp3"
   },
   {
     "number": 124,
@@ -2211,9 +2211,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_124.webp"
+      "1912/Score/_124.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_124.mp3"
+    "audioFile": "1912\\Audio\\_124.mp3"
   },
   {
     "number": 125,
@@ -2230,9 +2230,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_125.webp"
+      "1912/Score/_125.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_125.mp3"
+    "audioFile": "1912\\Audio\\_125.mp3"
   },
   {
     "number": 126,
@@ -2247,9 +2247,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_126.webp"
+      "1912/Score/_126.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_126.mp3"
+    "audioFile": "1912\\Audio\\_126.mp3"
   },
   {
     "number": 127,
@@ -2267,9 +2267,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_127.webp"
+      "1912/Score/_127.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_127.mp3"
+    "audioFile": "1912\\Audio\\_127.mp3"
   },
   {
     "number": 128,
@@ -2282,9 +2282,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_128.webp"
+      "1912/Score/_128.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_128.mp3"
+    "audioFile": "1912\\Audio\\_128.mp3"
   },
   {
     "number": 129,
@@ -2299,9 +2299,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_129.webp"
+      "1912/Score/_129.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_129.mp3"
+    "audioFile": "1912\\Audio\\_129.mp3"
   },
   {
     "number": 130,
@@ -2316,9 +2316,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_130.webp"
+      "1912/Score/_130.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_130.mp3"
+    "audioFile": "1912\\Audio\\_130.mp3"
   },
   {
     "number": 131,
@@ -2332,9 +2332,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_131.webp"
+      "1912/Score/_131.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_131.mp3"
+    "audioFile": "1912\\Audio\\_131.mp3"
   },
   {
     "number": 132,
@@ -2349,9 +2349,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_132.webp"
+      "1912/Score/_132.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_132.mp3"
+    "audioFile": "1912\\Audio\\_132.mp3"
   },
   {
     "number": 133,
@@ -2364,9 +2364,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_133.webp"
+      "1912/Score/_133.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_133.mp3"
+    "audioFile": "1912\\Audio\\_133.mp3"
   },
   {
     "number": 134,
@@ -2379,9 +2379,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_134.webp"
+      "1912/Score/_134.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_134.mp3"
+    "audioFile": "1912\\Audio\\_134.mp3"
   },
   {
     "number": 135,
@@ -2396,9 +2396,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_135.webp"
+      "1912/Score/_135.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_135.mp3"
+    "audioFile": "1912\\Audio\\_135.mp3"
   },
   {
     "number": 135,
@@ -2414,7 +2414,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_135_2.webp"
+      "1912/Score/_135_2.webp"
     ]
   },
   {
@@ -2429,9 +2429,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_136.webp"
+      "1912/Score/_136.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_136.mp3"
+    "audioFile": "1912\\Audio\\_136.mp3"
   },
   {
     "number": 137,
@@ -2447,9 +2447,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_137.webp"
+      "1912/Score/_137.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_137.mp3"
+    "audioFile": "1912\\Audio\\_137.mp3"
   },
   {
     "number": 138,
@@ -2463,9 +2463,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_138.webp"
+      "1912/Score/_138.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_138.mp3"
+    "audioFile": "1912\\Audio\\_138.mp3"
   },
   {
     "number": 139,
@@ -2481,9 +2481,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_139.webp"
+      "1912/Score/_139.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_139.mp3"
+    "audioFile": "1912\\Audio\\_139.mp3"
   },
   {
     "number": 140,
@@ -2497,9 +2497,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_140.webp"
+      "1912/Score/_140.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_140.mp3"
+    "audioFile": "1912\\Audio\\_140.mp3"
   },
   {
     "number": 140,
@@ -2514,7 +2514,7 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_140_2.webp"
+      "1912/Score/_140_2.webp"
     ]
   },
   {
@@ -2529,9 +2529,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_141.webp"
+      "1912/Score/_141.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_141.mp3"
+    "audioFile": "1912\\Audio\\_141.mp3"
   },
   {
     "number": 142,
@@ -2545,9 +2545,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_142.webp"
+      "1912/Score/_142.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_142.mp3"
+    "audioFile": "1912\\Audio\\_142.mp3"
   },
   {
     "number": 143,
@@ -2561,9 +2561,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_143.webp"
+      "1912/Score/_143.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_143.mp3"
+    "audioFile": "1912\\Audio\\_143.mp3"
   },
   {
     "number": 144,
@@ -2579,9 +2579,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_144.webp"
+      "1912/Score/_144.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_144.mp3"
+    "audioFile": "1912\\Audio\\_144.mp3"
   },
   {
     "number": 145,
@@ -2597,9 +2597,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_145.webp"
+      "1912/Score/_145.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_145.mp3"
+    "audioFile": "1912\\Audio\\_145.mp3"
   },
   {
     "number": 146,
@@ -2617,9 +2617,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_146.webp"
+      "1912/Score/_146.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_146.mp3"
+    "audioFile": "1912\\Audio\\_146.mp3"
   },
   {
     "number": 147,
@@ -2634,9 +2634,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_147.webp"
+      "1912/Score/_147.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_147.mp3"
+    "audioFile": "1912\\Audio\\_147.mp3"
   },
   {
     "number": 148,
@@ -2654,9 +2654,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_148.webp"
+      "1912/Score/_148.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_148.mp3"
+    "audioFile": "1912\\Audio\\_148.mp3"
   },
   {
     "number": 149,
@@ -2672,9 +2672,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_149.webp"
+      "1912/Score/_149.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_149.mp3"
+    "audioFile": "1912\\Audio\\_149.mp3"
   },
   {
     "number": 150,
@@ -2688,9 +2688,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_150.webp"
+      "1912/Score/_150.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_150.mp3"
+    "audioFile": "1912\\Audio\\_150.mp3"
   },
   {
     "number": 151,
@@ -2706,9 +2706,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_151.webp"
+      "1912/Score/_151.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_151.mp3"
+    "audioFile": "1912\\Audio\\_151.mp3"
   },
   {
     "number": 152,
@@ -2723,9 +2723,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_152.webp"
+      "1912/Score/_152.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_152.mp3"
+    "audioFile": "1912\\Audio\\_152.mp3"
   },
   {
     "number": 153,
@@ -2739,9 +2739,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_153.webp"
+      "1912/Score/_153.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_153.mp3"
+    "audioFile": "1912\\Audio\\_153.mp3"
   },
   {
     "number": 154,
@@ -2755,9 +2755,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_154.webp"
+      "1912/Score/_154.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_154.mp3"
+    "audioFile": "1912\\Audio\\_154.mp3"
   },
   {
     "number": 155,
@@ -2771,9 +2771,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_155.webp"
+      "1912/Score/_155.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_155.mp3"
+    "audioFile": "1912\\Audio\\_155.mp3"
   },
   {
     "number": 156,
@@ -2787,7 +2787,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_156.webp"
+      "1912/Score/_156.webp"
     ]
   },
   {
@@ -2803,9 +2803,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_156_2.webp"
+      "1912/Score/_156_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_156_2.mp3"
+    "audioFile": "1912\\Audio\\_156_2.mp3"
   },
   {
     "number": 157,
@@ -2824,9 +2824,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_157.webp"
+      "1912/Score/_157.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_157.mp3"
+    "audioFile": "1912\\Audio\\_157.mp3"
   },
   {
     "number": 158,
@@ -2844,9 +2844,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_158.webp"
+      "1912/Score/_158.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_158.mp3"
+    "audioFile": "1912\\Audio\\_158.mp3"
   },
   {
     "number": 159,
@@ -2860,9 +2860,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_159.webp"
+      "1912/Score/_159.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_159.mp3"
+    "audioFile": "1912\\Audio\\_159.mp3"
   },
   {
     "number": 160,
@@ -2876,9 +2876,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_160.webp"
+      "1912/Score/_160.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_160.mp3"
+    "audioFile": "1912\\Audio\\_160.mp3"
   },
   {
     "number": 161,
@@ -2897,9 +2897,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_161.webp"
+      "1912/Score/_161.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_161.mp3"
+    "audioFile": "1912\\Audio\\_161.mp3"
   },
   {
     "number": 162,
@@ -2911,9 +2911,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_162.webp"
+      "1912/Score/_162.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_162.mp3"
+    "audioFile": "1912\\Audio\\_162.mp3"
   },
   {
     "number": 163,
@@ -2926,9 +2926,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_163.webp"
+      "1912/Score/_163.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_163.mp3"
+    "audioFile": "1912\\Audio\\_163.mp3"
   },
   {
     "number": 164,
@@ -2942,9 +2942,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_164.webp"
+      "1912/Score/_164.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_164.mp3"
+    "audioFile": "1912\\Audio\\_164.mp3"
   },
   {
     "number": 165,
@@ -2957,9 +2957,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_165.webp"
+      "1912/Score/_165.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_165.mp3"
+    "audioFile": "1912\\Audio\\_165.mp3"
   },
   {
     "number": 166,
@@ -2975,9 +2975,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_166.webp"
+      "1912/Score/_166.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_166.mp3"
+    "audioFile": "1912\\Audio\\_166.mp3"
   },
   {
     "number": 167,
@@ -2991,9 +2991,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_167.webp"
+      "1912/Score/_167.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_167.mp3"
+    "audioFile": "1912\\Audio\\_167.mp3"
   },
   {
     "number": 168,
@@ -3008,9 +3008,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_168.webp"
+      "1912/Score/_168.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_168.mp3"
+    "audioFile": "1912\\Audio\\_168.mp3"
   },
   {
     "number": 169,
@@ -3023,9 +3023,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_169.webp"
+      "1912/Score/_169.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_169.mp3"
+    "audioFile": "1912\\Audio\\_169.mp3"
   },
   {
     "number": 170,
@@ -3038,9 +3038,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_170.webp"
+      "1912/Score/_170.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_170.mp3"
+    "audioFile": "1912\\Audio\\_170.mp3"
   },
   {
     "number": 171,
@@ -3053,9 +3053,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_171.webp"
+      "1912/Score/_171.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_171.mp3"
+    "audioFile": "1912\\Audio\\_171.mp3"
   },
   {
     "number": 172,
@@ -3069,9 +3069,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_172.webp"
+      "1912/Score/_172.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_172.mp3"
+    "audioFile": "1912\\Audio\\_172.mp3"
   },
   {
     "number": 173,
@@ -3087,9 +3087,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_173.webp"
+      "1912/Score/_173.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_173.mp3"
+    "audioFile": "1912\\Audio\\_173.mp3"
   },
   {
     "number": 174,
@@ -3103,9 +3103,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_174.webp"
+      "1912/Score/_174.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_174.mp3"
+    "audioFile": "1912\\Audio\\_174.mp3"
   },
   {
     "number": 175,
@@ -3119,9 +3119,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_175.webp"
+      "1912/Score/_175.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_175.mp3"
+    "audioFile": "1912\\Audio\\_175.mp3"
   },
   {
     "number": 176,
@@ -3134,9 +3134,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_176.webp"
+      "1912/Score/_176.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_176.mp3"
+    "audioFile": "1912\\Audio\\_176.mp3"
   },
   {
     "number": 177,
@@ -3149,9 +3149,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_177.webp"
+      "1912/Score/_177.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_177.mp3"
+    "audioFile": "1912\\Audio\\_177.mp3"
   },
   {
     "number": 178,
@@ -3165,9 +3165,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_178.webp"
+      "1912/Score/_178.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_178.mp3"
+    "audioFile": "1912\\Audio\\_178.mp3"
   },
   {
     "number": 179,
@@ -3181,9 +3181,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_179.webp"
+      "1912/Score/_179.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_179.mp3"
+    "audioFile": "1912\\Audio\\_179.mp3"
   },
   {
     "number": 180,
@@ -3201,9 +3201,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_180.webp"
+      "1912/Score/_180.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_180.mp3"
+    "audioFile": "1912\\Audio\\_180.mp3"
   },
   {
     "number": 181,
@@ -3217,9 +3217,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_181.webp"
+      "1912/Score/_181.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_181.mp3"
+    "audioFile": "1912\\Audio\\_181.mp3"
   },
   {
     "number": 182,
@@ -3236,9 +3236,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_182.webp"
+      "1912/Score/_182.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_182.mp3"
+    "audioFile": "1912\\Audio\\_182.mp3"
   },
   {
     "number": 183,
@@ -3252,9 +3252,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_183.webp"
+      "1912/Score/_183.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_183.mp3"
+    "audioFile": "1912\\Audio\\_183.mp3"
   },
   {
     "number": 184,
@@ -3273,9 +3273,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_184.webp"
+      "1912/Score/_184.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_184.mp3"
+    "audioFile": "1912\\Audio\\_184.mp3"
   },
   {
     "number": 185,
@@ -3294,9 +3294,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_185.webp"
+      "1912/Score/_185.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_185.mp3"
+    "audioFile": "1912\\Audio\\_185.mp3"
   },
   {
     "number": 186,
@@ -3311,9 +3311,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_186.webp"
+      "1912/Score/_186.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_186.mp3"
+    "audioFile": "1912\\Audio\\_186.mp3"
   },
   {
     "number": 187,
@@ -3327,9 +3327,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_187.webp"
+      "1912/Score/_187.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_187.mp3"
+    "audioFile": "1912\\Audio\\_187.mp3"
   },
   {
     "number": 188,
@@ -3343,9 +3343,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_188.webp"
+      "1912/Score/_188.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_188.mp3"
+    "audioFile": "1912\\Audio\\_188.mp3"
   },
   {
     "number": 189,
@@ -3359,9 +3359,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_189.webp"
+      "1912/Score/_189.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_189.mp3"
+    "audioFile": "1912\\Audio\\_189.mp3"
   },
   {
     "number": 190,
@@ -3375,9 +3375,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_190.webp"
+      "1912/Score/_190.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_190.mp3"
+    "audioFile": "1912\\Audio\\_190.mp3"
   },
   {
     "number": 191,
@@ -3394,9 +3394,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_191.webp"
+      "1912/Score/_191.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_191.mp3"
+    "audioFile": "1912\\Audio\\_191.mp3"
   },
   {
     "number": 192,
@@ -3412,9 +3412,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_192.webp"
+      "1912/Score/_192.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_192.mp3"
+    "audioFile": "1912\\Audio\\_192.mp3"
   },
   {
     "number": 193,
@@ -3430,9 +3430,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_193.webp"
+      "1912/Score/_193.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_193.mp3"
+    "audioFile": "1912\\Audio\\_193.mp3"
   },
   {
     "number": 194,
@@ -3448,9 +3448,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_194.webp"
+      "1912/Score/_194.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_194.mp3"
+    "audioFile": "1912\\Audio\\_194.mp3"
   },
   {
     "number": 195,
@@ -3464,9 +3464,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_195.webp"
+      "1912/Score/_195.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_195.mp3"
+    "audioFile": "1912\\Audio\\_195.mp3"
   },
   {
     "number": 196,
@@ -3478,9 +3478,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_196.webp"
+      "1912/Score/_196.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_196.mp3"
+    "audioFile": "1912\\Audio\\_196.mp3"
   },
   {
     "number": 197,
@@ -3492,9 +3492,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_197.webp"
+      "1912/Score/_197.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_197.mp3"
+    "audioFile": "1912\\Audio\\_197.mp3"
   },
   {
     "number": 198,
@@ -3511,9 +3511,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_198.webp"
+      "1912/Score/_198.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_198.mp3"
+    "audioFile": "1912\\Audio\\_198.mp3"
   },
   {
     "number": 199,
@@ -3528,7 +3528,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_199.webp"
+      "1912/Score/_199.webp"
     ]
   },
   {
@@ -3545,9 +3545,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_199_2.webp"
+      "1912/Score/_199_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_199_2.mp3"
+    "audioFile": "1912\\Audio\\_199_2.mp3"
   },
   {
     "number": 200,
@@ -3562,9 +3562,9 @@
     "chorus": "Christ shall have dominion\nOver land and sea,\nEarth's remotest regions\nShall His empire be.",
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_200.webp"
+      "1912/Score/_200.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_200.mp3"
+    "audioFile": "1912\\Audio\\_200.mp3"
   },
   {
     "number": 201,
@@ -3581,7 +3581,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_201.webp"
+      "1912/Score/_201.webp"
     ]
   },
   {
@@ -3600,9 +3600,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_201_2.webp"
+      "1912/Score/_201_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_201_2.mp3"
+    "audioFile": "1912\\Audio\\_201_2.mp3"
   },
   {
     "number": 202,
@@ -3616,9 +3616,9 @@
     "chorus": "My God, I will extol Thee and ever bless Thy Name;\nEach day will I give thanks to Thee \nAnd all Thy praise proclaim.",
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_202.webp"
+      "1912/Score/_202.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_202.mp3"
+    "audioFile": "1912\\Audio\\_202.mp3"
   },
   {
     "number": 203,
@@ -3633,9 +3633,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_203.webp"
+      "1912/Score/_203.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_203.mp3"
+    "audioFile": "1912\\Audio\\_203.mp3"
   },
   {
     "number": 204,
@@ -3649,9 +3649,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_204.webp"
+      "1912/Score/_204.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_204.mp3"
+    "audioFile": "1912\\Audio\\_204.mp3"
   },
   {
     "number": 204,
@@ -3666,7 +3666,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_204_2.webp"
+      "1912/Score/_204_2.webp"
     ]
   },
   {
@@ -3690,9 +3690,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_205.webp"
+      "1912/Score/_205.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_205.mp3"
+    "audioFile": "1912\\Audio\\_205.mp3"
   },
   {
     "number": 206,
@@ -3707,9 +3707,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_206.webp"
+      "1912/Score/_206.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_206.mp3"
+    "audioFile": "1912\\Audio\\_206.mp3"
   },
   {
     "number": 207,
@@ -3723,9 +3723,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_207.webp"
+      "1912/Score/_207.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_207.mp3"
+    "audioFile": "1912\\Audio\\_207.mp3"
   },
   {
     "number": 208,
@@ -3739,9 +3739,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_208.webp"
+      "1912/Score/_208.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_208.mp3"
+    "audioFile": "1912\\Audio\\_208.mp3"
   },
   {
     "number": 209,
@@ -3762,9 +3762,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_209.webp"
+      "1912/Score/_209.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_209.mp3"
+    "audioFile": "1912\\Audio\\_209.mp3"
   },
   {
     "number": 210,
@@ -3779,9 +3779,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_210.webp"
+      "1912/Score/_210.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_210.mp3"
+    "audioFile": "1912\\Audio\\_210.mp3"
   },
   {
     "number": 211,
@@ -3794,9 +3794,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_211.webp"
+      "1912/Score/_211.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_211.mp3"
+    "audioFile": "1912\\Audio\\_211.mp3"
   },
   {
     "number": 212,
@@ -3812,9 +3812,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_212.webp"
+      "1912/Score/_212.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_212.mp3"
+    "audioFile": "1912\\Audio\\_212.mp3"
   },
   {
     "number": 212,
@@ -3828,7 +3828,7 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_212_2.webp"
+      "1912/Score/_212_2.webp"
     ]
   },
   {
@@ -3854,9 +3854,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_213.webp"
+      "1912/Score/_213.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_213.mp3"
+    "audioFile": "1912\\Audio\\_213.mp3"
   },
   {
     "number": 214,
@@ -3873,9 +3873,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_214.webp"
+      "1912/Score/_214.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_214.mp3"
+    "audioFile": "1912\\Audio\\_214.mp3"
   },
   {
     "number": 215,
@@ -3891,9 +3891,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_215.webp"
+      "1912/Score/_215.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_215.mp3"
+    "audioFile": "1912\\Audio\\_215.mp3"
   },
   {
     "number": 216,
@@ -3907,9 +3907,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_216.webp"
+      "1912/Score/_216.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_216.mp3"
+    "audioFile": "1912\\Audio\\_216.mp3"
   },
   {
     "number": 217,
@@ -3923,9 +3923,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_217.webp"
+      "1912/Score/_217.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_217.mp3"
+    "audioFile": "1912\\Audio\\_217.mp3"
   },
   {
     "number": 218,
@@ -3941,9 +3941,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_218.webp"
+      "1912/Score/_218.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_218.mp3"
+    "audioFile": "1912\\Audio\\_218.mp3"
   },
   {
     "number": 219,
@@ -3955,9 +3955,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_219.webp"
+      "1912/Score/_219.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_219.mp3"
+    "audioFile": "1912\\Audio\\_219.mp3"
   },
   {
     "number": 220,
@@ -3973,9 +3973,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_220.webp"
+      "1912/Score/_220.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_220.mp3"
+    "audioFile": "1912\\Audio\\_220.mp3"
   },
   {
     "number": 221,
@@ -3988,9 +3988,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_221.webp"
+      "1912/Score/_221.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_221.mp3"
+    "audioFile": "1912\\Audio\\_221.mp3"
   },
   {
     "number": 222,
@@ -4009,9 +4009,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_222.webp"
+      "1912/Score/_222.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_222.mp3"
+    "audioFile": "1912\\Audio\\_222.mp3"
   },
   {
     "number": 223,
@@ -4024,9 +4024,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_223.webp"
+      "1912/Score/_223.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_223.mp3"
+    "audioFile": "1912\\Audio\\_223.mp3"
   },
   {
     "number": 224,
@@ -4042,9 +4042,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_224.webp"
+      "1912/Score/_224.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_224.mp3"
+    "audioFile": "1912\\Audio\\_224.mp3"
   },
   {
     "number": 225,
@@ -4057,9 +4057,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_225.webp"
+      "1912/Score/_225.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_225.mp3"
+    "audioFile": "1912\\Audio\\_225.mp3"
   },
   {
     "number": 226,
@@ -4072,9 +4072,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_226.webp"
+      "1912/Score/_226.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_226.mp3"
+    "audioFile": "1912\\Audio\\_226.mp3"
   },
   {
     "number": 227,
@@ -4087,9 +4087,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_227.webp"
+      "1912/Score/_227.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_227.mp3"
+    "audioFile": "1912\\Audio\\_227.mp3"
   },
   {
     "number": 228,
@@ -4102,9 +4102,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_228.webp"
+      "1912/Score/_228.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_228.mp3"
+    "audioFile": "1912\\Audio\\_228.mp3"
   },
   {
     "number": 229,
@@ -4120,9 +4120,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_229.webp"
+      "1912/Score/_229.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_229.mp3"
+    "audioFile": "1912\\Audio\\_229.mp3"
   },
   {
     "number": 230,
@@ -4139,9 +4139,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_230.webp"
+      "1912/Score/_230.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_230.mp3"
+    "audioFile": "1912\\Audio\\_230.mp3"
   },
   {
     "number": 231,
@@ -4154,9 +4154,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_231.webp"
+      "1912/Score/_231.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_231.mp3"
+    "audioFile": "1912\\Audio\\_231.mp3"
   },
   {
     "number": 232,
@@ -4169,9 +4169,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_232.webp"
+      "1912/Score/_232.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_232.mp3"
+    "audioFile": "1912\\Audio\\_232.mp3"
   },
   {
     "number": 233,
@@ -4187,9 +4187,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_233.webp"
+      "1912/Score/_233.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_233.mp3"
+    "audioFile": "1912\\Audio\\_233.mp3"
   },
   {
     "number": 234,
@@ -4204,7 +4204,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_234.webp"
+      "1912/Score/_234.webp"
     ]
   },
   {
@@ -4221,9 +4221,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_234_2.webp"
+      "1912/Score/_234_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_234_2.mp3"
+    "audioFile": "1912\\Audio\\_234_2.mp3"
   },
   {
     "number": 235,
@@ -4236,9 +4236,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_235.webp"
+      "1912/Score/_235.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_235.mp3"
+    "audioFile": "1912\\Audio\\_235.mp3"
   },
   {
     "number": 236,
@@ -4252,9 +4252,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_236.webp"
+      "1912/Score/_236.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_236.mp3"
+    "audioFile": "1912\\Audio\\_236.mp3"
   },
   {
     "number": 237,
@@ -4267,9 +4267,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_237.webp"
+      "1912/Score/_237.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_237.mp3"
+    "audioFile": "1912\\Audio\\_237.mp3"
   },
   {
     "number": 238,
@@ -4282,9 +4282,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_238.webp"
+      "1912/Score/_238.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_238.mp3"
+    "audioFile": "1912\\Audio\\_238.mp3"
   },
   {
     "number": 239,
@@ -4296,9 +4296,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_239.webp"
+      "1912/Score/_239.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_239.mp3"
+    "audioFile": "1912\\Audio\\_239.mp3"
   },
   {
     "number": 240,
@@ -4313,9 +4313,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_240.webp"
+      "1912/Score/_240.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_240.mp3"
+    "audioFile": "1912\\Audio\\_240.mp3"
   },
   {
     "number": 241,
@@ -4334,9 +4334,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_241.webp"
+      "1912/Score/_241.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_241.mp3"
+    "audioFile": "1912\\Audio\\_241.mp3"
   },
   {
     "number": 242,
@@ -4350,9 +4350,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_242.webp"
+      "1912/Score/_242.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_242.mp3"
+    "audioFile": "1912\\Audio\\_242.mp3"
   },
   {
     "number": 243,
@@ -4377,9 +4377,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_243.webp"
+      "1912/Score/_243.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_243.mp3"
+    "audioFile": "1912\\Audio\\_243.mp3"
   },
   {
     "number": 244,
@@ -4394,9 +4394,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_244.webp"
+      "1912/Score/_244.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_244.mp3"
+    "audioFile": "1912\\Audio\\_244.mp3"
   },
   {
     "number": 245,
@@ -4411,9 +4411,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_245.webp"
+      "1912/Score/_245.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_245.mp3"
+    "audioFile": "1912\\Audio\\_245.mp3"
   },
   {
     "number": 246,
@@ -4426,9 +4426,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_246.webp"
+      "1912/Score/_246.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_246.mp3"
+    "audioFile": "1912\\Audio\\_246.mp3"
   },
   {
     "number": 247,
@@ -4444,7 +4444,7 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_247.webp"
+      "1912/Score/_247.webp"
     ]
   },
   {
@@ -4462,9 +4462,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_247_2.webp"
+      "1912/Score/_247_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_247_2.mp3"
+    "audioFile": "1912\\Audio\\_247_2.mp3"
   },
   {
     "number": 248,
@@ -4480,9 +4480,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_248.webp"
+      "1912/Score/_248.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_248.mp3"
+    "audioFile": "1912\\Audio\\_248.mp3"
   },
   {
     "number": 249,
@@ -4498,9 +4498,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_249.webp"
+      "1912/Score/_249.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_249.mp3"
+    "audioFile": "1912\\Audio\\_249.mp3"
   },
   {
     "number": 250,
@@ -4515,9 +4515,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_250.webp"
+      "1912/Score/_250.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_250.mp3"
+    "audioFile": "1912\\Audio\\_250.mp3"
   },
   {
     "number": 251,
@@ -4530,9 +4530,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_251.webp"
+      "1912/Score/_251.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_251.mp3"
+    "audioFile": "1912\\Audio\\_251.mp3"
   },
   {
     "number": 252,
@@ -4546,9 +4546,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_252.webp"
+      "1912/Score/_252.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_252.mp3"
+    "audioFile": "1912\\Audio\\_252.mp3"
   },
   {
     "number": 253,
@@ -4570,9 +4570,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_253.webp"
+      "1912/Score/_253.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_253.mp3"
+    "audioFile": "1912\\Audio\\_253.mp3"
   },
   {
     "number": 254,
@@ -4587,9 +4587,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_254.webp"
+      "1912/Score/_254.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_254.mp3"
+    "audioFile": "1912\\Audio\\_254.mp3"
   },
   {
     "number": 255,
@@ -4603,9 +4603,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_255.webp"
+      "1912/Score/_255.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_255.mp3"
+    "audioFile": "1912\\Audio\\_255.mp3"
   },
   {
     "number": 256,
@@ -4620,9 +4620,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_256.webp"
+      "1912/Score/_256.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_256.mp3"
+    "audioFile": "1912\\Audio\\_256.mp3"
   },
   {
     "number": 257,
@@ -4637,9 +4637,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_257.webp"
+      "1912/Score/_257.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_257.mp3"
+    "audioFile": "1912\\Audio\\_257.mp3"
   },
   {
     "number": 258,
@@ -4656,9 +4656,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_258.webp"
+      "1912/Score/_258.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_258.mp3"
+    "audioFile": "1912\\Audio\\_258.mp3"
   },
   {
     "number": 259,
@@ -4674,9 +4674,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_259.webp"
+      "1912/Score/_259.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_259.mp3"
+    "audioFile": "1912\\Audio\\_259.mp3"
   },
   {
     "number": 260,
@@ -4692,9 +4692,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_260.webp"
+      "1912/Score/_260.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_260.mp3"
+    "audioFile": "1912\\Audio\\_260.mp3"
   },
   {
     "number": 260,
@@ -4711,7 +4711,7 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_260_2.webp"
+      "1912/Score/_260_2.webp"
     ]
   },
   {
@@ -4725,9 +4725,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_261.webp"
+      "1912/Score/_261.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_261.mp3"
+    "audioFile": "1912\\Audio\\_261.mp3"
   },
   {
     "number": 262,
@@ -4740,9 +4740,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_262.webp"
+      "1912/Score/_262.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_262.mp3"
+    "audioFile": "1912\\Audio\\_262.mp3"
   },
   {
     "number": 263,
@@ -4755,9 +4755,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_263.webp"
+      "1912/Score/_263.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_263.mp3"
+    "audioFile": "1912\\Audio\\_263.mp3"
   },
   {
     "number": 264,
@@ -4774,9 +4774,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_264.webp"
+      "1912/Score/_264.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_264.mp3"
+    "audioFile": "1912\\Audio\\_264.mp3"
   },
   {
     "number": 265,
@@ -4789,9 +4789,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_265.webp"
+      "1912/Score/_265.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_265.mp3"
+    "audioFile": "1912\\Audio\\_265.mp3"
   },
   {
     "number": 266,
@@ -4804,9 +4804,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_266.webp"
+      "1912/Score/_266.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_266.mp3"
+    "audioFile": "1912\\Audio\\_266.mp3"
   },
   {
     "number": 267,
@@ -4820,9 +4820,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_267.webp"
+      "1912/Score/_267.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_267.mp3"
+    "audioFile": "1912\\Audio\\_267.mp3"
   },
   {
     "number": 268,
@@ -4836,9 +4836,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_268.webp"
+      "1912/Score/_268.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_268.mp3"
+    "audioFile": "1912\\Audio\\_268.mp3"
   },
   {
     "number": 269,
@@ -4852,9 +4852,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_269.webp"
+      "1912/Score/_269.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_269.mp3"
+    "audioFile": "1912\\Audio\\_269.mp3"
   },
   {
     "number": 270,
@@ -4868,9 +4868,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_270.webp"
+      "1912/Score/_270.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_270.mp3"
+    "audioFile": "1912\\Audio\\_270.mp3"
   },
   {
     "number": 271,
@@ -4883,9 +4883,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_271.webp"
+      "1912/Score/_271.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_271.mp3"
+    "audioFile": "1912\\Audio\\_271.mp3"
   },
   {
     "number": 272,
@@ -4899,9 +4899,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_272.webp"
+      "1912/Score/_272.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_272.mp3"
+    "audioFile": "1912\\Audio\\_272.mp3"
   },
   {
     "number": 273,
@@ -4918,9 +4918,9 @@
     ],
     "numVersesInsideStaff": 7,
     "scoreFiles": [
-      "assets\\1912/Score/_273.webp"
+      "1912/Score/_273.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_273.mp3"
+    "audioFile": "1912\\Audio\\_273.mp3"
   },
   {
     "number": 274,
@@ -4934,9 +4934,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_274.webp"
+      "1912/Score/_274.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_274.mp3"
+    "audioFile": "1912\\Audio\\_274.mp3"
   },
   {
     "number": 275,
@@ -4950,9 +4950,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_275.webp"
+      "1912/Score/_275.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_275.mp3"
+    "audioFile": "1912\\Audio\\_275.mp3"
   },
   {
     "number": 276,
@@ -4966,9 +4966,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_276.webp"
+      "1912/Score/_276.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_276.mp3"
+    "audioFile": "1912\\Audio\\_276.mp3"
   },
   {
     "number": 277,
@@ -4986,9 +4986,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_277.webp"
+      "1912/Score/_277.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_277.mp3"
+    "audioFile": "1912\\Audio\\_277.mp3"
   },
   {
     "number": 278,
@@ -5003,9 +5003,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_278.webp"
+      "1912/Score/_278.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_278.mp3"
+    "audioFile": "1912\\Audio\\_278.mp3"
   },
   {
     "number": 279,
@@ -5019,9 +5019,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_279.webp"
+      "1912/Score/_279.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_279.mp3"
+    "audioFile": "1912\\Audio\\_279.mp3"
   },
   {
     "number": 280,
@@ -5035,9 +5035,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_280.webp"
+      "1912/Score/_280.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_280.mp3"
+    "audioFile": "1912\\Audio\\_280.mp3"
   },
   {
     "number": 281,
@@ -5051,9 +5051,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_281.webp"
+      "1912/Score/_281.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_281.mp3"
+    "audioFile": "1912\\Audio\\_281.mp3"
   },
   {
     "number": 282,
@@ -5067,9 +5067,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_282.webp"
+      "1912/Score/_282.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_282.mp3"
+    "audioFile": "1912\\Audio\\_282.mp3"
   },
   {
     "number": 283,
@@ -5085,9 +5085,9 @@
     "chorus": "Bless Him, ye angels, wondrous in might,\nBless Him, His servants that in His will delight.",
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_283.webp"
+      "1912/Score/_283.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_283.mp3"
+    "audioFile": "1912\\Audio\\_283.mp3"
   },
   {
     "number": 284,
@@ -5103,9 +5103,9 @@
     "chorus": "Bless Him, ye angels, wondrous in might,\nBless Him, His servants that in His will delight.",
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_284.webp"
+      "1912/Score/_284.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_284.mp3"
+    "audioFile": "1912\\Audio\\_284.mp3"
   },
   {
     "number": 285,
@@ -5119,9 +5119,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_285.webp"
+      "1912/Score/_285.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_285.mp3"
+    "audioFile": "1912\\Audio\\_285.mp3"
   },
   {
     "number": 286,
@@ -5137,9 +5137,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_286.webp"
+      "1912/Score/_286.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_286.mp3"
+    "audioFile": "1912\\Audio\\_286.mp3"
   },
   {
     "number": 287,
@@ -5152,9 +5152,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_287.webp"
+      "1912/Score/_287.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_287.mp3"
+    "audioFile": "1912\\Audio\\_287.mp3"
   },
   {
     "number": 288,
@@ -5168,9 +5168,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_288.webp"
+      "1912/Score/_288.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_288.mp3"
+    "audioFile": "1912\\Audio\\_288.mp3"
   },
   {
     "number": 289,
@@ -5199,9 +5199,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_289.webp"
+      "1912/Score/_289.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_289.mp3"
+    "audioFile": "1912\\Audio\\_289.mp3"
   },
   {
     "number": 289,
@@ -5231,7 +5231,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_289_2.webp"
+      "1912/Score/_289_2.webp"
     ]
   },
   {
@@ -5253,9 +5253,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_290.webp"
+      "1912/Score/_290.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_290.mp3"
+    "audioFile": "1912\\Audio\\_290.mp3"
   },
   {
     "number": 291,
@@ -5277,9 +5277,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_291.webp"
+      "1912/Score/_291.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_291.mp3"
+    "audioFile": "1912\\Audio\\_291.mp3"
   },
   {
     "number": 292,
@@ -5294,9 +5294,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_292.webp"
+      "1912/Score/_292.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_292.mp3"
+    "audioFile": "1912\\Audio\\_292.mp3"
   },
   {
     "number": 293,
@@ -5309,9 +5309,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_293.webp"
+      "1912/Score/_293.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_293.mp3"
+    "audioFile": "1912\\Audio\\_293.mp3"
   },
   {
     "number": 294,
@@ -5324,9 +5324,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_294.webp"
+      "1912/Score/_294.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_294.mp3"
+    "audioFile": "1912\\Audio\\_294.mp3"
   },
   {
     "number": 295,
@@ -5340,9 +5340,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_295.webp"
+      "1912/Score/_295.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_295.mp3"
+    "audioFile": "1912\\Audio\\_295.mp3"
   },
   {
     "number": 296,
@@ -5357,9 +5357,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_296.webp"
+      "1912/Score/_296.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_296.mp3"
+    "audioFile": "1912\\Audio\\_296.mp3"
   },
   {
     "number": 297,
@@ -5372,9 +5372,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_297.webp"
+      "1912/Score/_297.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_297.mp3"
+    "audioFile": "1912\\Audio\\_297.mp3"
   },
   {
     "number": 298,
@@ -5387,9 +5387,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_298.webp"
+      "1912/Score/_298.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_298.mp3"
+    "audioFile": "1912\\Audio\\_298.mp3"
   },
   {
     "number": 299,
@@ -5406,9 +5406,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_299.webp"
+      "1912/Score/_299.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_299.mp3"
+    "audioFile": "1912\\Audio\\_299.mp3"
   },
   {
     "number": 300,
@@ -5431,9 +5431,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_300.webp"
+      "1912/Score/_300.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_300.mp3"
+    "audioFile": "1912\\Audio\\_300.mp3"
   },
   {
     "number": 301,
@@ -5447,9 +5447,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_301.webp"
+      "1912/Score/_301.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_301.mp3"
+    "audioFile": "1912\\Audio\\_301.mp3"
   },
   {
     "number": 302,
@@ -5462,9 +5462,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_302.webp"
+      "1912/Score/_302.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_302.mp3"
+    "audioFile": "1912\\Audio\\_302.mp3"
   },
   {
     "number": 303,
@@ -5477,9 +5477,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_303.webp"
+      "1912/Score/_303.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_303.mp3"
+    "audioFile": "1912\\Audio\\_303.mp3"
   },
   {
     "number": 304,
@@ -5496,9 +5496,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_304.webp"
+      "1912/Score/_304.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_304.mp3"
+    "audioFile": "1912\\Audio\\_304.mp3"
   },
   {
     "number": 305,
@@ -5514,9 +5514,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_305.webp"
+      "1912/Score/_305.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_305.mp3"
+    "audioFile": "1912\\Audio\\_305.mp3"
   },
   {
     "number": 306,
@@ -5530,9 +5530,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_306.webp"
+      "1912/Score/_306.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_306.mp3"
+    "audioFile": "1912\\Audio\\_306.mp3"
   },
   {
     "number": 307,
@@ -5546,9 +5546,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_307.webp"
+      "1912/Score/_307.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_307.mp3"
+    "audioFile": "1912\\Audio\\_307.mp3"
   },
   {
     "number": 308,
@@ -5563,9 +5563,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_308.webp"
+      "1912/Score/_308.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_308.mp3"
+    "audioFile": "1912\\Audio\\_308.mp3"
   },
   {
     "number": 309,
@@ -5579,9 +5579,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_309.webp"
+      "1912/Score/_309.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_309.mp3"
+    "audioFile": "1912\\Audio\\_309.mp3"
   },
   {
     "number": 310,
@@ -5597,9 +5597,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_310.webp"
+      "1912/Score/_310.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_310.mp3"
+    "audioFile": "1912\\Audio\\_310.mp3"
   },
   {
     "number": 311,
@@ -5614,9 +5614,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_311.webp"
+      "1912/Score/_311.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_311.mp3"
+    "audioFile": "1912\\Audio\\_311.mp3"
   },
   {
     "number": 312,
@@ -5632,9 +5632,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_312.webp"
+      "1912/Score/_312.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_312.mp3"
+    "audioFile": "1912\\Audio\\_312.mp3"
   },
   {
     "number": 313,
@@ -5649,9 +5649,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_313.webp"
+      "1912/Score/_313.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_313.mp3"
+    "audioFile": "1912\\Audio\\_313.mp3"
   },
   {
     "number": 314,
@@ -5663,9 +5663,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_314.webp"
+      "1912/Score/_314.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_314.mp3"
+    "audioFile": "1912\\Audio\\_314.mp3"
   },
   {
     "number": 315,
@@ -5676,9 +5676,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_315.webp"
+      "1912/Score/_315.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_315.mp3"
+    "audioFile": "1912\\Audio\\_315.mp3"
   },
   {
     "number": 316,
@@ -5689,9 +5689,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_316.webp"
+      "1912/Score/_316.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_316.mp3"
+    "audioFile": "1912\\Audio\\_316.mp3"
   },
   {
     "number": 317,
@@ -5705,9 +5705,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_317.webp"
+      "1912/Score/_317.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_317.mp3"
+    "audioFile": "1912\\Audio\\_317.mp3"
   },
   {
     "number": 318,
@@ -5724,9 +5724,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_318.webp"
+      "1912/Score/_318.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_318.mp3"
+    "audioFile": "1912\\Audio\\_318.mp3"
   },
   {
     "number": 319,
@@ -5741,9 +5741,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_319.webp"
+      "1912/Score/_319.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_319.mp3"
+    "audioFile": "1912\\Audio\\_319.mp3"
   },
   {
     "number": 320,
@@ -5758,9 +5758,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_320.webp"
+      "1912/Score/_320.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_320.mp3"
+    "audioFile": "1912\\Audio\\_320.mp3"
   },
   {
     "number": 321,
@@ -5774,9 +5774,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_321.webp"
+      "1912/Score/_321.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_321.mp3"
+    "audioFile": "1912\\Audio\\_321.mp3"
   },
   {
     "number": 322,
@@ -5790,9 +5790,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_322.webp"
+      "1912/Score/_322.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_322.mp3"
+    "audioFile": "1912\\Audio\\_322.mp3"
   },
   {
     "number": 323,
@@ -5806,9 +5806,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_323.webp"
+      "1912/Score/_323.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_323.mp3"
+    "audioFile": "1912\\Audio\\_323.mp3"
   },
   {
     "number": 324,
@@ -5822,9 +5822,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_324.webp"
+      "1912/Score/_324.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_324.mp3"
+    "audioFile": "1912\\Audio\\_324.mp3"
   },
   {
     "number": 325,
@@ -5838,9 +5838,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_325.webp"
+      "1912/Score/_325.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_325.mp3"
+    "audioFile": "1912\\Audio\\_325.mp3"
   },
   {
     "number": 326,
@@ -5854,9 +5854,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_326.webp"
+      "1912/Score/_326.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_326.mp3"
+    "audioFile": "1912\\Audio\\_326.mp3"
   },
   {
     "number": 327,
@@ -5870,9 +5870,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_327.webp"
+      "1912/Score/_327.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_327.mp3"
+    "audioFile": "1912\\Audio\\_327.mp3"
   },
   {
     "number": 328,
@@ -5886,9 +5886,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_328.webp"
+      "1912/Score/_328.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_328.mp3"
+    "audioFile": "1912\\Audio\\_328.mp3"
   },
   {
     "number": 329,
@@ -5902,9 +5902,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_329.webp"
+      "1912/Score/_329.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_329.mp3"
+    "audioFile": "1912\\Audio\\_329.mp3"
   },
   {
     "number": 330,
@@ -5918,9 +5918,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_330.webp"
+      "1912/Score/_330.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_330.mp3"
+    "audioFile": "1912\\Audio\\_330.mp3"
   },
   {
     "number": 331,
@@ -5934,9 +5934,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_331.webp"
+      "1912/Score/_331.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_331.mp3"
+    "audioFile": "1912\\Audio\\_331.mp3"
   },
   {
     "number": 332,
@@ -5950,9 +5950,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_332.webp"
+      "1912/Score/_332.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_332.mp3"
+    "audioFile": "1912\\Audio\\_332.mp3"
   },
   {
     "number": 333,
@@ -5966,9 +5966,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_333.webp"
+      "1912/Score/_333.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_333.mp3"
+    "audioFile": "1912\\Audio\\_333.mp3"
   },
   {
     "number": 334,
@@ -5982,9 +5982,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_334.webp"
+      "1912/Score/_334.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_334.mp3"
+    "audioFile": "1912\\Audio\\_334.mp3"
   },
   {
     "number": 335,
@@ -5997,9 +5997,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_335.webp"
+      "1912/Score/_335.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_335.mp3"
+    "audioFile": "1912\\Audio\\_335.mp3"
   },
   {
     "number": 336,
@@ -6011,9 +6011,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_336.webp"
+      "1912/Score/_336.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_336.mp3"
+    "audioFile": "1912\\Audio\\_336.mp3"
   },
   {
     "number": 337,
@@ -6027,9 +6027,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_337.webp"
+      "1912/Score/_337.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_337.mp3"
+    "audioFile": "1912\\Audio\\_337.mp3"
   },
   {
     "number": 338,
@@ -6043,9 +6043,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_338.webp"
+      "1912/Score/_338.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_338.mp3"
+    "audioFile": "1912\\Audio\\_338.mp3"
   },
   {
     "number": 339,
@@ -6059,9 +6059,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_339.webp"
+      "1912/Score/_339.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_339.mp3"
+    "audioFile": "1912\\Audio\\_339.mp3"
   },
   {
     "number": 340,
@@ -6075,9 +6075,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_340.webp"
+      "1912/Score/_340.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_340.mp3"
+    "audioFile": "1912\\Audio\\_340.mp3"
   },
   {
     "number": 341,
@@ -6091,9 +6091,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_341.webp"
+      "1912/Score/_341.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_341.mp3"
+    "audioFile": "1912\\Audio\\_341.mp3"
   },
   {
     "number": 342,
@@ -6107,9 +6107,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_342.webp"
+      "1912/Score/_342.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_342.mp3"
+    "audioFile": "1912\\Audio\\_342.mp3"
   },
   {
     "number": 343,
@@ -6123,9 +6123,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_343.webp"
+      "1912/Score/_343.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_343.mp3"
+    "audioFile": "1912\\Audio\\_343.mp3"
   },
   {
     "number": 344,
@@ -6139,9 +6139,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_344.webp"
+      "1912/Score/_344.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_344.mp3"
+    "audioFile": "1912\\Audio\\_344.mp3"
   },
   {
     "number": 345,
@@ -6153,9 +6153,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_345.webp"
+      "1912/Score/_345.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_345.mp3"
+    "audioFile": "1912\\Audio\\_345.mp3"
   },
   {
     "number": 346,
@@ -6167,9 +6167,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_346.webp"
+      "1912/Score/_346.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_346.mp3"
+    "audioFile": "1912\\Audio\\_346.mp3"
   },
   {
     "number": 347,
@@ -6183,9 +6183,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_347.webp"
+      "1912/Score/_347.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_347.mp3"
+    "audioFile": "1912\\Audio\\_347.mp3"
   },
   {
     "number": 348,
@@ -6201,9 +6201,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_348.webp"
+      "1912/Score/_348.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_348.mp3"
+    "audioFile": "1912\\Audio\\_348.mp3"
   },
   {
     "number": 349,
@@ -6217,9 +6217,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_349.webp"
+      "1912/Score/_349.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_349.mp3"
+    "audioFile": "1912\\Audio\\_349.mp3"
   },
   {
     "number": 350,
@@ -6234,9 +6234,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_350.webp"
+      "1912/Score/_350.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_350.mp3"
+    "audioFile": "1912\\Audio\\_350.mp3"
   },
   {
     "number": 351,
@@ -6248,9 +6248,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_351.webp"
+      "1912/Score/_351.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_351.mp3"
+    "audioFile": "1912\\Audio\\_351.mp3"
   },
   {
     "number": 352,
@@ -6264,9 +6264,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_352.webp"
+      "1912/Score/_352.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_352.mp3"
+    "audioFile": "1912\\Audio\\_352.mp3"
   },
   {
     "number": 353,
@@ -6279,9 +6279,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_353.webp"
+      "1912/Score/_353.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_353.mp3"
+    "audioFile": "1912\\Audio\\_353.mp3"
   },
   {
     "number": 354,
@@ -6297,9 +6297,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_354.webp"
+      "1912/Score/_354.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_354.mp3"
+    "audioFile": "1912\\Audio\\_354.mp3"
   },
   {
     "number": 354,
@@ -6316,7 +6316,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_354_2.webp"
+      "1912/Score/_354_2.webp"
     ]
   },
   {
@@ -6330,9 +6330,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_355.webp"
+      "1912/Score/_355.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_355.mp3"
+    "audioFile": "1912\\Audio\\_355.mp3"
   },
   {
     "number": 356,
@@ -6345,9 +6345,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_356.webp"
+      "1912/Score/_356.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_356.mp3"
+    "audioFile": "1912\\Audio\\_356.mp3"
   },
   {
     "number": 357,
@@ -6361,9 +6361,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_357.webp"
+      "1912/Score/_357.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_357.mp3"
+    "audioFile": "1912\\Audio\\_357.mp3"
   },
   {
     "number": 358,
@@ -6377,9 +6377,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_358.webp"
+      "1912/Score/_358.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_358.mp3"
+    "audioFile": "1912\\Audio\\_358.mp3"
   },
   {
     "number": 359,
@@ -6393,9 +6393,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_359.webp"
+      "1912/Score/_359.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_359.mp3"
+    "audioFile": "1912\\Audio\\_359.mp3"
   },
   {
     "number": 360,
@@ -6410,9 +6410,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_360.webp"
+      "1912/Score/_360.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_360.mp3"
+    "audioFile": "1912\\Audio\\_360.mp3"
   },
   {
     "number": 361,
@@ -6426,9 +6426,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_361.webp"
+      "1912/Score/_361.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_361.mp3"
+    "audioFile": "1912\\Audio\\_361.mp3"
   },
   {
     "number": 362,
@@ -6441,9 +6441,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_362.webp"
+      "1912/Score/_362.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_362.mp3"
+    "audioFile": "1912\\Audio\\_362.mp3"
   },
   {
     "number": 363,
@@ -6458,9 +6458,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_363.webp"
+      "1912/Score/_363.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_363.mp3"
+    "audioFile": "1912\\Audio\\_363.mp3"
   },
   {
     "number": 364,
@@ -6474,9 +6474,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_364.webp"
+      "1912/Score/_364.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_364.mp3"
+    "audioFile": "1912\\Audio\\_364.mp3"
   },
   {
     "number": 365,
@@ -6490,9 +6490,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_365.webp"
+      "1912/Score/_365.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_365.mp3"
+    "audioFile": "1912\\Audio\\_365.mp3"
   },
   {
     "number": 365,
@@ -6507,7 +6507,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_365_2.webp"
+      "1912/Score/_365_2.webp"
     ]
   },
   {
@@ -6521,9 +6521,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_366.webp"
+      "1912/Score/_366.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_366.mp3"
+    "audioFile": "1912\\Audio\\_366.mp3"
   },
   {
     "number": 367,
@@ -6538,9 +6538,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_367.webp"
+      "1912/Score/_367.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_367.mp3"
+    "audioFile": "1912\\Audio\\_367.mp3"
   },
   {
     "number": 368,
@@ -6555,9 +6555,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_368.webp"
+      "1912/Score/_368.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_368.mp3"
+    "audioFile": "1912\\Audio\\_368.mp3"
   },
   {
     "number": 369,
@@ -6570,9 +6570,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_369.webp"
+      "1912/Score/_369.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_369.mp3"
+    "audioFile": "1912\\Audio\\_369.mp3"
   },
   {
     "number": 370,
@@ -6584,9 +6584,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_370.webp"
+      "1912/Score/_370.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_370.mp3"
+    "audioFile": "1912\\Audio\\_370.mp3"
   },
   {
     "number": 371,
@@ -6598,9 +6598,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_371.webp"
+      "1912/Score/_371.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_371.mp3"
+    "audioFile": "1912\\Audio\\_371.mp3"
   },
   {
     "number": 372,
@@ -6612,9 +6612,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_372.webp"
+      "1912/Score/_372.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_372.mp3"
+    "audioFile": "1912\\Audio\\_372.mp3"
   },
   {
     "number": 373,
@@ -6634,9 +6634,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_373.webp"
+      "1912/Score/_373.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_373.mp3"
+    "audioFile": "1912\\Audio\\_373.mp3"
   },
   {
     "number": 374,
@@ -6651,9 +6651,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_374.webp"
+      "1912/Score/_374.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_374.mp3"
+    "audioFile": "1912\\Audio\\_374.mp3"
   },
   {
     "number": 375,
@@ -6668,9 +6668,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_375.webp"
+      "1912/Score/_375.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_375.mp3"
+    "audioFile": "1912\\Audio\\_375.mp3"
   },
   {
     "number": 376,
@@ -6686,9 +6686,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_376.webp"
+      "1912/Score/_376.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_376.mp3"
+    "audioFile": "1912\\Audio\\_376.mp3"
   },
   {
     "number": 377,
@@ -6705,9 +6705,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_377.webp"
+      "1912/Score/_377.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_377.mp3"
+    "audioFile": "1912\\Audio\\_377.mp3"
   },
   {
     "number": 378,
@@ -6720,9 +6720,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_378.webp"
+      "1912/Score/_378.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_378.mp3"
+    "audioFile": "1912\\Audio\\_378.mp3"
   },
   {
     "number": 379,
@@ -6738,9 +6738,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_379.webp"
+      "1912/Score/_379.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_379.mp3"
+    "audioFile": "1912\\Audio\\_379.mp3"
   },
   {
     "number": 380,
@@ -6754,9 +6754,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_380.webp"
+      "1912/Score/_380.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_380.mp3"
+    "audioFile": "1912\\Audio\\_380.mp3"
   },
   {
     "number": 381,
@@ -6770,9 +6770,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_381.webp"
+      "1912/Score/_381.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_381.mp3"
+    "audioFile": "1912\\Audio\\_381.mp3"
   },
   {
     "number": 382,
@@ -6787,9 +6787,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_382.webp"
+      "1912/Score/_382.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_382.mp3"
+    "audioFile": "1912\\Audio\\_382.mp3"
   },
   {
     "number": 383,
@@ -6804,9 +6804,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_383.webp"
+      "1912/Score/_383.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_383.mp3"
+    "audioFile": "1912\\Audio\\_383.mp3"
   },
   {
     "number": 384,
@@ -6821,7 +6821,7 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_384.webp"
+      "1912/Score/_384.webp"
     ]
   },
   {
@@ -6838,9 +6838,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_384_2.webp"
+      "1912/Score/_384_2.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_384_2.mp3"
+    "audioFile": "1912\\Audio\\_384_2.mp3"
   },
   {
     "number": 385,
@@ -6853,9 +6853,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_385.webp"
+      "1912/Score/_385.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_385.mp3"
+    "audioFile": "1912\\Audio\\_385.mp3"
   },
   {
     "number": 386,
@@ -6873,9 +6873,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_386.webp"
+      "1912/Score/_386.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_386.mp3"
+    "audioFile": "1912\\Audio\\_386.mp3"
   },
   {
     "number": 387,
@@ -6891,9 +6891,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_387.webp"
+      "1912/Score/_387.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_387.mp3"
+    "audioFile": "1912\\Audio\\_387.mp3"
   },
   {
     "number": 388,
@@ -6908,9 +6908,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_388.webp"
+      "1912/Score/_388.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_388.mp3"
+    "audioFile": "1912\\Audio\\_388.mp3"
   },
   {
     "number": 389,
@@ -6926,9 +6926,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_389.webp"
+      "1912/Score/_389.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_389.mp3"
+    "audioFile": "1912\\Audio\\_389.mp3"
   },
   {
     "number": 389,
@@ -6945,7 +6945,7 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_389_2.webp"
+      "1912/Score/_389_2.webp"
     ]
   },
   {
@@ -6959,9 +6959,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_390.webp"
+      "1912/Score/_390.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_390.mp3"
+    "audioFile": "1912\\Audio\\_390.mp3"
   },
   {
     "number": 391,
@@ -6975,9 +6975,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_391.webp"
+      "1912/Score/_391.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_391.mp3"
+    "audioFile": "1912\\Audio\\_391.mp3"
   },
   {
     "number": 391,
@@ -6992,7 +6992,7 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_391_2.webp"
+      "1912/Score/_391_2.webp"
     ]
   },
   {
@@ -7009,9 +7009,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_392.webp"
+      "1912/Score/_392.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_392.mp3"
+    "audioFile": "1912\\Audio\\_392.mp3"
   },
   {
     "number": 393,
@@ -7024,9 +7024,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_393.webp"
+      "1912/Score/_393.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_393.mp3"
+    "audioFile": "1912\\Audio\\_393.mp3"
   },
   {
     "number": 394,
@@ -7039,9 +7039,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_394.webp"
+      "1912/Score/_394.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_394.mp3"
+    "audioFile": "1912\\Audio\\_394.mp3"
   },
   {
     "number": 395,
@@ -7055,9 +7055,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_395.webp"
+      "1912/Score/_395.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_395.mp3"
+    "audioFile": "1912\\Audio\\_395.mp3"
   },
   {
     "number": 396,
@@ -7073,9 +7073,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_396.webp"
+      "1912/Score/_396.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_396.mp3"
+    "audioFile": "1912\\Audio\\_396.mp3"
   },
   {
     "number": 397,
@@ -7093,9 +7093,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_397.webp"
+      "1912/Score/_397.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_397.mp3"
+    "audioFile": "1912\\Audio\\_397.mp3"
   },
   {
     "number": 398,
@@ -7108,9 +7108,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_398.webp"
+      "1912/Score/_398.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_398.mp3"
+    "audioFile": "1912\\Audio\\_398.mp3"
   },
   {
     "number": 399,
@@ -7124,9 +7124,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_399.webp"
+      "1912/Score/_399.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_399.mp3"
+    "audioFile": "1912\\Audio\\_399.mp3"
   },
   {
     "number": 400,
@@ -7143,9 +7143,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_400.webp"
+      "1912/Score/_400.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_400.mp3"
+    "audioFile": "1912\\Audio\\_400.mp3"
   },
   {
     "number": 401,
@@ -7159,9 +7159,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_401.webp"
+      "1912/Score/_401.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_401.mp3"
+    "audioFile": "1912\\Audio\\_401.mp3"
   },
   {
     "number": 402,
@@ -7177,9 +7177,9 @@
     ],
     "numVersesInsideStaff": 6,
     "scoreFiles": [
-      "assets\\1912/Score/_402.webp"
+      "1912/Score/_402.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_402.mp3"
+    "audioFile": "1912\\Audio\\_402.mp3"
   },
   {
     "number": 403,
@@ -7192,9 +7192,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_403.webp"
+      "1912/Score/_403.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_403.mp3"
+    "audioFile": "1912\\Audio\\_403.mp3"
   },
   {
     "number": 404,
@@ -7209,9 +7209,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_404.webp"
+      "1912/Score/_404.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_404.mp3"
+    "audioFile": "1912\\Audio\\_404.mp3"
   },
   {
     "number": 405,
@@ -7228,9 +7228,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_405.webp"
+      "1912/Score/_405.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_405.mp3"
+    "audioFile": "1912\\Audio\\_405.mp3"
   },
   {
     "number": 406,
@@ -7245,9 +7245,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_406.webp"
+      "1912/Score/_406.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_406.mp3"
+    "audioFile": "1912\\Audio\\_406.mp3"
   },
   {
     "number": 407,
@@ -7261,9 +7261,9 @@
     ],
     "numVersesInsideStaff": 4,
     "scoreFiles": [
-      "assets\\1912/Score/_407.webp"
+      "1912/Score/_407.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_407.mp3"
+    "audioFile": "1912\\Audio\\_407.mp3"
   },
   {
     "number": 408,
@@ -7276,9 +7276,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_408.webp"
+      "1912/Score/_408.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_408.mp3"
+    "audioFile": "1912\\Audio\\_408.mp3"
   },
   {
     "number": 409,
@@ -7293,9 +7293,9 @@
     ],
     "numVersesInsideStaff": 5,
     "scoreFiles": [
-      "assets\\1912/Score/_409.webp"
+      "1912/Score/_409.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_409.mp3"
+    "audioFile": "1912\\Audio\\_409.mp3"
   },
   {
     "number": 410,
@@ -7307,9 +7307,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_410.webp"
+      "1912/Score/_410.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_410.mp3"
+    "audioFile": "1912\\Audio\\_410.mp3"
   },
   {
     "number": 411,
@@ -7321,9 +7321,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_411.webp"
+      "1912/Score/_411.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_411.mp3"
+    "audioFile": "1912\\Audio\\_411.mp3"
   },
   {
     "number": 412,
@@ -7335,9 +7335,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_412.webp"
+      "1912/Score/_412.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_412.mp3"
+    "audioFile": "1912\\Audio\\_412.mp3"
   },
   {
     "number": 413,
@@ -7349,9 +7349,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_413.webp"
+      "1912/Score/_413.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_413.mp3"
+    "audioFile": "1912\\Audio\\_413.mp3"
   },
   {
     "number": 414,
@@ -7365,9 +7365,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_414.webp"
+      "1912/Score/_414.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_414.mp3"
+    "audioFile": "1912\\Audio\\_414.mp3"
   },
   {
     "number": 415,
@@ -7387,9 +7387,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_415.webp"
+      "1912/Score/_415.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_415.mp3"
+    "audioFile": "1912\\Audio\\_415.mp3"
   },
   {
     "number": 416,
@@ -7406,9 +7406,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_416.webp"
+      "1912/Score/_416.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_416.mp3"
+    "audioFile": "1912\\Audio\\_416.mp3"
   },
   {
     "number": 417,
@@ -7421,9 +7421,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_417.webp"
+      "1912/Score/_417.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_417.mp3"
+    "audioFile": "1912\\Audio\\_417.mp3"
   },
   {
     "number": 418,
@@ -7436,9 +7436,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_418.webp"
+      "1912/Score/_418.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_418.mp3"
+    "audioFile": "1912\\Audio\\_418.mp3"
   },
   {
     "number": 419,
@@ -7453,9 +7453,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_419.webp"
+      "1912/Score/_419.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_419.mp3"
+    "audioFile": "1912\\Audio\\_419.mp3"
   },
   {
     "number": 420,
@@ -7471,9 +7471,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_420.webp"
+      "1912/Score/_420.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_420.mp3"
+    "audioFile": "1912\\Audio\\_420.mp3"
   },
   {
     "number": 421,
@@ -7489,9 +7489,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_421.webp"
+      "1912/Score/_421.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_421.mp3"
+    "audioFile": "1912\\Audio\\_421.mp3"
   },
   {
     "number": 422,
@@ -7509,9 +7509,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_422.webp"
+      "1912/Score/_422.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_422.mp3"
+    "audioFile": "1912\\Audio\\_422.mp3"
   },
   {
     "number": 423,
@@ -7528,9 +7528,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_423.webp"
+      "1912/Score/_423.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_423.mp3"
+    "audioFile": "1912\\Audio\\_423.mp3"
   },
   {
     "number": 424,
@@ -7544,9 +7544,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_424.webp"
+      "1912/Score/_424.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_424.mp3"
+    "audioFile": "1912\\Audio\\_424.mp3"
   },
   {
     "number": 425,
@@ -7562,9 +7562,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_425.webp"
+      "1912/Score/_425.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_425.mp3"
+    "audioFile": "1912\\Audio\\_425.mp3"
   },
   {
     "number": 426,
@@ -7584,9 +7584,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_426.webp"
+      "1912/Score/_426.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_426.mp3"
+    "audioFile": "1912\\Audio\\_426.mp3"
   },
   {
     "number": 427,
@@ -7604,9 +7604,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_427.webp"
+      "1912/Score/_427.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_427.mp3"
+    "audioFile": "1912\\Audio\\_427.mp3"
   },
   {
     "number": 428,
@@ -7626,9 +7626,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_428.webp"
+      "1912/Score/_428.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_428.mp3"
+    "audioFile": "1912\\Audio\\_428.mp3"
   },
   {
     "number": 429,
@@ -7642,9 +7642,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_429.webp"
+      "1912/Score/_429.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_429.mp3"
+    "audioFile": "1912\\Audio\\_429.mp3"
   },
   {
     "number": 430,
@@ -7657,9 +7657,9 @@
     ],
     "numVersesInsideStaff": 3,
     "scoreFiles": [
-      "assets\\1912/Score/_430.webp"
+      "1912/Score/_430.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_430.mp3"
+    "audioFile": "1912\\Audio\\_430.mp3"
   },
   {
     "number": 431,
@@ -7675,9 +7675,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_431.webp"
+      "1912/Score/_431.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_431.mp3"
+    "audioFile": "1912\\Audio\\_431.mp3"
   },
   {
     "number": 432,
@@ -7691,9 +7691,9 @@
     ],
     "numVersesInsideStaff": 2,
     "scoreFiles": [
-      "assets\\1912/Score/_432.webp"
+      "1912/Score/_432.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_432.mp3"
+    "audioFile": "1912\\Audio\\_432.mp3"
   },
   {
     "number": 433,
@@ -7703,9 +7703,9 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_433.webp"
+      "1912/Score/_433.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_433.mp3"
+    "audioFile": "1912\\Audio\\_433.mp3"
   },
   {
     "number": 434,
@@ -7715,8 +7715,8 @@
     ],
     "numVersesInsideStaff": 1,
     "scoreFiles": [
-      "assets\\1912/Score/_434.webp"
+      "1912/Score/_434.webp"
     ],
-    "audioFile": "assets\\1912\\Audio\\_434.mp3"
+    "audioFile": "1912\\Audio\\_434.mp3"
   }
 ]
