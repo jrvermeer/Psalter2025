@@ -11,6 +11,4 @@
     <None Remove="src\app\src\**" />
     <TypeScriptConfiguration Remove="src\app\src\**" />
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
 </Project>

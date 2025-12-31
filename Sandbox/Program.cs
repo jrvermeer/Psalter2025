@@ -37,6 +37,7 @@ internal class Program
 
         if (chorus != null)
         {
+            // todo: handle x2
             oldVerses.Remove(chorus);
             chorus = chorus.Substring(chorus.IndexOf("\n")).Trim();
         }

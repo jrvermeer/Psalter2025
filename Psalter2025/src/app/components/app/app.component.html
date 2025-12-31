@@ -1,0 +1,69 @@
+@if (searching) {
+    @for(result of searchResults; track $index) {
+        <div class="ui-search-result" (click)="toggleSearch(result)">
+            <div>
+                <div class="d-flex align-end">
+                    <h3>{{result.psalter.number}}</h3>
+                    @if (result.psalter.letter) {
+                        <span>{{result.psalter.letter}}</span>
+                    }
+                    @if(result.psalter.secondTune) {
+                        <span class="ml-1">(2nd)</span>
+                    }
+                </div>
+                @if (result.showPsalm) {
+                    <span>Psalm {{result.psalter.psalm}}</span>
+                }
+            </div>
+            @if (result.textResults) {
+                <table>
+                    <tbody>
+                    @for(textResult of result.textResults; track $index) {
+                        <tr>
+                            <td><h4>{{textResult.verseNumber}}</h4></td>
+                            <td class="verse">{{textResult.text}}</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            }
+            @else {
+                <div>{{result.preview}}</div>
+            }
+        </div>
+    }
+}
+@else if (psalters) {
+    <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page>
+}
+
+
+<nav>
+    <button matIconButton (click)="toggleSearch()"><mat-icon>{{searching ? 'close' : 'search'}}</mat-icon></button>
+    @if(searching) {
+    <mat-form-field class="ui-search-field no-hint">
+        <mat-label>{{searchInputLabel}}</mat-label>
+        <input matInput type="{{searchTypeControl.value}}" [formControl]=searchInputControl (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
+    </mat-form-field>
+
+    <mat-button-toggle-group [formControl]="searchTypeControl">
+        <mat-button-toggle value="number">Number</mat-button-toggle>
+        <mat-button-toggle value="text">Text</mat-button-toggle>
+    </mat-button-toggle-group>
+    }
+    @else {
+    <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>
+    <button matIconButton (click)="psalterPage?.goToRandom()"><mat-icon>casino</mat-icon></button>
+
+    <span class="flex-space"></span>
+
+    <button matFab (click)="toggleAudio()" [disabled]="!service.currentPsalter?.audioFile"><mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon></button>
+
+    <span class="flex-space"></span>
+
+    <div class="ui-end-buttons">
+        <button matIconButton (click)="storage.showScore = !storage.showScore"><mat-icon>{{storage.showScore ? 'music_note' : 'music_off' }}</mat-icon></button>
+        <button matIconButton (click)="toggleTheme()"><mat-icon>{{ storage.darkTheme ? 'dark_mode' : 'light_mode' }}</mat-icon></button>
+    </div>
+    }
+</nav>

@@ -35,7 +35,33 @@ nav {
   flex: 1;
 }
 
-pre {
-  margin: 0;
-  line-height: 1em;
+.ui-search-result {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 24px;
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        content: "";
+        opacity: 0;
+        pointer-events: none;
+        border-radius: inherit;
+    }
+
+    &:hover::before {
+        background-color: var(--mat-sys-on-surface);
+        opacity: var(--mat-sys-hover-state-layer-opacity);
+    }
+}
+
+td {
+    white-space: pre;
+    vertical-align: top;
+    text-align: center;
 }
