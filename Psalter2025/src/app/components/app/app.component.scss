@@ -1,12 +1,17 @@
 :host {
-    height: 100%;
+    height: 100dvh;
     display: block;
     --app-navbar-height: 68px;
 }
 
 psalter-page {
     display: block;
-    margin-bottom: var(--app-navbar-height);
+    height: 100%;
+}
+
+main {
+    height: calc(100dvh - var(--app-navbar-height));
+    overflow: auto;
 }
 
 nav {
@@ -37,11 +42,13 @@ nav {
 
 .ui-search-result {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     position: relative;
     cursor: pointer;
     padding: 8px 24px;
+    min-height: 40px;
 
+    // copied from mat-list-item for hover styles
     &::before {
         top: 0;
         left: 0;

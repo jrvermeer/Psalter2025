@@ -9,7 +9,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  height: 100%;
+  height: 100dvh;
   font-family: sans-serif;
 }
 
@@ -91,6 +91,9 @@ h1, h2, h3, h4, h5, h6 {
   align-items: baseline;
 }
 
+.m-auto {
+    margin: auto;
+}
 .ml-1 {
   margin-left: 8px;
 }

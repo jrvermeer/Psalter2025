@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
     declarations: [
@@ -28,6 +29,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
         MatFormFieldModule,
         MatInputModule,
         MatButtonToggleModule,
+        MatDividerModule
     ],
     providers: [provideHttpClient()],
     bootstrap: [AppComponent],

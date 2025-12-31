@@ -1,5 +1,4 @@
 :host {
-  height: calc(100% - var(--app-navbar-height));
   --ui-max-width: 700px;
 }
 

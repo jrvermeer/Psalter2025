@@ -3,7 +3,7 @@ import { Psalter, PsalterService, SearchResult, VerseSearchResult } from '../../
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
-import { startWith } from 'rxjs';
+import { startWith, debounceTime } from 'rxjs';
 
 @Component({
     selector: 'app-root',
@@ -24,9 +24,14 @@ export class AppComponent {
 
         this.searchTypeControl.valueChanges
             .pipe(startWith(this.searchTypeControl.value))
-            .subscribe(x => this.searchInputLabel = (x == 'number' ? 'Search by number' : 'Search by text'))
+            .subscribe(x => {
+                this.searchInputLabel = (x == 'number' ? 'Search by number' : 'Search by text')
+                this.updateSearchResults();
+            })
 
-        this.searchInputControl.valueChanges.subscribe(x => this.updateSearchResults())
+        this.searchInputControl.valueChanges
+            .pipe(debounceTime(200))
+            .subscribe(x => this.updateSearchResults())
     }
 
     audio: HTMLAudioElement;
@@ -107,8 +112,9 @@ export class AppComponent {
             this.searchResults = null;
             return;
         }
+        const searchStart = Date.now();
         const isNumericSearch = this.searchTypeControl.value == 'number';
-        const searchText = this.searchInputControl.value.toLowerCase();
+        const searchText = this.searchInputControl.value?.toLowerCase();
         this.searchResults = [];
         for (let psalter of this.psalters) {
             let searchResult = new SearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
@@ -120,7 +126,7 @@ export class AppComponent {
                     add = isNumberMatch || isPsalmMatch
                     searchResult.showPsalm = isPsalmMatch;
                 }
-                else if (searchText.length > 2) {
+                else if (searchText.length > 1) {
                     searchResult.textResults = [];
                     let verseNum = 1
                     for (let verse of psalter.verses) {
@@ -136,6 +142,8 @@ export class AppComponent {
             if (add)
                 this.searchResults.push(searchResult)
         }
+
+        console.log(`Searched '${searchText}' in ${Date.now() - searchStart}ms (${this.searchResults.length} hits)`)
     }
 
     initialPinchTextScale: number;

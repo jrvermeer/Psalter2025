@@ -1,49 +1,42 @@
-@if (searching) {
-    @for(result of searchResults; track $index) {
-        <div class="ui-search-result" (click)="toggleSearch(result)">
-            <div>
-                <div class="d-flex align-end">
-                    <h3>{{result.psalter.number}}</h3>
-                    @if (result.psalter.letter) {
-                        <span>{{result.psalter.letter}}</span>
-                    }
-                    @if(result.psalter.secondTune) {
-                        <span class="ml-1">(2nd)</span>
-                    }
+<main>
+    <ng-container *ngIf="searching">
+        <ng-container *ngFor="let result of searchResults; let i=index">
+            <mat-divider></mat-divider>
+            <div class="ui-search-result" (click)="toggleSearch(result)">
+                <div>
+                    <div class="d-flex align-end">
+                        <h3>{{result.psalter.number}}</h3>
+                        <span *ngIf="result.psalter.letter">{{result.psalter.letter}}</span>
+                        <span *ngIf="result.psalter.secondTune" class="ml-1">(2nd)</span>
+                    </div>
+                    <span *ngIf="result.showPsalm">Psalm {{result.psalter.psalm}}</span>
                 </div>
-                @if (result.showPsalm) {
-                    <span>Psalm {{result.psalter.psalm}}</span>
-                }
+                <div class="m-auto">
+                    <table *ngIf="result.textResults">
+                        <tbody>
+                            <tr *ngFor="let textResult of result.textResults">
+                                <td><h4>{{textResult.verseNumber}}.</h4></td>
+                                <td class="verse">{{textResult.text}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div *ngIf="!result.textResults">{{result.preview}}</div>
+                </div>
             </div>
-            @if (result.textResults) {
-                <table>
-                    <tbody>
-                    @for(textResult of result.textResults; track $index) {
-                        <tr>
-                            <td><h4>{{textResult.verseNumber}}</h4></td>
-                            <td class="verse">{{textResult.text}}</td>
-                        </tr>
-                    }
-                    </tbody>
-                </table>
-            }
-            @else {
-                <div>{{result.preview}}</div>
-            }
-        </div>
-    }
-}
-@else if (psalters) {
-    <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page>
-}
+        </ng-container>
+    </ng-container>
 
+    <ng-container *ngIf="!searching && psalters">
+        <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page>
+    </ng-container>
+</main>
 
 <nav>
     <button matIconButton (click)="toggleSearch()"><mat-icon>{{searching ? 'close' : 'search'}}</mat-icon></button>
     @if(searching) {
     <mat-form-field class="ui-search-field no-hint">
         <mat-label>{{searchInputLabel}}</mat-label>
-        <input matInput type="{{searchTypeControl.value}}" [formControl]=searchInputControl (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
+        <input matInput autofocus type="{{searchTypeControl.value}}" [formControl]=searchInputControl (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
     </mat-form-field>
 
     <mat-button-toggle-group [formControl]="searchTypeControl">
