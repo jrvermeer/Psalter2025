@@ -31,6 +31,8 @@
     </ng-container>
 </main>
 
+<button matFab *ngIf="installEvent" class="ui-install" (click)="installEvent.prompt()"><mat-icon>download</mat-icon></button>
+
 <nav>
     <button matIconButton (click)="toggleSearch()"><mat-icon>{{searching ? 'close' : 'search'}}</mat-icon></button>
     @if(searching) {

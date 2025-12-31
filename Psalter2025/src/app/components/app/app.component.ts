@@ -33,17 +33,14 @@ export class AppComponent {
             .pipe(debounceTime(200))
             .subscribe(x => this.updateSearchResults())
 
-        //window.addEventListener('beforeinstallprompt', (e: Event) => {
-        //    // Prevent the default browser prompt
-        //    console.log('beforeinstallprompt', e)
-        //    e.preventDefault();
-        //    // Stash the event so it can be triggered later
-        //    //this.deferredPrompt = e;
-        //    // Show your custom install button/UI
-        //    //this.showInstallButton = true;
-        //});
-    }   
+        window.addEventListener('beforeinstallprompt', (e: Event) => {
+            e.preventDefault();
+            this.installEvent = e
+        });
+    }
 
+    
+    installEvent: any;
     audio: HTMLAudioElement;
     currentVerse = 1;
     psalters: Psalter[]
@@ -204,3 +201,4 @@ export class AppComponent {
         this.renderer.setStyle(this.document.body, 'line-height', `${scale + 0.25}rem`)
     }
 }
+

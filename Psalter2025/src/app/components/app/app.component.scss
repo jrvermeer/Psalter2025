@@ -14,6 +14,13 @@ main {
     overflow: auto;
 }
 
+.ui-install {
+    bottom: 80px;
+    right: 24px;
+    position: fixed;
+    z-index: 999;
+}
+
 nav {
   display: flex;
   align-items: center;
