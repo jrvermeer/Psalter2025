@@ -6,13 +6,14 @@ using System.Text.Json.Serialization;
 
 internal class Program
 {
+    const string NG_PUBLIC_FOLDER = "C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\";
     private static async Task Main(string[] args)
     {
         var json = await File.ReadAllTextAsync("C:\\Users\\verme\\Downloads\\psalter_oldschema.json");
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
         var newSchema = oldSchema.Select(x => Convert(x)).ToList();
 
-        var newPsalterJson = File.ReadAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\2025\\psalter.json");
+        var newPsalterJson = File.ReadAllText($"{NG_PUBLIC_FOLDER}2025\\psalter.json");
         var newPsalters = JsonSerializer.Deserialize<List<NewSchema>>(newPsalterJson, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
         foreach (var newPsalter in newPsalters)
         {
@@ -21,7 +22,7 @@ internal class Program
                 oldPsalter.OtherPsalterNumber = newPsalter.Number + newPsalter.Letter;
         }
 
-        File.WriteAllText("C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
+        File.WriteAllText($"{NG_PUBLIC_FOLDER}1912\\psalter.json", JsonSerializer.Serialize(newSchema, new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
@@ -56,7 +57,7 @@ internal class Program
         };
 
         newSchema.AudioFile = $"1912\\Audio\\_{old.number}{(newSchema.SecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
-        if (!File.Exists($"C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\src\\{newSchema.AudioFile}"))
+        if (!File.Exists($"{NG_PUBLIC_FOLDER}{newSchema.AudioFile}"))
             newSchema.AudioFile = null;
 
         return newSchema;
