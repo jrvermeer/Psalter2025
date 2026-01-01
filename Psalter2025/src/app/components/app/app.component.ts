@@ -26,8 +26,10 @@ export class AppComponent {
         this.searchTypeControl.valueChanges
             .pipe(startWith(this.searchTypeControl.value))
             .subscribe(x => {
-                this.searchInputLabel = (x == 'number' ? 'Search by number' : 'Search by text')
+                //this.searchInputLabel = x == 'number' ? 'Search by number' : 'Search by text'
                 this.updateSearchResults();
+                this.searchInputElement?.nativeElement.inputMode
+                this.searchInputElement?.nativeElement.setSelectionRange(0, this.searchInputElement.nativeElement.value.length)
             })
 
         this.searchInputControl.valueChanges
@@ -50,7 +52,7 @@ export class AppComponent {
     searchResults: SearchResult[]
     searchTypeControl = new FormControl<'number' | 'text'>('number')
     searchInputControl = new FormControl<string>(undefined)
-    searchInputLabel: string
+    //searchInputLabel: string
 
     @ViewChild('searchInput')
     searchInputElement: ElementRef<HTMLInputElement>
