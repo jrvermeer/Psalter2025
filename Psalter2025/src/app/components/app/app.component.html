@@ -36,11 +36,10 @@
 <nav>
     <ng-container *ngIf="searching">
         <mat-form-field class="ui-search-field no-hint">
-            <!--<mat-label>{{searchInputLabel}}</mat-label>-->
             <mat-label>Search</mat-label>
             <button matIconButton matPrefix (click)="toggleSearch()"><mat-icon>close</mat-icon></button>
-            <input #searchInput matInput autofocus inputmode="numeric" type="text" [formControl]="searchInputControl" (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
-            <!--<button matIconButton matSuffix (click)="searchTypeControl.setValue(searchTypeControl.value == 'number' ? 'text' : 'number')"><mat-icon>{{searchTypeControl.value == 'number' ? '123' : 'abc'}}</mat-icon></button>-->
+            <input #searchInput matInput autofocus [attr.inputmode]="searchInputModeControl.value" type="text" [formControl]="searchInputControl" (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
+            <button matIconButton matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')"><mat-icon>{{searchInputModeControl.value == 'numeric' ? '123' : 'abc'}}</mat-icon></button>
         </mat-form-field>
     </ng-container>
     <ng-container *ngIf="!searching">

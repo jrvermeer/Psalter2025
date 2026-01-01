@@ -23,12 +23,10 @@ export class AppComponent {
         this.togglePsalter(storage.oldPsalter);
         this.scaleTextSize(storage.textScale);
 
-        this.searchTypeControl.valueChanges
-            .pipe(startWith(this.searchTypeControl.value))
+        this.searchInputModeControl.valueChanges
+            .pipe(startWith(this.searchInputModeControl.value))
             .subscribe(x => {
-                //this.searchInputLabel = x == 'number' ? 'Search by number' : 'Search by text'
                 this.updateSearchResults();
-                this.searchInputElement?.nativeElement.inputMode
                 this.searchInputElement?.nativeElement.setSelectionRange(0, this.searchInputElement.nativeElement.value.length)
             })
 
@@ -50,9 +48,8 @@ export class AppComponent {
 
     searching = false
     searchResults: SearchResult[]
-    searchTypeControl = new FormControl<'number' | 'text'>('number')
+    searchInputModeControl = new FormControl<'numeric' | undefined>('numeric')
     searchInputControl = new FormControl<string>(undefined)
-    //searchInputLabel: string
 
     @ViewChild('searchInput')
     searchInputElement: ElementRef<HTMLInputElement>
