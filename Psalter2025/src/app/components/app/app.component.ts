@@ -1,4 +1,4 @@
-import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild } from '@angular/core';
+import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
 import { Psalter, PsalterService, SearchResult, VerseSearchResult } from '../../services/psalter-service';
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
@@ -16,6 +16,7 @@ export class AppComponent {
         public service: PsalterService,
         public storage: StorageService,
         private renderer: Renderer2,
+        private cdRef: ChangeDetectorRef,
         @Inject(DOCUMENT) private document: Document) {
 
         this.toggleTheme(storage.darkTheme);
@@ -38,19 +39,21 @@ export class AppComponent {
             this.installEvent = e
         });
     }
-
     
     installEvent: any;
     audio: HTMLAudioElement;
     currentVerse = 1;
     psalters: Psalter[]
-    searchResults: SearchResult[]
-    searching = false
     goToPsalter: Psalter;
 
+    searching = false
+    searchResults: SearchResult[]
     searchTypeControl = new FormControl<'number' | 'text'>('number')
     searchInputControl = new FormControl<string>(undefined)
     searchInputLabel: string
+
+    @ViewChild('searchInput')
+    searchInputElement: ElementRef<HTMLInputElement>
 
     @ViewChild(PsalterPageComponent)
     psalterPage: PsalterPageComponent
@@ -112,6 +115,11 @@ export class AppComponent {
         this.goToPsalter = goToPsalter?.psalter
         this.updateSearchResults();
         this.searchInputControl.setValue('', { emitEvent: false })
+
+        if (this.searching) {
+            this.cdRef.detectChanges()
+            this.searchInputElement?.nativeElement.focus()
+        }
     }
 
     private updateSearchResults() {
@@ -120,17 +128,16 @@ export class AppComponent {
             return;
         }
         const searchStart = Date.now();
-        const isNumericSearch = this.searchTypeControl.value == 'number';
         const searchText = this.searchInputControl.value?.toLowerCase();
         this.searchResults = [];
         for (let psalter of this.psalters) {
             let searchResult = new SearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
             let add = true;
             if (searchText) {
-                if (isNumericSearch) {
-                    const isNumberMatch = psalter.number.toString().startsWith(this.searchInputControl.value);
-                    const isPsalmMatch = psalter.psalm?.toString() == this.searchInputControl.value;
-                    add = isNumberMatch || isPsalmMatch
+                const isNumberMatch = `${psalter.number}${psalter.letter}`.toLowerCase().startsWith(searchText);
+                const isPsalmMatch = psalter.psalm?.toString() == searchText;
+                if (isNumberMatch || isPsalmMatch) {
+                    add = true
                     searchResult.showPsalm = isPsalmMatch;
                 }
                 else if (searchText.length > 1) {

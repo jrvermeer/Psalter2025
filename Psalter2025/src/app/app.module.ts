@@ -11,7 +11,6 @@ import { MatButtonModule } from '@angular/material/button'
 import { MatIconModule } from '@angular/material/icon'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
-import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDividerModule } from '@angular/material/divider';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
@@ -29,7 +28,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
         MatIconModule,
         MatFormFieldModule,
         MatInputModule,
-        MatButtonToggleModule,
         MatDividerModule,
         
       ServiceWorkerModule.register('ngsw-worker.js', {
