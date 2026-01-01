@@ -131,7 +131,7 @@ export class AppComponent {
         this.searchResults = [];
         for (let psalter of this.psalters) {
             let searchResult = new SearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
-            let add = true;
+            let add = !searchText;
             if (searchText) {
                 const isNumberMatch = `${psalter.number}${psalter.letter}`.toLowerCase().startsWith(searchText);
                 const isPsalmMatch = psalter.psalm?.toString() == searchText;
