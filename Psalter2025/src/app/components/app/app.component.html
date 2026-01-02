@@ -16,7 +16,7 @@
                         <tbody>
                             <tr *ngFor="let textResult of result.textResults">
                                 <td><h4>{{textResult.verseNumber}}.</h4></td>
-                                <td class="verse">{{textResult.text}}</td>
+                                <td class="verse" [highlightRange]="textResult.highlightRanges">{{textResult.text}}</td>
                             </tr>
                         </tbody>
                     </table>

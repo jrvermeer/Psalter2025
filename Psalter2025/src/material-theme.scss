@@ -97,3 +97,9 @@ h1, h2, h3, h4, h5, h6 {
 .ml-1 {
   margin-left: 8px;
 }
+
+
+// todo: put in proper scope?
+::highlight(ui-search-hit) {
+    color: var(--mat-sys-primary);
+}

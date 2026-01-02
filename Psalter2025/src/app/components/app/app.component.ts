@@ -1,5 +1,5 @@
 import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
-import { Psalter, PsalterService, SearchResult, VerseSearchResult } from '../../services/psalter-service';
+import { Psalter, PsalterService, SearchResult, StartEndIndex, VerseSearchResult } from '../../services/psalter-service';
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
@@ -126,6 +126,7 @@ export class AppComponent {
             this.searchResults = null;
             return;
         }
+        this.service.clearHighlights();
         const searchStart = Date.now();
         const searchText = this.searchInputControl.value?.toLowerCase();
         this.searchResults = [];
@@ -143,9 +144,9 @@ export class AppComponent {
                     searchResult.textResults = [];
                     let verseNum = 1
                     for (let verse of psalter.verses) {
-                        let i = verse.toLowerCase().indexOf(searchText)
-                        if (i > -1)
-                            searchResult.textResults.push(new VerseSearchResult({ verseNumber: verseNum, text: verse }))
+                        let searchHits = this.getAllSearchHitRanges(verse, searchText)
+                        if (searchHits?.length)
+                            searchResult.textResults.push(new VerseSearchResult({ verseNumber: verseNum, text: verse, highlightRanges: searchHits }))
                         verseNum++
                     }
                     add = !!searchResult.textResults.length
@@ -157,6 +158,15 @@ export class AppComponent {
         }
 
         console.log(`Searched '${searchText}' in ${Date.now() - searchStart}ms (${this.searchResults.length} hits)`)
+    }
+
+    getAllSearchHitRanges(verse: string, query: string): StartEndIndex[] {
+        let i = verse.toLowerCase().indexOf(query)
+        if (i > -1)
+            return [[i, i + query.length]]
+
+        return null;
+
     }
 
     initialPinchTextScale: number;

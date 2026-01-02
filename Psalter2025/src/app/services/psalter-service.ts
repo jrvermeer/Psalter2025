@@ -20,6 +20,20 @@ export class PsalterService {
     get2025() {
         return this._2025 ? of(this._2025) : this.http.get<Psalter[]>('2025/psalter.json').pipe(tap(x => this._2025 = x));
     }
+
+    private _ranges: Range[] = [];
+
+    clearHighlights() {
+        this._ranges = [];
+        CSS.highlights.clear()
+    }
+
+    // have to have one highlight obj for all directives, else last one overwrites all others
+    highlightRanges(ranges: Range[]) {
+        this._ranges.push(...ranges);
+        const highlight = new Highlight(...this._ranges)
+        CSS.highlights.set('ui-search-hit', highlight)
+    }
 }
 
 export class Psalter {
@@ -61,6 +75,9 @@ export class VerseSearchResult {
 
     verseNumber: number
     text: string
+    highlightRanges: StartEndIndex[]
 }
+
+export type StartEndIndex = [number, number];
 
 
