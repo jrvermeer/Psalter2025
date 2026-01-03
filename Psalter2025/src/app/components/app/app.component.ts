@@ -1,5 +1,5 @@
 import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
-import { Psalter, PsalterService, SearchResult, StartEndIndex, VerseSearchResult } from '../../services/psalter-service';
+import { Psalter, PsalterService, PsalterSearchResult, StartEndIndex, VerseSearchResult } from '../../services/psalter-service';
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
@@ -47,9 +47,10 @@ export class AppComponent {
     goToPsalter: Psalter;
 
     searching = false
-    searchResults: SearchResult[]
+    searchResults: PsalterSearchResult[]
     searchInputModeControl = new FormControl<'numeric' | undefined>('numeric')
     searchInputControl = new FormControl<string>(undefined)
+    searchMaxResultsMessage: string;
 
     @ViewChild('searchInput')
     searchInputElement: ElementRef<HTMLInputElement>
@@ -109,7 +110,7 @@ export class AppComponent {
         this.audio = null;
     }
 
-    public toggleSearch(goToPsalter?: SearchResult) {
+    public toggleSearch(goToPsalter?: PsalterSearchResult) {
         this.searching = !this.searching
         this.goToPsalter = goToPsalter?.psalter
         this.updateSearchResults();
@@ -131,7 +132,7 @@ export class AppComponent {
         const searchText = this.searchInputControl.value?.toLowerCase();
         this.searchResults = [];
         for (let psalter of this.psalters) {
-            let searchResult = new SearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
+            let searchResult = new PsalterSearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
             let add = !searchText;
             if (searchText) {
                 const isNumberMatch = `${psalter.number}${psalter.letter}`.toLowerCase().startsWith(searchText);
@@ -141,29 +142,48 @@ export class AppComponent {
                     searchResult.showPsalm = isPsalmMatch;
                 }
                 else if (searchText.length > 1) {
-                    searchResult.textResults = [];
+                    searchResult.verseResults = [];
                     let verseNum = 1
-                    for (let verse of psalter.verses) {
-                        let searchHits = this.getAllSearchHitRanges(verse, searchText)
-                        if (searchHits?.length)
-                            searchResult.textResults.push(new VerseSearchResult({ verseNumber: verseNum, text: verse, highlightRanges: searchHits }))
-                        verseNum++
-                    }
-                    add = !!searchResult.textResults.length
+                    for (let verse of psalter.verses)
+                        this.addVerseSearchHits(searchResult, `${verseNum++}.`, verse, searchText)
+
+                    if (psalter.chorus)
+                        this.addVerseSearchHits(searchResult, 'chorus', psalter.chorus, searchText)
+
+                    add = !!searchResult.verseResults.length
                 }
             }
 
-            if (add)
+            if (add) 
                 this.searchResults.push(searchResult)
+
+        }
+
+        // rendering too many verses causes UI lag (switch to virtual vertical swiper?)
+        //this.searchMaxResultsMessage = undefined;
+        //let numHidden = AppComponent.MAX_PSALTER_RESULTS - this.searchResults.length
+        //if (numHidden > 1) {
+        //    this.searchResults.splice(AppComponent.MAX_PSALTER_RESULTS, numHidden)
+        //    this.searchMaxResultsMessage = `${numHidden} results hidden`
+        //}
+
+        // rendering too many verses causes UI lag (switch to virtual vertical swiper?)
+        this.searchMaxResultsMessage = undefined;
+        let numHidden = this.searchResults.length - AppComponent.MAX_PSALTER_RESULTS;
+        if (numHidden > 1 && this.searchResults[0].verseResults?.length) { // not applicable to number matches (preview is small)
+            this.searchResults.splice(AppComponent.MAX_PSALTER_RESULTS, numHidden)
+            this.searchMaxResultsMessage = `${numHidden} results hidden`
         }
 
         console.log(`Searched '${searchText}' in ${Date.now() - searchStart}ms (${this.searchResults.length} hits)`)
     }
 
-    private static ignoreChars = [',', '?', ':', ';', '\n', '\'', '"', '.']
-    getAllSearchHitRanges(verse: string, query: string): StartEndIndex[] {
+    private static IGNORE_CHARS = [',', '?', ':', ';', '\n', '\'', '"', '.']
+    private static MAX_PSALTER_RESULTS = 100;
+
+    addVerseSearchHits(psalterResult: PsalterSearchResult, verseIdentifier: string, verse: string, query: string) {
+        const verseResult = new VerseSearchResult({ verseIdentifier: verseIdentifier, text: verse })
         verse = verse.toLowerCase();
-        const hitRanges: StartEndIndex[] = []
         let iQuery = 0;
         let iHitStart = -1;
         for (let iVerse = 0; iVerse < verse.length; iVerse++) {
@@ -171,8 +191,8 @@ export class AppComponent {
             let queryChar = query[iQuery];
 
             // ignore special characters, allow query space to match verse '\n' 
-            if (AppComponent.ignoreChars.includes(verseChar)) {
-                if (AppComponent.ignoreChars.includes(queryChar) || (verseChar === '\n' && queryChar == ' '))
+            if (AppComponent.IGNORE_CHARS.includes(verseChar)) {
+                if (AppComponent.IGNORE_CHARS.includes(queryChar) || (verseChar === '\n' && queryChar == ' '))
                     iQuery++
 
                 continue;
@@ -184,7 +204,7 @@ export class AppComponent {
                     iHitStart = iVerse;
 
                 if (iQuery == query.length) {
-                    hitRanges.push([iHitStart, iVerse+1])
+                    verseResult.highlightRanges.push([iHitStart, iVerse+1])
                     iHitStart = -1;
                     iQuery = 0;
                 }
@@ -195,7 +215,9 @@ export class AppComponent {
             }
         }
 
-        return hitRanges;
+        if (verseResult.highlightRanges.length)
+            psalterResult.verseResults.push(verseResult);
+        return verseResult;
     }
 
     initialPinchTextScale: number;

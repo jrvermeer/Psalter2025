@@ -74,6 +74,13 @@ nav {
     }
 }
 
+.ui-max-results {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
 td {
     white-space: pre;
     vertical-align: top;

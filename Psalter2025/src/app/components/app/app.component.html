@@ -1,7 +1,7 @@
 <main>
     <ng-container *ngIf="searching">
         <ng-container *ngFor="let result of searchResults; let i=index">
-            <mat-divider></mat-divider>
+            <mat-divider *ngIf="i>0"></mat-divider>
             <div class="ui-search-result" (click)="toggleSearch(result)">
                 <div>
                     <div class="d-flex align-end">
@@ -12,36 +12,38 @@
                     <span *ngIf="result.showPsalm">Psalm {{result.psalter.psalm}}</span>
                 </div>
                 <div class="m-auto">
-                    <table *ngIf="result.textResults">
+                    <table *ngIf="result.verseResults">
                         <tbody>
-                            <tr *ngFor="let textResult of result.textResults">
-                                <td><h4>{{textResult.verseNumber}}.</h4></td>
-                                <td class="verse" [highlightRange]="textResult.highlightRanges">{{textResult.text}}</td>
+                            <tr *ngFor="let verseResult of result.verseResults">
+                                <td><h4>{{verseResult.verseIdentifier}}</h4></td>
+                                <td class="verse" [highlightRange]="verseResult.highlightRanges">{{verseResult.text}}</td>
                             </tr>
                         </tbody>
                     </table>
-                    <div *ngIf="!result.textResults">{{result.preview}}</div>
+                    <div *ngIf="!result.verseResults">{{result.preview}}</div>
                 </div>
             </div>
         </ng-container>
+        <ng-container *ngIf="searchMaxResultsMessage">
+            <mat-divider></mat-divider>
+            <div class="ui-max-results">{{searchMaxResultsMessage}}</div>
+        </ng-container>
     </ng-container>
-
     <ng-container *ngIf="!searching && psalters">
         <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page>
     </ng-container>
 </main>
-
 <button matFab *ngIf="installEvent" class="ui-install" (click)="installEvent.prompt()"><mat-icon>download</mat-icon></button>
-
 <nav>
     <ng-container *ngIf="searching">
         <mat-form-field class="ui-search-field no-hint">
             <mat-label>Search</mat-label>
             <button matIconButton matPrefix (click)="toggleSearch()"><mat-icon>close</mat-icon></button>
             <input #searchInput matInput autofocus [attr.inputmode]="searchInputModeControl.value" type="text" [formControl]="searchInputControl" (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
-            <button matIconButton matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')"><mat-icon>{{searchInputModeControl.value == 'numeric' ? '123' : 'abc'}}</mat-icon></button>
-        </mat-form-field>
-    </ng-container>
+            <button matIconButton matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')"><mat-icon>{{searchInputModeControl.value == 'numeric' ? '123' : 'abc'
+                }}</mat-icon></button>
+                </mat-form-field>
+</ng-container>
     <ng-container *ngIf="!searching">
         <button matIconButton (click)="toggleSearch()"><mat-icon>search</mat-icon></button>
         <button matIconButton (click)="togglePsalter()"><mat-icon>swap_horiz</mat-icon></button>

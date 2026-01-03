@@ -40,7 +40,10 @@ internal class Program
         {
             // todo: handle x2
             oldVerses.Remove(chorus);
+            var repeatTwice = chorus.Contains("x2");
             chorus = chorus.Substring(chorus.IndexOf("\n")).Trim();
+            if (repeatTwice)
+                chorus += "\n" + chorus;
         }
 
         var newSchema = new NewSchema

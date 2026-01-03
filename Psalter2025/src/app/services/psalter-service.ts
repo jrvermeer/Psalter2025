@@ -58,14 +58,14 @@ export class Psalter {
     numVersesInsideStaff: number // 1912
 }
 
-export class SearchResult {
-    constructor(c?: Partial<SearchResult>) {
+export class PsalterSearchResult {
+    constructor(c?: Partial<PsalterSearchResult>) {
         Object.assign(this, c)
     }
     psalter: Psalter
     preview: string
     showPsalm: boolean
-    textResults: VerseSearchResult[]
+    verseResults: VerseSearchResult[]
 }
 
 export class VerseSearchResult {
@@ -73,9 +73,9 @@ export class VerseSearchResult {
         Object.assign(this, c);
     }
 
-    verseNumber: number
+    verseIdentifier: string
     text: string
-    highlightRanges: StartEndIndex[]
+    highlightRanges: StartEndIndex[] = [];
 }
 
 export type StartEndIndex = [number, number];
