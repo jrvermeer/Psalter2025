@@ -160,13 +160,42 @@ export class AppComponent {
         console.log(`Searched '${searchText}' in ${Date.now() - searchStart}ms (${this.searchResults.length} hits)`)
     }
 
+    private static ignoreChars = [',', '?', ':', ';', '\n', '\'', '"', '.']
     getAllSearchHitRanges(verse: string, query: string): StartEndIndex[] {
-        let i = verse.toLowerCase().indexOf(query)
-        if (i > -1)
-            return [[i, i + query.length]]
+        verse = verse.toLowerCase();
+        const hitRanges: StartEndIndex[] = []
+        let iQuery = 0;
+        let iHitStart = -1;
+        for (let iVerse = 0; iVerse < verse.length; iVerse++) {
+            let verseChar = verse[iVerse];
+            let queryChar = query[iQuery];
 
-        return null;
+            // ignore special characters, allow query space to match verse '\n'
+            if (AppComponent.ignoreChars.includes(verseChar)) {
+                if (AppComponent.ignoreChars.includes(queryChar) || (verseChar === '\n' && queryChar == ' '))
+                    iQuery++
 
+                continue;
+            }
+
+            if (queryChar === verseChar) {
+                iQuery++;
+                if (iHitStart == -1)
+                    iHitStart = iVerse;
+
+                if (iQuery == query.length) {
+                    hitRanges.push([iHitStart, iVerse+1])
+                    iHitStart = -1;
+                    iQuery = 0;
+                }
+            }
+            else {
+                iQuery = 0;
+                iHitStart = -1
+            }
+        }
+
+        return hitRanges;
     }
 
     initialPinchTextScale: number;

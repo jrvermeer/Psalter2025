@@ -79,3 +79,7 @@ td {
     vertical-align: top;
     text-align: center;
 }
+
+::highlight(ui-search-hit) {
+    color: var(--mat-sys-primary);
+}
