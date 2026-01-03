@@ -13,7 +13,7 @@
       "The Lord will guard the righteous well, \nTheir way to Him is known; \nThe way of sinners, far from God, \nShall surely be o'er-thrown."
     ],
     "scoreFiles": [
-      "2025\\Score\\_1A.webp"
+      "2025/Score/_1A.webp"
     ],
     "otherPsalterNumber": "1"
   },
@@ -52,14 +52,13 @@
     ],
     "otherPsalterNumber": "3"
   },
-
   {
     "number": 2,
-    "title": "Oh, Wherefore Do The Nations Rage",
     "letter": "B",
+    "title": "Oh, Wherefore Do The Nations Rage",
     "psalm": 2,
-    "isCompletePsalm": false,
     "psalmVerses": "1-5, 7-12",
+    "isCompletePsalm": false,
     "verses": [
       "Oh, wherefore do the nations rage,\nAnd kings and rulers strive in vain,\nAgainst the Lord of earth and heaven\nTo overthrow Messiah's reign?",
       "Their strength is weakness in the sight\nOf Him who sits enthroned above;\nHe speaks, and judgments fall on them\nWho tempt His wrath and scorn His love.",
@@ -71,5 +70,316 @@
       "2025/Score/_2B.jpg"
     ],
     "otherPsalterNumber": "4"
+  },
+  {
+    "number": 3,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_3A.jpg"
+    ]
+  },
+  {
+    "number": 4,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_4A.jpg"
+    ]
+  },
+  {
+    "number": 4,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_4B.jpg"
+    ]
+  },
+  {
+    "number": 4,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_4C.jpg"
+    ]
+  },
+  {
+    "number": 5,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_5A.jpg"
+    ]
+  },
+  {
+    "number": 5,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_5B.jpg"
+    ]
+  },
+  {
+    "number": 6,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_6A.jpg"
+    ]
+  },
+  {
+    "number": 7,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_7B.jpg",
+      "2025/Score/_7B_2.jpg"
+    ]
+  },
+  {
+    "number": 8,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_8A.jpg",
+      "2025/Score/_8A_2.jpg"
+    ]
+  },
+  {
+    "number": 8,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_8B.jpg"
+    ]
+  },
+  {
+    "number": 9,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_9A.jpg",
+      "2025/Score/_9A_2.jpg",
+      "2025/Score/_9A_Refrain.jpg"
+    ]
+  },
+  {
+    "number": 9,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_9B.jpg"
+    ]
+  },
+  {
+    "number": 10,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_10A.jpg",
+      "2025/Score/_10A_2.jpg"
+    ]
+  },
+  {
+    "number": 10,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_10B.jpg"
+    ]
+  },
+  {
+    "number": 11,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_11A.jpg"
+    ]
+  },
+  {
+    "number": 11,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_11B.jpg",
+      "2025/Score/_11B_2.jpg"
+    ]
+  },
+  {
+    "number": 13,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_13B.jpg"
+    ]
+  },
+  {
+    "number": 14,
+    "letter": "j",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_14.jpg"
+    ]
+  },
+  {
+    "number": 15,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_15A.jpg"
+    ]
+  },
+  {
+    "number": 15,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_15B.jpg"
+    ]
+  },
+  {
+    "number": 15,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_15C.jpg"
+    ]
+  },
+  {
+    "number": 16,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_16A.jpg",
+      "2025/Score/_16A_2.jpg"
+    ]
+  },
+  {
+    "number": 16,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_16B.jpg"
+    ]
+  },
+  {
+    "number": 16,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_16C.jpg"
+    ]
+  },
+  {
+    "number": 16,
+    "letter": "D",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_16D.jpg"
+    ]
+  },
+  {
+    "number": 17,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_17A.jpg"
+    ]
+  },
+  {
+    "number": 17,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_17B.jpg",
+      "2025/Score/_17B_2.jpg"
+    ]
+  },
+  {
+    "number": 17,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_17C.jpg"
+    ]
+  },
+  {
+    "number": 18,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_18B.jpg",
+      "2025/Score/_18B_2.jpg"
+    ]
+  },
+  {
+    "number": 18,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_18C.jpg",
+      "2025/Score/_18C_2.jpg"
+    ]
+  },
+  {
+    "number": 18,
+    "letter": "D",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_18D.jpg"
+    ]
+  },
+  {
+    "number": 19,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_19A.jpg",
+      "2025/Score/_19A_2.jpg"
+    ]
+  },
+  {
+    "number": 19,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_19B.jpg",
+      "2025/Score/_19B_2.jpg"
+    ]
+  },
+  {
+    "number": 19,
+    "letter": "C",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_19C.jpg",
+      "2025/Score/_19C_Refrain.jpg"
+    ]
+  },
+  {
+    "number": 19,
+    "letter": "D",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_19D.jpg",
+      "2025/Score/_19D_2.jpg"
+    ]
+  },
+  {
+    "number": 20,
+    "letter": "A",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_20A.jpg",
+      "2025/Score/_20A_2.jpg"
+    ]
+  },
+  {
+    "number": 20,
+    "letter": "B",
+    "verses": [],
+    "scoreFiles": [
+      "2025/Score/_20B.jpg"
+    ]
   }
 ]
