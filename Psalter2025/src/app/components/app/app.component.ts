@@ -170,7 +170,7 @@ export class AppComponent {
             let verseChar = verse[iVerse];
             let queryChar = query[iQuery];
 
-            // ignore special characters, allow query space to match verse '\n'
+            // ignore special characters, allow query space to match verse '\n' 
             if (AppComponent.ignoreChars.includes(verseChar)) {
                 if (AppComponent.ignoreChars.includes(queryChar) || (verseChar === '\n' && queryChar == ' '))
                     iQuery++
