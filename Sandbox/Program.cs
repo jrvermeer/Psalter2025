@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Sandbox;
+using System;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -11,43 +12,107 @@ internal class Program
     private static async Task Main(string[] args)
     {
         //await Migrate1912ToNewSchema();
-        Add2025RecsForScoreImages();
+        Generate2025Psalters();
+
+        //var http = new HttpClient();
+        //var audio = File.ReadAllText("C:\\Users\\verme\\Documents\\Psalter app files\\2025\\audio-urls.txt").Split("\n", StringSplitOptions.RemoveEmptyEntries);
+        //foreach (var line in audio)
+        //{
+        //    var parts = line.Split(": ", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+        //    var url = parts[1];
+        //    var fileName = $"_{parts[0]}{Path.GetExtension(url)}";
+
+        //    var audioStream = await http.GetStreamAsync(url);
+        //    using FileStream fileStream = new FileStream($"{NG_PUBLIC_FOLDER}2025\\Audio\\{fileName}", FileMode.Create, FileAccess.Write);
+
+        //    // 3. Asynchronously copy the download stream to the file stream
+        //    await audioStream.CopyToAsync(fileStream);
+        //}
     }
 
-    private static void Add2025RecsForScoreImages()
+    private static void Generate2025Psalters()
     {
-        var files = Directory.GetFiles($"{NG_PUBLIC_FOLDER}2025\\Score");
         var newPsalters = Get2025Psalters();
+        var lyrics = File.ReadAllText("C:\\Users\\verme\\Documents\\Psalter app files\\2025\\lyrics.txt");
 
-        var filesSanitized = files
+        var scoreFiles = Directory.GetFiles($"{NG_PUBLIC_FOLDER}2025\\Score")
             .Select(x => Path.GetFileName(x))
             .Select(x => new
             {
                 ScoreFilePath = $"2025/Score/{x}",
-                Number = int.Parse(new string(x.TrimStart("_").TakeWhile(x => char.IsNumber(x)).ToArray())),
+                Number = ReadWhileDigit(x.TrimStart("_")),
                 Letter = x.SkipWhile(x => !char.IsLetter(x)).FirstOrDefault().ToString(),
                 IsRefrain = x.ToLower().Contains("_refrain")
             }).ToList();
 
-        foreach (var psalterFiles in filesSanitized.GroupBy(x => new {x.Number, x.Letter }))
-        {
-            var matchingPsalter = newPsalters.FirstOrDefault(x => x.Number == psalterFiles.Key.Number && x.Letter == psalterFiles.Key.Letter);
-            if (matchingPsalter == null)
+        var audioFiles = Directory.GetFiles($"{NG_PUBLIC_FOLDER}2025\\Audio")
+            .Select(x => Path.GetFileName(x))
+            .Select(x => new
             {
-                matchingPsalter = new NewSchema
-                {
-                    Number = psalterFiles.Key.Number,
-                    Letter = psalterFiles.Key.Letter,
-                    Verses = []                    
-                };
-                newPsalters.Add(matchingPsalter);
+                FilePath = $"2025/Audio/{x}",
+                Identifier = Path.GetFileNameWithoutExtension(x).TrimStart("_")
+            }).ToList();
+
+        while (lyrics.Length > 0)
+        {
+            var iPsalterEnd = lyrics.IndexOf("_");
+            var psalterText = iPsalterEnd == -1 ? lyrics : lyrics.Substring(0, iPsalterEnd).Trim();
+            lyrics = lyrics.Substring(psalterText.Length).Trim().TrimStart("_").Trim();
+
+            var parts = psalterText.Split("\n\n");
+            var titleAndIdentifier = parts[0].Split("\n");
+            var identifier = titleAndIdentifier[1].Split(" ")[1];
+
+            var number = ReadWhileDigit(identifier).Value;
+            var letter = identifier[number.ToString().Length..];
+            int? psalm = titleAndIdentifier[1].StartsWith("Psalm") ? number : null;
+
+            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter);
+            if (psalter == null)
+                newPsalters.Add(psalter = new NewSchema { Number = number, Letter = letter });
+
+            psalter.Title = titleAndIdentifier[0];
+            psalter.Psalm = psalm;
+
+            var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
+            var verses = parts.Skip(1).ToList();
+            if (verses.Count > 1)
+            {
+                psalter.Chorus = verses.FirstOrDefault(x => !char.IsDigit(x[0]))?.Trim();
+                verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
             }
-            matchingPsalter.ScoreFiles = psalterFiles.Select(x => x.ScoreFilePath).ToList();
-            matchingPsalter.Verses ??= [];
+            psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
+            psalter.ScoreFiles = scoreFiles
+                .Where(x => x.Number == psalter.Number && x.Letter == psalter.Letter)
+                .Select(x => x.ScoreFilePath)
+                .ToList();
+
+            psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
+
+            if (psalter.Verses.Count != expectedMaxVerses)
+            {
+                newPsalters.Remove(psalter);
+                WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
+                throw new Exception();
+            }
         }
+
         newPsalters = newPsalters.OrderBy(x => x.Number).ThenBy(x => x.Letter).ToList();
 
         WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
+    }
+
+    //private (int, string) GetNumberAndLetter(string numberAndLetter)
+    //{
+    //    var number = ReadWhileDigit(numberAndLetter).Value;
+    //    var letter = numberAndLetter[number.ToString().Length..];
+    //    return (number, letter);
+    //}
+    private static int? ReadWhileDigit(string text)
+    {
+        var numericText = new string(text.TakeWhile(char.IsDigit).ToArray());
+        return numericText.Length > 0 ? int.Parse(numericText) : null;
     }
 
     private static async Task Migrate1912ToNewSchema()

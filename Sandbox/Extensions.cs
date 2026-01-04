@@ -16,5 +16,7 @@ namespace Sandbox
 
             return s;
         }
+
+        public static bool IsNullOrWhiteSpace(this string s) => string.IsNullOrWhiteSpace(s);
     }
 }
