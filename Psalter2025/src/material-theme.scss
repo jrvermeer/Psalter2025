@@ -5,19 +5,23 @@
 // Learn more about theming and how to use it for your application's
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
+@import 'gold-theme.scss';
+/*@import 'app_theme-colors.scss';*/
 
-html, body {
+html, body { 
   padding: 0;
   margin: 0;
   height: 100dvh;
-  font-family: sans-serif;
-}
-
-html {
-  @include mat.theme((
+  font-family: sans-serif; 
+}  
+  
+html { 
+  @include mat.theme((  
     color: (
-      primary: mat.$cyan-palette,
-      tertiary: mat.$orange-palette,
+      /*primary: $primary-palette,
+      tertiary: $tertiary-palette,*/
+      primary: $gold-primary-palette,
+      tertiary: $gold-tertiary-palette,
     ),
     typography: Roboto,
     density: 0,

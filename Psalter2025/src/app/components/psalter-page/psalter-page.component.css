@@ -1,5 +1,6 @@
 swiper-container {
   height: 100%;
+  --swiper-theme-color: var(--mat-sys-primary);
 }
 
 swiper-slide {

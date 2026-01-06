@@ -75,10 +75,10 @@ nav {
     &:hover::before {
         background-color: var(--mat-sys-on-surface);
         opacity: var(--mat-sys-hover-state-layer-opacity);
-    }
+    } 
 }
 
-.ui-max-results {
+.ui-max-results { 
     display: flex;
     justify-content: space-around;
     align-items: center;
