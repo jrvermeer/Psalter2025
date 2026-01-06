@@ -1,15 +1,6 @@
 [
   {
     "number": 1,
-    "letter": "",
-    "title": "Psalm Book One Doxology",
-    "verses": [
-      "Blest be Jehovah, Israel’s God, \nFor evermore. Amen.\nLet age to age, eternally, \nRepeat His praise. Amen."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 1,
     "letter": "A",
     "title": "That Man Is Blest Who, Fearing God",
     "psalm": 1,
@@ -45,16 +36,6 @@
     ],
     "audioFile": "2025/Audio/_1B.aac",
     "otherPsalterNumber": "2"
-  },
-  {
-    "number": 2,
-    "letter": "",
-    "title": "Psalm Book Two Doxology",
-    "verses": [
-      "Now blessed be the mighty one,\nJehovah, God of Israel,\nFor He alone has wonders done\nAnd deeds in glory that excel.",
-      "And blessed be His glorious name,\nLong as the ages shall endure;\nO’er all the earth extend His fame.\nAmen. Amen, for evermore."
-    ],
-    "scoreFiles": []
   },
   {
     "number": 2,
@@ -96,15 +77,6 @@
   },
   {
     "number": 3,
-    "letter": "",
-    "title": "Psalm Book Three Doxology",
-    "verses": [
-      "Blest be the LORD for evermore,\nWhose promise stands from days of yore.\nHis word is faithful now as then;\nBlest be His name. Amen, Amen.\nBlest be His name. Amen, Amen."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 3,
     "letter": "A",
     "title": "O LORD, How Are My Foes Increased!",
     "psalm": 3,
@@ -131,18 +103,10 @@
       "I laid me down and slept;\nI waked, for I was kept\nIn His divine protection;\nThe LORD was at my side,\nMy help He has supplied,\nWhatever my affliction.\nDefended by His hand,\nI shall undaunted stand\nWhile thousands surge about me;\nThough furious foemen wage\nTheir war with mighty rage,\nI know they shall not rout me.",
       "Arise and save me, LORD,\nFor Thou hast smitten hard\nThe jaws of them that hate me;\nYea, Thou didst fiercely break\nFor me Thy servant’s sake\nThe teeth of the ungodly.\nI shall not suffer long,\nFor my salvation strong\nBelongeth to Jehovah;\nThou, LORD, wilt freely pour\nA blessing from Thy store\nUpon us; Hallelujah!"
     ],
-    "scoreFiles": [],
-    "audioFile": "2025/Audio/_3B.aac"
-  },
-  {
-    "number": 4,
-    "letter": "",
-    "title": "Psalm Book Four Doxology",
-    "verses": [
-      "O give thanks to GOD above!\nEverlasting is His love;\nFor His mercy doth endure\nEver faithful, ever sure.",
-      "Let our cov’nant God be blest;\nEver be His name confessed.\nLet His saints, with one accord,\nSing Amen. Praise ye the LORD!"
+    "scoreFiles": [
+        "2025/Score/_3B.jpg"
     ],
-    "scoreFiles": []
+    "audioFile": "2025/Audio/_3B.aac"
   },
   {
     "number": 4,
@@ -195,16 +159,6 @@
   },
   {
     "number": 5,
-    "letter": "",
-    "title": "Psalm Book Five Doxology",
-    "verses": [
-      "Praise ye the LORD, His saints\nWho throng His courts below,\nAnd ye, His hosts in heav’n above,\nHis glorious praises show,\nHis glorious praises show.",
-      "Let all His creatures join\nTo praise His holy name;\nLet all that breathe their maker bless,\nAnd celebrate His fame,\nAnd celebrate His fame."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 5,
     "letter": "A",
     "title": "O Jehovah, Hear My Words",
     "psalm": 5,
@@ -237,15 +191,6 @@
   },
   {
     "number": 6,
-    "letter": "",
-    "title": "The Doxology",
-    "verses": [
-      "Praise God, from Whom all blessings flow;\nPraise Him all creatures here below;\nPraise Him above, ye heav’nly host:\nPraise Father, Son, and Holy Ghost.\nAmen."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 6,
     "letter": "A",
     "title": "LORD, Rebuke Me Not in Anger",
     "psalm": 6,
@@ -272,15 +217,6 @@
     ],
     "scoreFiles": [],
     "audioFile": "2025/Audio/_6B.aac"
-  },
-  {
-    "number": 7,
-    "letter": "",
-    "title": "To Father, Son and Holy Ghost",
-    "verses": [
-      "To Father, Son, and Holy Ghost,\nThe God Whom we adore;\nBe glory, as it was, is now,\nAnd shall be evermore.\nBe glory, as it was, is now,\nAnd shall be evermore."
-    ],
-    "scoreFiles": []
   },
   {
     "number": 7,
@@ -322,15 +258,6 @@
   },
   {
     "number": 8,
-    "letter": "",
-    "title": "Now to the Great and Sacred Three",
-    "verses": [
-      "Now to the great and sacred Three,\nThe Father, Son and Spirit, be\nEternal pow’r and glory giv’n,\nThrough all the worlds, where God is known,\nBy all the angels near the throne,\nAnd all the saints in earth and heav’n."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 8,
     "letter": "A",
     "title": "O LORD, Our Lord, in All the Earth",
     "psalm": 8,
@@ -363,15 +290,6 @@
       "2025/Score/_8B.jpg"
     ],
     "audioFile": "2025/Audio/_8B.aac"
-  },
-  {
-    "number": 9,
-    "letter": "",
-    "title": "Gloria Patri",
-    "verses": [
-      "Glory be to the Father, and to the Son, and to the Holy Ghost, as it was in the beginning, is now, and ever shall be, world without end. Amen. Amen."
-    ],
-    "scoreFiles": []
   },
   {
     "number": 9,
@@ -416,15 +334,6 @@
   },
   {
     "number": 10,
-    "letter": "",
-    "title": "May the Grace of Christ Our Saviour",
-    "verses": [
-      "May the grace of Christ our Saviour\nAnd the Father’s boundless love\nWith the Holy Spirit’s favour\nRest upon us from above.\nThus may we abide in union\nWith each other and the Lord,\nAnd possess, in sweet communion,\nJoys which earth cannot afford.\nAmen."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 10,
     "letter": "A",
     "title": "Why Standest Thou Afar, O LORD?",
     "psalm": 10,
@@ -464,17 +373,6 @@
   },
   {
     "number": 11,
-    "letter": "",
-    "title": "The Song of Zacharias",
-    "verses": [
-      "Blest be the God of Israel, \nWho comes to set us free\nAnd raises up new hope for us: \nA Branch from David’s tree.\nSo have the prophets long declared \nThat with a mighty arm\nGod would turn back our enemies \nAnd all who wish us harm.",
-      "With promised mercy will God still \nThe covenant recall,\nThe oath once sworn to Abraham, \nFrom foes to save us all,\nThat we might worship without fear \nAnd offer lives of praise,\nIn holiness and righteousness \nTo serve God all our days.",
-      "My child, as prophet of the Lord, \nYou still prepare the way,\nTo tell God’s people they are saved\nFrom sin’s eternal sway.\nThen shall God’s mercy from on high\nShine forth and never cease\nTo drive away the gloom of death\nAnd lead us into grace."
-    ],
-    "scoreFiles": []
-  },
-  {
-    "number": 11,
     "letter": "A",
     "title": "In GOD Will I Trust",
     "psalm": 11,
@@ -509,30 +407,6 @@
     "audioFile": "2025/Audio/_11B.aac"
   },
   {
-    "number": 12,
-    "letter": "",
-    "title": "The Song of Mary",
-    "verses": [
-      "My soul doth magnify the Lord;\nIn Him my spirit doth rejoice,\nFor He beheld my low estate,\nAnd in His love made me His choice,\nAnd in His love made me His choice.",
-      "All generations from henceforth\nShall now my blessedness proclaim,\nFor He has done great things to me;\nMighty and holy is His name.\nMighty and holy is His name.",
-      "His mercy shall abide on them\nThat fear the Lord from age to age;\nHe has revealed His mighty arm,\nRouting the haughty in their rage,\nRouting the haughty in their rage.",
-      "He has abased the mighty ones,\nExalted those of low degree;\nHe filled the hungry souls with good,\nAnd smote the rich with poverty,\nAnd smote the rich with poverty.",
-      "He helped His servant Israel,\nIn honour of His mercy sure;\nE’en as He spake to Abraham\nAnd to His seed for evermore,\nAnd to His seed for evermore."
-    ],
-    "scoreFiles": [],
-    "audioFile": "2025/Audio/_12.aac"
-  },
-  {
-    "number": 13,
-    "letter": "",
-    "title": "The Song of Simeon",
-    "verses": [
-      "Now may Thy servant, Lord,\nAccording to Thy word,\nDepart in exultation.\nMy rest shall be serene,\nFor, lo, mine eyes have seen\nThy wonderful salvation. ",
-      "Thou didst for all prepare\nThis gift, so great, so rare,\nThat peoples might adore Thee;\nA light to show the way\nTo nations gone astray,\nAnd unto Israel’s glory."
-    ],
-    "scoreFiles": []
-  },
-  {
     "number": 13,
     "letter": "A",
     "title": "How Long Wilt Thou Forget Me?",
@@ -559,27 +433,6 @@
       "2025/Score/_13B.jpg"
     ],
     "audioFile": "2025/Audio/_13B.aac"
-  },
-  {
-    "number": 14,
-    "letter": "",
-    "title": "The Lord’s Prayer",
-    "verses": [
-      "Our Father which in heaven art, hallowed be Thy name.\nThy kingdom come. Thy will be done, on earth as it is in heav’n.\nGive us this day our daily bread.\nForgive, O Lord, forgive our debts as we forgive our debtors.\nInto temptation lead us not, but deliver us from evil.\nFor Thine is the kingdom, the pow’r and the glory both now and for evermore. Amen."
-    ],
-    "scoreFiles": [],
-    "audioFile": "2025/Audio/_14.aac"
-  },
-  {
-    "number": 15,
-    "letter": "",
-    "title": "The Lord’s Prayer",
-    "verses": [
-      "Our Father, God, Who art in heav’n,\nAll hallowed be Thy name!\nThy kingdom come; Thy will be done,\nIn earth and heav’n the same!",
-      "Give us this day our daily bread;\nAnd as we those forgive\nWho sin against us, so may we\nForgiving grace receive.",
-      "Into temptation lead us not;\nFrom evil set us free;\nAnd Thine the kingdom, Thine the pow’r\nAnd glory, ever be!"
-    ],
-    "scoreFiles": []
   },
   {
     "number": 15,
@@ -628,18 +481,6 @@
       "2025/Score/_15C.jpg"
     ],
     "audioFile": "2025/Audio/_15C.aac"
-  },
-  {
-    "number": 16,
-    "letter": "",
-    "title": "The Ten Commandments",
-    "verses": [
-      "My soul, with holy awe remember,\nThe Lord, in brightest majesty,\nAt Horeb’s mount, gave there His statutes,\nAnd spake these words to hear and see:\nI am the LORD, Thy God and Saviour,\nI out of bondage set thee free,\nDelivered thee from slavish labour;\nHence, serve no other gods, but Me!",
-      "Adoring idols are transgressions;\nI am the LORD, a jealous God;\nI’ll punish to four generations,\nBless those who righteous paths have trod. \nThou shalt not take the LORD’s name idly;\nNor vainly use or falsely swear\nA treach’rous oath, for they are guilty\nWho sinfully do not forbear.",
-      "The Sabbath day shalt thou keep holy,\nRemember, sanctify and rest;\nFor GOD has hallowed to His glory\nThe Sabbath worship, which He blest.\nHonour thy father and thy mother,\nSo that thy God, Who lives for aye,\nBless all thine efforts, with His favour\nProlong thy life from day to day.",
-      "Thou shalt not kill, nor give offenses,\nBreak not the wedlock. Do not steal\nThy neighbour’s goods. Bear no false witness;\nWalk in God’s law with fervent zeal.\nThine heart shall never from thy neighbour\nCovet his house, his wife, his food;\nThy soul shall, as thy mouth, with honour\nSing praises, for the Lord is good!"
-    ],
-    "scoreFiles": []
   },
   {
     "number": 16,
@@ -710,18 +551,6 @@
       "2025/Score/_16D.jpg"
     ],
     "audioFile": "2025/Audio/_16D.aac"
-  },
-  {
-    "number": 17,
-    "letter": "",
-    "title": "The Apostles’ Creed",
-    "verses": [
-      "I believe in God the Father, \nMaker of the heav’n and earth,\nAnd in Jesus Christ, our Saviour, \nGod’s own Son, of matchless worth;\nBy the Holy Ghost conceived, \nVirgin Mary bore God’s Son,\nHe in Whom I have believed: \nGod Almighty, Three in One. ",
-      "Suffered under Pontius Pilate, \nCrucified, enduring hell,\nLaid within the grave so silent, \nAs the prophets did foretell.\nBut the stone-sealed tomb was emptied \nOn the third day; He arose:\nInto heaven made His entry, \nMighty Conquer’r of His foes.",
-      "At God’s right hand He is seated, \nTill His coming, as He said;\nFinal judgment will be meted \nTo the living and the dead.\nI confess the Holy Spirit \nHas been sent through Christ the Son\nTo apply salvation’s merit; \nGod the Spirit, Three in One.",
-      "I believe the church of Jesus \nHoly, catholic remains;\nWe are one through all the ages, \nThe communion of the saints.\nI believe sins are forgiven, \nThat our bodies will be raised,\nLife with God is never ended. \nAmen, let His name be praised!"
-    ],
-    "scoreFiles": []
   },
   {
     "number": 17,
@@ -7442,5 +7271,210 @@
     ],
     "scoreFiles": [],
     "audioFile": "2025/Audio/_150F.aac"
+  },
+  {
+    "number": 1,
+    "letter": "",
+    "title": "Psalm Book One Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "Blest be Jehovah, Israel’s God, \nFor evermore. Amen.\nLet age to age, eternally, \nRepeat His praise. Amen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS1.aac"
+  },
+  {
+    "number": 2,
+    "letter": "",
+    "title": "Psalm Book Two Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "Now blessed be the mighty one,\nJehovah, God of Israel,\nFor He alone has wonders done\nAnd deeds in glory that excel.",
+      "And blessed be His glorious name,\nLong as the ages shall endure;\nO’er all the earth extend His fame.\nAmen. Amen, for evermore."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS2.aac"
+  },
+  {
+    "number": 3,
+    "letter": "",
+    "title": "Psalm Book Three Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "Blest be the LORD for evermore,\nWhose promise stands from days of yore.\nHis word is faithful now as then;\nBlest be His name. Amen, Amen.\nBlest be His name. Amen, Amen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS3.aac"
+  },
+  {
+    "number": 4,
+    "letter": "",
+    "title": "Psalm Book Four Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "O give thanks to GOD above!\nEverlasting is His love;\nFor His mercy doth endure\nEver faithful, ever sure.",
+      "Let our cov’nant God be blest;\nEver be His name confessed.\nLet His saints, with one accord,\nSing Amen. Praise ye the LORD!"
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS4.aac"
+  },
+  {
+    "number": 5,
+    "letter": "",
+    "title": "Psalm Book Five Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "Praise ye the LORD, His saints\nWho throng His courts below,\nAnd ye, His hosts in heav’n above,\nHis glorious praises show,\nHis glorious praises show.",
+      "Let all His creatures join\nTo praise His holy name;\nLet all that breathe their maker bless,\nAnd celebrate His fame,\nAnd celebrate His fame."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS5.aac"
+  },
+  {
+    "number": 6,
+    "letter": "",
+    "title": "The Doxology",
+    "isSpiritualSong": true,
+    "verses": [
+      "Praise God, from Whom all blessings flow;\nPraise Him all creatures here below;\nPraise Him above, ye heav’nly host:\nPraise Father, Son, and Holy Ghost.\nAmen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS6.aac"
+  },
+  {
+    "number": 7,
+    "letter": "",
+    "title": "To Father, Son and Holy Ghost",
+    "isSpiritualSong": true,
+    "verses": [
+      "To Father, Son, and Holy Ghost,\nThe God Whom we adore;\nBe glory, as it was, is now,\nAnd shall be evermore.\nBe glory, as it was, is now,\nAnd shall be evermore."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS7.aac"
+  },
+  {
+    "number": 8,
+    "letter": "",
+    "title": "Now to the Great and Sacred Three",
+    "isSpiritualSong": true,
+    "verses": [
+      "Now to the great and sacred Three,\nThe Father, Son and Spirit, be\nEternal pow’r and glory giv’n,\nThrough all the worlds, where God is known,\nBy all the angels near the throne,\nAnd all the saints in earth and heav’n."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS8.aac"
+  },
+  {
+    "number": 9,
+    "letter": "",
+    "title": "Gloria Patri",
+    "isSpiritualSong": true,
+    "verses": [
+      "Glory be to the Father,\nand to the Son,\nand to the Holy Ghost,\nas it was in the beginning,\nis now, and ever shall be,\nworld without end. Amen. Amen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS9.aac"
+  },
+  {
+    "number": 10,
+    "letter": "",
+    "title": "May the Grace of Christ Our Saviour",
+    "isSpiritualSong": true,
+    "verses": [
+      "May the grace of Christ our Saviour\nAnd the Father’s boundless love\nWith the Holy Spirit’s favour\nRest upon us from above.\nThus may we abide in union\nWith each other and the Lord,\nAnd possess, in sweet communion,\nJoys which earth cannot afford.\nAmen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS10.aac"
+  },
+  {
+    "number": 11,
+    "letter": "",
+    "title": "The Song of Zacharias",
+    "isSpiritualSong": true,
+    "verses": [
+      "Blest be the God of Israel, \nWho comes to set us free\nAnd raises up new hope for us: \nA Branch from David’s tree.\nSo have the prophets long declared \nThat with a mighty arm\nGod would turn back our enemies \nAnd all who wish us harm.",
+      "With promised mercy will God still \nThe covenant recall,\nThe oath once sworn to Abraham, \nFrom foes to save us all,\nThat we might worship without fear \nAnd offer lives of praise,\nIn holiness and righteousness \nTo serve God all our days.",
+      "My child, as prophet of the Lord, \nYou still prepare the way,\nTo tell God’s people they are saved\nFrom sin’s eternal sway.\nThen shall God’s mercy from on high\nShine forth and never cease\nTo drive away the gloom of death\nAnd lead us into grace."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS11.aac"
+  },
+  {
+    "number": 12,
+    "letter": "",
+    "title": "The Song of Mary",
+    "isSpiritualSong": true,
+    "verses": [
+      "My soul doth magnify the Lord;\nIn Him my spirit doth rejoice,\nFor He beheld my low estate,\nAnd in His love made me His choice,\nAnd in His love made me His choice.",
+      "All generations from henceforth\nShall now my blessedness proclaim,\nFor He has done great things to me;\nMighty and holy is His name.\nMighty and holy is His name.",
+      "His mercy shall abide on them\nThat fear the Lord from age to age;\nHe has revealed His mighty arm,\nRouting the haughty in their rage,\nRouting the haughty in their rage.",
+      "He has abased the mighty ones,\nExalted those of low degree;\nHe filled the hungry souls with good,\nAnd smote the rich with poverty,\nAnd smote the rich with poverty.",
+      "He helped His servant Israel,\nIn honour of His mercy sure;\nE’en as He spake to Abraham\nAnd to His seed for evermore,\nAnd to His seed for evermore."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS12.aac"
+  },
+  {
+    "number": 13,
+    "letter": "",
+    "title": "The Song of Simeon",
+    "isSpiritualSong": true,
+    "verses": [
+      "Now may Thy servant, Lord,\nAccording to Thy word,\nDepart in exultation.\nMy rest shall be serene,\nFor, lo, mine eyes have seen\nThy wonderful salvation. ",
+      "Thou didst for all prepare\nThis gift, so great, so rare,\nThat peoples might adore Thee;\nA light to show the way\nTo nations gone astray,\nAnd unto Israel’s glory."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS13.aac"
+  },
+  {
+    "number": 14,
+    "letter": "",
+    "title": "The Lord’s Prayer",
+    "isSpiritualSong": true,
+    "verses": [
+      "Our Father which in heaven art, hallowed be Thy name.\nThy kingdom come. Thy will be done, on earth as it is in heav’n.\nGive us this day our daily bread.\nForgive, O Lord, forgive our debts as we forgive our debtors.\nInto temptation lead us not, but deliver us from evil.\nFor Thine is the kingdom, the pow’r and the glory both now and for evermore. Amen."
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS14.aac"
+  },
+  {
+    "number": 15,
+    "letter": "",
+    "title": "The Lord’s Prayer",
+    "isSpiritualSong": true,
+    "verses": [
+      "Our Father, God, Who art in heav’n,\nAll hallowed be Thy name!\nThy kingdom come; Thy will be done,\nIn earth and heav’n the same!",
+      "Give us this day our daily bread;\nAnd as we those forgive\nWho sin against us, so may we\nForgiving grace receive.",
+      "Into temptation lead us not;\nFrom evil set us free;\nAnd Thine the kingdom, Thine the pow’r\nAnd glory, ever be!"
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS15.aac"
+  },
+  {
+    "number": 16,
+    "letter": "",
+    "title": "The Ten Commandments",
+    "isSpiritualSong": true,
+    "verses": [
+      "My soul, with holy awe remember,\nThe Lord, in brightest majesty,\nAt Horeb’s mount, gave there His statutes,\nAnd spake these words to hear and see:\nI am the LORD, Thy God and Saviour,\nI out of bondage set thee free,\nDelivered thee from slavish labour;\nHence, serve no other gods, but Me!",
+      "Adoring idols are transgressions;\nI am the LORD, a jealous God;\nI’ll punish to four generations,\nBless those who righteous paths have trod. \nThou shalt not take the LORD’s name idly;\nNor vainly use or falsely swear\nA treach’rous oath, for they are guilty\nWho sinfully do not forbear.",
+      "The Sabbath day shalt thou keep holy,\nRemember, sanctify and rest;\nFor GOD has hallowed to His glory\nThe Sabbath worship, which He blest.\nHonour thy father and thy mother,\nSo that thy God, Who lives for aye,\nBless all thine efforts, with His favour\nProlong thy life from day to day.",
+      "Thou shalt not kill, nor give offenses,\nBreak not the wedlock. Do not steal\nThy neighbour’s goods. Bear no false witness;\nWalk in God’s law with fervent zeal.\nThine heart shall never from thy neighbour\nCovet his house, his wife, his food;\nThy soul shall, as thy mouth, with honour\nSing praises, for the Lord is good!"
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS16.aac"
+  },
+  {
+    "number": 17,
+    "letter": "",
+    "title": "The Apostles’ Creed",
+    "isSpiritualSong": true,
+    "verses": [
+      "I believe in God the Father, \nMaker of the heav’n and earth,\nAnd in Jesus Christ, our Saviour, \nGod’s own Son, of matchless worth;\nBy the Holy Ghost conceived, \nVirgin Mary bore God’s Son,\nHe in Whom I have believed: \nGod Almighty, Three in One. ",
+      "Suffered under Pontius Pilate, \nCrucified, enduring hell,\nLaid within the grave so silent, \nAs the prophets did foretell.\nBut the stone-sealed tomb was emptied \nOn the third day; He arose:\nInto heaven made His entry, \nMighty Conquer’r of His foes.",
+      "At God’s right hand He is seated, \nTill His coming, as He said;\nFinal judgment will be meted \nTo the living and the dead.\nI confess the Holy Spirit \nHas been sent through Christ the Son\nTo apply salvation’s merit; \nGod the Spirit, Three in One.",
+      "I believe the church of Jesus \nHoly, catholic remains;\nWe are one through all the ages, \nThe communion of the saints.\nI believe sins are forgiven, \nThat our bodies will be raised,\nLife with God is never ended. \nAmen, let His name be praised!"
+    ],
+    "scoreFiles": [],
+    "audioFile": "2025/Audio/_SS17.aac"
   }
 ]
