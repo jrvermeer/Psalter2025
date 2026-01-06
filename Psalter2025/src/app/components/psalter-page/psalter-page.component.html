@@ -21,7 +21,7 @@
             </div>
             <div class="d-flex-col align-start">
                 @if (psalter.psalm) {
-                <a matButton href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}" target="_blank" class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
+                <a matButton href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}&version=KJV" target="_blank" class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
                 }
             </div>
             @if (storage.showScore && psalter.scoreFiles?.length) {

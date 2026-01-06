@@ -1,7 +1,7 @@
 :host {
     height: 100dvh;
     display: block;
-    --app-navbar-height: 68px;
+    --app-navbar-height: 60px;
 }
 
 psalter-page {
@@ -30,11 +30,15 @@ nav {
   right: 0;
   z-index: 999;
   height: var(--app-navbar-height);
-  background-color: var(--mat-sys-surface-container-low);
+  background-color: var(--mat-sys-primary-container);
 
   .ui-end-buttons {
     min-width: calc(var(--mat-icon-button-state-layer-size) * 3);
     text-align: end;
+  }
+
+  [matFab] {
+      background-color: var(--mat-sys-secondary-container);
   }
 }
 
@@ -82,7 +86,7 @@ nav {
 }
 
 td {
-    white-space: pre;
+    white-space: pre-line;
     vertical-align: top;
     text-align: center;
 }

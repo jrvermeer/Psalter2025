@@ -21,6 +21,7 @@ export class AppComponent {
 
         this.toggleTheme(storage.darkTheme);
         this.togglePsalter(storage.oldPsalter);
+        navigator.wakeLock?.request();
 
         this.searchInputModeControl.valueChanges
             .pipe(startWith(this.searchInputModeControl.value))

@@ -36,7 +36,7 @@ table.verses {
 }
 
 .verse {
-  white-space: pre;
+  white-space: pre-line;
   text-align: center;
   padding-bottom: 1em;
 }
