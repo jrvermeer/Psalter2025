@@ -44,6 +44,7 @@ export class PsalterPageComponent {
     }
 
     enableNavArrows = false;
+    get containerWidth() { return 500 * this.storage.textScale; }
 
     @Input()
     psalters: Psalter[];

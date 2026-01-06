@@ -72,17 +72,19 @@ internal class Program
             if (psalter == null)
                 newPsalters.Add(psalter = new NewSchema { Number = number, Letter = letter });
 
+            if (psalter.IsSpiritualSong == true)
+                identifier = "SS" + identifier;
             psalter.Title = titleAndIdentifier[0];
             psalter.Psalm = psalm;
 
-            var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
-            var verses = parts.Skip(1).ToList();
-            if (verses.Count > 1)
-            {
-                psalter.Chorus = verses.FirstOrDefault(x => !char.IsDigit(x[0]))?.Trim();
-                verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
-            }
-            psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
+            //var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
+            //var verses = parts.Skip(1).ToList();
+            //if (verses.Count > 1)
+            //{
+            //    psalter.Chorus = verses.FirstOrDefault(x => !char.IsDigit(x[0]))?.Trim();
+            //    verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
+            //}
+            //psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
             psalter.ScoreFiles = scoreFiles
                 .Where(x => x.Number == psalter.Number && x.Letter == psalter.Letter)
                 .Select(x => x.ScoreFilePath)
@@ -90,15 +92,15 @@ internal class Program
 
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
 
-            if (psalter.Verses.Count != expectedMaxVerses)
-            {
-                newPsalters.Remove(psalter);
-                WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
-                throw new Exception();
-            }
+            //if (psalter.Verses.Count != expectedMaxVerses)
+            //{
+            //    newPsalters.Remove(psalter);
+            //    WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
+            //    throw new Exception();
+            //}
         }
 
-        newPsalters = newPsalters.OrderBy(x => x.Number).ThenBy(x => x.Letter).ToList();
+        newPsalters = newPsalters.OrderByDescending(x => x.IsSpiritualSong != true).ThenBy(x => x.Number).ThenBy(x => x.Letter).ToList();
 
         WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
     }
@@ -215,6 +217,7 @@ public class NewSchema
     public int? Psalm { get; set; }
     public string? PsalmVerses { get; set; } // 2025
     public bool? IsCompletePsalm { get; set; } // 2025
+    public bool? IsSpiritualSong { get; set; } // 2025
 
     public List<string> Verses { get; set; }
     public string? Chorus { get; set; }

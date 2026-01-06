@@ -47,6 +47,7 @@ export class Psalter {
     psalm: number
     psalmVerses: string // 2025
     isCompletePsalm: boolean // 2025
+    isSpiritualSong: boolean // 2025
 
     verses: string[]
     chorus: string

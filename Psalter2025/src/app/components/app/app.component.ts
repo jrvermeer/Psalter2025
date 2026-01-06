@@ -21,7 +21,6 @@ export class AppComponent {
 
         this.toggleTheme(storage.darkTheme);
         this.togglePsalter(storage.oldPsalter);
-        this.scaleTextSize(storage.textScale);
 
         this.searchInputModeControl.valueChanges
             .pipe(startWith(this.searchInputModeControl.value))
@@ -218,54 +217,6 @@ export class AppComponent {
         if (verseResult.highlightRanges.length)
             psalterResult.verseResults.push(verseResult);
         return verseResult;
-    }
-
-    initialPinchTextScale: number;
-    initialPinchDistance: number
-    scaleFactor: number;
-
-    @HostListener('touchstart', ['$event'])
-    touchStart(evt: TouchEvent) {
-        if (evt.touches.length === 2) {
-            evt.preventDefault();
-            this.initialPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1])
-            this.initialPinchTextScale = this.storage.textScale;
-        }
-    }
-
-    @HostListener('touchmove', ['$event'])
-    touchMove(evt: TouchEvent) {
-        if (evt.touches.length === 2 && this.initialPinchDistance > 0) {
-            evt.preventDefault();
-
-            const currentPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1]);
-
-            this.scaleFactor = currentPinchDistance / this.initialPinchDistance;
-            let newScale = this.initialPinchTextScale * this.scaleFactor;
-            newScale = Math.max(newScale, 1);
-            newScale = Math.min(newScale, 2);
-            this.storage.textScale = newScale;
-            this.scaleTextSize(newScale);
-        }
-    }
-
-    @HostListener('touchend', ['$event'])
-    touchEnd(evt: TouchEvent) {
-        this.initialPinchDistance = null;
-        this.scaleFactor = null;
-        this.initialPinchTextScale = null
-    }
-
-    private calculateDistance(touch1: Touch, touch2: Touch) {
-        return Math.hypot(
-            touch1.pageX - touch2.pageX,
-            touch1.pageY - touch2.pageY
-        );
-    };
-
-    private scaleTextSize(scale: number) {
-        this.renderer.setStyle(this.document.body, 'font-size', `${scale}em`)
-        this.renderer.setStyle(this.document.body, 'line-height', `${scale + 0.25}rem`)
     }
 }
 

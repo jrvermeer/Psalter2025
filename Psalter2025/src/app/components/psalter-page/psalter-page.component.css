@@ -1,7 +1,3 @@
-:host {
-  --ui-max-width: 700px;
-}
-
 swiper-container {
   height: 100%;
 }
@@ -14,7 +10,6 @@ swiper-slide {
 }
 
 .ui-slide-container {
-  width: var(--ui-max-width);
   max-width: 100%;
   padding: 4px;
   text-align: center;
@@ -24,6 +19,7 @@ swiper-slide {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  font-size: initial;
 }
 
 .ui-psalm-link {
@@ -32,13 +28,11 @@ swiper-slide {
 }
 
 img {
-  width: var(--ui-max-width);
-  max-width: 100%;
+  width: 100%;
 }
 
 table.verses {
   margin: auto;
-  /*font-size: 1.2em;*/
 }
 
 .verse {
