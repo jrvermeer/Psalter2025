@@ -102,7 +102,8 @@
         "scoreFiles": [
             "1912/Score/_5.webp"
         ],
-        "audioFile": "1912\\Audio\\_5.mp3"
+        "audioFile": "1912\\Audio\\_5.mp3",
+        "otherPsalterNumber": "3A"
     },
     {
         "number": 6,
@@ -120,7 +121,8 @@
         "scoreFiles": [
             "1912/Score/_6.webp"
         ],
-        "audioFile": "1912\\Audio\\_6.mp3"
+        "audioFile": "1912\\Audio\\_6.mp3",
+        "otherPsalterNumber": "4A"
     },
     {
         "number": 7,
@@ -135,7 +137,8 @@
         "scoreFiles": [
             "1912/Score/_7.webp"
         ],
-        "audioFile": "1912\\Audio\\_7.mp3"
+        "audioFile": "1912\\Audio\\_7.mp3",
+        "otherPsalterNumber": "4B"
     },
     {
         "number": 8,
@@ -151,7 +154,8 @@
         "scoreFiles": [
             "1912/Score/_8.webp"
         ],
-        "audioFile": "1912\\Audio\\_8.mp3"
+        "audioFile": "1912\\Audio\\_8.mp3",
+        "otherPsalterNumber": "4C"
     },
     {
         "number": 9,
@@ -166,7 +170,8 @@
         "scoreFiles": [
             "1912/Score/_9.webp"
         ],
-        "audioFile": "1912\\Audio\\_9.mp3"
+        "audioFile": "1912\\Audio\\_9.mp3",
+        "otherPsalterNumber": "5A"
     },
     {
         "number": 10,
@@ -181,7 +186,8 @@
         "scoreFiles": [
             "1912/Score/_10.webp"
         ],
-        "audioFile": "1912\\Audio\\_10.mp3"
+        "audioFile": "1912\\Audio\\_10.mp3",
+        "otherPsalterNumber": "5A, 5B"
     },
     {
         "number": 11,
@@ -197,7 +203,8 @@
         "scoreFiles": [
             "1912/Score/_11.webp"
         ],
-        "audioFile": "1912\\Audio\\_11.mp3"
+        "audioFile": "1912\\Audio\\_11.mp3",
+        "otherPsalterNumber": "5A"
     },
     {
         "number": 12,
@@ -213,7 +220,8 @@
         "scoreFiles": [
             "1912/Score/_12.webp"
         ],
-        "audioFile": "1912\\Audio\\_12.mp3"
+        "audioFile": "1912\\Audio\\_12.mp3",
+        "otherPsalterNumber": "6A"
     },
     {
         "number": 13,
@@ -232,7 +240,8 @@
         "scoreFiles": [
             "1912/Score/_13.webp"
         ],
-        "audioFile": "1912\\Audio\\_13.mp3"
+        "audioFile": "1912\\Audio\\_13.mp3",
+        "otherPsalterNumber": "7B"
     },
     {
         "number": 14,
@@ -251,7 +260,8 @@
         "scoreFiles": [
             "1912/Score/_14.webp"
         ],
-        "audioFile": "1912\\Audio\\_14.mp3"
+        "audioFile": "1912\\Audio\\_14.mp3",
+        "otherPsalterNumber": "8A"
     },
     {
         "number": 15,
@@ -266,7 +276,8 @@
         "scoreFiles": [
             "1912/Score/_15.webp"
         ],
-        "audioFile": "1912\\Audio\\_15.mp3"
+        "audioFile": "1912\\Audio\\_15.mp3",
+        "otherPsalterNumber": "8B"
     },
     {
         "number": 16,
@@ -287,7 +298,8 @@
         "scoreFiles": [
             "1912/Score/_16.webp"
         ],
-        "audioFile": "1912\\Audio\\_16.mp3"
+        "audioFile": "1912\\Audio\\_16.mp3",
+        "otherPsalterNumber": "9A"
     },
     {
         "number": 17,
@@ -303,7 +315,8 @@
         "numVersesInsideStaff": 5,
         "scoreFiles": [
             "1912/Score/_17.webp"
-        ]
+        ],
+        "otherPsalterNumber": "9B"
     },
     {
         "number": 17,
@@ -342,7 +355,8 @@
         "scoreFiles": [
             "1912/Score/_18.webp"
         ],
-        "audioFile": "1912\\Audio\\_18.mp3"
+        "audioFile": "1912\\Audio\\_18.mp3",
+        "otherPsalterNumber": "10A"
     },
     {
         "number": 19,
@@ -359,7 +373,8 @@
         "scoreFiles": [
             "1912/Score/_19.webp"
         ],
-        "audioFile": "1912\\Audio\\_19.mp3"
+        "audioFile": "1912\\Audio\\_19.mp3",
+        "otherPsalterNumber": "10B"
     },
     {
         "number": 20,
@@ -374,7 +389,8 @@
         "scoreFiles": [
             "1912/Score/_20.webp"
         ],
-        "audioFile": "1912\\Audio\\_20.mp3"
+        "audioFile": "1912\\Audio\\_20.mp3",
+        "otherPsalterNumber": "11A, 11B"
     },
     {
         "number": 21,
@@ -390,7 +406,8 @@
         "scoreFiles": [
             "1912/Score/_21.webp"
         ],
-        "audioFile": "1912\\Audio\\_21.mp3"
+        "audioFile": "1912\\Audio\\_21.mp3",
+        "otherPsalterNumber": "12"
     },
     {
         "number": 22,
@@ -405,7 +422,8 @@
         "scoreFiles": [
             "1912/Score/_22.webp"
         ],
-        "audioFile": "1912\\Audio\\_22.mp3"
+        "audioFile": "1912\\Audio\\_22.mp3",
+        "otherPsalterNumber": "13A"
     },
     {
         "number": 23,
@@ -423,7 +441,8 @@
         "scoreFiles": [
             "1912/Score/_23.webp"
         ],
-        "audioFile": "1912\\Audio\\_23.mp3"
+        "audioFile": "1912\\Audio\\_23.mp3",
+        "otherPsalterNumber": "14"
     },
     {
         "number": 23,
@@ -456,7 +475,8 @@
         "scoreFiles": [
             "1912/Score/_24.webp"
         ],
-        "audioFile": "1912\\Audio\\_24.mp3"
+        "audioFile": "1912\\Audio\\_24.mp3",
+        "otherPsalterNumber": "15A"
     },
     {
         "number": 25,
@@ -472,7 +492,8 @@
         "scoreFiles": [
             "1912/Score/_25.webp"
         ],
-        "audioFile": "1912\\Audio\\_25.mp3"
+        "audioFile": "1912\\Audio\\_25.mp3",
+        "otherPsalterNumber": "15B"
     },
     {
         "number": 26,
@@ -489,7 +510,8 @@
         "scoreFiles": [
             "1912/Score/_26.webp"
         ],
-        "audioFile": "1912\\Audio\\_26.mp3"
+        "audioFile": "1912\\Audio\\_26.mp3",
+        "otherPsalterNumber": "15C"
     },
     {
         "number": 27,
@@ -506,7 +528,8 @@
         "scoreFiles": [
             "1912/Score/_27.webp"
         ],
-        "audioFile": "1912\\Audio\\_27.mp3"
+        "audioFile": "1912\\Audio\\_27.mp3",
+        "otherPsalterNumber": "16A"
     },
     {
         "number": 28,
@@ -523,7 +546,8 @@
         "scoreFiles": [
             "1912/Score/_28.webp"
         ],
-        "audioFile": "1912\\Audio\\_28.mp3"
+        "audioFile": "1912\\Audio\\_28.mp3",
+        "otherPsalterNumber": "16A, 16B"
     },
     {
         "number": 29,
@@ -538,7 +562,8 @@
         "scoreFiles": [
             "1912/Score/_29.webp"
         ],
-        "audioFile": "1912\\Audio\\_29.mp3"
+        "audioFile": "1912\\Audio\\_29.mp3",
+        "otherPsalterNumber": "16C"
     },
     {
         "number": 30,
@@ -553,7 +578,8 @@
         "scoreFiles": [
             "1912/Score/_30.webp"
         ],
-        "audioFile": "1912\\Audio\\_30.mp3"
+        "audioFile": "1912\\Audio\\_30.mp3",
+        "otherPsalterNumber": "16D"
     },
     {
         "number": 31,
@@ -572,7 +598,8 @@
         "scoreFiles": [
             "1912/Score/_31.webp"
         ],
-        "audioFile": "1912\\Audio\\_31.mp3"
+        "audioFile": "1912\\Audio\\_31.mp3",
+        "otherPsalterNumber": "17A, 17B"
     },
     {
         "number": 32,
@@ -588,7 +615,8 @@
         "scoreFiles": [
             "1912/Score/_32.webp"
         ],
-        "audioFile": "1912\\Audio\\_32.mp3"
+        "audioFile": "1912\\Audio\\_32.mp3",
+        "otherPsalterNumber": "17A"
     },
     {
         "number": 33,
@@ -604,7 +632,8 @@
         "numVersesInsideStaff": 5,
         "scoreFiles": [
             "1912/Score/_33.webp"
-        ]
+        ],
+        "otherPsalterNumber": "17C"
     },
     {
         "number": 33,
@@ -644,7 +673,8 @@
         "scoreFiles": [
             "1912/Score/_34.webp"
         ],
-        "audioFile": "1912\\Audio\\_34.mp3"
+        "audioFile": "1912\\Audio\\_34.mp3",
+        "otherPsalterNumber": "18B"
     },
     {
         "number": 35,
@@ -662,7 +692,8 @@
         "scoreFiles": [
             "1912/Score/_35.webp"
         ],
-        "audioFile": "1912\\Audio\\_35.mp3"
+        "audioFile": "1912\\Audio\\_35.mp3",
+        "otherPsalterNumber": "18C"
     },
     {
         "number": 36,
@@ -679,7 +710,8 @@
         "scoreFiles": [
             "1912/Score/_36.webp"
         ],
-        "audioFile": "1912\\Audio\\_36.mp3"
+        "audioFile": "1912\\Audio\\_36.mp3",
+        "otherPsalterNumber": "18C, 18D"
     },
     {
         "number": 37,
@@ -695,7 +727,8 @@
         "scoreFiles": [
             "1912/Score/_37.webp"
         ],
-        "audioFile": "1912\\Audio\\_37.mp3"
+        "audioFile": "1912\\Audio\\_37.mp3",
+        "otherPsalterNumber": "19B"
     },
     {
         "number": 38,
@@ -712,7 +745,8 @@
         "scoreFiles": [
             "1912/Score/_38.webp"
         ],
-        "audioFile": "1912\\Audio\\_38.mp3"
+        "audioFile": "1912\\Audio\\_38.mp3",
+        "otherPsalterNumber": "19B"
     },
     {
         "number": 39,
@@ -728,7 +762,8 @@
         "scoreFiles": [
             "1912/Score/_39.webp"
         ],
-        "audioFile": "1912\\Audio\\_39.mp3"
+        "audioFile": "1912\\Audio\\_39.mp3",
+        "otherPsalterNumber": "19A"
     },
     {
         "number": 40,
@@ -746,7 +781,8 @@
         "scoreFiles": [
             "1912/Score/_40.webp"
         ],
-        "audioFile": "1912\\Audio\\_40.mp3"
+        "audioFile": "1912\\Audio\\_40.mp3",
+        "otherPsalterNumber": "19A"
     },
     {
         "number": 41,
@@ -765,7 +801,8 @@
         "scoreFiles": [
             "1912/Score/_41.webp"
         ],
-        "audioFile": "1912\\Audio\\_41.mp3"
+        "audioFile": "1912\\Audio\\_41.mp3",
+        "otherPsalterNumber": "19D"
     },
     {
         "number": 42,
@@ -782,7 +819,8 @@
         "scoreFiles": [
             "1912/Score/_42.webp"
         ],
-        "audioFile": "1912\\Audio\\_42.mp3"
+        "audioFile": "1912\\Audio\\_42.mp3",
+        "otherPsalterNumber": "19C"
     },
     {
         "number": 43,
@@ -800,7 +838,8 @@
         "scoreFiles": [
             "1912/Score/_43.webp"
         ],
-        "audioFile": "1912\\Audio\\_43.mp3"
+        "audioFile": "1912\\Audio\\_43.mp3",
+        "otherPsalterNumber": "20A"
     },
     {
         "number": 44,
@@ -816,7 +855,8 @@
         "scoreFiles": [
             "1912/Score/_44.webp"
         ],
-        "audioFile": "1912\\Audio\\_44.mp3"
+        "audioFile": "1912\\Audio\\_44.mp3",
+        "otherPsalterNumber": "20B"
     },
     {
         "number": 45,
@@ -834,7 +874,8 @@
         "scoreFiles": [
             "1912/Score/_45.webp"
         ],
-        "audioFile": "1912\\Audio\\_45.mp3"
+        "audioFile": "1912\\Audio\\_45.mp3",
+        "otherPsalterNumber": "21A"
     },
     {
         "number": 46,
@@ -849,7 +890,8 @@
         "numVersesInsideStaff": 4,
         "scoreFiles": [
             "1912/Score/_46.webp"
-        ]
+        ],
+        "otherPsalterNumber": "21B"
     },
     {
         "number": 46,
@@ -889,7 +931,8 @@
         "scoreFiles": [
             "1912/Score/_47.webp"
         ],
-        "audioFile": "1912\\Audio\\_47.mp3"
+        "audioFile": "1912\\Audio\\_47.mp3",
+        "otherPsalterNumber": "22A, 22B"
     },
     {
         "number": 48,
@@ -909,7 +952,8 @@
         "scoreFiles": [
             "1912/Score/_48.webp"
         ],
-        "audioFile": "1912\\Audio\\_48.mp3"
+        "audioFile": "1912\\Audio\\_48.mp3",
+        "otherPsalterNumber": "22C"
     },
     {
         "number": 49,
@@ -925,7 +969,8 @@
         "scoreFiles": [
             "1912/Score/_49.webp"
         ],
-        "audioFile": "1912\\Audio\\_49.mp3"
+        "audioFile": "1912\\Audio\\_49.mp3",
+        "otherPsalterNumber": "22D"
     },
     {
         "number": 50,
@@ -940,7 +985,8 @@
         "scoreFiles": [
             "1912/Score/_50.webp"
         ],
-        "audioFile": "1912\\Audio\\_50.mp3"
+        "audioFile": "1912\\Audio\\_50.mp3",
+        "otherPsalterNumber": "22E"
     },
     {
         "number": 51,
@@ -955,7 +1001,8 @@
         "scoreFiles": [
             "1912/Score/_51.webp"
         ],
-        "audioFile": "1912\\Audio\\_51.mp3"
+        "audioFile": "1912\\Audio\\_51.mp3",
+        "otherPsalterNumber": "22F"
     },
     {
         "number": 52,
@@ -971,7 +1018,8 @@
         "scoreFiles": [
             "1912/Score/_52.webp"
         ],
-        "audioFile": "1912\\Audio\\_52.mp3"
+        "audioFile": "1912\\Audio\\_52.mp3",
+        "otherPsalterNumber": "23A"
     },
     {
         "number": 53,
@@ -988,7 +1036,8 @@
         "scoreFiles": [
             "1912/Score/_53.webp"
         ],
-        "audioFile": "1912\\Audio\\_53.mp3"
+        "audioFile": "1912\\Audio\\_53.mp3",
+        "otherPsalterNumber": "23B"
     },
     {
         "number": 54,
@@ -1020,7 +1069,8 @@
         "scoreFiles": [
             "1912/Score/_55.webp"
         ],
-        "audioFile": "1912\\Audio\\_55.mp3"
+        "audioFile": "1912\\Audio\\_55.mp3",
+        "otherPsalterNumber": "23E"
     },
     {
         "number": 56,
@@ -1050,7 +1100,8 @@
         "scoreFiles": [
             "1912/Score/_57.webp"
         ],
-        "audioFile": "1912\\Audio\\_57.mp3"
+        "audioFile": "1912\\Audio\\_57.mp3",
+        "otherPsalterNumber": "24B"
     },
     {
         "number": 58,
@@ -1065,7 +1116,8 @@
         "scoreFiles": [
             "1912/Score/_58.webp"
         ],
-        "audioFile": "1912\\Audio\\_58.mp3"
+        "audioFile": "1912\\Audio\\_58.mp3",
+        "otherPsalterNumber": "24B, 24C"
     },
     {
         "number": 59,
@@ -1084,7 +1136,8 @@
         "scoreFiles": [
             "1912/Score/_59.webp"
         ],
-        "audioFile": "1912\\Audio\\_59.mp3"
+        "audioFile": "1912\\Audio\\_59.mp3",
+        "otherPsalterNumber": "24A"
     },
     {
         "number": 60,
@@ -1101,7 +1154,8 @@
         "scoreFiles": [
             "1912/Score/_60.webp"
         ],
-        "audioFile": "1912\\Audio\\_60.mp3"
+        "audioFile": "1912\\Audio\\_60.mp3",
+        "otherPsalterNumber": "25A, 25D"
     },
     {
         "number": 61,
@@ -1117,7 +1171,8 @@
         "scoreFiles": [
             "1912/Score/_61.webp"
         ],
-        "audioFile": "1912\\Audio\\_61.mp3"
+        "audioFile": "1912\\Audio\\_61.mp3",
+        "otherPsalterNumber": "25A, 25E"
     },
     {
         "number": 62,
@@ -1133,7 +1188,8 @@
         "scoreFiles": [
             "1912/Score/_62.webp"
         ],
-        "audioFile": "1912\\Audio\\_62.mp3"
+        "audioFile": "1912\\Audio\\_62.mp3",
+        "otherPsalterNumber": "25A"
     },
     {
         "number": 63,
@@ -1149,7 +1205,8 @@
         "scoreFiles": [
             "1912/Score/_63.webp"
         ],
-        "audioFile": "1912\\Audio\\_63.mp3"
+        "audioFile": "1912\\Audio\\_63.mp3",
+        "otherPsalterNumber": "25A"
     },
     {
         "number": 64,
@@ -1164,7 +1221,8 @@
         "scoreFiles": [
             "1912/Score/_64.webp"
         ],
-        "audioFile": "1912\\Audio\\_64.mp3"
+        "audioFile": "1912\\Audio\\_64.mp3",
+        "otherPsalterNumber": "25B, 25F"
     },
     {
         "number": 65,
@@ -1180,7 +1238,8 @@
         "scoreFiles": [
             "1912/Score/_65.webp"
         ],
-        "audioFile": "1912\\Audio\\_65.mp3"
+        "audioFile": "1912\\Audio\\_65.mp3",
+        "otherPsalterNumber": "25B"
     },
     {
         "number": 66,
@@ -1196,7 +1255,8 @@
         "scoreFiles": [
             "1912/Score/_66.webp"
         ],
-        "audioFile": "1912\\Audio\\_66.mp3"
+        "audioFile": "1912\\Audio\\_66.mp3",
+        "otherPsalterNumber": "25B"
     },
     {
         "number": 67,
@@ -1229,7 +1289,8 @@
         "scoreFiles": [
             "1912/Score/_68.webp"
         ],
-        "audioFile": "1912\\Audio\\_68.mp3"
+        "audioFile": "1912\\Audio\\_68.mp3",
+        "otherPsalterNumber": "25G"
     },
     {
         "number": 69,
@@ -1248,7 +1309,8 @@
         "scoreFiles": [
             "1912/Score/_69.webp"
         ],
-        "audioFile": "1912\\Audio\\_69.mp3"
+        "audioFile": "1912\\Audio\\_69.mp3",
+        "otherPsalterNumber": "26B"
     },
     {
         "number": 70,
@@ -1282,7 +1344,8 @@
         "scoreFiles": [
             "1912/Score/_71.webp"
         ],
-        "audioFile": "1912\\Audio\\_71.mp3"
+        "audioFile": "1912\\Audio\\_71.mp3",
+        "otherPsalterNumber": "27A"
     },
     {
         "number": 72,
@@ -1298,7 +1361,8 @@
         "scoreFiles": [
             "1912/Score/_72.webp"
         ],
-        "audioFile": "1912\\Audio\\_72.mp3"
+        "audioFile": "1912\\Audio\\_72.mp3",
+        "otherPsalterNumber": "27B"
     },
     {
         "number": 73,
@@ -1316,7 +1380,8 @@
         "scoreFiles": [
             "1912/Score/_73.webp"
         ],
-        "audioFile": "1912\\Audio\\_73.mp3"
+        "audioFile": "1912\\Audio\\_73.mp3",
+        "otherPsalterNumber": "27C"
     },
     {
         "number": 74,
@@ -1350,7 +1415,8 @@
         "scoreFiles": [
             "1912/Score/_75.webp"
         ],
-        "audioFile": "1912\\Audio\\_75.mp3"
+        "audioFile": "1912\\Audio\\_75.mp3",
+        "otherPsalterNumber": "28A"
     },
     {
         "number": 76,
@@ -1366,7 +1432,8 @@
         "scoreFiles": [
             "1912/Score/_76.webp"
         ],
-        "audioFile": "1912\\Audio\\_76.mp3"
+        "audioFile": "1912\\Audio\\_76.mp3",
+        "otherPsalterNumber": "29A"
     },
     {
         "number": 77,
@@ -1383,7 +1450,8 @@
         "scoreFiles": [
             "1912/Score/_77.webp"
         ],
-        "audioFile": "1912\\Audio\\_77.mp3"
+        "audioFile": "1912\\Audio\\_77.mp3",
+        "otherPsalterNumber": "30A"
     },
     {
         "number": 78,
@@ -1398,7 +1466,8 @@
         "scoreFiles": [
             "1912/Score/_78.webp"
         ],
-        "audioFile": "1912\\Audio\\_78.mp3"
+        "audioFile": "1912\\Audio\\_78.mp3",
+        "otherPsalterNumber": "30B"
     },
     {
         "number": 79,
@@ -1413,7 +1482,8 @@
         "scoreFiles": [
             "1912/Score/_79.webp"
         ],
-        "audioFile": "1912\\Audio\\_79.mp3"
+        "audioFile": "1912\\Audio\\_79.mp3",
+        "otherPsalterNumber": "30B"
     },
     {
         "number": 80,
@@ -1437,7 +1507,8 @@
         "scoreFiles": [
             "1912/Score/_80.webp"
         ],
-        "audioFile": "1912\\Audio\\_80.mp3"
+        "audioFile": "1912\\Audio\\_80.mp3",
+        "otherPsalterNumber": "31A"
     },
     {
         "number": 81,
@@ -1453,7 +1524,8 @@
         "scoreFiles": [
             "1912/Score/_81.webp"
         ],
-        "audioFile": "1912\\Audio\\_81.mp3"
+        "audioFile": "1912\\Audio\\_81.mp3",
+        "otherPsalterNumber": "31C"
     },
     {
         "number": 82,
@@ -1468,7 +1540,8 @@
         "scoreFiles": [
             "1912/Score/_82.webp"
         ],
-        "audioFile": "1912\\Audio\\_82.mp3"
+        "audioFile": "1912\\Audio\\_82.mp3",
+        "otherPsalterNumber": "31B"
     },
     {
         "number": 83,
@@ -1483,7 +1556,8 @@
         "scoreFiles": [
             "1912/Score/_83.webp"
         ],
-        "audioFile": "1912\\Audio\\_83.mp3"
+        "audioFile": "1912\\Audio\\_83.mp3",
+        "otherPsalterNumber": "32B"
     },
     {
         "number": 84,
@@ -1497,7 +1571,8 @@
         "scoreFiles": [
             "1912/Score/_84.webp"
         ],
-        "audioFile": "1912\\Audio\\_84.mp3"
+        "audioFile": "1912\\Audio\\_84.mp3",
+        "otherPsalterNumber": "32B, 32C"
     },
     {
         "number": 85,
@@ -1512,7 +1587,8 @@
         "scoreFiles": [
             "1912/Score/_85.webp"
         ],
-        "audioFile": "1912\\Audio\\_85.mp3"
+        "audioFile": "1912\\Audio\\_85.mp3",
+        "otherPsalterNumber": "33A"
     },
     {
         "number": 86,
@@ -1527,7 +1603,8 @@
         "scoreFiles": [
             "1912/Score/_86.webp"
         ],
-        "audioFile": "1912\\Audio\\_86.mp3"
+        "audioFile": "1912\\Audio\\_86.mp3",
+        "otherPsalterNumber": "33A"
     },
     {
         "number": 87,
@@ -1542,7 +1619,8 @@
         "scoreFiles": [
             "1912/Score/_87.webp"
         ],
-        "audioFile": "1912\\Audio\\_87.mp3"
+        "audioFile": "1912\\Audio\\_87.mp3",
+        "otherPsalterNumber": "33A, 33C"
     },
     {
         "number": 88,
@@ -1557,7 +1635,8 @@
         "scoreFiles": [
             "1912/Score/_88.webp"
         ],
-        "audioFile": "1912\\Audio\\_88.mp3"
+        "audioFile": "1912\\Audio\\_88.mp3",
+        "otherPsalterNumber": "34B"
     },
     {
         "number": 89,
@@ -1574,7 +1653,8 @@
         "scoreFiles": [
             "1912/Score/_89.webp"
         ],
-        "audioFile": "1912\\Audio\\_89.mp3"
+        "audioFile": "1912\\Audio\\_89.mp3",
+        "otherPsalterNumber": "34C"
     },
     {
         "number": 90,
@@ -1593,7 +1673,8 @@
         "scoreFiles": [
             "1912/Score/_90.webp"
         ],
-        "audioFile": "1912\\Audio\\_90.mp3"
+        "audioFile": "1912\\Audio\\_90.mp3",
+        "otherPsalterNumber": "34A, 34D"
     },
     {
         "number": 91,
@@ -1609,7 +1690,8 @@
         "numVersesInsideStaff": 5,
         "scoreFiles": [
             "1912/Score/_91.webp"
-        ]
+        ],
+        "otherPsalterNumber": "34A"
     },
     {
         "number": 91,
@@ -1647,7 +1729,8 @@
         "scoreFiles": [
             "1912/Score/_92.webp"
         ],
-        "audioFile": "1912\\Audio\\_92.mp3"
+        "audioFile": "1912\\Audio\\_92.mp3",
+        "otherPsalterNumber": "35B"
     },
     {
         "number": 93,
@@ -1663,7 +1746,8 @@
         "scoreFiles": [
             "1912/Score/_93.webp"
         ],
-        "audioFile": "1912\\Audio\\_93.mp3"
+        "audioFile": "1912\\Audio\\_93.mp3",
+        "otherPsalterNumber": "36A"
     },
     {
         "number": 94,
@@ -1681,7 +1765,8 @@
         "scoreFiles": [
             "1912/Score/_94.webp"
         ],
-        "audioFile": "1912\\Audio\\_94.mp3"
+        "audioFile": "1912\\Audio\\_94.mp3",
+        "otherPsalterNumber": "36A"
     },
     {
         "number": 95,
@@ -1696,7 +1781,8 @@
         "scoreFiles": [
             "1912/Score/_95.webp"
         ],
-        "audioFile": "1912\\Audio\\_95.mp3"
+        "audioFile": "1912\\Audio\\_95.mp3",
+        "otherPsalterNumber": "37A"
     },
     {
         "number": 96,
@@ -1712,7 +1798,8 @@
         "scoreFiles": [
             "1912/Score/_96.webp"
         ],
-        "audioFile": "1912\\Audio\\_96.mp3"
+        "audioFile": "1912\\Audio\\_96.mp3",
+        "otherPsalterNumber": "37A"
     },
     {
         "number": 97,
@@ -1728,7 +1815,8 @@
         "scoreFiles": [
             "1912/Score/_97.webp"
         ],
-        "audioFile": "1912\\Audio\\_97.mp3"
+        "audioFile": "1912\\Audio\\_97.mp3",
+        "otherPsalterNumber": "37B"
     },
     {
         "number": 98,
@@ -1744,7 +1832,8 @@
         "scoreFiles": [
             "1912/Score/_98.webp"
         ],
-        "audioFile": "1912\\Audio\\_98.mp3"
+        "audioFile": "1912\\Audio\\_98.mp3",
+        "otherPsalterNumber": "37B"
     },
     {
         "number": 99,
@@ -1761,7 +1850,8 @@
         "scoreFiles": [
             "1912/Score/_99.webp"
         ],
-        "audioFile": "1912\\Audio\\_99.mp3"
+        "audioFile": "1912\\Audio\\_99.mp3",
+        "otherPsalterNumber": "37C"
     },
     {
         "number": 100,
@@ -1777,7 +1867,8 @@
         "scoreFiles": [
             "1912/Score/_100.webp"
         ],
-        "audioFile": "1912\\Audio\\_100.mp3"
+        "audioFile": "1912\\Audio\\_100.mp3",
+        "otherPsalterNumber": "37D"
     },
     {
         "number": 101,
@@ -1794,7 +1885,8 @@
         "scoreFiles": [
             "1912/Score/_101.webp"
         ],
-        "audioFile": "1912\\Audio\\_101.mp3"
+        "audioFile": "1912\\Audio\\_101.mp3",
+        "otherPsalterNumber": "37E"
     },
     {
         "number": 102,
@@ -1811,7 +1903,8 @@
         "scoreFiles": [
             "1912/Score/_102.webp"
         ],
-        "audioFile": "1912\\Audio\\_102.mp3"
+        "audioFile": "1912\\Audio\\_102.mp3",
+        "otherPsalterNumber": "38B"
     },
     {
         "number": 103,
@@ -1827,7 +1920,8 @@
         "scoreFiles": [
             "1912/Score/_103.webp"
         ],
-        "audioFile": "1912\\Audio\\_103.mp3"
+        "audioFile": "1912\\Audio\\_103.mp3",
+        "otherPsalterNumber": "38C"
     },
     {
         "number": 104,
@@ -1849,7 +1943,8 @@
         "scoreFiles": [
             "1912/Score/_104.webp"
         ],
-        "audioFile": "1912\\Audio\\_104.mp3"
+        "audioFile": "1912\\Audio\\_104.mp3",
+        "otherPsalterNumber": "39B"
     },
     {
         "number": 105,
@@ -1867,7 +1962,8 @@
         "scoreFiles": [
             "1912/Score/_105.webp"
         ],
-        "audioFile": "1912\\Audio\\_105.mp3"
+        "audioFile": "1912\\Audio\\_105.mp3",
+        "otherPsalterNumber": "39A"
     },
     {
         "number": 106,
@@ -1885,7 +1981,8 @@
         "scoreFiles": [
             "1912/Score/_106.webp"
         ],
-        "audioFile": "1912\\Audio\\_106.mp3"
+        "audioFile": "1912\\Audio\\_106.mp3",
+        "otherPsalterNumber": "39A"
     },
     {
         "number": 107,
@@ -1920,7 +2017,8 @@
         "scoreFiles": [
             "1912/Score/_108.webp"
         ],
-        "audioFile": "1912\\Audio\\_108.mp3"
+        "audioFile": "1912\\Audio\\_108.mp3",
+        "otherPsalterNumber": "40A"
     },
     {
         "number": 109,
@@ -7367,7 +7465,8 @@
         "scoreFiles": [
             "1912/Score/_414.webp"
         ],
-        "audioFile": "1912\\Audio\\_414.mp3"
+        "audioFile": "1912\\Audio\\_414.mp3",
+        "otherPsalterNumber": "3B"
     },
     {
         "number": 415,
@@ -7389,7 +7488,8 @@
         "scoreFiles": [
             "1912/Score/_415.webp"
         ],
-        "audioFile": "1912\\Audio\\_415.mp3"
+        "audioFile": "1912\\Audio\\_415.mp3",
+        "otherPsalterNumber": "25C"
     },
     {
         "number": 416,

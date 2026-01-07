@@ -446,7 +446,8 @@
             "2025/Score/_11B.jpg",
             "2025/Score/_11B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_11B.aac"
+        "audioFile": "2025/Audio/_11B.aac",
+        "otherPsalterNumber": "20"
     },
     {
         "number": 12,
@@ -463,7 +464,8 @@
         "scoreFiles": [
             "2025/Score/_12.jpg"
         ],
-        "audioFile": "2025/Audio/_12.aac"
+        "audioFile": "2025/Audio/_12.aac",
+        "otherPsalterNumber": "21"
     },
     {
         "number": 13,
@@ -479,7 +481,8 @@
         "scoreFiles": [
             "2025/Score/_13A.jpg"
         ],
-        "audioFile": "2025/Audio/_13A.aac"
+        "audioFile": "2025/Audio/_13A.aac",
+        "otherPsalterNumber": "22"
     },
     {
         "number": 13,
@@ -514,7 +517,8 @@
         "scoreFiles": [
             "2025/Score/_14.jpg"
         ],
-        "audioFile": "2025/Audio/_14.aac"
+        "audioFile": "2025/Audio/_14.aac",
+        "otherPsalterNumber": "23"
     },
     {
         "number": 15,
@@ -530,7 +534,8 @@
         "scoreFiles": [
             "2025/Score/_15A.jpg"
         ],
-        "audioFile": "2025/Audio/_15A.aac"
+        "audioFile": "2025/Audio/_15A.aac",
+        "otherPsalterNumber": "24"
     },
     {
         "number": 15,
@@ -547,7 +552,8 @@
         "scoreFiles": [
             "2025/Score/_15B.jpg"
         ],
-        "audioFile": "2025/Audio/_15B.aac"
+        "audioFile": "2025/Audio/_15B.aac",
+        "otherPsalterNumber": "25"
     },
     {
         "number": 15,
@@ -565,7 +571,8 @@
         "scoreFiles": [
             "2025/Score/_15C.jpg"
         ],
-        "audioFile": "2025/Audio/_15C.aac"
+        "audioFile": "2025/Audio/_15C.aac",
+        "otherPsalterNumber": "26"
     },
     {
         "number": 16,
@@ -589,7 +596,8 @@
             "2025/Score/_16A.jpg",
             "2025/Score/_16A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_16A.aac"
+        "audioFile": "2025/Audio/_16A.aac",
+        "otherPsalterNumber": "27, 28"
     },
     {
         "number": 16,
@@ -607,7 +615,8 @@
         "scoreFiles": [
             "2025/Score/_16B.jpg"
         ],
-        "audioFile": "2025/Audio/_16B.aac"
+        "audioFile": "2025/Audio/_16B.aac",
+        "otherPsalterNumber": "28"
     },
     {
         "number": 16,
@@ -623,7 +632,8 @@
         "scoreFiles": [
             "2025/Score/_16C.jpg"
         ],
-        "audioFile": "2025/Audio/_16C.aac"
+        "audioFile": "2025/Audio/_16C.aac",
+        "otherPsalterNumber": "29"
     },
     {
         "number": 16,
@@ -639,7 +649,8 @@
         "scoreFiles": [
             "2025/Score/_16D.jpg"
         ],
-        "audioFile": "2025/Audio/_16D.aac"
+        "audioFile": "2025/Audio/_16D.aac",
+        "otherPsalterNumber": "30"
     },
     {
         "number": 17,
@@ -659,7 +670,8 @@
         "scoreFiles": [
             "2025/Score/_17A.jpg"
         ],
-        "audioFile": "2025/Audio/_17A.aac"
+        "audioFile": "2025/Audio/_17A.aac",
+        "otherPsalterNumber": "31, 32"
     },
     {
         "number": 17,
@@ -680,7 +692,8 @@
             "2025/Score/_17B.jpg",
             "2025/Score/_17B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_17B.aac"
+        "audioFile": "2025/Audio/_17B.aac",
+        "otherPsalterNumber": "31"
     },
     {
         "number": 17,
@@ -698,7 +711,8 @@
         "scoreFiles": [
             "2025/Score/_17C.jpg"
         ],
-        "audioFile": "2025/Audio/_17C.aac"
+        "audioFile": "2025/Audio/_17C.aac",
+        "otherPsalterNumber": "33"
     },
     {
         "number": 18,
@@ -752,7 +766,8 @@
             "2025/Score/_18B.jpg",
             "2025/Score/_18B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_18B.aac"
+        "audioFile": "2025/Audio/_18B.aac",
+        "otherPsalterNumber": "34"
     },
     {
         "number": 18,
@@ -778,7 +793,8 @@
             "2025/Score/_18C.jpg",
             "2025/Score/_18C_2.jpg"
         ],
-        "audioFile": "2025/Audio/_18C.aac"
+        "audioFile": "2025/Audio/_18C.aac",
+        "otherPsalterNumber": "35, 36"
     },
     {
         "number": 18,
@@ -797,7 +813,8 @@
         "scoreFiles": [
             "2025/Score/_18D.jpg"
         ],
-        "audioFile": "2025/Audio/_18D.aac"
+        "audioFile": "2025/Audio/_18D.aac",
+        "otherPsalterNumber": "36"
     },
     {
         "number": 19,
@@ -821,7 +838,8 @@
             "2025/Score/_19A.jpg",
             "2025/Score/_19A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_19A.aac"
+        "audioFile": "2025/Audio/_19A.aac",
+        "otherPsalterNumber": "39, 40"
     },
     {
         "number": 19,
@@ -844,7 +862,8 @@
             "2025/Score/_19B.jpg",
             "2025/Score/_19B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_19B.aac"
+        "audioFile": "2025/Audio/_19B.aac",
+        "otherPsalterNumber": "37, 38"
     },
     {
         "number": 19,
@@ -864,7 +883,8 @@
             "2025/Score/_19C.jpg",
             "2025/Score/_19C_Refrain.jpg"
         ],
-        "audioFile": "2025/Audio/_19C.aac"
+        "audioFile": "2025/Audio/_19C.aac",
+        "otherPsalterNumber": "42"
     },
     {
         "number": 19,
@@ -886,7 +906,8 @@
             "2025/Score/_19D.jpg",
             "2025/Score/_19D_2.jpg"
         ],
-        "audioFile": "2025/Audio/_19D.aac"
+        "audioFile": "2025/Audio/_19D.aac",
+        "otherPsalterNumber": "41"
     },
     {
         "number": 20,
@@ -906,7 +927,8 @@
             "2025/Score/_20A.jpg",
             "2025/Score/_20A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_20A.aac"
+        "audioFile": "2025/Audio/_20A.aac",
+        "otherPsalterNumber": "43"
     },
     {
         "number": 20,
@@ -927,7 +949,8 @@
         "scoreFiles": [
             "2025/Score/_20B.jpg"
         ],
-        "audioFile": "2025/Audio/_20B.aac"
+        "audioFile": "2025/Audio/_20B.aac",
+        "otherPsalterNumber": "44"
     },
     {
         "number": 21,
@@ -946,7 +969,8 @@
         "scoreFiles": [
             "2025/Score/_21A.jpg"
         ],
-        "audioFile": "2025/Audio/_21A.aac"
+        "audioFile": "2025/Audio/_21A.aac",
+        "otherPsalterNumber": "45"
     },
     {
         "number": 21,
@@ -963,7 +987,8 @@
         "scoreFiles": [
             "2025/Score/_21B.jpg"
         ],
-        "audioFile": "2025/Audio/_21B.aac"
+        "audioFile": "2025/Audio/_21B.aac",
+        "otherPsalterNumber": "46"
     },
     {
         "number": 22,
@@ -989,7 +1014,8 @@
             "2025/Score/_22A.jpg",
             "2025/Score/_22A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_22A.aac"
+        "audioFile": "2025/Audio/_22A.aac",
+        "otherPsalterNumber": "47"
     },
     {
         "number": 22,
@@ -1015,7 +1041,8 @@
             "2025/Score/_22B.jpg",
             "2025/Score/_22B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_22B.aac"
+        "audioFile": "2025/Audio/_22B.aac",
+        "otherPsalterNumber": "47"
     },
     {
         "number": 22,
@@ -1038,7 +1065,8 @@
             "2025/Score/_22C.jpg",
             "2025/Score/_22C_2.jpg"
         ],
-        "audioFile": "2025/Audio/_22C.aac"
+        "audioFile": "2025/Audio/_22C.aac",
+        "otherPsalterNumber": "48"
     },
     {
         "number": 22,
@@ -1054,7 +1082,8 @@
         "scoreFiles": [
             "2025/Score/_22D.jpg"
         ],
-        "audioFile": "2025/Audio/_22D.aac"
+        "audioFile": "2025/Audio/_22D.aac",
+        "otherPsalterNumber": "49"
     },
     {
         "number": 22,
@@ -1070,7 +1099,8 @@
         "scoreFiles": [
             "2025/Score/_22E.jpg"
         ],
-        "audioFile": "2025/Audio/_22E.aac"
+        "audioFile": "2025/Audio/_22E.aac",
+        "otherPsalterNumber": "50"
     },
     {
         "number": 22,
@@ -1086,7 +1116,8 @@
         "scoreFiles": [
             "2025/Score/_22F.jpg"
         ],
-        "audioFile": "2025/Audio/_22F.aac"
+        "audioFile": "2025/Audio/_22F.aac",
+        "otherPsalterNumber": "51"
     },
     {
         "number": 23,
@@ -1103,7 +1134,8 @@
         "scoreFiles": [
             "2025/Score/_23A.jpg"
         ],
-        "audioFile": "2025/Audio/_23A.aac"
+        "audioFile": "2025/Audio/_23A.aac",
+        "otherPsalterNumber": "52"
     },
     {
         "number": 23,
@@ -1121,7 +1153,8 @@
         "scoreFiles": [
             "2025/Score/_23B.jpg"
         ],
-        "audioFile": "2025/Audio/_23B.aac"
+        "audioFile": "2025/Audio/_23B.aac",
+        "otherPsalterNumber": "53"
     },
     {
         "number": 23,
@@ -1173,7 +1206,8 @@
         "scoreFiles": [
             "2025/Score/_23E.jpg"
         ],
-        "audioFile": "2025/Audio/_23E.aac"
+        "audioFile": "2025/Audio/_23E.aac",
+        "otherPsalterNumber": "55"
     },
     {
         "number": 24,
@@ -1195,7 +1229,8 @@
             "2025/Score/_24A_2.jpg",
             "2025/Score/_24A_4.jpg"
         ],
-        "audioFile": "2025/Audio/_24A.aac"
+        "audioFile": "2025/Audio/_24A.aac",
+        "otherPsalterNumber": "59"
     },
     {
         "number": 24,
@@ -1214,7 +1249,8 @@
         "scoreFiles": [
             "2025/Score/_24B.jpg"
         ],
-        "audioFile": "2025/Audio/_24B.aac"
+        "audioFile": "2025/Audio/_24B.aac",
+        "otherPsalterNumber": "57, 58"
     },
     {
         "number": 24,
@@ -1230,7 +1266,8 @@
         "scoreFiles": [
             "2025/Score/_24C.jpg"
         ],
-        "audioFile": "2025/Audio/_24C.aac"
+        "audioFile": "2025/Audio/_24C.aac",
+        "otherPsalterNumber": "58"
     },
     {
         "number": 25,
@@ -1262,7 +1299,8 @@
             "2025/Score/_25A_2.jpg",
             "2025/Score/_25A_3.jpg"
         ],
-        "audioFile": "2025/Audio/_25A.aac"
+        "audioFile": "2025/Audio/_25A.aac",
+        "otherPsalterNumber": "60-63"
     },
     {
         "number": 25,
@@ -1291,7 +1329,8 @@
             "2025/Score/_25B_2.jpg",
             "2025/Score/_25B_3.jpg"
         ],
-        "audioFile": "2025/Audio/_25B.aac"
+        "audioFile": "2025/Audio/_25B.aac",
+        "otherPsalterNumber": "64-66"
     },
     {
         "number": 25,
@@ -1315,7 +1354,8 @@
             "2025/Score/_25C.jpg",
             "2025/Score/_25C_2.jpg"
         ],
-        "audioFile": "2025/Audio/_25C.aac"
+        "audioFile": "2025/Audio/_25C.aac",
+        "otherPsalterNumber": "415"
     },
     {
         "number": 25,
@@ -1333,7 +1373,8 @@
         "scoreFiles": [
             "2025/Score/_25D.jpg"
         ],
-        "audioFile": "2025/Audio/_25D.aac"
+        "audioFile": "2025/Audio/_25D.aac",
+        "otherPsalterNumber": "60"
     },
     {
         "number": 25,
@@ -1350,7 +1391,8 @@
         "scoreFiles": [
             "2025/Score/_25E.jpg"
         ],
-        "audioFile": "2025/Audio/_25E.aac"
+        "audioFile": "2025/Audio/_25E.aac",
+        "otherPsalterNumber": "61"
     },
     {
         "number": 25,
@@ -1366,7 +1408,8 @@
         "scoreFiles": [
             "2025/Score/_25F.jpg"
         ],
-        "audioFile": "2025/Audio/_25F.aac"
+        "audioFile": "2025/Audio/_25F.aac",
+        "otherPsalterNumber": "64"
     },
     {
         "number": 25,
@@ -1383,7 +1426,8 @@
         "scoreFiles": [
             "2025/Score/_25G.jpg"
         ],
-        "audioFile": "2025/Audio/_25G.aac"
+        "audioFile": "2025/Audio/_25G.aac",
+        "otherPsalterNumber": "68"
     },
     {
         "number": 26,
@@ -1421,7 +1465,8 @@
             "2025/Score/_26B.jpg",
             "2025/Score/_26B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_26B.aac"
+        "audioFile": "2025/Audio/_26B.aac",
+        "otherPsalterNumber": "69"
     },
     {
         "number": 27,
@@ -1445,7 +1490,8 @@
             "2025/Score/_27A.jpg",
             "2025/Score/_27A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_27A.aac"
+        "audioFile": "2025/Audio/_27A.aac",
+        "otherPsalterNumber": "71"
     },
     {
         "number": 27,
@@ -1462,7 +1508,8 @@
         "scoreFiles": [
             "2025/Score/_27B.jpg"
         ],
-        "audioFile": "2025/Audio/_27B.aac"
+        "audioFile": "2025/Audio/_27B.aac",
+        "otherPsalterNumber": "72"
     },
     {
         "number": 27,
@@ -1482,7 +1529,8 @@
         "scoreFiles": [
             "2025/Score/_27C.jpg"
         ],
-        "audioFile": "2025/Audio/_27C.aac"
+        "audioFile": "2025/Audio/_27C.aac",
+        "otherPsalterNumber": "73"
     },
     {
         "number": 28,
@@ -1504,7 +1552,8 @@
             "2025/Score/_28A.jpg",
             "2025/Score/_28A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_28A.aac"
+        "audioFile": "2025/Audio/_28A.aac",
+        "otherPsalterNumber": "75"
     },
     {
         "number": 28,
@@ -1544,7 +1593,8 @@
         "scoreFiles": [
             "2025/Score/_29A.jpg"
         ],
-        "audioFile": "2025/Audio/_29A.aac"
+        "audioFile": "2025/Audio/_29A.aac",
+        "otherPsalterNumber": "76"
     },
     {
         "number": 29,
@@ -1581,7 +1631,8 @@
         "scoreFiles": [
             "2025/Score/_30A.jpg"
         ],
-        "audioFile": "2025/Audio/_30A.aac"
+        "audioFile": "2025/Audio/_30A.aac",
+        "otherPsalterNumber": "77"
     },
     {
         "number": 30,
@@ -1600,7 +1651,8 @@
         "scoreFiles": [
             "2025/Score/_30B.jpg"
         ],
-        "audioFile": "2025/Audio/_30B.aac"
+        "audioFile": "2025/Audio/_30B.aac",
+        "otherPsalterNumber": "78, 79"
     },
     {
         "number": 31,
@@ -1627,7 +1679,8 @@
             "2025/Score/_31A_2.jpg",
             "2025/Score/_31A_3.jpg"
         ],
-        "audioFile": "2025/Audio/_31A.aac"
+        "audioFile": "2025/Audio/_31A.aac",
+        "otherPsalterNumber": "80"
     },
     {
         "number": 31,
@@ -1643,7 +1696,8 @@
         "scoreFiles": [
             "2025/Score/_31B.jpg"
         ],
-        "audioFile": "2025/Audio/_31B.aac"
+        "audioFile": "2025/Audio/_31B.aac",
+        "otherPsalterNumber": "82"
     },
     {
         "number": 31,
@@ -1660,7 +1714,8 @@
         "scoreFiles": [
             "2025/Score/_31C.jpg"
         ],
-        "audioFile": "2025/Audio/_31C.aac"
+        "audioFile": "2025/Audio/_31C.aac",
+        "otherPsalterNumber": "81"
     },
     {
         "number": 32,
@@ -1696,7 +1751,8 @@
         "scoreFiles": [
             "2025/Score/_32B.jpg"
         ],
-        "audioFile": "2025/Audio/_32B.aac"
+        "audioFile": "2025/Audio/_32B.aac",
+        "otherPsalterNumber": "83, 84"
     },
     {
         "number": 32,
@@ -1711,7 +1767,8 @@
         "scoreFiles": [
             "2025/Score/_32C.jpg"
         ],
-        "audioFile": "2025/Audio/_32C.aac"
+        "audioFile": "2025/Audio/_32C.aac",
+        "otherPsalterNumber": "84"
     },
     {
         "number": 33,
@@ -1734,7 +1791,8 @@
             "2025/Score/_33A.jpg",
             "2025/Score/_33A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_33A.aac"
+        "audioFile": "2025/Audio/_33A.aac",
+        "otherPsalterNumber": "85-87"
     },
     {
         "number": 33,
@@ -1769,7 +1827,8 @@
         "scoreFiles": [
             "2025/Score/_33C.jpg"
         ],
-        "audioFile": "2025/Audio/_33C.aac"
+        "audioFile": "2025/Audio/_33C.aac",
+        "otherPsalterNumber": "87"
     },
     {
         "number": 34,
@@ -1796,7 +1855,8 @@
             "2025/Score/_34A_2.jpg",
             "2025/Score/_34A_3.jpg"
         ],
-        "audioFile": "2025/Audio/_34A.aac"
+        "audioFile": "2025/Audio/_34A.aac",
+        "otherPsalterNumber": "90, 91"
     },
     {
         "number": 34,
@@ -1813,7 +1873,8 @@
         "scoreFiles": [
             "2025/Score/_34B.jpg"
         ],
-        "audioFile": "2025/Audio/_34B.aac"
+        "audioFile": "2025/Audio/_34B.aac",
+        "otherPsalterNumber": "88"
     },
     {
         "number": 34,
@@ -1834,7 +1895,8 @@
             "2025/Score/_34C.jpg",
             "2025/Score/_34C_2.jpg"
         ],
-        "audioFile": "2025/Audio/_34C.aac"
+        "audioFile": "2025/Audio/_34C.aac",
+        "otherPsalterNumber": "89"
     },
     {
         "number": 34,
@@ -1856,7 +1918,8 @@
             "2025/Score/_34D.jpg",
             "2025/Score/_34D_2.jpg"
         ],
-        "audioFile": "2025/Audio/_34D.aac"
+        "audioFile": "2025/Audio/_34D.aac",
+        "otherPsalterNumber": "90"
     },
     {
         "number": 35,
@@ -1903,7 +1966,8 @@
             "2025/Score/_35B.jpg",
             "2025/Score/_35B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_35B.aac"
+        "audioFile": "2025/Audio/_35B.aac",
+        "otherPsalterNumber": "92"
     },
     {
         "number": 36,
@@ -1927,7 +1991,8 @@
             "2025/Score/_36A.jpg",
             "2025/Score/_36A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_36A.aac"
+        "audioFile": "2025/Audio/_36A.aac",
+        "otherPsalterNumber": "93, 94"
     },
     {
         "number": 36,
@@ -1972,7 +2037,8 @@
             "2025/Score/_37A.jpg",
             "2025/Score/_37A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_37A.aac"
+        "audioFile": "2025/Audio/_37A.aac",
+        "otherPsalterNumber": "95, 96"
     },
     {
         "number": 37,
@@ -1994,7 +2060,8 @@
             "2025/Score/_37B.jpg",
             "2025/Score/_37B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_37B.aac"
+        "audioFile": "2025/Audio/_37B.aac",
+        "otherPsalterNumber": "97, 98"
     },
     {
         "number": 37,
@@ -2013,7 +2080,8 @@
         "scoreFiles": [
             "2025/Score/_37C.jpg"
         ],
-        "audioFile": "2025/Audio/_37C.aac"
+        "audioFile": "2025/Audio/_37C.aac",
+        "otherPsalterNumber": "99"
     },
     {
         "number": 37,
@@ -2030,7 +2098,8 @@
         "scoreFiles": [
             "2025/Score/_37D.jpg"
         ],
-        "audioFile": "2025/Audio/_37D.aac"
+        "audioFile": "2025/Audio/_37D.aac",
+        "otherPsalterNumber": "100"
     },
     {
         "number": 37,
@@ -2049,7 +2118,8 @@
         "scoreFiles": [
             "2025/Score/_37E.jpg"
         ],
-        "audioFile": "2025/Audio/_37E.aac"
+        "audioFile": "2025/Audio/_37E.aac",
+        "otherPsalterNumber": "101"
     },
     {
         "number": 38,
@@ -2094,7 +2164,8 @@
         "scoreFiles": [
             "2025/Score/_38B.jpg"
         ],
-        "audioFile": "2025/Audio/_38B.aac"
+        "audioFile": "2025/Audio/_38B.aac",
+        "otherPsalterNumber": "102"
     },
     {
         "number": 38,
@@ -2111,7 +2182,8 @@
         "scoreFiles": [
             "2025/Score/_38C.jpg"
         ],
-        "audioFile": "2025/Audio/_38C.aac"
+        "audioFile": "2025/Audio/_38C.aac",
+        "otherPsalterNumber": "103"
     },
     {
         "number": 39,
@@ -2138,7 +2210,8 @@
             "2025/Score/_39A_2.jpg",
             "2025/Score/_39A_3.jpg"
         ],
-        "audioFile": "2025/Audio/_39A.aac"
+        "audioFile": "2025/Audio/_39A.aac",
+        "otherPsalterNumber": "105, 106"
     },
     {
         "number": 39,
@@ -2162,7 +2235,8 @@
             "2025/Score/_39B.jpg",
             "2025/Score/_39B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_39B.aac"
+        "audioFile": "2025/Audio/_39B.aac",
+        "otherPsalterNumber": "104"
     },
     {
         "number": 40,
@@ -2184,7 +2258,8 @@
             "2025/Score/_40A.jpg",
             "2025/Score/_40A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_40A.aac"
+        "audioFile": "2025/Audio/_40A.aac",
+        "otherPsalterNumber": "108"
     },
     {
         "number": 40,

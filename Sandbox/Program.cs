@@ -11,8 +11,8 @@ internal class Program
     const string NG_PUBLIC_FOLDER = "C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\";
     private static async Task Main(string[] args)
     {
-        //await Migrate1912ToNewSchema();
-        Generate2025Psalters();
+        //Generate2025Psalters();
+        await Migrate1912ToNewSchema();
 
         //var http = new HttpClient();
         //var audio = File.ReadAllText("C:\\Users\\verme\\Documents\\Psalter app files\\2025\\audio-urls.txt").Split("\n", StringSplitOptions.RemoveEmptyEntries);
@@ -130,17 +130,40 @@ internal class Program
     {
         var json = await File.ReadAllTextAsync($"{AppDomain.CurrentDomain.BaseDirectory}\\psalter_oldschema.json");
         var oldSchema = JsonSerializer.Deserialize<List<OldSchema>>(json);
-        var newSchema = oldSchema.Select(x => Convert(x)).ToList();
+        var oldPsalters = oldSchema.Select(x => Convert(x)).ToList();
         var newPsalters = Get2025Psalters();
 
         foreach (var newPsalter in newPsalters)
         {
-            var oldPsalter = newSchema.FirstOrDefault(x => x.Number.ToString() == newPsalter.OtherPsalterNumber);
-            if (oldPsalter != null)
-                oldPsalter.OtherPsalterNumber = newPsalter.Number + newPsalter.Letter;
+            var oldNumbersForNewPsalter = new List<int>();
+            if (!newPsalter.OtherPsalterNumber.IsNullOrWhiteSpace())
+            {
+                var parts = newPsalter.OtherPsalterNumber.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                foreach (var part in parts) 
+                {
+                    if (part.Contains("-"))
+                    {
+                        var range = part.Split("-").Select(x => int.Parse(x)).ToList();
+                        oldNumbersForNewPsalter.AddRange(Enumerable.Range(range[0], range[1] - range[0] + 1));
+                    }
+                    else
+                        oldNumbersForNewPsalter.Add(int.Parse(part));
+                }
+            }
+
+            foreach (var oldPsalterNumber in oldNumbersForNewPsalter)
+            {
+                var oldPsalter = oldPsalters.FirstOrDefault(x => x.Number == oldPsalterNumber);
+                if (oldPsalter != null) // 437
+                {
+                    if (!oldPsalter.OtherPsalterNumber.IsNullOrWhiteSpace())
+                        oldPsalter.OtherPsalterNumber += ", ";
+                    oldPsalter.OtherPsalterNumber += newPsalter.Number + newPsalter.Letter;
+                }
+            }
         }
 
-        WriteJson($"{NG_PUBLIC_FOLDER}1912\\psalter.json", newSchema);
+        WriteJson($"{NG_PUBLIC_FOLDER}1912\\psalter.json", oldPsalters);
     }
 
     private static void WriteJson(string path, List<NewSchema> newSchema)
