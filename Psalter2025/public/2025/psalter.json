@@ -449,6 +449,23 @@
         "audioFile": "2025/Audio/_11B.aac"
     },
     {
+        "number": 12,
+        "letter": "",
+        "title": "O LORD, Be Thou My Helper True",
+        "psalm": 12,
+        "isCompletePsalm": true,
+        "verses": [
+            "O LORD, be Thou my helper true, \nFor just and godly men are few; \nThe faithful who can find? \nFrom truth and wisdom men depart, \nWith flatt’ring lips and double heart \nThey speak their evil mind.",
+            "The lips that speak, the truth to hide, \nThe tongues of arrogance and pride, \nThat boastful words employ, \nFalse-speaking tongues that boast their might, \nThat own no law, that know no right, \nJehovah will destroy. ",
+            "Because the poor are sore oppressed, \nBecause the needy are distressed, \nAnd bitter are their cries, \nThe LORD will be their helper strong; \nTo save them from contempt and wrong \nJehovah will arise.",
+            "Jehovah’s promises are sure, \nHis words are true, His words are pure \nAs silver from the flame. \nThough base men walk on ev’ry side, \nHis saints are safe, whate’er betide, \nProtected by His name."
+        ],
+        "scoreFiles": [
+            "2025/Score/_12.jpg"
+        ],
+        "audioFile": "2025/Audio/_12.aac"
+    },
+    {
         "number": 13,
         "letter": "A",
         "title": "How Long Wilt Thou Forget Me?",
@@ -479,6 +496,25 @@
             "2025/Score/_13B.jpg"
         ],
         "audioFile": "2025/Audio/_13B.aac"
+    },
+    {
+        "number": 14,
+        "letter": "",
+        "title": "The God Who Sits Enthroned on High",
+        "psalm": 14,
+        "isCompletePsalm": true,
+        "verses": [
+            "The God who sits enthroned on high \nThe foolish in their heart deny; \nNot one does good, corrupt in thought, \nUnrighteous works their hands have wrought.",
+            "From heav’n the LORD with searching eye \nLooked down the sons of men to try, \nTo see if any understood \nAnd sought for God, the only good.",
+            "From righteousness they all depart, \nCorrupt are all, and vile in heart; \nYea, ev’ry man has evil done; \nNot one does good, not even one.",
+            "Has knowledge with the wicked failed, \nThat they My people have assailed, \nThat they delight in works of shame, \nAnd call not on Jehovah’s name?",
+            "Thy lowly servant they despise,\nBecause he on the LORD relies;\nBut they shall tremble yet in fear,\nFor to the righteous God is near.",
+            "Oh, that from Zion His abode\nSalvation were on us bestowed!\nWhen GOD His exiles shall restore,\nThey shall in song His grace adore."
+        ],
+        "scoreFiles": [
+            "2025/Score/_14.jpg"
+        ],
+        "audioFile": "2025/Audio/_14.aac"
     },
     {
         "number": 15,
@@ -7707,6 +7743,7 @@
         "number": 12,
         "letter": "",
         "title": "The Song of Mary",
+        "isCompletePsalm": true,
         "isSpiritualSong": true,
         "verses": [
             "My soul doth magnify the Lord;\nIn Him my spirit doth rejoice,\nFor He beheld my low estate,\nAnd in His love made me His choice,\nAnd in His love made me His choice.",
@@ -7734,6 +7771,7 @@
         "number": 14,
         "letter": "",
         "title": "The Lord’s Prayer",
+        "isCompletePsalm": true,
         "isSpiritualSong": true,
         "verses": [
             "Our Father which in heaven art, hallowed be Thy name.\nThy kingdom come. Thy will be done, on earth as it is in heav’n.\nGive us this day our daily bread.\nForgive, O Lord, forgive our debts as we forgive our debtors.\nInto temptation lead us not, but deliver us from evil.\nFor Thine is the kingdom, the pow’r and the glory both now and for evermore. Amen."

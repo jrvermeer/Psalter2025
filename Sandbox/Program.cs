@@ -41,8 +41,9 @@ internal class Program
             .Select(x => new
             {
                 ScoreFilePath = $"2025/Score/{x}",
-                Number = ReadWhileDigit(x.TrimStart("_")),
-                Letter = x.SkipWhile(x => !char.IsLetter(x)).FirstOrDefault().ToString(),
+                FileName = Path.GetFileNameWithoutExtension(x),
+                //Number = ReadWhileDigit(x.TrimStart("_")),
+                //Letter = new string(Path.GetFileNameWithoutExtension(x).SkipWhile(x => !char.IsLetter(x)).Take(1).ToArray()),
                 IsRefrain = x.ToLower().Contains("_refrain")
             }).ToList();
 
@@ -69,39 +70,43 @@ internal class Program
             int? psalm = titleAndIdentifier[1].StartsWith("Psalm") ? number : null;
             var isSpiritualSong = titleAndIdentifier[1].StartsWith("SS");
 
-            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter && x.IsSpiritualSong == isSpiritualSong);
+            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter && x.IsSpiritualSong.GetValueOrDefault() == isSpiritualSong);
             if (psalter == null)
+            {
                 newPsalters.Add(psalter = new NewSchema { Number = number, Letter = letter });
+
+                var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
+                var verses = parts.Skip(1).ToList();
+                if (verses.Count > 1)
+                {
+                    psalter.Chorus = verses.FirstOrDefault(x => !char.IsDigit(x[0]))?.Trim();
+                    verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
+                }
+                psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
+                if (psalter.Verses.Count != expectedMaxVerses)
+                {
+                    newPsalters.Remove(psalter);
+                    WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
+                    throw new Exception();
+                }
+            }
 
             if (isSpiritualSong)
                 identifier = "SS" + identifier;
-            psalter.IsSpiritualSong = isSpiritualSong;
+
+            psalter.IsSpiritualSong = isSpiritualSong ? true : null;
             psalter.Title = titleAndIdentifier[0];
             psalter.Psalm = psalm;
 
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
             psalter.ScoreFiles = scoreFiles
-                .Where(x => x.Number == psalter.Number && x.Letter == psalter.Letter)
+                .Where(x => x.FileName.TrimStart("_").StartsWith(identifier))
                 .Select(x => x.ScoreFilePath)
                 .ToList();
 
             if (psalter.ScoreFiles.Any())
                 psalter.IsCompletePsalm = psalter.PsalmVerses.IsNullOrWhiteSpace();
 
-            //var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
-            //var verses = parts.Skip(1).ToList();
-            //if (verses.Count > 1)
-            //{
-            //    psalter.Chorus = verses.FirstOrDefault(x => !char.IsDigit(x[0]))?.Trim();
-            //    verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
-            //}
-            //psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
-            //if (psalter.Verses.Count != expectedMaxVerses)
-            //{
-            //    newPsalters.Remove(psalter);
-            //    WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
-            //    throw new Exception();
-            //}
         }
 
         newPsalters = newPsalters.OrderByDescending(x => x.IsSpiritualSong != true).ThenBy(x => x.Number).ThenBy(x => x.Letter).ToList();
