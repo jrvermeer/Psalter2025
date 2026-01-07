@@ -26,6 +26,7 @@
             </div>
             @if (storage.showScore && psalter.scoreFiles?.length) {
                 @for(scoreSrc of psalter.scoreFiles; track $index) {
+                    <psalter-separator *ngIf="$index > 0"></psalter-separator>
                     <img [src]="scoreSrc" loading="lazy" />
                 }
             }

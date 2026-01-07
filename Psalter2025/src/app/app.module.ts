@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { PsalterPageComponent } from './components/psalter-page/psalter-page.component';
+import { PsalterSeparatorComponent } from './components/psalter-separator/psalter-separator.component';
 import { provideHttpClient } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms'
 
@@ -22,6 +23,7 @@ import { ZoomDirective } from './services/zoom.directive';
         PsalterPageComponent,
         HighlightRangeDirective,
         ZoomDirective,
+        PsalterSeparatorComponent,
     ],
     imports: [
         BrowserModule,

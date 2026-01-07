@@ -24,8 +24,15 @@ export class PsalterPageComponent {
         if (this.swiper && changes['psalters']) {
             let goToIndex: number
             let isFirstInitialization = !changes['psalters'].previousValue;
-            if (!isFirstInitialization && this.service.currentPsalter?.otherPsalterNumber)
-                goToIndex = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == this.service.currentPsalter.otherPsalterNumber)
+            if (!isFirstInitialization && this.service.currentPsalter?.otherPsalterNumber) {
+                const iComma = this.service.currentPsalter.otherPsalterNumber.indexOf(',')
+                const iDash = this.service.currentPsalter.otherPsalterNumber.indexOf('-')
+                const iCommaOrDash = Math.max(iComma, iDash);
+                let otherPsalterNumber = this.service.currentPsalter.otherPsalterNumber;
+                if (iCommaOrDash > -1)
+                    otherPsalterNumber = otherPsalterNumber.substring(0, iCommaOrDash);
+                goToIndex = this.psalters.findIndex(x => `${x.number}${x.letter ?? ''}` == otherPsalterNumber)
+            }
 
             this.resetSwiper();
 
