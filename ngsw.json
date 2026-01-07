@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1767749121440,
+  "timestamp": 1767754813309,
   "index": "/Psalter2025/index.html",
   "assetGroups": [
     {
@@ -490,6 +490,7 @@
         "/Psalter2025/2025/Score/_11A.jpg",
         "/Psalter2025/2025/Score/_11B.jpg",
         "/Psalter2025/2025/Score/_11B_2.jpg",
+        "/Psalter2025/2025/Score/_12.jpg",
         "/Psalter2025/2025/Score/_13A.jpg",
         "/Psalter2025/2025/Score/_13B.jpg",
         "/Psalter2025/2025/Score/_14.jpg",
@@ -1120,6 +1121,7 @@
     "/Psalter2025/2025/Score/_11A.jpg": "589180d0e75ba911b6919bf565b93b35b72e53bb",
     "/Psalter2025/2025/Score/_11B.jpg": "1baf3233e340e545902c83f1bdcecf64181bbbdf",
     "/Psalter2025/2025/Score/_11B_2.jpg": "97021bba5eb759310358300cd3c30eb516762887",
+    "/Psalter2025/2025/Score/_12.jpg": "0aa51d42eccd4e83a1ff2019336459f5c3ce0fec",
     "/Psalter2025/2025/Score/_13A.jpg": "948d24845798c0514afddef966241f369e980083",
     "/Psalter2025/2025/Score/_13B.jpg": "e2e4fd9d52bc986508a21cb1aff8b2f76c78f8ca",
     "/Psalter2025/2025/Score/_14.jpg": "e51cddd1aa6af154714d67c964926b0c115295d6",
