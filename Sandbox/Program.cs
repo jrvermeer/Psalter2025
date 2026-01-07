@@ -67,15 +67,26 @@ internal class Program
             var number = ReadWhileDigit(identifier).Value;
             var letter = identifier[number.ToString().Length..];
             int? psalm = titleAndIdentifier[1].StartsWith("Psalm") ? number : null;
+            var isSpiritualSong = titleAndIdentifier[1].StartsWith("SS");
 
-            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter);
+            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter && x.IsSpiritualSong == isSpiritualSong);
             if (psalter == null)
                 newPsalters.Add(psalter = new NewSchema { Number = number, Letter = letter });
 
-            if (psalter.IsSpiritualSong == true)
+            if (isSpiritualSong)
                 identifier = "SS" + identifier;
+            psalter.IsSpiritualSong = isSpiritualSong;
             psalter.Title = titleAndIdentifier[0];
             psalter.Psalm = psalm;
+
+            psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
+            psalter.ScoreFiles = scoreFiles
+                .Where(x => x.Number == psalter.Number && x.Letter == psalter.Letter)
+                .Select(x => x.ScoreFilePath)
+                .ToList();
+
+            if (psalter.ScoreFiles.Any())
+                psalter.IsCompletePsalm = psalter.PsalmVerses.IsNullOrWhiteSpace();
 
             //var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
             //var verses = parts.Skip(1).ToList();
@@ -85,13 +96,6 @@ internal class Program
             //    verses = verses.Where(x => x.Trim() != psalter.Chorus).ToList();
             //}
             //psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
-            psalter.ScoreFiles = scoreFiles
-                .Where(x => x.Number == psalter.Number && x.Letter == psalter.Letter)
-                .Select(x => x.ScoreFilePath)
-                .ToList();
-
-            psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
-
             //if (psalter.Verses.Count != expectedMaxVerses)
             //{
             //    newPsalters.Remove(psalter);
@@ -141,6 +145,7 @@ internal class Program
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             WriteIndented = true,
+            IndentSize = 4,
             Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping // don't serialize apostrophes as \u000
         }));
     }

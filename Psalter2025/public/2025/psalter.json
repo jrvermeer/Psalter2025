@@ -80,6 +80,7 @@
         "letter": "A",
         "title": "O LORD, How Are My Foes Increased!",
         "psalm": 3,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD, how are my foes increased!\nAgainst me many rise;\nHow many say, In vain for help\nHe on his God relies!",
             "Thou art my shield and glory, LORD,\nMy Saviour, O Most High.\nThe LORD from out His holy hill\nGives answer when I cry.",
@@ -90,13 +91,15 @@
         "scoreFiles": [
             "2025/Score/_3A.jpg"
         ],
-        "audioFile": "2025/Audio/_3A.aac"
+        "audioFile": "2025/Audio/_3A.aac",
+        "otherPsalterNumber": "5"
     },
     {
         "number": 3,
         "letter": "B",
         "title": "O LORD, How Swiftly Grows",
         "psalm": 3,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD, how swiftly grows\nThe number of my foes,\nWho wantonly oppress me!\nYea, multiplied are they\nThat rise to my dismay,\nAnd day by day distress me.\nThough heavy my despair,\nThey scornfully declare,\nTo my humiliation,\nThat Thou, O God, no more\nCanst help me as before\nOr come to my salvation.",
             "But Thou, Jehovah, art\nA shield about my heart,\nMy hope and sure reliance.\nThou, in the hour of dread,\nDost lift my weary head,\nAnd biddest them defiance.\nWhene’er to GOD I cried,\nHe hastened to my side\nIn all my tribulations;\nFrom Zion’s mountain fair\nHe looked on my despair,\nAnd heard my supplications.",
@@ -106,13 +109,15 @@
         "scoreFiles": [
             "2025/Score/_3B.jpg"
         ],
-        "audioFile": "2025/Audio/_3B.aac"
+        "audioFile": "2025/Audio/_3B.aac",
+        "otherPsalterNumber": "414"
     },
     {
         "number": 4,
         "letter": "A",
         "title": "My Righteous God, Who Oft of Old",
         "psalm": 4,
+        "isCompletePsalm": true,
         "verses": [
             "My righteous God, Who oft of old, \nHast saved from troubles manifold, \nGive answer when I call to Thee, \nBe gracious now and hear my plea.",
             "How long, O men, will you defame, \nHow long my glory turn to shame, \nHow long will you vain follies prize, \nHow long pursue deceit and lies?",
@@ -124,13 +129,15 @@
         "scoreFiles": [
             "2025/Score/_4A.jpg"
         ],
-        "audioFile": "2025/Audio/_4A.aac"
+        "audioFile": "2025/Audio/_4A.aac",
+        "otherPsalterNumber": "6"
     },
     {
         "number": 4,
         "letter": "B",
         "title": "On the Good and Faithful",
         "psalm": 4,
+        "isCompletePsalm": true,
         "verses": [
             "On the good and faithful \nGOD has set His love; \nWhen they call He sends them \nBlessings from above. \nStand in awe and sin not, \nBid your heart be still; \nThrough the silent watches \nThink upon His will.",
             "Lay upon GOD’s altar \nGood and loving deeds, \nAnd in all things trust Him \nTo supply your needs. \nAnxious and despairing, \nMany walk in night; \nBut to those that fear Him \nGOD will send His light.",
@@ -139,13 +146,15 @@
         "scoreFiles": [
             "2025/Score/_4B.jpg"
         ],
-        "audioFile": "2025/Audio/_4B.aac"
+        "audioFile": "2025/Audio/_4B.aac",
+        "otherPsalterNumber": "7"
     },
     {
         "number": 4,
         "letter": "C",
         "title": "On the Good and Faithful",
         "psalm": 4,
+        "isCompletePsalm": true,
         "verses": [
             "On the good and faithful \nGOD has set His love; \nWhen they call He sends them \nBlessings from above.",
             "Stand in awe and sin not, \nBid your heart be still; \nThrough the silent watches \nThink upon His will.",
@@ -155,13 +164,15 @@
         "scoreFiles": [
             "2025/Score/_4C.jpg"
         ],
-        "audioFile": "2025/Audio/_4C.aac"
+        "audioFile": "2025/Audio/_4C.aac",
+        "otherPsalterNumber": "8"
     },
     {
         "number": 5,
         "letter": "A",
         "title": "O Jehovah, Hear My Words",
         "psalm": 5,
+        "isCompletePsalm": true,
         "verses": [
             "O Jehovah, hear my words, \nTo my thoughts attentive be; \nHear my cry, my King, my God, \nI will make my pray’r to Thee. \nWith the morning light, O LORD, \nThou shalt hear my voice arise, \nAnd expectant I will bring \nPray’r as morning sacrifice.",
             "Thou, Jehovah, art a God \nWho delightest not in sin; \nEvil shall not dwell with Thee, \nNor the proud Thy favour win. \nEvildoers Thou dost hate, \nLying tongues Thou wilt defeat; \nGod abhors the man who loves \nViolence and base deceit.",
@@ -172,13 +183,15 @@
         "scoreFiles": [
             "2025/Score/_5A.jpg"
         ],
-        "audioFile": "2025/Audio/_5A.aac"
+        "audioFile": "2025/Audio/_5A.aac",
+        "otherPsalterNumber": "9-11"
     },
     {
         "number": 5,
         "letter": "B",
         "title": "In the Fullness of Thy Grace",
         "psalm": 5,
+        "isCompletePsalm": true,
         "verses": [
             "In the fullness of Thy grace \nTo Thy house I will repair, \nBowing toward Thy holy place, \nIn Thy fear will worship there. \nLead me in Thy righteousness, \nLet my foes assail in vain; \nLest my feet be turned aside, \nMake Thy way before me plain.",
             "False and faithless are my foes, \nIn their mouth no truth is found; \nDeadly are the words they speak, \nAll their thoughts with sin abound. \nBring, O God, their plans to nought, \nHold them guilty in Thy sight, \nFor against Thee and Thy law \nThey have set themselves to fight.",
@@ -187,13 +200,15 @@
         "scoreFiles": [
             "2025/Score/_5B.jpg"
         ],
-        "audioFile": "2025/Audio/_5B.aac"
+        "audioFile": "2025/Audio/_5B.aac",
+        "otherPsalterNumber": "10"
     },
     {
         "number": 6,
         "letter": "A",
         "title": "LORD, Rebuke Me Not in Anger",
         "psalm": 6,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, rebuke me not in anger; \nChastened sore I waste away; \nPity my distress and hear me; \nLORD, how long wilt Thou delay?",
             "Come, O LORD, my soul deliver, \nIn Thy lovingkindness save. \nShall the dead Thy name remember? \nWho shall praise Thee in the grave?",
@@ -203,7 +218,8 @@
         "scoreFiles": [
             "2025/Score/_6A.jpg"
         ],
-        "audioFile": "2025/Audio/_6A.aac"
+        "audioFile": "2025/Audio/_6A.aac",
+        "otherPsalterNumber": "12"
     },
     {
         "number": 6,
@@ -211,6 +227,7 @@
         "title": "No Longer, LORD, Rebuke Me",
         "psalm": 6,
         "psalmVerses": "1-6, 9-10",
+        "isCompletePsalm": false,
         "verses": [
             "No longer, LORD, rebuke me,\nNor in Thy wrath chastise me.\nThy mercy I implore.\nHow long Thine anger cherish?\nConsumed thereby I perish;\nMy soul is troubled sore.",
             "To me, O LORD, returning,\nSave Thou, with pity yearning.\nShall death Thy mem’ry keep?\nOr shall the grave confess Thee?\nOr I give thanks and bless Thee,\nWhile day and night I weep?",
@@ -219,13 +236,15 @@
         "scoreFiles": [
             "2025/Score/_6B.jpg"
         ],
-        "audioFile": "2025/Audio/_6B.aac"
+        "audioFile": "2025/Audio/_6B.aac",
+        "otherPsalterNumber": "437"
     },
     {
         "number": 7,
         "letter": "A",
         "title": "O LORD My God, in Thee Do I",
         "psalm": 7,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD my God, in Thee do I\nMy confidence repose;\nDeliver me and save from all\nMy persecuting foes.\nLest like a lion fierce, the foe\nMy soul should seize and rend,\nIn pieces tearing it, while there\nIs no one to defend.",
             "O LORD my God, if it be so\nThat I committed this;\nIf it be so that in my hands\nIniquity there is;\nIf I rewarded ill to him\nWho was at peace with me;\n(Yea, even he who without cause\nMy foe was, I did free.)",
@@ -246,6 +265,7 @@
         "letter": "B",
         "title": "Jehovah, My God, on Thy Help I Depend",
         "psalm": 7,
+        "isCompletePsalm": true,
         "verses": [
             "Jehovah, my God, on Thy help I depend; \nFrom all that pursue me O save and defend; \nLest they like a lion should rend me at will, \nWhile no one is near me their raging to still.",
             "When wronged without cause I have kindness returned; \nBut if I my neighbour maltreated and spurned, \nMy soul let the enemy seize for his prey, \nMy life and my honour in dust let him lay.",
@@ -259,13 +279,15 @@
             "2025/Score/_7B.jpg",
             "2025/Score/_7B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_7B.aac"
+        "audioFile": "2025/Audio/_7B.aac",
+        "otherPsalterNumber": "13"
     },
     {
         "number": 8,
         "letter": "A",
         "title": "O LORD, Our Lord, in All the Earth",
         "psalm": 8,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD, our Lord, in all the earth \nHow excellent Thy name! \nThy glory Thou hast spread afar \nIn all the starry frame.",
             "From lips of children, Thou, O Lord, \nHast mighty strength ordained, \nThat adversaries should be stilled \nAnd vengeful foes restrained.",
@@ -279,13 +301,15 @@
             "2025/Score/_8A.jpg",
             "2025/Score/_8A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_8A.aac"
+        "audioFile": "2025/Audio/_8A.aac",
+        "otherPsalterNumber": "14"
     },
     {
         "number": 8,
         "letter": "B",
         "title": "LORD, Our Lord, Thy Glorious Name",
         "psalm": 8,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, our Lord, Thy glorious name \nAll Thy wondrous works proclaim;\nIn the heav’ns with radiant signs \nEvermore Thy glory shines. \nInfant lips Thou dost ordain \nWrath and vengeance to restrain, \nWeakest means fulfill Thy will, \nMighty enemies to still.",
             "Moon and stars in shining height \nNightly tell their maker’s might; \nWhen Thy wondrous heav’ns I scan \nThen I know how weak is man! \nWhat is man that he should be \nLoved and visited by Thee, \nRaised to an exalted height, \nCrowned with honour in Thy sight?",
@@ -294,13 +318,15 @@
         "scoreFiles": [
             "2025/Score/_8B.jpg"
         ],
-        "audioFile": "2025/Audio/_8B.aac"
+        "audioFile": "2025/Audio/_8B.aac",
+        "otherPsalterNumber": "15"
     },
     {
         "number": 9,
         "letter": "A",
         "title": "whole-hearted Thanksgiving",
         "psalm": 9,
+        "isCompletePsalm": true,
         "verses": [
             "whole-hearted thanksgiving to Thee I will bring, \nIn praise of Thy marvelous deeds I will sing, \nIn Thee I will joy and exultingly cry, \nThy name I will praise O Jehovah Most High. ",
             "My enemies turn and are scattered in fear,\nThey stumble and perish because Thou art near;\nFor Thou hast defended my right and my cause,\nThou sittest in judgment, upholding Thy laws.",
@@ -318,7 +344,8 @@
             "2025/Score/_9A_2.jpg",
             "2025/Score/_9A_Refrain.jpg"
         ],
-        "audioFile": "2025/Audio/_9A.aac"
+        "audioFile": "2025/Audio/_9A.aac",
+        "otherPsalterNumber": "16"
     },
     {
         "number": 9,
@@ -326,6 +353,7 @@
         "title": "O LORD Most High, with All My Heart",
         "psalm": 9,
         "psalmVerses": "1-2, 7-11",
+        "isCompletePsalm": false,
         "verses": [
             "O LORD Most High, with all my heart \nThy wondrous works I will proclaim; \nI will be glad and give Thee thanks \nAnd sing the praises of Thy name.",
             "The LORD, the everlasting King, \nIs seated on His judgment throne; \nThe righteous judge of all the world \nWill make His perfect justice known.",
@@ -336,13 +364,15 @@
         "scoreFiles": [
             "2025/Score/_9B.jpg"
         ],
-        "audioFile": "2025/Audio/_9B.aac"
+        "audioFile": "2025/Audio/_9B.aac",
+        "otherPsalterNumber": "17"
     },
     {
         "number": 10,
         "letter": "A",
         "title": "Why Standest Thou Afar, O LORD?",
         "psalm": 10,
+        "isCompletePsalm": true,
         "verses": [
             "Why standest Thou afar, O LORD?\nWhy art Thou hid in trouble’s hour?\nThe wicked persecute the poor\nIn haughty pride and reckless pow’r.",
             "Let their devices work their fall,\nFor in their shame is all their pride;\nAnd while they seek unrighteous gain\nThe LORD of justice is defied.",
@@ -358,13 +388,15 @@
             "2025/Score/_10A.jpg",
             "2025/Score/_10A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_10A.aac"
+        "audioFile": "2025/Audio/_10A.aac",
+        "otherPsalterNumber": "18"
     },
     {
         "number": 10,
         "letter": "B",
         "title": "Why Dost Thou Stand Afar",
         "psalm": 10,
+        "isCompletePsalm": true,
         "verses": [
             "Why dost Thou stand afar, \nO LORD, in our distress? \nAnd why dost Thou conceal Thyself \nWhen troublous times oppress? ",
             "Do Thou, O LORD, arise, \nO God, lift up Thy hand; \nForget Thou not the suff’ring poor, \nThe humble in the land. ",
@@ -375,13 +407,15 @@
         "scoreFiles": [
             "2025/Score/_10B.jpg"
         ],
-        "audioFile": "2025/Audio/_10B.aac"
+        "audioFile": "2025/Audio/_10B.aac",
+        "otherPsalterNumber": "19"
     },
     {
         "number": 11,
         "letter": "A",
         "title": "In GOD Will I Trust",
         "psalm": 11,
+        "isCompletePsalm": true,
         "verses": [
             "In GOD will I trust, though my counselors say, \nO flee as a bird to your mountain away; \nThe wicked are strong and the righteous are weak, \nFoundations are shaken, yet God will I seek.",
             "The LORD in His temple shall ever abide; \nHis throne is eternal, whatever betide, \nThe children of men He beholds from on high, \nThe wicked to punish, the righteous to try.",
@@ -390,13 +424,15 @@
         "scoreFiles": [
             "2025/Score/_11A.jpg"
         ],
-        "audioFile": "2025/Audio/_11A.aac"
+        "audioFile": "2025/Audio/_11A.aac",
+        "otherPsalterNumber": "20"
     },
     {
         "number": 11,
         "letter": "B",
         "title": "My Trust Is in the LORD",
         "psalm": 11,
+        "isCompletePsalm": true,
         "verses": [
             "My trust is in the LORD; \nHow can you say to me, \nAway with speed and like a bird \nTo your high mountain flee?",
             "Lo, sinners bend the bow; \nOn string they fit the dart, \nThat they unseen may shoot at those \nWho upright are in heart.",
@@ -417,6 +453,7 @@
         "letter": "A",
         "title": "How Long Wilt Thou Forget Me?",
         "psalm": 13,
+        "isCompletePsalm": true,
         "verses": [
             "How long wilt Thou forget me, \nO LORD, Thou God of grace? \nHow long shall fears beset me \nWhile darkness hides Thy face? \nHow long shall griefs distress me \nAnd turn my day to night? \nHow long shall foes oppress me \nAnd triumph in their might?",
             "O LORD my God, behold me,\nAnd hear my earnest cries;\nLest sleep of death enfold me,\nEnlighten Thou my eyes;\nLest now my foe insulting\nShould boast of his success,\nAnd enemies exulting\nRejoice in my distress.",
@@ -432,6 +469,7 @@
         "letter": "B",
         "title": "How Long Wilt Thou Forget Me, LORD?",
         "psalm": 13,
+        "isCompletePsalm": true,
         "verses": [
             "How long wilt Thou forget me, LORD?\nShall it forever be?\nHow long wilt Thou continue, Lord,\nTo hide Thy face from me?\nHow long shall I within my soul,\nMy constant sadness know?\nHow long shall I be subject to\nThe triumph of my foe?",
             "Consider me, O LORD, my God;\nAn answer to me make;\nMy eyes enlighten, lest the sleep\nOf death should overtake.\nLest that my enemy should say,\nAgainst him I prevailed;\nAnd those who trouble me rejoice\nAnd say my cause has failed.",
@@ -447,6 +485,7 @@
         "letter": "A",
         "title": "Who, O LORD, with Thee Abiding?",
         "psalm": 15,
+        "isCompletePsalm": true,
         "verses": [
             "Who, O LORD, with Thee abiding, \nIn Thy house shall be Thy guest? \nWho, his feet to Zion turning, \nIn Thy holy hill shall rest? \nHe that ever walks uprightly, \nDoes the right without a fear, \nWhen he speaks, he speaks not lightly, \nBut with truth and love sincere.",
             "He that slanders not his brother, \nDoes no evil to a friend; \nTo reproaches of another \nHe refuses to attend. \nWicked men win not his favour, \nBut the good who fear the LORD; \nFrom his vow he will not waver, \nThough it bring him sad reward.",
@@ -462,6 +501,7 @@
         "letter": "B",
         "title": "LORD, Who Shall Come to Thee?",
         "psalm": 15,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, who shall come to Thee,\nAnd stand before Thy face? \nWho shall abide, a welcome guest, \nWithin Thy holy place?",
             "The man of upright life, \nSincere in word and deed, \nWho slanders neither friend nor foe, \nNor idle tales will heed.",
@@ -478,6 +518,7 @@
         "letter": "C",
         "title": "Who, O LORD, Shall Dwell with Thee?",
         "psalm": 15,
+        "isCompletePsalm": true,
         "verses": [
             "Who, O LORD, shall dwell with Thee \nIn the temple of Thy grace?\nWho Thy constant guest shall be\nIn Thy high and holy place?",
             "He who walks in righteousness, \nAll his actions just and clear; \nHe whose words the truth express, \nSpoken from a heart sincere.",
@@ -495,6 +536,7 @@
         "letter": "A",
         "title": "O God, Preserve Me",
         "psalm": 16,
+        "isCompletePsalm": true,
         "verses": [
             "O God, preserve me, for in Thee \nAlone my trust has stood; \nMy soul has said, Thou art my Lord, \nMy chief and only good.",
             "I love Thy saints, who fear Thy name \nAnd walk as in Thy sight; \nThey are the excellent of earth, \nIn them is my delight.",
@@ -518,6 +560,7 @@
         "letter": "B",
         "title": "When in the Night I Meditate",
         "psalm": 16,
+        "isCompletePsalm": true,
         "verses": [
             "When in the night I meditate\nOn mercies multiplied,\nMy grateful heart inspires my tongue\nTo bless the LORD, my guide.",
             "Forever in my thought the LORD\nBefore my face shall stand;\nSecure, unmoved, I shall remain,\nWith Him at my right hand.",
@@ -535,6 +578,7 @@
         "letter": "C",
         "title": "To Thee, O Lord, I Fly",
         "psalm": 16,
+        "isCompletePsalm": true,
         "verses": [
             "To Thee, O Lord, I fly \nAnd on Thy help depend; \nThou art my Lord and King Most High; \nDo Thou my soul defend. \nI praise the LORD above \nWhose counsel guides aright; \nMy heart instructs me in His love \nIn seasons of the night.",
             "I keep before me still \nThe LORD Whom I have proved; \nAt my right hand He guards from ill, \nAnd I shall not be moved. \nMy heart is glad and blest, \nMy soul its joy shall tell; \nAnd, lo, my flesh in hope shall rest, \nAnd still in safety dwell.",
@@ -550,6 +594,7 @@
         "letter": "D",
         "title": "To Thee, O Lord, I Fly",
         "psalm": 16,
+        "isCompletePsalm": true,
         "verses": [
             "To Thee, O Lord, I fly \nAnd on Thy help depend; \nThou art my Lord and King Most High; \nDo Thou my soul defend. \nA heritage for me \nJehovah will remain; \nMy portion rich and full is He, \nMy right He will maintain.",
             "The lot to me that fell \nIs beautiful and fair; \nThe heritage in which I dwell \nIs good beyond compare. \nI praise the LORD above \nWhose counsel guides aright; \nMy heart instructs me in His love \nIn seasons of the night.",
@@ -565,6 +610,7 @@
         "letter": "A",
         "title": "LORD, Hear the Right, Regard My Cry",
         "psalm": 17,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, hear the right, regard my cry, \nMy pray’r from lips sincere; \nSend Thine approval from on high, \nMy righteousness make clear. \nThou in the night my heart hast tried, \nNor found it turned from Thee aside.",
             "With steadfast courage I design \nNo wrong to speak or do; \nThy path of life I choose for mine \nAnd walk with purpose true. \nFor help, O God, I cry to Thee, \nAssured that Thou wilt answer me.",
@@ -584,6 +630,7 @@
         "letter": "B",
         "title": "LORD, Hear the Right, Regard My Cry",
         "psalm": 17,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, hear the right, regard my cry, \nMy pray’r from lips sincere; \nSend Thine approval from on high, \nMy righteousness make clear. \nThou in the night my heart hast tried, \nNor found it turned from Thee aside.",
             "With steadfast courage I design \nNo wrong to speak or do; \nThy path of life I choose for mine \nAnd walk with purpose true. \nFor help, O God, I cry to Thee, \nAssured that Thou wilt answer me.",
@@ -604,6 +651,7 @@
         "letter": "C",
         "title": "LORD, Hear the Right, Attend My Cry",
         "psalm": 17,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, hear the right, attend my cry, \nAnd to my pray’r give ear,\nMy pray’r that riseth unto Thee\nFrom heart and lips sincere.",
             "I shunned the ways of wicked men, \nFor I Thy word obey; \nUpon Thy paths my steps held fast, \nMy feet slipped not away.",
@@ -621,6 +669,7 @@
         "letter": "A",
         "title": "I Love the LORD, My Strength, My Rock",
         "psalm": 18,
+        "isCompletePsalm": true,
         "verses": [
             "I love the LORD, my strength, my rock,\nThe LORD, my fort, my shield, my pow’r,\nMy God in Whom I refuge seek,\nMy horn of safety, my strong tow’r.\nI call upon the Lord for help—\nHow worthy is the LORD of praise!\nAnd I am saved from all my foes,\nThe adversaries of my ways.",
             "The cords of death entangled me;\nDestruction struck me like a wave.\nEncircled by the snares of death,\nI faced the terrors of the grave.\nI called on God in my distress;\nI cried unto the LORD for aid. \nHe from His temple heard my voice, \nHe listened to the pray’r I made.",
@@ -650,6 +699,7 @@
         "title": "I Love the LORD, His Strength Is Mine",
         "psalm": 18,
         "psalmVerses": "1-20",
+        "isCompletePsalm": false,
         "verses": [
             "I love the LORD, His strength is mine; \nHe is my God, I trust His grace; \nMy fortress high, my shield divine, \nMy Saviour and my hiding-place.",
             "My pray’r to GOD shall still be raised \nWhen troubles thick around me close; \nThe Lord, most worthy to be praised,\nWill rescue me from all my foes.",
@@ -674,6 +724,7 @@
         "title": "Since with My God, with Perfect Heart",
         "psalm": 18,
         "psalmVerses": "21-50",
+        "isCompletePsalm": false,
         "verses": [
             "Since with my God with perfect heart\nI walk and make His Word my guide, \nAnd from iniquity depart, \nThe LORD His blessing will provide.",
             "The merciful shall know Thy grace, \nThe perfect Thy perfection see, \nThe pure shall see Thine own pure face, \nThe froward find a foe in Thee.",
@@ -699,6 +750,7 @@
         "title": "As Thou, O Lord, Hast Made Me Strong",
         "psalm": 18,
         "psalmVerses": "37-50",
+        "isCompletePsalm": false,
         "verses": [
             "As Thou, O Lord, hast made me strong\nTo overcome my mighty foe,\nSo now to fight against the wrong\nAnd conquer in Thy name I go.",
             "From strife Thou wilt deliver me,\nAnd make the nations own my sway;\nSrange peoples, when my pow’r they see,\nShall come with trembling and obey.",
@@ -716,6 +768,7 @@
         "letter": "A",
         "title": "The Heavens in Their Splendour Declare",
         "psalm": 19,
+        "isCompletePsalm": true,
         "verses": [
             "The heav’ns in their splendour declare \nThe might and the glory of God; \nFor day unto day speaks His praise, \nAnd night tells His wisdom abroad.",
             "They speak not with audible word, \nYet clear is the message they send; \nTheir witness goes out through the earth, \nTheir word to the world’s farthest end.",
@@ -739,6 +792,7 @@
         "letter": "B",
         "title": "The Spacious Heavens Declare",
         "psalm": 19,
+        "isCompletePsalm": true,
         "verses": [
             "The spacious heav’ns declare \nThe glory of our God, \nThe firmament displays \nHis handiwork abroad; \nDay unto day proclaims His might, \nAnd night His wisdom tells to night.",
             "Aloud they do not speak, \nThey utter forth no word, \nNor into language break, \nAnd yet their voice is heard; \nThrough all the world the truth they bear \nAnd their Creator’s pow’r declare.",
@@ -762,6 +816,7 @@
         "title": "Most Perfect Is the Law of GOD",
         "psalm": 19,
         "psalmVerses": "7-9",
+        "isCompletePsalm": false,
         "verses": [
             "Most perfect is the law of GOD, \nRestoring those that stray; \nHis testimony is most sure, \nProclaiming wisdom’s way.",
             "The precepts of the LORD are right; \nWith joy they fill the heart;\nThe LORD’s commandments all are pure, \nAnd clearest light impart.",
@@ -781,6 +836,7 @@
         "title": "Most Perfect Is the Law of GOD",
         "psalm": 19,
         "psalmVerses": "7-9, 11-14",
+        "isCompletePsalm": false,
         "verses": [
             "Most perfect is the law of GOD, \nRestoring those that stray; \nHis testimony is most sure, \nProclaiming wisdom’s way.",
             "The precepts of the LORD are right; \nWith joy they fill the heart;\nThe LORD’s commandments all are pure, \nAnd clearest light impart.",
@@ -801,6 +857,7 @@
         "letter": "A",
         "title": "Jehovah Hear You in Your Grief",
         "psalm": 20,
+        "isCompletePsalm": true,
         "verses": [
             "Jehovah hear you in your grief,\nOur fathers’ God defend you still, \nSend from His holy place relief, \nAnd strengthen you from Zion’s hill.",
             "Your sacrifice may He regard,\nAnd all your off’rings bear in mind; \nYour heart’s desire to you accord, \nFulfilling all you have designed.",
@@ -820,6 +877,7 @@
         "letter": "B",
         "title": "Jehovah Hear You in the Day",
         "psalm": 20,
+        "isCompletePsalm": true,
         "verses": [
             "Jehovah hear you in the day\nWhen trouble He doth send;\nAnd let our cov’nant-keeping God\nFrom ev’ry ill defend.",
             "Oh, let Him send His help to you\nForth from His holy place;\nLet Him from Zion, His own hill,\nSustain you by His grace.",
@@ -840,6 +898,7 @@
         "letter": "A",
         "title": "Now the King in Thy Strength",
         "psalm": 21,
+        "isCompletePsalm": true,
         "verses": [
             "Now the King in Thy strength shall be joyful, O LORD,\nThy salvation shall make Him rejoice; \nFor the wish of His heart Thou didst freely accord, \nThe request of His suppliant voice.",
             "All the blessings of goodness Thou freely didst give; \nWith the purest of gold He is crowned;\nWhen He asked of Thee life Thou hast made Him to live\nWhile the ages shall circle around.",
@@ -858,6 +917,7 @@
         "letter": "B",
         "title": "The King Rejoiceth in Thy Strength",
         "psalm": 21,
+        "isCompletePsalm": true,
         "verses": [
             "The King rejoiceth in Thy strength, \nIn Thy salvation, LORD Most High, \nFor Thou hast filled His heart’s desire\nHis pray’r Thy love doth not deny.",
             "A kingly crown Thou givest Him, \nThy blessings meet Him on His ways; \nHe asked for life, and unto Him \nThou gavest endless length of days.",
@@ -875,6 +935,7 @@
         "title": "My God, My God, I Cry to Thee",
         "psalm": 22,
         "psalmVerses": "1-22",
+        "isCompletePsalm": false,
         "verses": [
             "My God, My God, I cry to Thee;\nO why hast Thou forsaken Me?\nAfar from Me, Thou dost not heed, \nThough day and night for help I plead.",
             "But Thou art holy in Thy ways,\nEnthroned upon Thy people’s praise; \nOur fathers put their trust in Thee, \nBelieved, and Thou didst set them free.",
@@ -900,6 +961,7 @@
         "title": "My God, My God, I Cry to Thee",
         "psalm": 22,
         "psalmVerses": "1-22",
+        "isCompletePsalm": false,
         "verses": [
             "My God, My God, I cry to Thee;\nO why hast Thou forsaken Me?\nAfar from Me, Thou dost not heed, \nThough day and night for help I plead.",
             "But Thou art holy in Thy ways,\nEnthroned upon Thy people’s praise; \nOur fathers put their trust in Thee, \nBelieved, and Thou didst set them free.",
@@ -925,6 +987,7 @@
         "title": "All Ye That Fear Jehovah’s Name",
         "psalm": 22,
         "psalmVerses": "23-31",
+        "isCompletePsalm": false,
         "verses": [
             "All ye that fear Jehovah’s name, \nHis glory tell, His praise proclaim; \nYe children of His chosen race, \nStand ye in awe before His face, \nStand ye in awe before His face.",
             "The suff’ring one He has not spurned \nWho unto Him for help has turned;\nFrom him He has not hid His face, \nBut answered his request in grace, \nBut answered his request in grace.",
@@ -946,6 +1009,7 @@
         "letter": "D",
         "title": "The Ends of All the Earth Shall Hear",
         "psalm": 22,
+        "isCompletePsalm": true,
         "verses": [
             "The ends of all the earth shall hear \nAnd turn unto the LORD in fear; \nAll kindreds of the earth shall own \nAnd worship Him as God alone.\nAll earth to Him her homage brings, \nThe Lord of lords, the King of kings.",
             "For His the kingdom, His of right, \nHe rules the nations by His might; \nAll earth to Him her homage brings, \nThe Lord of lords, the King of kings. \nAll earth to Him her homage brings, \nThe Lord of lords, the King of kings.",
@@ -961,6 +1025,7 @@
         "letter": "E",
         "title": "Come Ye That Fear Jehovah",
         "psalm": 22,
+        "isCompletePsalm": true,
         "verses": [
             "Come ye that fear Jehovah,\nYe saints, your voices raise;\nCome, stand in awe before Him,\nAnd sing His glorious praise.\nYe lowly and afflicted\nWho on His word rely,\nYour heart shall live forever,\nThe LORD will satisfy.",
             "All kindreds of the nations\nTo Christ the LORD shall turn,\nThrough earth’s remotest regions\nHis altar-fires shall burn.\nAll kingdom, pow’r, and glory\nBelong to Him alone;\nHe ruleth o’er the nations,\nKings bow before His throne.",
@@ -976,6 +1041,7 @@
         "letter": "F",
         "title": "Amid the Thronging Worshipers",
         "psalm": 22,
+        "isCompletePsalm": true,
         "verses": [
             "Amid the thronging worshipers \nJehovah will I bless; \nBefore my brethren, gathered there, \nHis name will I confess. \nCome, praise Him, ye that fear the LORD, \nYe children of His grace; \nWith rev’rence sound His glories forth \nAnd bow before His face.",
             "The burden of the sorrowful\nThe Lord will not despise; \nHe has not turned from those that mourn, \nHe hearkens to their cries. \nHis goodness makes me join the throng \nWhere saints His praise proclaim, \nAnd there will I fulfill my vows \n’Mid those who fear His name.",
@@ -991,6 +1057,7 @@
         "letter": "A",
         "title": "Thou, Jehovah, Art My Shepherd",
         "psalm": 23,
+        "isCompletePsalm": true,
         "verses": [
             "Thou, Jehovah, art my Shepherd, \nTherefore I no want shall know; \nIn green pastures Thou dost rest me, \nLeadest where still waters flow, \nAnd, when fainting, \nSweet refreshment dost bestow.",
             "For Thy name’s sake Thou dost guide me \nIn the paths of righteousness;\nThough I walk the vale of shadows,\nFears no more my soul oppress;\nThou art with me, \nWith Thy rod and staff to bless.",
@@ -1007,6 +1074,7 @@
         "letter": "B",
         "title": "The LORD’s My Shepherd, I’ll Not Want",
         "psalm": 23,
+        "isCompletePsalm": true,
         "verses": [
             "The LORD’s my Shepherd, I’ll not want; \nHe makes me down to lie \nIn pastures green; He leadeth me \nThe quiet waters by.",
             "My soul He doth restore again,\nAnd me to walk doth make\nWithin the paths of righteousness, \nE’en for His own name’s sake.",
@@ -1024,6 +1092,7 @@
         "letter": "C",
         "title": "The LORD’s My Shepherd, I’ll Not Want",
         "psalm": 23,
+        "isCompletePsalm": true,
         "verses": [
             "The LORD’s my Shepherd, I’ll not want; \nHe makes me down to lie \nIn pastures green; He leadeth me \nThe quiet waters by. ",
             "My soul He doth restore again,\nAnd me to walk doth make\nWithin the paths of righteousness, \nE’en for His own name’s sake.",
@@ -1041,6 +1110,7 @@
         "letter": "D",
         "title": "The LORD’s My Shepherd, I’ll Not Want",
         "psalm": 23,
+        "isCompletePsalm": true,
         "verses": [
             "The LORD’s my Shepherd, I’ll not want; \nHe makes me down to lie \nIn pastures green; He leadeth me \nThe quiet waters by; \nHe leadeth me, He leadeth me \nThe quiet waters by.",
             "My soul He doth restore again,\nAnd me to walk doth make\nWithin the paths of righteousness, \nE’en for His own name’s sake; \nWithin the paths of righteousness, \nE’en for His own name’s sake.",
@@ -1058,6 +1128,7 @@
         "letter": "E",
         "title": "The LORD My Shepherd Holds Me",
         "psalm": 23,
+        "isCompletePsalm": true,
         "verses": [
             "The LORD my Shepherd holds me \nWithin His tender care,\nAnd with His flock He folds me,\nNo want shall find me there.\nIn pastures green He feeds me,\nWith plenty I am blest;\nBy quiet streams He leads me\nAnd makes me safely rest.",
             "Whatever ill betides me,\nHe will restore and bless;\nFor His name’s sake He guides me \nIn paths of righteousness.\nThy rod and staff shall cheer me\nIn death’s dark vale and shade,\nFor Thou wilt then be near me:\nI shall not be afraid.",
@@ -1073,6 +1144,7 @@
         "letter": "A",
         "title": "The Earth, with All That Dwell Therein",
         "psalm": 24,
+        "isCompletePsalm": true,
         "verses": [
             "The earth, with all that dwell therein, \nWith all its wealth untold, \nBelongs to GOD Who founded it \nUpon the seas of old.",
             "What man shall stand before the LORD \nOn Zion’s holy hill?\nThe clean of hand, the pure of heart, \nThe just who do His will.",
@@ -1094,6 +1166,7 @@
         "letter": "B",
         "title": "The Earth and the Fullness",
         "psalm": 24,
+        "isCompletePsalm": true,
         "verses": [
             "The earth and the fullness with which it is stored, \nThe world and its dwellers belong to the LORD; \nFor He on the seas its foundations has laid, \nAnd firm on the waters its pillars has stayed.",
             "What man shall the hill of Jehovah ascend, \nAnd who in the place of His presence attend? \nThe man of pure heart, and of hands without stain,\nWho swears not to falsehood nor loves what is vain.",
@@ -1112,6 +1185,7 @@
         "letter": "C",
         "title": "Ye Gates, Lift Your Heads",
         "psalm": 24,
+        "isCompletePsalm": true,
         "verses": [
             "Ye gates, lift your heads, the glad summons obey, \nYe doors everlasting, wide open the way;\nThe King of all glory high honours await, \nThe King of all glory shall enter in state.",
             "What King of all glory is this that ye sing?\nThe LORD, strong and mighty, the conquering King.\nYe gates, lift your heads, and His summons obey,\nYe doors everlasting, wide open the way. ",
@@ -1127,6 +1201,7 @@
         "letter": "A",
         "title": "To Thee I Lift My Soul",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "To Thee I lift my soul,\nIn Thee my trust repose;\nMy God, O put me not to shame \nBefore triumphant foes.",
             "None shall be put to shame\nThat humbly wait for Thee,\nBut those that wilfully transgress, \nOn them the shame shall be.",
@@ -1158,6 +1233,7 @@
         "letter": "B",
         "title": "LORD, I Lift My Soul to Thee",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, I lift my soul to Thee,\nO my God, I trust Thy might;\nLet not foes exult o’er me,\nShame me not before their sight.",
             "Yea, may none be put to shame,\nNone who wait for Thee to bless;\nBut dishonoured be their name\nWho without a cause transgress.",
@@ -1186,6 +1262,7 @@
         "letter": "C",
         "title": "Unto Thee, O Lord Jehovah",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "Unto Thee, O Lord Jehovah,\nDo I lift my waiting soul.\nO my God, in Thee I trusted;\nLet no shame now o’er me roll.\nOn my enemy be shame,\nOft without a cause transgressing;\nBut all those who trust Thy name\nHonour with abundant blessing.",
             "Unto me, O Lord Jehovah,\nShow Thy ways and teach Thou me;\nSo that, by Thy Spirit guided;\nClearly I Thy paths may see.\nIn Thy truth wilt Thou me guide,\nTeach me, God of my salvation;\nAll the day for Thee I bide,\nLord, with eager expectation.",
@@ -1209,6 +1286,7 @@
         "letter": "D",
         "title": "To Thee I Lift My Soul",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "To Thee I lift my soul,\nIn Thee my trust repose;\nMy God, O put me not to shame\nBefore triumphant foes.",
             "None shall be put to shame\nThat humbly wait for Thee,\nBut those that willfully transgress,\nOn them the shame shall be. ",
@@ -1226,6 +1304,7 @@
         "letter": "E",
         "title": "My Sins and Faults of Youth",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "My sins and faults of youth,\nLet them forgotten be, \nAnd for Thy tender mercies’ sake,\nO LORD, remember me.",
             "The LORD is just and good,\nInstructing those that stray;\nThe meek He will in judgment guide \nAnd make them know His way.",
@@ -1242,6 +1321,7 @@
         "letter": "F",
         "title": "LORD, I Lift My Soul to Thee",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, I lift my soul to Thee,\nO my God, I trust Thy might;\nLet not foes exult o’er me,\nShame me not before their sight. \nYea, may none be put to shame,\nNone who wait for Thee to bless;\nBut dishonoured be their name\nWho without a cause transgress.",
             "LORD, to me Thy ways make known, \nGuide in truth and teach Thou me; \nThou my Saviour art alone, \nAll the day I wait for Thee. \nLORD, remember in Thy love\nAll Thy mercies manifold,\nTender mercies from above,\nChangeless from the days of old.",
@@ -1257,6 +1337,7 @@
         "letter": "G",
         "title": "Grace and Truth Shall Mark the Way",
         "psalm": 25,
+        "isCompletePsalm": true,
         "verses": [
             "Grace and truth shall mark the way \nWhere the LORD His own will lead, \nIf His word they still obey \nAnd His testimonies heed.",
             "For Thy name’s sake hear Thou me, \nFor Thy mercy, LORD, I wait;\nPardon my iniquity, \nFor my sin is very great.",
@@ -1273,6 +1354,7 @@
         "letter": "A",
         "title": "LORD, Vindicate Me",
         "psalm": 26,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, vindicate me; I have walked \nIn my integrity. \nAnd I have trusted in the LORD;\nI’ve been unwavering. \nExamine me and prove me, LORD;\nTest heart and mind, I pray. \nThy steadfast love’s before my eyes; \nThy truth has led my way. ",
             "I will not be with worthless men, \nNor with the hypocrite. \nI hate the crowd of wicked men; \nWith evil I’ll not sit. \nI’ll guiltless wash my hands and come \nBefore Thine altar, LORD.\nAnd I will shout with thankful voice; \nThy wonders I’ll record. ",
@@ -1289,6 +1371,7 @@
         "letter": "B",
         "title": "Be Thou My Judge, O Righteous LORD",
         "psalm": 26,
+        "isCompletePsalm": true,
         "verses": [
             "Be Thou my judge, O righteous LORD, \nTry Thou my inmost heart; \nI walk with steadfast trust in Thee, \nNor from Thy ways depart.",
             "O search me, LORD, and prove me now;\nThy mercy I adore; \nI choose Thy truth to be my guide, \nAnd sinful ways abhor.",
@@ -1309,6 +1392,7 @@
         "letter": "A",
         "title": "Jehovah Is My Light",
         "psalm": 27,
+        "isCompletePsalm": true,
         "verses": [
             "Jehovah is my light, \nAnd my salvation near; \nWho shall my soul affright, \nOr cause my heart to fear? \nWhile GOD my strength, my life sustains, \nSecure from fear my soul remains. ",
             "When evildoers came \nTo make my life their prey, \nThey stumbled in their shame \nAnd fell in sore dismay; \nThough hosts make war on ev’ry side, \nStill fearless I in God confide.",
@@ -1332,6 +1416,7 @@
         "letter": "B",
         "title": "LORD, Hear Me When I Pray",
         "psalm": 27,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, hear me when I pray,\nAnd answer me in grace;\nOft as I hear Thee say,\nCome ye and seek My face,\nMy heart and lips their answer speak, \nThy face, Jehovah, will I seek.",
             "Hide not Thy face from me,\nIn wrath turn not away,\nMy help and Saviour be,\nForsake me not, I pray;\nShould father, mother, both forsake,\nThe LORD on me will pity take.",
@@ -1349,6 +1434,7 @@
         "title": "The LORD Almighty Is My Light",
         "psalm": 27,
         "psalmVerses": "1, 7-10, 13-14",
+        "isCompletePsalm": false,
         "verses": [
             "The LORD Almighty is my light,\nHe is my Saviour ever near,\nAnd, since my strength is in His might\nWho can distress me or affright?\nWhat evil shall I fear?",
             "O LORD, regard me when I cry,\nIn mercy hear me when I speak;\nThou bidst me seek Thy face, and I,\nO Lord, with willing heart reply,\nThy face, LORD, will I seek.",
@@ -1367,6 +1453,7 @@
         "letter": "A",
         "title": "O LORD, to Thee I Cry",
         "psalm": 28,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD, to Thee I cry;\nThou art my rock and trust;\nO be not silent, lest I die\nAnd slumber in the dust.",
             "O hear me when in pray’r\nThy favour I entreat;\nHear, while I lift imploring hands\nBefore Thy mercy-seat.",
@@ -1388,6 +1475,7 @@
         "letter": "B",
         "title": "To Thee, O LORD, I Cry",
         "psalm": 28,
+        "isCompletePsalm": true,
         "verses": [
             "To Thee, O LORD, I cry; my rock, \nDo not be deaf to my lament.\nIf Thou art silent I become\nLike those that to the pit descend. ",
             "Receive my plea for mercy, LORD,\nAs now I call to Thee for grace; \nI lift my hands to Thee in pray’r\nAnd look to Thy most holy place.",
@@ -1409,6 +1497,7 @@
         "letter": "A",
         "title": "Now unto Jehovah, Ye Sons of the Mighty",
         "psalm": 29,
+        "isCompletePsalm": true,
         "verses": [
             "Now unto Jehovah, ye sons of the mighty,\nAll glory and strength and dominion accord;\nAscribe to Him glory, and render Him honour,\nIn beauty of holiness worship the LORD.",
             "The voice of Jehovah, the God of all glory,\nRolls over the waters, the thunders awake;\nThe voice of Jehovah, majestic and mighty,\nIs heard, and the cedars of Lebanon break.",
@@ -1426,6 +1515,7 @@
         "letter": "B",
         "title": "You Sons of the Gods",
         "psalm": 29,
+        "isCompletePsalm": true,
         "verses": [
             "You sons of the gods, give the LORD as His right,\nAscribe to the LORD both great glory and might.\nAnd unto the LORD’s name its glory accord; \nIn splendour of holiness worship the LORD.",
             "The LORD’s voice is over the waters abroad;\nAnd thunder proceeds from the glorious God.\nAbove the great waters the LORD from His height!\nThe LORD’s voice of splen dour! The LORD’s voice of might!",
@@ -1444,6 +1534,7 @@
         "letter": "A",
         "title": "O LORD, by Thee Delivered",
         "psalm": 30,
+        "isCompletePsalm": true,
         "verses": [
             "O LORD, by Thee delivered,\nI Thee with songs extol;\nMy foes Thou hast not suffered \nTo glory o’er my fall.\nO LORD, my God, I sought Thee, \nAnd Thou didst heal and save;\nThou, LORD, from death didst ransom \nAnd keep me from the grave.",
             "His holy name remember,\nYe saints, Jehovah praise, \nHis anger lasts a moment, \nHis favour all our days;\nFor sorrow, like a pilgrim,\nMay tarry for a night,\nBut joy the heart will gladden\nWhen dawns the morning light.",
@@ -1461,6 +1552,7 @@
         "letter": "B",
         "title": "LORD, I Will Praise Thy Name",
         "psalm": 30,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, I will praise Thy name,\nFor Thou hast set me free,\nNor suffered foes to claim\nA triumph over me;\nO LORD, my God, to Thee I cried\nAnd Thou hast health and strength supplied. ",
             "Thou hast my soul restored\nWhen I was near the grave,\nAnd from the depths, O LORD,\nThou graciously didst save;\nO ye His saints, sing to the LORD,\nWith thanks His holiness record.",
@@ -1479,6 +1571,7 @@
         "letter": "A",
         "title": "In Thee, O LORD, I Put My Trust",
         "psalm": 31,
+        "isCompletePsalm": true,
         "verses": [
             "In Thee, O LORD, I put my trust,\nI call upon Thy name;\nO save me in Thy righteousness, \nNor let me suffer shame.",
             "Bow down Thine ear to my request,\nAnd swift deliv’rance send;\nBe Thou to me a rock of strength,\nA fortress to defend.",
@@ -1505,6 +1598,7 @@
         "letter": "B",
         "title": "Defend Me, LORD, from Shame",
         "psalm": 31,
+        "isCompletePsalm": true,
         "verses": [
             "Defend me, LORD, from shame, \nFor still I trust in Thee;\nSince just and righteous is Thy name,\nFrom trouble set me free.\nO Lord, in mercy hear,\nDeliver me with speed;\nBe my defense and refuge near,\nMy help in time of need.",
             "Thee for my rock I take,\nMy fortress and my stay;\nO lead me for Thine own name’s sake\nAnd guide me in Thy way.\nLord, Thou dost strength impart;\nThen free me from the snare\nWhich foes for me, with wicked art,\nDid secretly prepare.",
@@ -1520,6 +1614,7 @@
         "letter": "C",
         "title": "How Great the Goodness Kept in Store",
         "psalm": 31,
+        "isCompletePsalm": true,
         "verses": [
             "How great the goodness kept in store\nFor those who fear Thee and adore\nIn meek humility.\nHow great the deeds with mercy fraught\nWhich openly Thy hand hath wrought\nFor those who trust in Thee.",
             "Secured by Thine unfailing grace,\nIn Thee they find a hiding place\nWhen foes their plots devise; \nA sure retreat Thou wilt prepare, \nAnd keep them safely sheltered there,\nWhen strife of tongues shall rise.",
@@ -1536,6 +1631,7 @@
         "letter": "A",
         "title": "What Blessedness Belongs to Him",
         "psalm": 32,
+        "isCompletePsalm": true,
         "verses": [
             "What blessedness belongs to him\nWho truly is forgiv’n,\nFor whom transgressions have been cleared, \nAnd covered is his sin.\nHow blessed is the one the LORD\nAccuses not of sin,\nThe man without deceit and guile, \nWhose heart is pure within.",
             "I languished, silent in my guilt;\nMy days were filled with groans.\nThy hand on me pressed day and night, \nAnd heat dried up my bones.\nMy trespasses to Thee I owned,\nHid not my wickedness; \nI said, I will before the LORD\nTransgressions now confess.",
@@ -1553,6 +1649,7 @@
         "letter": "B",
         "title": "How Blest Is He Whose Trespass",
         "psalm": 32,
+        "isCompletePsalm": true,
         "verses": [
             "How blest is he whose trespass\nHath freely been forgiv’n,\nWhose sin is wholly covered\nBefore the sight of heav’n.\nBlest he to whom Jehovah\nImputeth not his sin,\nWho hath a guileless spirit,\nWhose heart is true within.",
             "While I kept guilty silence\nMy strength was spent with grief,\nThy hand was heavy on me,\nMy soul found no relief;\nBut when I owned my trespass,\nMy sin hid not from Thee,\nWhen I confessed transgression,\nThen Thou forgavest me.",
@@ -1570,6 +1667,7 @@
         "letter": "C",
         "title": "I Graciously Will Teach Thee",
         "psalm": 32,
+        "isCompletePsalm": true,
         "verses": [
             "I graciously will teach thee\nThe way that thou shalt go,\nAnd with My eye upon thee\nMy counsel make thee know.\nBut be ye not unruly,\nOr slow to understand,\nBe not perverse, but willing\nTo heed My wise command.",
             "The sorrows of the wicked\nIn number shall abound,\nBut those that trust Jehovah, \nHis mercy shall surround;\nThen in the LORD be joyful,\nIn song lift up your voice;\nBe glad in God, ye righteous,\nRejoice, ye saints, rejoice."
@@ -1584,6 +1682,7 @@
         "letter": "A",
         "title": "Ye Righteous, in the LORD Rejoice",
         "psalm": 33,
+        "isCompletePsalm": true,
         "verses": [
             "Ye righteous, in the LORD rejoice; \n’Tis comely that with joyful voice\nGod’s saints His name should praise.\nWith harp and hymn of gladness sing,\nYour gift of sweetest music bring, \nTo Him a new song raise.",
             "For upright is Jehovah’s word,\nAnd all the doings of the LORD\nIn justice have their birth;\nIn judgment and in deeds of right\nThe LORD forever takes delight; \nHis goodness fills the earth.",
@@ -1606,6 +1705,7 @@
         "letter": "B",
         "title": "With Joy Let Us Sing to the LORD",
         "psalm": 33,
+        "isCompletePsalm": true,
         "verses": [
             "With joy let us sing to the LORD, all ye righteous, \nFor fitting it is that the upright give praise. \nAnd skillfully praise Him with harp and with lyre; \nMake music to GOD, a new song to Him raise. \nFor upright and true is the word GOD has spoken; \nThe works of the Lord His great faithfulness prove. \nAnd He loves true righteousness, justice and judgment; \nThe ends of the earth show the LORD’s steadfast love. ",
             "The LORD by His word has created the heavens; \nAnd He by His breath made the stars come to be. \nThe depths of the ocean He heaps up together, \nAnd puts in a storehouse the waves of the sea. \nSo let all the earth and its people revere Him, \nAnd in the LORD’s presence with awe let them stand. \nHe spoke, it was done and continues to stand fast; \nIt all was accomplished when He gave command.",
@@ -1624,6 +1724,7 @@
         "letter": "C",
         "title": "Jehovah from His Throne on High",
         "psalm": 33,
+        "isCompletePsalm": true,
         "verses": [
             "Jehovah from His throne on high\nLooks down with clear and searching eye\nOn all that dwell below;\nAnd He that fashioned heart and mind\nLooks ever down on all mankind,\nThe works of men to know.",
             "Not human strength or mighty hosts,\nNot charging steeds or warlike boasts\nCan save from overthrow;\nBut GOD will save from death and shame\nAll those who fear and trust His name,\nAnd they no want shall know.",
@@ -1639,6 +1740,7 @@
         "letter": "A",
         "title": "The LORD I Will at All Times Bless",
         "psalm": 34,
+        "isCompletePsalm": true,
         "verses": [
             "The LORD I will at all times bless,\nMy mouth His praises shall express;\nIn Him shall all my boasting be,\nWhile all the meek rejoice with me.",
             "O magnify the LORD with me,\nLet us to praise His name agree;\nI sought the LORD, He answered me,\nAnd from my fears He set me free.",
@@ -1666,6 +1768,7 @@
         "title": "The LORD I Will at All Times Bless",
         "psalm": 34,
         "psalmVerses": "1-10",
+        "isCompletePsalm": false,
         "verses": [
             "The LORD I will at all times bless,\nIn praise my mouth employ;\nMy soul shall in Jehovah boast,\nThe meek shall hear with joy.\nO magnify the LORD with me,\nLet us exalt His name;\nWhen in distress on Him I called,\nHe to my rescue came.",
             "We looked to Him and light received,\nAshamed we shall not be;\nOur humble cry Jehovah heard,\nFrom trouble set us free.\nThe angel of the LORD encamps\nAround about His own,\nDelivers them from all their foes,\nLest they be overthrown.",
@@ -1682,6 +1785,7 @@
         "title": "Ye Children, Come, Give Ear to Me",
         "psalm": 34,
         "psalmVerses": "11-22",
+        "isCompletePsalm": false,
         "verses": [
             "Ye children, come, give ear to me\nAnd learn Jehovah’s fear;\nHe who would long and happy live,\nLet him my counsel hear.",
             "Restrain thy lips from speaking guile,\nFrom wicked speech depart,\nFrom evil turn and do the good,\nSeek peace with all thy heart.",
@@ -1702,6 +1806,7 @@
         "title": "The LORD I Will at All Times Bless",
         "psalm": 34,
         "psalmVerses": "1-14",
+        "isCompletePsalm": false,
         "verses": [
             "The LORD I will at all times bless,\nMy mouth His praises shall express;\nIn Him shall all my boasting be,\nWhile all the meek rejoice with me.",
             "O magnify the LORD with me,\nLet us to praise His name agree;\nI sought the LORD, He answered me,\nAnd from my fears He set me free.",
@@ -1722,6 +1827,7 @@
         "letter": "A",
         "title": "LORD, Plead My Case",
         "psalm": 35,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, plead my case when I am charged \nBy foes maliciously,\nAnd fight for me when they attack \nAnd vent their spite on me.\nTake up Thy shield and rise to help! \nAnd say unto my soul,\nI am salvation unto you. \nWith spear restrain my foe.",
             "May those who seek to take my life\nEndure disgrace and shame;\nMay those who plot my overthrow\nTurn back the way they came.\nMay they like chaff before the wind \nBe ever driven far;\nAnd let the angel of the LORD\nPursue them in the dark.",
@@ -1746,6 +1852,7 @@
         "letter": "B",
         "title": "Be Thou My Helper in the Strife",
         "psalm": 35,
+        "isCompletePsalm": true,
         "verses": [
             "Be Thou my helper in the strife,\nO LORD, my strong defender be;\nThy mighty shield protect my life,\nThy spear confront the enemy.\nAmid the conflict, O my LORD,\nThy precious promise let me hear,\nThe faithful, reassuring word: \nI am Thy Saviour; do not fear.",
             "Ashamed, confounded let them be\nWho seek my ruin and disgrace;\nO let Thine angel fight for me,\nAnd drive my foes before His face.\nWithout a cause my life they sought,\nWithout a cause their plots they laid;\nThemselves within their snares be caught,\nAnd be my crafty foes dismayed.",
@@ -1767,6 +1874,7 @@
         "letter": "A",
         "title": "The Trespass of the Wicked Man",
         "psalm": 36,
+        "isCompletePsalm": true,
         "verses": [
             "The trespass of the wicked man\nMost plainly testifies\nThat fear of God’s most holy name\nIs not before his eyes.",
             "He cherishes the empty hope,\nAlthough his sin be great,\nIt never shall be brought to light\nAnd viewed with righteous hate.",
@@ -1790,6 +1898,7 @@
         "letter": "B",
         "title": "The Trespass of the Wicked Man",
         "psalm": 36,
+        "isCompletePsalm": true,
         "verses": [
             "The trespass of the wicked man\nIn my heart testifies, \nThere surely is no fear of God \nBefore the sinner’s eyes.",
             "He views himself with blind conceit \nAnd sinfulness denies. \nHe speaks with false and evil tongue, \nNo longer good or wise.",
@@ -1813,6 +1922,7 @@
         "letter": "A",
         "title": "Fret Not Thyself, Nor Envious Be",
         "psalm": 37,
+        "isCompletePsalm": true,
         "verses": [
             "Fret not thyself, nor envious be,\nWhen wicked workers thou shalt see,\nWho prosper in their way;\nFor like the grass they perish soon,\nAnd, like the herb cut down at noon,\nThey wither in a day.",
             "Trust in the LORD and still do well,\nWithin the land securely dwell,\nFeed on His faithfulness;\nDelight thee also in the LORD,\nAnd to thy heart He will accord\nThe good it would possess.",
@@ -1833,6 +1943,7 @@
         "letter": "B",
         "title": "A Little That the Righteous Hold",
         "psalm": 37,
+        "isCompletePsalm": true,
         "verses": [
             "A little that the righteous hold\nIs better far than wealth untold\nOf many wicked men;\nDestroyed shall be their arm of pride,\nBut they who in the LORD confide\nShall be upholden then.",
             "He knows the days the perfect live,\nTo them a heritage will give\nWhichever shall abide;\nIn evil times no shame they know,\nAnd in the days of famine’s woe\nThey shall be satisfied.",
@@ -1855,6 +1966,7 @@
         "title": "The Wicked, Watching for Their Prey",
         "psalm": 37,
         "psalmVerses": "32-40",
+        "isCompletePsalm": false,
         "verses": [
             "The wicked, watching for their prey,\nDesire the righteous man to slay,\nBut GOD is on his side;\nHe will not leave him in their hands,\nNor count him guilty when he stands\nIn judgment to be tried.",
             "Wait on the LORD and keep His way;\nHe will exalt thee, nor delay\nTo give the land to thee;\nAnd when the wicked are cut off,\nThe wicked who against thee scoff,\nTheir judgment thou shalt see.",
@@ -1872,6 +1984,7 @@
         "letter": "D",
         "title": "Forever Trusting in the LORD",
         "psalm": 37,
+        "isCompletePsalm": true,
         "verses": [
             "Forever trusting in the LORD,\nTake heed to do His will;\nSo shalt thou dwell within the land,\nSo shalt thou dwell within the land,\nAnd He thy needs shall fill.",
             "Delight thee in the LORD, and He\nWill grant thy heart’s request;\nTo Him commit thy way in faith,\nTo Him commit thy way in faith,\nAnd thus thou shalt be blest. ",
@@ -1889,6 +2002,7 @@
         "title": "The Steps of Those Whom He Approves",
         "psalm": 37,
         "psalmVerses": "23-27, 34, 37",
+        "isCompletePsalm": false,
         "verses": [
             "The steps of those whom He approves\nAre ordered by the LORD;\nAnd though they fall, held by His hand,\nThey yet shall be restored. ",
             "I have not seen, though since my youth\nFull many years have fled,\nThe saint forsaken, nor beheld\nHis children begging bread.",
@@ -1906,6 +2020,7 @@
         "letter": "A",
         "title": "LORD, in Thy Wrath, Rebuke Me Not",
         "psalm": 38,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, in Thy wrath, rebuke me not,\nNor in Thine anger chasten me.\nDeeply Thine arrows sink within;\nHeavy, Thy hand weighs down on me.",
             "There is no soundness in my flesh; \nFor Thou art angry at my sin.\nThere is no health within my bones;\nThine indignation burns within.",
@@ -1932,6 +2047,7 @@
         "letter": "B",
         "title": "In Thy Wrath and Hot Displeasure",
         "psalm": 38,
+        "isCompletePsalm": true,
         "verses": [
             "In Thy wrath and hot displeasure,\nChasten not Thy servant, LORD;\nLet Thy mercy, without measure,\nHelp and peace to me afford.",
             "Heavy is my tribulation,\nSore my punishment has been;\nBroken by Thine indignation,\nI am troubled by my sin.",
@@ -1949,6 +2065,7 @@
         "letter": "C",
         "title": "LORD, in Thee Am I Confiding",
         "psalm": 38,
+        "isCompletePsalm": true,
         "verses": [
             "LORD, in Thee am I confiding;\nThou wilt answer when I call,\nLest my foes, the good deriding, \nTriumph in Thy servant’s fall.",
             "I am prone to halt and stumble,\nGrief and sorrow dwell within,\nShame and guilt my spirit humble,\nI am sorry for my sin.",
@@ -1965,6 +2082,7 @@
         "letter": "A",
         "title": "I Constant Care Will Take",
         "psalm": 39,
+        "isCompletePsalm": true,
         "verses": [
             "I constant care will take,\nLest sinful words they hear;\nMy lips their silence shall not break\nWhile wicked men are near.",
             "I dumb and silent stood,\nNo words of mine were heard;\nI e’en refrained from speaking good,\nTill sorrow’s deeps were stirred.",
@@ -1991,6 +2109,7 @@
         "letter": "B",
         "title": "With Firm Resolve I Held My Peace",
         "psalm": 39,
+        "isCompletePsalm": true,
         "verses": [
             "With firm resolve I held my peace \nAnd spake not either bad or good,\nLest I should utter sinful thoughts\nWhile wicked men before me stood.",
             "While I was dumb my grief was stirred,\nMy heart grew hot with thought suppressed;\nThe while I mused the fire increased,\nThen to the Lord I made request.",
@@ -2015,6 +2134,7 @@
         "title": "I Waited for the LORD My God",
         "psalm": 40,
         "psalmVerses": "1-5",
+        "isCompletePsalm": false,
         "verses": [
             "I waited for the LORD my God,\nYea, patiently drew near,\nAnd He at length inclined to me,\nMy pleading cry to hear.",
             "He took me from destruction’s pit,\nFrom out the miry clay;\nHe set my feet upon a rock,\nAnd steadfast made my way.",
