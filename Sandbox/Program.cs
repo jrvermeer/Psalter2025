@@ -102,7 +102,7 @@ internal class Program
                 .Select(x => x.ScoreFilePath)
                 .ToList();
 
-            if (psalter.ScoreFiles.Any())
+            if (psalter.Psalm < 101)
                 psalter.IsCompletePsalm = psalter.PsalmVerses.IsNullOrWhiteSpace();
 
         }
