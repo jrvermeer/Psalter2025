@@ -2174,7 +2174,8 @@
         "identifier": "40C",
         "title": "Thy Tender Mercies, O My LORD",
         "psalm": 40,
-        "isCompletePsalm": true,
+        "psalmVerses": "11-17",
+        "isCompletePsalm": false,
         "verses": [
             "Thy tender mercies, O my LORD,\nWithhold not, I implore;\nBut let Thy kindness and Thy truth\nPreserve me evermore.\nFor countless ills have compassed me,\nMy sinful deeds arise;\nYea, they have overtaken me;\nI dare not raise my eyes.",
             "My sins are more than I can count,\nMy heart has failed for grief;\nBe pleased, O LORD, to rescue me, \nO haste to my relief.\nBe those who seek to hurt my soul\nDismayed and put to flight,\nAnd they themselves be put to shame\nWho in my woe delight.",
@@ -2183,7 +2184,8 @@
         "scoreFiles": [
             "2025/Score/_40C.jpg"
         ],
-        "audioFile": "2025/Audio/_40C.aac"
+        "audioFile": "2025/Audio/_40C.aac",
+        "otherPsalterIdentifier": "110"
     },
     {
         "identifier": "40D",
@@ -2199,7 +2201,8 @@
         "scoreFiles": [
             "2025/Score/_40D.jpg"
         ],
-        "audioFile": "2025/Audio/_40D.aac"
+        "audioFile": "2025/Audio/_40D.aac",
+        "otherPsalterIdentifier": "111"
     },
     {
         "identifier": "40E",
@@ -2215,7 +2218,8 @@
         "scoreFiles": [
             "2025/Score/_40E.jpg"
         ],
-        "audioFile": "2025/Audio/_40E.aac"
+        "audioFile": "2025/Audio/_40E.aac",
+        "otherPsalterIdentifier": "112"
     },
     {
         "identifier": "41A",
@@ -2241,7 +2245,8 @@
             "2025/Score/_41A_2.jpg",
             "2025/Score/_41A_3.jpg"
         ],
-        "audioFile": "2025/Audio/_41A.aac"
+        "audioFile": "2025/Audio/_41A.aac",
+        "otherPsalterIdentifier": "113"
     },
     {
         "identifier": "41B",
@@ -2300,7 +2305,8 @@
             "2025/Score/_42A.jpg",
             "2025/Score/_42A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_42A.aac"
+        "audioFile": "2025/Audio/_42A.aac",
+        "otherPsalterIdentifier": "114"
     },
     {
         "identifier": "42B",
@@ -2320,7 +2326,8 @@
             "2025/Score/_42B.jpg",
             "2025/Score/_42B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_42B.aac"
+        "audioFile": "2025/Audio/_42B.aac",
+        "otherPsalterIdentifier": "416"
     },
     {
         "identifier": "42C",
@@ -2336,7 +2343,8 @@
         "scoreFiles": [
             "2025/Score/_42C.jpg"
         ],
-        "audioFile": "2025/Audio/_42C.aac"
+        "audioFile": "2025/Audio/_42C.aac",
+        "otherPsalterIdentifier": "115"
     },
     {
         "identifier": "42D",
@@ -2352,7 +2360,8 @@
         "scoreFiles": [
             "2025/Score/_42D.jpg"
         ],
-        "audioFile": "2025/Audio/_42D.aac"
+        "audioFile": "2025/Audio/_42D.aac",
+        "otherPsalterIdentifier": "117"
     },
     {
         "identifier": "43A",
@@ -2371,7 +2380,8 @@
             "2025/Score/_43A.jpg",
             "2025/Score/_43A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_43A.aac"
+        "audioFile": "2025/Audio/_43A.aac",
+        "otherPsalterIdentifier": "119"
     },
     {
         "identifier": "43B",
@@ -2389,7 +2399,8 @@
             "2025/Score/_43B.jpg",
             "2025/Score/_43B_Refrain.jpg"
         ],
-        "audioFile": "2025/Audio/_43B.aac"
+        "audioFile": "2025/Audio/_43B.aac",
+        "otherPsalterIdentifier": "120"
     },
     {
         "identifier": "43C",
@@ -2406,7 +2417,8 @@
         "scoreFiles": [
             "2025/Score/_43C.jpg"
         ],
-        "audioFile": "2025/Audio/_43C.aac"
+        "audioFile": "2025/Audio/_43C.aac",
+        "otherPsalterIdentifier": "417"
     },
     {
         "identifier": "44A",
@@ -2431,13 +2443,15 @@
             "2025/Score/_44A.jpg",
             "2025/Score/_44A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_44A.aac"
+        "audioFile": "2025/Audio/_44A.aac",
+        "otherPsalterIdentifier": "121-123"
     },
     {
         "identifier": "44B",
         "title": "If We Have Forgotten the Name of Our God ",
         "psalm": 44,
-        "isCompletePsalm": true,
+        "psalmVerses": "20-26",
+        "isCompletePsalm": false,
         "verses": [
             "If we have forgotten the name of our God,\nOr unto an idol our hands spread abroad,\nShall not the Almighty uncover this sin?\nHe knows all our hearts and the secrets within.",
             "We all the day long for Thy sake are consumed,\nDefeated and helpless, to death we are doomed; \nThen why dost Thou tarry? Jehovah, awake,\nNor spurn us forever; arise for our sake.",
@@ -2447,7 +2461,8 @@
         "scoreFiles": [
             "2025/Score/_44B.jpg"
         ],
-        "audioFile": "2025/Audio/_44B.aac"
+        "audioFile": "2025/Audio/_44B.aac",
+        "otherPsalterIdentifier": "123"
     },
     {
         "identifier": "45A",
@@ -2478,13 +2493,15 @@
             "2025/Score/_45A_3.jpg",
             "2025/Score/_45A_4.jpg"
         ],
-        "audioFile": "2025/Audio/_45A.aac"
+        "audioFile": "2025/Audio/_45A.aac",
+        "otherPsalterIdentifier": "124, 125"
     },
     {
         "identifier": "45B",
         "title": "O Royal Bride, Give Heed ",
         "psalm": 45,
-        "isCompletePsalm": true,
+        "psalmVerses": "10-18",
+        "isCompletePsalm": false,
         "verses": [
             "O royal bride, give heed,\nAnd to my words attend;\nFor Christ the King forsake the world\nAnd ev’ry former friend.",
             "Thy beauty and thy grace\nShall then delight the King;\nHe only is thy rightful Lord,\nTo Him thy worship bring.",
@@ -2498,7 +2515,8 @@
             "2025/Score/_45B.jpg",
             "2025/Score/_45B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_45B.aac"
+        "audioFile": "2025/Audio/_45B.aac",
+        "otherPsalterIdentifier": "125"
     },
     {
         "identifier": "46A",
@@ -2515,7 +2533,8 @@
         "scoreFiles": [
             "2025/Score/_46A.jpg"
         ],
-        "audioFile": "2025/Audio/_46A.aac"
+        "audioFile": "2025/Audio/_46A.aac",
+        "otherPsalterIdentifier": "126"
     },
     {
         "identifier": "46B",
@@ -2536,7 +2555,8 @@
             "2025/Score/_46B.jpg",
             "2025/Score/_46B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_46B.aac"
+        "audioFile": "2025/Audio/_46B.aac",
+        "otherPsalterIdentifier": "127"
     },
     {
         "identifier": "46C",
@@ -2551,7 +2571,8 @@
         "scoreFiles": [
             "2025/Score/_46C.jpg"
         ],
-        "audioFile": "2025/Audio/_46C.aac"
+        "audioFile": "2025/Audio/_46C.aac",
+        "otherPsalterIdentifier": "128"
     },
     {
         "identifier": "47A",
@@ -2568,13 +2589,15 @@
         "scoreFiles": [
             "2025/Score/_47A.jpg"
         ],
-        "audioFile": "2025/Audio/_47A.aac"
+        "audioFile": "2025/Audio/_47A.aac",
+        "otherPsalterIdentifier": "129"
     },
     {
         "identifier": "47B",
         "title": "Praise the Lord, Ye Lands",
         "psalm": 47,
-        "isCompletePsalm": true,
+        "psalmVerses": "1-2,5-9",
+        "isCompletePsalm": false,
         "verses": [
             "Praise the Lord, ye lands;\nNations, clap your hands;\nShout aloud to God,\nSpread His fame abroad;\nPraise Him loud and long\nWith a triumph song;\nBow as ye draw nigh,\nFor the LORD Most High,\nTerrible is He\nIn His dignity;\nAnd His kingdom’s girth\nCircles all the earth.",
             "God has gone on high\nWith a joyful cry;\nHosts with trumpet sound\nMake His praise abound;\nSing ye praise to God,\nTell His fame abroad,\nTake a psalm and shout,\nLet His praise ring out,\nLift your voice and sing\nGlory to our King;\nHe is Lord of earth,\nMagnify His worth.",
@@ -2583,7 +2606,8 @@
         "scoreFiles": [
             "2025/Score/_47B.jpg"
         ],
-        "audioFile": "2025/Audio/_47B.aac"
+        "audioFile": "2025/Audio/_47B.aac",
+        "otherPsalterIdentifier": "418"
     },
     {
         "identifier": "47C",
@@ -2598,7 +2622,8 @@
         "scoreFiles": [
             "2025/Score/_47C.jpg"
         ],
-        "audioFile": "2025/Audio/_47C.aac"
+        "audioFile": "2025/Audio/_47C.aac",
+        "otherPsalterIdentifier": "418"
     },
     {
         "identifier": "47D",
@@ -2615,7 +2640,8 @@
         "scoreFiles": [
             "2025/Score/_47D.jpg"
         ],
-        "audioFile": "2025/Audio/_47D.aac"
+        "audioFile": "2025/Audio/_47D.aac",
+        "otherPsalterIdentifier": "130"
     },
     {
         "identifier": "48A",
@@ -2633,13 +2659,15 @@
         "scoreFiles": [
             "2025/Score/_48A.jpg"
         ],
-        "audioFile": "2025/Audio/_48A.aac"
+        "audioFile": "2025/Audio/_48A.aac",
+        "otherPsalterIdentifier": "134"
     },
     {
         "identifier": "48B",
         "title": "Within Thy Temple’s Sacred Courts ",
         "psalm": 48,
-        "isCompletePsalm": true,
+        "psalmVerses": "9-14",
+        "isCompletePsalm": false,
         "verses": [
             "Within Thy temple’s sacred courts,\nWith loving and adoring thought,\nWe contemplate Thy grace, O God,\nAnd all Thy deeds with mercy fraught.",
             "Where’er Thy name, O God, is known,\nWhere’er Thy glorious fame extends,\nThere also is Thy praise proclaimed,\nFar as the earth’s remotest ends.",
@@ -2650,7 +2678,8 @@
         "scoreFiles": [
             "2025/Score/_48B.jpg"
         ],
-        "audioFile": "2025/Audio/_48B.aac"
+        "audioFile": "2025/Audio/_48B.aac",
+        "otherPsalterIdentifier": "132"
     },
     {
         "identifier": "48C",
@@ -2665,7 +2694,8 @@
         "scoreFiles": [
             "2025/Score/_48C.jpg"
         ],
-        "audioFile": "2025/Audio/_48C.aac"
+        "audioFile": "2025/Audio/_48C.aac",
+        "otherPsalterIdentifier": "133"
     },
     {
         "identifier": "49A",
@@ -2691,7 +2721,8 @@
         "identifier": "49B",
         "title": "Hear This, All Ye People, Hear ",
         "psalm": 49,
-        "isCompletePsalm": true,
+        "psalmVerses": "1-9",
+        "isCompletePsalm": false,
         "verses": [
             "Hear this, all ye people, hear,\nEarth’s inhabitants, give ear;\nAll of high and low degree,\nRich and poor, give heed to me.",
             "Truth with all my heart I seek,\nAnd my mouth shall wisdom speak;\nHearken while in lyric strain\nI make hidden wisdom plain.",
@@ -2702,7 +2733,8 @@
         "scoreFiles": [
             "2025/Score/_49B.jpg"
         ],
-        "audioFile": "2025/Audio/_49B.aac"
+        "audioFile": "2025/Audio/_49B.aac",
+        "otherPsalterIdentifier": "135"
     },
     {
         "identifier": "49C",
@@ -2718,7 +2750,8 @@
         "scoreFiles": [
             "2025/Score/_49C.jpg"
         ],
-        "audioFile": "2025/Audio/_49C.aac"
+        "audioFile": "2025/Audio/_49C.aac",
+        "otherPsalterIdentifier": "136"
     },
     {
         "identifier": "50A",
@@ -2741,13 +2774,15 @@
             "2025/Score/_50A.jpg",
             "2025/Score/_50A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_50A.aac"
+        "audioFile": "2025/Audio/_50A.aac",
+        "otherPsalterIdentifier": "137, 138"
     },
     {
         "identifier": "50B",
         "title": "The Mighty God, Jehovah, Speaks",
         "psalm": 50,
-        "isCompletePsalm": true,
+        "psalmVerses": "1-15",
+        "isCompletePsalm": false,
         "verses": [
             "The mighty God, Jehovah, speaks\nAnd calls the earth from sea to sea;\nFrom beauteous Zion God shines forth,\nHe comes and will not silent be;\nDevouring flame before Him goes,\nAnd dark the tempest round Him grows.",
             "He calls aloud to heav’n and earth\nThat He may justly judge His own;\nMy chosen saints together bring\nWho sacrifice to Me alone;\nThe heav’ns His righteousness declare,\nFor God Himself as Judge is there.",
@@ -2759,13 +2794,15 @@
         "scoreFiles": [
             "2025/Score/_50B.jpg"
         ],
-        "audioFile": "2025/Audio/_50B.aac"
+        "audioFile": "2025/Audio/_50B.aac",
+        "otherPsalterIdentifier": "137"
     },
     {
         "identifier": "50C",
         "title": "The Mighty God, the LORD",
         "psalm": 50,
-        "isCompletePsalm": true,
+        "psalmVerses": "1-6",
+        "isCompletePsalm": false,
         "verses": [
             "The mighty God, the LORD, \nHas spoken unto all;\nFrom rising to the setting sun\nThe nations hear His call.",
             "From Zion His abode,\nWhere perfect beauty dwells,\nThe Lord His glory has displayed\nIn brightness that excels.",
@@ -2778,7 +2815,8 @@
             "2025/Score/_50C.jpg",
             "2025/Score/_50C_2.jpg"
         ],
-        "audioFile": "2025/Audio/_50C.aac"
+        "audioFile": "2025/Audio/_50C.aac",
+        "otherPsalterIdentifier": "139"
     },
     {
         "identifier": "51A",
@@ -2816,7 +2854,8 @@
         "scoreFiles": [
             "2025/Score/_51B.jpg"
         ],
-        "audioFile": "2025/Audio/_51B.aac"
+        "audioFile": "2025/Audio/_51B.aac",
+        "otherPsalterIdentifier": "140"
     },
     {
         "identifier": "51C",
@@ -2832,7 +2871,8 @@
         "scoreFiles": [
             "2025/Score/_51C.jpg"
         ],
-        "audioFile": "2025/Audio/_51C.aac"
+        "audioFile": "2025/Audio/_51C.aac",
+        "otherPsalterIdentifier": "141"
     },
     {
         "identifier": "51D",
@@ -2848,13 +2888,15 @@
         "scoreFiles": [
             "2025/Score/_51D.jpg"
         ],
-        "audioFile": "2025/Audio/_51D.aac"
+        "audioFile": "2025/Audio/_51D.aac",
+        "otherPsalterIdentifier": "143"
     },
     {
         "identifier": "51E",
         "title": "O God, the God That Saveth Me",
         "psalm": 51,
-        "isCompletePsalm": true,
+        "psalmVerses": "14-19",
+        "isCompletePsalm": false,
         "verses": [
             "O God, the God that saveth me, \nRemove my guilty stains, \nAnd I will sing Thy righteousness \nIn grateful, joyous strains.",
             "O Lord, now open Thou my lips, \nLong closed by sin and shame; \nMy mouth shall show before the world \nThe glory of Thy name.",
@@ -2867,7 +2909,8 @@
             "2025/Score/_51E.jpg",
             "2025/Score/_51E_2.jpg"
         ],
-        "audioFile": "2025/Audio/_51E.aac"
+        "audioFile": "2025/Audio/_51E.aac",
+        "otherPsalterIdentifier": "144"
     },
     {
         "identifier": "52A",
@@ -2885,7 +2928,8 @@
         "scoreFiles": [
             "2025/Score/_52A.jpg"
         ],
-        "audioFile": "2025/Audio/_52A.aac"
+        "audioFile": "2025/Audio/_52A.aac",
+        "otherPsalterIdentifier": "145"
     },
     {
         "identifier": "52B",
@@ -2946,7 +2990,8 @@
             "2025/Score/_53B.jpg",
             "2025/Score/_53B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_53B.aac"
+        "audioFile": "2025/Audio/_53B.aac",
+        "otherPsalterIdentifier": "146"
     },
     {
         "identifier": "54A",
@@ -2980,7 +3025,8 @@
         "scoreFiles": [
             "2025/Score/_54B.jpg"
         ],
-        "audioFile": "2025/Audio/_54B.aac"
+        "audioFile": "2025/Audio/_54B.aac",
+        "otherPsalterIdentifier": "147"
     },
     {
         "identifier": "54C",
@@ -3020,13 +3066,15 @@
             "2025/Score/_55A.jpg",
             "2025/Score/_55A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_55A.aac"
+        "audioFile": "2025/Audio/_55A.aac",
+        "otherPsalterIdentifier": "148, 149"
     },
     {
         "identifier": "55B",
         "title": "Unto My Earnest Prayer Give Ear",
         "psalm": 55,
-        "isCompletePsalm": true,
+        "psalmVerses": "1-9, 12-23",
+        "isCompletePsalm": false,
         "verses": [
             "Unto my earnest pray’r give ear,\nNor hide Thee, O Most High.\nAttend my sad complaint and hear\nMy mournful bitter cry.\nBecause of sinful men I weep,\nOppressed by lawless foes;\nUpon me wickedness they heap,\nTheir wrath fills me with woes.",
             "Sore pained in heart I find no ease,\nDeath’s terrors fill my soul,\nGreat fear and trembling on me seize\nAnd horrors o’er me roll.\nO had I wings, I sigh and say,\nLike some swift dove to roam,\nThen would I hasten far away,\nAnd find a peaceful home.",
@@ -3056,7 +3104,8 @@
         "scoreFiles": [
             "2025/Score/_55C.jpg"
         ],
-        "audioFile": "2025/Audio/_55C.aac"
+        "audioFile": "2025/Audio/_55C.aac",
+        "otherPsalterIdentifier": "150"
     },
     {
         "identifier": "56A",
@@ -3074,7 +3123,8 @@
         "scoreFiles": [
             "2025/Score/_56A.jpg"
         ],
-        "audioFile": "2025/Audio/_56A.aac"
+        "audioFile": "2025/Audio/_56A.aac",
+        "otherPsalterIdentifier": "151"
     },
     {
         "identifier": "56B",
@@ -3091,7 +3141,8 @@
         "scoreFiles": [
             "2025/Score/_56B.jpg"
         ],
-        "audioFile": "2025/Audio/_56B.aac"
+        "audioFile": "2025/Audio/_56B.aac",
+        "otherPsalterIdentifier": "152"
     },
     {
         "identifier": "56C",
@@ -3107,7 +3158,8 @@
         "scoreFiles": [
             "2025/Score/_56C.jpg"
         ],
-        "audioFile": "2025/Audio/_56C.aac"
+        "audioFile": "2025/Audio/_56C.aac",
+        "otherPsalterIdentifier": "153"
     },
     {
         "identifier": "57A",
@@ -3128,7 +3180,8 @@
             "2025/Score/_57A.jpg",
             "2025/Score/_57A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_57A.aac"
+        "audioFile": "2025/Audio/_57A.aac",
+        "otherPsalterIdentifier": "154, 155"
     },
     {
         "identifier": "57B",
@@ -3143,7 +3196,8 @@
         "scoreFiles": [
             "2025/Score/_57B.jpg"
         ],
-        "audioFile": "2025/Audio/_57B.aac"
+        "audioFile": "2025/Audio/_57B.aac",
+        "otherPsalterIdentifier": "155"
     },
     {
         "identifier": "58A",
@@ -3174,7 +3228,8 @@
         "scoreFiles": [
             "2025/Score/_58B.jpg"
         ],
-        "audioFile": "2025/Audio/_58B.aac"
+        "audioFile": "2025/Audio/_58B.aac",
+        "otherPsalterIdentifier": "156"
     },
     {
         "identifier": "59A",
@@ -3196,7 +3251,8 @@
             "2025/Score/_59A.jpg",
             "2025/Score/_59A_2.jpg"
         ],
-        "audioFile": "2025/Audio/_59A.aac"
+        "audioFile": "2025/Audio/_59A.aac",
+        "otherPsalterIdentifier": "157"
     },
     {
         "identifier": "59B",
@@ -3229,7 +3285,8 @@
             "Give Thou Thy help against the foe,\nFor help of man is vain;\nThrough God we shall do valiantly,\nThe vict’ry He shall gain."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_60A.aac"
+        "audioFile": "2025/Audio/_60A.aac",
+        "otherPsalterIdentifier": "158"
     },
     {
         "identifier": "60B",
@@ -3256,7 +3313,8 @@
             "Before Thy face shall I abide; \nO God, Thy truth and grace provide \nTo guard me in the way; \nSo I will make Thy praises known, \nAnd, humbly bending at Thy throne, \nMy vows will daily pay."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_61A.aac"
+        "audioFile": "2025/Audio/_61A.aac",
+        "otherPsalterIdentifier": "159"
     },
     {
         "identifier": "61B",
@@ -3269,7 +3327,8 @@
             "Within Thy holy temple, Lord, \nI ever will abide; \nBeneath the covert of Thy wings \nIn confidence I hide."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_61B.aac"
+        "audioFile": "2025/Audio/_61B.aac",
+        "otherPsalterIdentifier": "160"
     },
     {
         "identifier": "62A",
@@ -3288,7 +3347,8 @@
             "Yea, lovingkindness evermore\nBelongs to Thee, O Lord;\nAnd Thou according to his work\nDost ev’ry man reward."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_62A.aac"
+        "audioFile": "2025/Audio/_62A.aac",
+        "otherPsalterIdentifier": "161"
     },
     {
         "identifier": "62B",
@@ -3327,7 +3387,8 @@
             "For God has spoken o’er and o’er, \nAnd unto me has shown \nThat saving pow’r and lasting strength \nBelong to Him alone. \nYea, lovingkindness evermore \nBelongs to Thee, O Lord; \nAnd Thou according to his work \nDost ev’ry man reward."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_62D.aac"
+        "audioFile": "2025/Audio/_62D.aac",
+        "otherPsalterIdentifier": "162"
     },
     {
         "identifier": "63A",
@@ -3339,7 +3400,8 @@
             "My Saviour, ’neath Thy shelt’ring wings \nMy soul delights to dwell; \nStill closer to Thy side I press, \nFor near Thee all is well. \nMy soul shall conquer ev’ry foe, \nUpholden by Thy hand; \nThy people shall rejoice in God, \nThy saints in glory stand."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_63A.aac"
+        "audioFile": "2025/Audio/_63A.aac",
+        "otherPsalterIdentifier": "163"
     },
     {
         "identifier": "63B",
@@ -3352,7 +3414,8 @@
             "My lips shall in Thy praise delight \nWhen on my bed I rest at night \nAnd meditate on Thee; \nBecause Thy hand assistance brings, \nBeneath the shadow of Thy wings \nMy heart shall joyful be, \nMy heart shall joyful be."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_63B.aac"
+        "audioFile": "2025/Audio/_63B.aac",
+        "otherPsalterIdentifier": "164"
     },
     {
         "identifier": "64A",
@@ -3364,7 +3427,8 @@
             "The wicked, by their sins o’ercome, \nShall soon be brought to shame; \nThe hand of God shall yet appear, \nAnd all shall fear His name. \nThe just shall triumph in the LORD, \nTheir trust shall be secure, \nAnd endless glory then shall crown \nThe upright and the pure."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_64A.aac"
+        "audioFile": "2025/Audio/_64A.aac",
+        "otherPsalterIdentifier": "165"
     },
     {
         "identifier": "64B",
@@ -3401,7 +3465,8 @@
             "The pastures teem with flocks and herds, \nThe golden grain waves o’er the fields; \nAll nature, singing joyfully, \nHer tribute of thanksgiving yields."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65A.aac"
+        "audioFile": "2025/Audio/_65A.aac",
+        "otherPsalterIdentifier": "166, 167"
     },
     {
         "identifier": "65B",
@@ -3416,12 +3481,14 @@
             "The year is crowned, O Fount of blessing,\nWith gifts to cheer the land;\nThy goodness fills the earth, expressing\nThe wonders of Thy hand.\nThe hills rejoice; the pastures, teeming\nWith flocks that skip and spring,\nThe golden grain, in valleys gleaming\nAll sing to God the King."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65B.aac"
+        "audioFile": "2025/Audio/_65B.aac",
+        "otherPsalterIdentifier": "419"
     },
     {
         "identifier": "65C",
         "title": "Before Thee, Lord, a People Waits",
         "psalm": 65,
+        "psalmVerses": "1-8",
         "verses": [
             "Before Thee, Lord, a people waits \nTo praise Thy name in Zion’s gates, \nTo Thee shall vows be paid; \nThou hearer of the suppliant’s pray’r, \nTo Thee in need shall all repair \nTo seek Thy gracious aid. ",
             "How great my trespasses appear, \nBut Thou from guilt my soul wilt clear, \nAnd my transgressions hide. \nHow blest Thy chosen, who by grace \nAre brought within Thy dwelling place \nThat they may there abide. ",
@@ -3433,7 +3500,8 @@
             "The hills and vales, with verdure clad\nAre girt with joy, the earth is glad,\nNew life is all abroad;\nWith feeding flocks the pastures teem,\nWith golden grain the valleys gleam;\nAll nature praises God."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65C.aac"
+        "audioFile": "2025/Audio/_65C.aac",
+        "otherPsalterIdentifier": "168"
     },
     {
         "identifier": "65D",
@@ -3445,7 +3513,8 @@
             "The hills and vales, with verdure clad\nAre girt with joy, the earth is glad,\nNew life is all abroad;\nWith feeding flocks the pastures teem,\nWith golden grain the valleys gleam;\nAll nature praises God."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65D.aac"
+        "audioFile": "2025/Audio/_65D.aac",
+        "otherPsalterIdentifier": "169"
     },
     {
         "identifier": "65E",
@@ -3457,7 +3526,8 @@
             "O God of our salvation, \nSince Thou dost love the right, \nThou wilt an answer send us \nIn wondrous deeds of might. \nIn all earth’s habitations, \nOn all the boundless sea, \nMan finds no sure reliance, \nNo peace, apart from Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65E.aac"
+        "audioFile": "2025/Audio/_65E.aac",
+        "otherPsalterIdentifier": "170"
     },
     {
         "identifier": "65F",
@@ -3469,7 +3539,8 @@
             "The year with good Thou crownest, \nThe earth Thy mercy fills, \nThe wilderness is fruitful, \nAnd joyful are the hills; \nWith corn the vales are covered, \nThe flocks in pastures graze; \nAll nature joins in singing \nA joyful song of praise."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65F.aac"
+        "audioFile": "2025/Audio/_65F.aac",
+        "otherPsalterIdentifier": "171"
     },
     {
         "identifier": "65G",
@@ -3482,7 +3553,8 @@
             "We surely shall be satisfied \nWith Thine abundant grace, \nYea, with the goodness of Thy house, \nOf Thy most holy place."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_65G.aac"
+        "audioFile": "2025/Audio/_65G.aac",
+        "otherPsalterIdentifier": "172"
     },
     {
         "identifier": "66A",
@@ -3498,7 +3570,8 @@
             "O let the Lord, our gracious God,\nForever blessed be,\nWho has not turned my pray’r from Him,\nNor yet His grace from me.\nO all ye peoples, bless our God,\nAloud proclaim His praise,\nWho safely holds our soul in life,\nAnd steadfast makes our ways."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_66A.aac"
+        "audioFile": "2025/Audio/_66A.aac",
+        "otherPsalterIdentifier": "173, 174"
     },
     {
         "identifier": "66B",
@@ -3511,7 +3584,8 @@
             "The Lord, Who turns away the plea \nOf those who love iniquity, \nHas answered my request; \nHe has not turned away my pray’r, \nHis grace and love He makes me share; \nHis name be ever blest."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_66B.aac"
+        "audioFile": "2025/Audio/_66B.aac",
+        "otherPsalterIdentifier": "175"
     },
     {
         "identifier": "67A",
@@ -3523,7 +3597,8 @@
             "O God, let people praise Thee, \nLet all the nations sing, \nFor earth in rich abundance \nTo us her fruit shall bring. \nThe Lord our God shall bless us, \nOur God shall blessing send, \nAnd all the earth shall fear Him \nTo its remotest end."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_67A.aac"
+        "audioFile": "2025/Audio/_67A.aac",
+        "otherPsalterIdentifier": "176"
     },
     {
         "identifier": "67B",
@@ -3535,7 +3610,8 @@
             "The earth has yielded her increase, \nAnd God, yea, our own God, shall bless; \nWe shall be blest, and all the earth \nShall rev’rently His name confess. \nO let the nations praise Thee, Lord;\nLet all give thanks with glad accord."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_67B.aac"
+        "audioFile": "2025/Audio/_67B.aac",
+        "otherPsalterIdentifier": "177"
     },
     {
         "identifier": "67C",
@@ -3548,7 +3624,8 @@
             "The earth her fruit shall yield, \nFor God, our God, will bless; \nWe shall be blest, and all the world \nHis glory shall confess."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_67C.aac"
+        "audioFile": "2025/Audio/_67C.aac",
+        "otherPsalterIdentifier": "178"
     },
     {
         "identifier": "68A",
@@ -3569,7 +3646,8 @@
             "Praise God and shout His glory forth,\nO kings and kingdoms of the earth!\nIn joyful song adore Him.\nPraise Him Who rides the ancient sky,\nWho thunders forth His battle cry;\nLet all bow down before Him.\nProclaim His pow’r and spread His fame,\nFor great in Israel is His name;\nHis might is in the heavens.\nO God of Israel, from Thy throne \nWith pow’r and glory bless Thine own.\nTo Thee all praise be given!"
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_68A.aac"
+        "audioFile": "2025/Audio/_68A.aac",
+        "otherPsalterIdentifier": "420"
     },
     {
         "identifier": "68B",
@@ -3582,12 +3660,14 @@
             "God frees the captive and He sends \nThe blessedness of home and friends, \nAnd only those in darkness stay \nWho will not trust Him and obey."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_68B.aac"
+        "audioFile": "2025/Audio/_68B.aac",
+        "otherPsalterIdentifier": "179"
     },
     {
         "identifier": "68C",
         "title": "God Saved His People from Distress",
         "psalm": 68,
+        "psalmVerses": "7-23",
         "verses": [
             "God saved His people from distress \nAnd led them through the wilderness; \nThen mountains trembled in their place, \nThe heav’ns were bowed before His face. \nWith rain in plenty Thou didst send \nThy children were restored again; \nThy congregation dwelt secure; \nThou, God, art gracious to the poor.",
             "The Lord sent forth His mighty word, \nAnd shouts of victory were heard; \nThe women came, a mighty throng, \nTo join the glad triumphant song. \nThe kings and armies turned and fled \nFor God had filled their hearts with dread. \nAt home the women did divide \nThe spoils that God He did provide.",
@@ -3597,12 +3677,14 @@
             "Blest be the Lord! for us He cares \nAnd daily all our burden bears; \nOur God is mighty, strong to save; \nJehovah frees us from the grave. \nGod’s unrelenting enemies \nNo peace shall find in earth or seas; \nHis people shall triumphant go \nVictorious over ev’ry foe."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_68C.aac"
+        "audioFile": "2025/Audio/_68C.aac",
+        "otherPsalterIdentifier": "180, 181"
     },
     {
         "identifier": "68D",
         "title": "With Glorious Pomp Our King and God",
         "psalm": 68,
+        "psalmVerses": "24-35",
         "verses": [
             "With glorious pomp our King and God \nHas entered into His abode, \nThe singers led in joyful song; \nWith timbrels maidens joined the throng.",
             "Assemble ye before His face, \nAll ye that spring from Israel’s race; \nYe chosen tribes, with one accord, \nCome ye and bless your God, the Lord.",
@@ -3615,7 +3697,8 @@
             "Forth from Thy dwelling place, O God,\nThine awe some glory shines abroad;\nThy people’s strength is all from Thee;\nBlest be Thy name eternally."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_68D.aac"
+        "audioFile": "2025/Audio/_68D.aac",
+        "otherPsalterIdentifier": "181, 182"
     },
     {
         "identifier": "68E",
@@ -3628,12 +3711,14 @@
             "All glory, might, and honour \nAscribe to God on high; \nHis arm protects His people \nWho on His pow’r rely. \nForth from Thy holy dwelling \nThine awesome glories shine; \nThou strengthenest Thy people; \nUnending praise be Thine."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_68E.aac"
+        "audioFile": "2025/Audio/_68E.aac",
+        "otherPsalterIdentifier": "183"
     },
     {
         "identifier": "69A",
         "title": "Save Me, O God, because the Floods",
         "psalm": 69,
+        "psalmVerses": "1-12",
         "verses": [
             "Save me, O God, because the floods \nCome in upon my soul; \nI sink in depths where none can stand, \nDeep waters o’er me roll. ",
             "My constant calling wearies me, \nMy throat is parched and dried;\nMy eyes grow dim while for my God \nStill waiting I abide. ",
@@ -3646,12 +3731,14 @@
             "The men who sit within the gate\nWith slander do me wrong,\nAnd they who linger at their cups\nMake me their jest and song."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_69A.aac"
+        "audioFile": "2025/Audio/_69A.aac",
+        "otherPsalterIdentifier": "184"
     },
     {
         "identifier": "69B",
         "title": "In Full Assurance of Thy Grace",
         "psalm": 69,
+        "psalmVerses": "13-28",
         "verses": [
             "In full assurance of Thy grace \nTo Thee my pray’rs ascend; \nIn Thine abounding love and truth, \nO God, salvation send. ",
             "Preserve my sinking soul, I pray, \nFrom tides of hatred save; \nLet not the waters overflow, \nRedeem me from the grave. ",
@@ -3664,7 +3751,8 @@
             "Because they proudly persecute\nThose whom Thou, Lord, dost smite,\nLet them be blotted from Thy book\nAnd banished from Thy sight."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_69B.aac"
+        "audioFile": "2025/Audio/_69B.aac",
+        "otherPsalterIdentifier": "185"
     },
     {
         "identifier": "69C",
@@ -3678,12 +3766,14 @@
             "In Zion they that love His name \nShall dwell from age to age; \nYea, there shall be their lasting rest, \nTheir children’s heritage."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_69C.aac"
+        "audioFile": "2025/Audio/_69C.aac",
+        "otherPsalterIdentifier": "186"
     },
     {
         "identifier": "69D",
         "title": "Thy Lovingkindness, LORD, Is Good and Free",
         "psalm": 69,
+        "psalmVerses": "16-17, 29-30, 32-36",
         "verses": [
             "Thy lovingkindness, LORD, is good and free, \nIn tender mercy turn Thou unto me; \nHide not Thy face from me in my distress, \nIn mercy hear my pray’r, Thy servant bless. ",
             "Needy and sorrowful, to Thee I cry; \nLet Thy salvation set my soul on high; \nThen I will sing and praise Thy holy name, \nMy thankful song Thy mercy shall proclaim. ",
@@ -3691,7 +3781,8 @@
             "Let heav’n above His grace and glory tell, \nLet earth and sea and all that in them dwell; \nSalvation to His people God will give, \nAnd they that love His name with Him shall live."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_69D.aac"
+        "audioFile": "2025/Audio/_69D.aac",
+        "otherPsalterIdentifier": "187"
     },
     {
         "identifier": "69E",
@@ -3721,7 +3812,8 @@
             "I cry in deep need and Thy help I implore; \nMake haste to the rescue, I pray; \nMy Saviour Thou art, and my strength evermore, \nNo longer Thy coming delay."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_70A.aac"
+        "audioFile": "2025/Audio/_70A.aac",
+        "otherPsalterIdentifier": "188"
     },
     {
         "identifier": "70B",
@@ -3734,7 +3826,8 @@
             "In need am I, and poor; \nO God, make haste, I pray; \nThou art my Saviour and my help, \nO LORD, make no delay."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_70B.aac"
+        "audioFile": "2025/Audio/_70B.aac",
+        "otherPsalterIdentifier": "189"
     },
     {
         "identifier": "71A",
@@ -3764,12 +3857,14 @@
             "Thou hast upheld me in Thy grace \nFrom childhood’s early days; \nTo Thee from Whom I life received \nWill I give constant praise, \nWill I give constant praise."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_71B.aac"
+        "audioFile": "2025/Audio/_71B.aac",
+        "otherPsalterIdentifier": "190"
     },
     {
         "identifier": "71C",
         "title": "Though Troubles Great O’ershadow Me",
         "psalm": 71,
+        "psalmVerses": "7-17",
         "verses": [
             "Though troubles great o’ershadow me, \nThou art my refuge strong; \nMy mouth shall praise Thee all the day, \nThy honour be my song. ",
             "Cast me not off when hoary age \nBecomes my weary lot, \nAnd in the days of failing strength \nDo Thou forsake me not. ",
@@ -3780,12 +3875,14 @@
             "For from my early youth, O God,\nBy Thee have I been taught,\nAnd faithfully have I declared\nThe wonders Thou hast wrought."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_71C.aac"
+        "audioFile": "2025/Audio/_71C.aac",
+        "otherPsalterIdentifier": "191"
     },
     {
         "identifier": "71D",
         "title": "O Gracious God, Forsake Me Not",
         "psalm": 71,
+        "psalmVerses": "18-24",
         "verses": [
             "O gracious God, forsake me not \nWhen I am old and gray, \nThat unto those that follow me \nI may Thy might display.",
             "Thy perfect righteousness, O God, \nThe height of heav’n exceeds; \nO who is like to Thee, Who hast \nPerformed such mighty deeds?",
@@ -3795,7 +3892,8 @@
             "My enemies that seek my hurt\nThy help has put to shame;\nMy thankful tongue will ceaselessly \nThy righteousness proclaim."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_71D.aac"
+        "audioFile": "2025/Audio/_71D.aac",
+        "otherPsalterIdentifier": "192"
     },
     {
         "identifier": "72A",
@@ -3816,6 +3914,7 @@
         "identifier": "72B",
         "title": "O God, to Thine Anointed King",
         "psalm": 72,
+        "psalmVerses": "1-7",
         "verses": [
             "O God, to Thine anointed King \nGive truth and righteousness; \nThy people He will justly judge \nAnd give the poor redress.",
             "Then ev’ry fruitful mountain side \nShall yield its rich increase, \nAnd righteousness in all the land \nShall bear the fruit of peace.",
@@ -3825,12 +3924,14 @@
             "The righteous in His glorious day\nShall flourish and increase;\nThe earth, until the moon shall fade,\nShall have abundant peace."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72B.aac"
+        "audioFile": "2025/Audio/_72B.aac",
+        "otherPsalterIdentifier": "193"
     },
     {
         "identifier": "72C",
         "title": "His Wide Dominion Shall Extend",
         "psalm": 72,
+        "psalmVerses": "8-19",
         "verses": [
             "His wide dominion shall extend \nFrom sea to utmost sea, \nAnd unto earth’s remotest bounds \nHis peaceful rule shall be.",
             "The tribes that in the desert dwell \nShall bow before His throne; \nHis enemies shall be subdued, \nAnd He shall rule alone.",
@@ -3844,12 +3945,14 @@
             "Blest be His great and glorious name \nFor evermore, Amen, \nAnd let His glory fill the earth \nFrom shore to shore. Amen."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72C.aac"
+        "audioFile": "2025/Audio/_72C.aac",
+        "otherPsalterIdentifier": "194, 195"
     },
     {
         "identifier": "72D",
         "title": "O God, Be Thine Anointed Son",
         "psalm": 72,
+        "psalmVerses": "1-14",
         "verses": [
             "O God, be Thine anointed Son \nWith truth and righteousness endowed, \nThat justice may on earth be done, \nThe meek protected from the proud. ",
             "Then over mountainside and plain \nShall peace spring forth from righteousness; \nThe poor man’s cause will He maintain \nAnd save the weak, that none oppress. ",
@@ -3860,12 +3963,14 @@
             "In great compassion for the weak\nHe ever will maintain their right, \nWill help the poor and save the meek;\nTheir lives are precious in His sight."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72D.aac"
+        "audioFile": "2025/Audio/_72D.aac",
+        "otherPsalterIdentifier": "198"
     },
     {
         "identifier": "72E",
         "title": "His Saints Shall Live, and to the King",
         "psalm": 72,
+        "psalmVerses": "15-19",
         "verses": [
             "His saints shall live, and to the King \nRich gifts in tribute shall be paid; \nHis praises men shall ever sing, \nFor Him shall endless pray’r be made.",
             "Abundant fields for harvest white \nAlready wave in ev’ry land, \nAnd Zion’s citizens delight \nAnd prosper in their King’s command.",
@@ -3874,7 +3979,8 @@
             "And blessed be His glorious name, \nLong as the ages shall endure; \nO’er all the earth extend His fame. \nAmen, Amen, for evermore."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72E.aac"
+        "audioFile": "2025/Audio/_72E.aac",
+        "otherPsalterIdentifier": "199"
     },
     {
         "identifier": "72F",
@@ -3885,7 +3991,8 @@
             "Blest be His great and glorious name \nFor evermore, Amen, \nAnd let His glory fill the earth \nFrom shore to shore. Amen."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72F.aac"
+        "audioFile": "2025/Audio/_72F.aac",
+        "otherPsalterIdentifier": "196"
     },
     {
         "identifier": "72G",
@@ -3896,7 +4003,8 @@
             "And blessed be His glorious name \nTo all eternity; \nThe whole earth let His glory fill. \nAmen: So let it be; \nThe whole earth let His glory fill. \nAmen: So let it be."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72G.aac"
+        "audioFile": "2025/Audio/_72G.aac",
+        "otherPsalterIdentifier": "197"
     },
     {
         "identifier": "72H",
@@ -3910,7 +4018,8 @@
         ],
         "chorus": "Christ shall have dominion \nOver land and sea, \nEarth’s remotest regions \nShall His empire be.",
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_72H.aac"
+        "audioFile": "2025/Audio/_72H.aac",
+        "otherPsalterIdentifier": "200"
     },
     {
         "identifier": "73A",
@@ -3929,12 +4038,14 @@
             "All they that forsake Thee must perish and die,\nBut near to my Saviour most blessed am I;\nI make Thee my refuge, my Lord and my GOD;\nThy grace and Thy glory I publish abroad."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_73A.aac"
+        "audioFile": "2025/Audio/_73A.aac",
+        "otherPsalterIdentifier": "201, 202"
     },
     {
         "identifier": "73B",
         "title": "In Doubt and Temptation",
         "psalm": 73,
+        "psalmVerses": "22-28",
         "verses": [
             "In doubt and temptation I rest, Lord, in Thee; \nMy hand is in Thy hand, Thou carest for me; \nMy soul with Thy counsel through life Thou wilt guide, \nAnd afterward make me in glory abide.",
             "In glory Thou only my portion shall be, \nOn earth for none other I long but for Thee; \nMy flesh and heart falter, but God is my stay, \nThe strength of my spirit, my portion for aye.",
@@ -3942,7 +4053,8 @@
         ],
         "chorus": "My God, I will extol Thee \nAnd ever bless Thy name; \nEach day will I give thanks to Thee \nAnd all Thy praise proclaim.",
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_73B.aac"
+        "audioFile": "2025/Audio/_73B.aac",
+        "otherPsalterIdentifier": "202"
     },
     {
         "identifier": "73C",
@@ -3956,7 +4068,8 @@
             "To live apart from God is death, \n’Tis good His face to seek; \nMy refuge is the living GOD, \nHis praise I long to speak."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_73C.aac"
+        "audioFile": "2025/Audio/_73C.aac",
+        "otherPsalterIdentifier": "203"
     },
     {
         "identifier": "73D",
@@ -3969,7 +4082,8 @@
             "Oh, it is good that I \nMay still to God draw nigh \nAs oft before; \nThe Lord Jehovah blest, \nMy refuge and my rest, \nShall be in praise confessed \nFor evermore."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_73D.aac"
+        "audioFile": "2025/Audio/_73D.aac",
+        "otherPsalterIdentifier": "204"
     },
     {
         "identifier": "74A",
@@ -4009,7 +4123,8 @@
             "Let not Thy saints be put to shame,\nNo longer in Thy sight\nPermit Thy foes to vaunt them selves;\nLord, vindicate the right."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_74B.aac"
+        "audioFile": "2025/Audio/_74B.aac",
+        "otherPsalterIdentifier": "205"
     },
     {
         "identifier": "75A",
@@ -4023,7 +4138,8 @@
             "The God of Jacob I will praise \nAnd all His glory show; \nThe righteous He will high exalt \nAnd bring the wicked low."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_75A.aac"
+        "audioFile": "2025/Audio/_75A.aac",
+        "otherPsalterIdentifier": "206"
     },
     {
         "identifier": "75B",
@@ -4066,7 +4182,8 @@
             "Vow and pay unto Jehovah, \nHim your God forever own; \nAll men, bring your gifts before Him, \nWorship Him, and Him alone; \nHe is terrible to princes, \nThey are judged before His throne."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_76A.aac"
+        "audioFile": "2025/Audio/_76A.aac",
+        "otherPsalterIdentifier": "207"
     },
     {
         "identifier": "76B",
@@ -4079,7 +4196,8 @@
             "Let all to Him their presents bring, \nTo Him Whom all the world should fear; \nCut off shall be each wicked king, \nEach prince in judgment shall appear."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_76B.aac"
+        "audioFile": "2025/Audio/_76B.aac",
+        "otherPsalterIdentifier": "208"
     },
     {
         "identifier": "77A",
@@ -4099,7 +4217,8 @@
             "Thy way, O God, was in the sea,\nBut, though Thy paths mysterious be,\nThy people Thou did safely keep\nAs shepherds lead their helpless sheep."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_77A.aac"
+        "audioFile": "2025/Audio/_77A.aac",
+        "otherPsalterIdentifier": "209"
     },
     {
         "identifier": "77B",
@@ -4115,12 +4234,14 @@
             "Through the sea Thy way did lead Thee;\nWind and tossing waves did heed Thee.\nMighty waters fled in awe,\nYet no man Thy footprints saw.\nLord, Thy people Thou hast guided,\nShepherds for Thy flock provided:\nMoses, Aaron, by their hand\nLed them to the promised land."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_77B.aac"
+        "audioFile": "2025/Audio/_77B.aac",
+        "otherPsalterIdentifier": "440"
     },
     {
         "identifier": "77C",
         "title": "To God Will I Direct My Prayer",
         "psalm": 77,
+        "psalmVerses": "1-12",
         "verses": [
             "To God will I direct my pray’r, \nAnd He will make my needs His care; \nI trust Him still, though in my grief \nNo answer yet has brought relief; \nWith hands stretched out through all the night, \nUncomforted I sought for light.",
             "The thought of God brought me no peace, \nBut rather made my fears increase; \nWith sleepless eyes and speechless pain \nMy fainting spirit grieved in vain; \nThe blessedness of long ago \nMade deeper still my present woe.",
@@ -4129,7 +4250,8 @@
             "These doubts and fears that troubled me \nWere born of my infirmity; \nThough I am weak, GOD is most high, \nAnd on His goodness I rely; \nOf all His wonders I will tell, \nAnd on His deeds my thoughts shall dwell."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_77C.aac"
+        "audioFile": "2025/Audio/_77C.aac",
+        "otherPsalterIdentifier": "210"
     },
     {
         "identifier": "77D",
@@ -4141,12 +4263,14 @@
             "Thy way was in the sea, O God, \nThrough mighty waters, deep and broad, \nNone understood but God alone,\nTo man Thy footsteps were unknown; \nBut safe Thy people Thou didst keep, \nAlmighty Shepherd of Thy sheep."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_77D.aac"
+        "audioFile": "2025/Audio/_77D.aac",
+        "otherPsalterIdentifier": "211"
     },
     {
         "identifier": "77E",
         "title": "I Thought upon the Days of Old",
         "psalm": 77,
+        "psalmVerses": "5-14",
         "verses": [
             "I thought upon the days of old, \nThe years departed long, \nI held communion with my heart,\nBy night recalled my song.",
             "My heart inquired with anxious care, \nWill God forever spurn? \nShall we no more His favour see? \nWill mercy ne’er return?",
@@ -4156,12 +4280,14 @@
             "O God, most holy is Thy way,\nMost perfect, good, and right;\nThou art the only living God,\nThe God of wondrous might."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_77E.aac"
+        "audioFile": "2025/Audio/_77E.aac",
+        "otherPsalterIdentifier": "212"
     },
     {
         "identifier": "78A",
         "title": "My People, Give Ear",
         "psalm": 78,
+        "psalmVerses": "1-42",
         "verses": [
             "My people, give ear, attend to my word, \nIn parables new deep truths shall be heard; \nThe wonderful story our fathers made known \nTo children succeeding by us must be shown.",
             "Instructing our sons we gladly record \nThe praises, the works, the might of the LORD, \nFor He has commanded that what He has done \nBe passed in tradition from father to son.",
@@ -4178,12 +4304,14 @@
             "They limited God, the Most Holy One,\nAnd hindered the work His grace had begun;\nThe hand that was mighty to save they forgot,\nThe day of redemption remembering not."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_78A.aac"
+        "audioFile": "2025/Audio/_78A.aac",
+        "otherPsalterIdentifier": "213"
     },
     {
         "identifier": "78B",
         "title": "My People, Give Ear",
         "psalm": 78,
+        "psalmVerses": "1-8, 42-52",
         "verses": [
             "My people, give ear, attend to my word, \nIn parables new deep truths shall be heard; \nThe wonderful story our fathers made known \nTo children succeeding by us must be shown.",
             "Instructing our sons we gladly record \nThe praises, the works, the might of the LORD, \nFor He has commanded that what He has done \nBe passed in tradition from father to son.",
@@ -4194,12 +4322,14 @@
             "They thought not of how, their freedom to gain, \nIn Egypt’s abodes the firstborn were slain,\nAnd how all God’s people were led forth like sheep, \nThe flock He delighted in safety to keep."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_78B.aac"
+        "audioFile": "2025/Audio/_78B.aac",
+        "otherPsalterIdentifier": "213"
     },
     {
         "identifier": "78C",
         "title": "My People, Give Ear",
         "psalm": 78,
+        "psalmVerses": "1-8, 53-72",
         "verses": [
             "My people, give ear, attend to my word, \nIn parables new deep truths shall be heard; \nThe wonderful story our fathers made known \nTo children succeeding by us must be shown.",
             "Instructing our sons we gladly record \nThe praises, the works, the might of the LORD, \nFor He has commanded that what He has done \nBe passed in tradition from father to son.",
@@ -4212,12 +4342,14 @@
             "His servant He called, a shepherd of sheep,\nFrom tending his flock, the people to keep;\nSo David, their shepherd, with wisdom and might\nProtected and fed them and led them aright."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_78C.aac"
+        "audioFile": "2025/Audio/_78C.aac",
+        "otherPsalterIdentifier": "213, 214"
     },
     {
         "identifier": "78D",
         "title": "O Come, My People, to My Law",
         "psalm": 78,
+        "psalmVerses": "1-7",
         "verses": [
             "O come, my people, to my law, \nAttentively give ear; \nWith willing heart and teachable, \nThe words of wisdom hear. ",
             "My mouth shall speak in parables \nOf hidden truths of old, \nWhich, handed down from age to age, \nTo us our fathers told. ",
@@ -4227,7 +4359,8 @@
             "Let children learn God’s righteous ways\nAnd on Him stay their heart,\nThat they may not forget His works\nNor from His ways depart."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_78D.aac"
+        "audioFile": "2025/Audio/_78D.aac",
+        "otherPsalterIdentifier": "215"
     },
     {
         "identifier": "79A",
@@ -4240,7 +4373,8 @@
             "Let Thy foes no longer scorn Thee, \nNow avenge Thy servants slain; \nLoose the pris’ner, save the dying, \nAll Thine enemies restrain; \nThen Thy flock, Thy chosen people, \nUnto Thee their thanks shall raise, \nAnd to ev’ry generation \nWe will sing Thy glorious praise."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_79A.aac"
+        "audioFile": "2025/Audio/_79A.aac",
+        "otherPsalterIdentifier": "216"
     },
     {
         "identifier": "79B",
@@ -4253,7 +4387,8 @@
             "Then, safe within Thy fold, \nWe will exalt Thy name; \nOur thankful hearts with songs of joy \nThy goodness will proclaim."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_79B.aac"
+        "audioFile": "2025/Audio/_79B.aac",
+        "otherPsalterIdentifier": "217"
     },
     {
         "identifier": "80A",
@@ -4268,7 +4403,8 @@
             "O let Thy hand Thy chosen one sustain,\nThe son of man Thou madest strong to be;\nSo we shall faithful to Thy cause remain;\nRevive Thou us, and we will call on Thee.\nJehovah, God of Hosts, again restore;\nWe shall be saved when shines Thy face once more."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_80A.aac"
+        "audioFile": "2025/Audio/_80A.aac",
+        "otherPsalterIdentifier": "218"
     },
     {
         "identifier": "80B",
@@ -4283,7 +4419,8 @@
             "When Thou shalt revive us Thy name we will praise, \nAnd nevermore, turning, depart from Thy ways; \nO LORD God almighty, in mercy restore, \nAnd we shall be saved when Thy face shines once more."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_80B.aac"
+        "audioFile": "2025/Audio/_80B.aac",
+        "otherPsalterIdentifier": "220, 221"
     },
     {
         "identifier": "80C",
@@ -4298,12 +4435,14 @@
             "When Thou shalt revive us Thy name we will praise, \nAnd nevermore, turning, depart from Thy ways; \nO LORD God almighty, in mercy restore, \nAnd we shall be saved when Thy face shines once more."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_80C.aac"
+        "audioFile": "2025/Audio/_80C.aac",
+        "otherPsalterIdentifier": "220"
     },
     {
         "identifier": "81A",
         "title": "Unto God, Our King",
         "psalm": 81,
+        "psalmVerses": "1-5, 7-10, 13-14, 16",
         "verses": [
             "Unto God, our King, \nJoy and strength of Israel,\nLofty anthems sing;\nGlorious are His ways,\nTo His name give praise\nWith the harp and timbrel.",
             "Sound the festal horn,\nYour thanksgiving voicing.\nPraise the Lord your God,\nAs He did command\nWhen from Egypt’s land\nYou came forth rejoicing.",
@@ -4314,7 +4453,8 @@
             "With abundance I,\nJacob’s God, would nourish;\nYea, I would supply\nHoney from the comb,\nWheat the finest known;\nIsrael would flourish."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_81A.aac"
+        "audioFile": "2025/Audio/_81A.aac",
+        "otherPsalterIdentifier": "431"
     },
     {
         "identifier": "81B",
@@ -4332,7 +4472,8 @@
             "Yea, with wheat the very finest\nI their hunger will supply,\nBid the very rocks yield honey\nThat shall fully satisfy."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_81B.aac"
+        "audioFile": "2025/Audio/_81B.aac",
+        "otherPsalterIdentifier": "222"
     },
     {
         "identifier": "82A",
@@ -4356,7 +4497,8 @@
             "The Most High God has called you \nAnd set you up on high, \nBut you to Him must answer, \nFor you like men must die. \nArise, O God Eternal, \nThou Judge of all the earth, \nThrough all Thy ransomed nations \nSend now Thy justice forth."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_82B.aac"
+        "audioFile": "2025/Audio/_82B.aac",
+        "otherPsalterIdentifier": "223"
     },
     {
         "identifier": "83",
@@ -4371,7 +4513,8 @@
             "Confound them in their sin till they\nTo Thee for pardon fly,\nTill in dismay they trembling own\nThat Thou art GOD Most High."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_83.aac"
+        "audioFile": "2025/Audio/_83.aac",
+        "otherPsalterIdentifier": "224"
     },
     {
         "identifier": "84A",
@@ -4386,7 +4529,8 @@
             "A sun and shield is God, the LORD,\nTo lighten and defend; \nThe LORD to such as look to Him\nWill grace and glory send; \nTo those that walk in righteousness\nNo good will He deny;\nO LORD of Hosts, how blest are they\nWho on Thy grace rely."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_84A.aac"
+        "audioFile": "2025/Audio/_84A.aac",
+        "otherPsalterIdentifier": "225, 226"
     },
     {
         "identifier": "84B",
@@ -4401,7 +4545,8 @@
             "Jehovah, God our shield and sun,\nWill grace and glory surely give;\nNo good will He withhold from one\nWho in His sight shall rightly live;\nO LORD of Hosts, most blest is he\nWho puts his steadfast trust in Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_84B.aac"
+        "audioFile": "2025/Audio/_84B.aac",
+        "otherPsalterIdentifier": "229"
     },
     {
         "identifier": "84C",
@@ -4416,7 +4561,8 @@
             "O God Jehovah, good and kind,\nOn Zion’s mount in clouds enshrined,\nThou art our sun and shield forever.\nTo upright souls that seek Thy face\nThou givest glory, truth, and grace;\nE’en in death’s vale Thou failest never.\nO LORD of hosts, how blest is he\nWho puts his steadfast trust in Thee!"
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_84C.aac"
+        "audioFile": "2025/Audio/_84C.aac",
+        "otherPsalterIdentifier": "421"
     },
     {
         "identifier": "84D",
@@ -4431,7 +4577,8 @@
             "A sun and shield forever \nIs God, the LORD Most High;\nTo those who walk uprightly \nNo good will He deny;\nHis saints, His grace receiving, \nShall soon His glory see;\nO LORD of Hosts, most blessed \nAre they that trust in Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_84D.aac"
+        "audioFile": "2025/Audio/_84D.aac",
+        "otherPsalterIdentifier": "227"
     },
     {
         "identifier": "84E",
@@ -4443,7 +4590,8 @@
             "A sun and shield forever \nIs God, the LORD Most High;\nTo those who walk uprightly \nNo good will He deny;\nHis saints, His grace receiving, \nShall soon His glory see;\nO LORD of Hosts, most blessed \nAre they that trust in Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_84E.aac"
+        "audioFile": "2025/Audio/_84E.aac",
+        "otherPsalterIdentifier": "228"
     },
     {
         "identifier": "85A",
@@ -4459,7 +4607,8 @@
             "The LORD will send His blessing down,\nAnd harvests all our land shall crown;\nBefore Him righteousness abides,\nAnd in His steps our feet He guides."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_85A.aac"
+        "audioFile": "2025/Audio/_85A.aac",
+        "otherPsalterIdentifier": "230"
     },
     {
         "identifier": "85B",
@@ -4473,7 +4622,8 @@
             "Truth springing forth the earth shall crown, \nAnd righteousness from heav’n look down, \nAnd GOD on us His goodness shed; \nOur land shall then with plenty flow. \nBefore Him righteousness shall go, \nAnd cause us in His steps to tread."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_85B.aac"
+        "audioFile": "2025/Audio/_85B.aac",
+        "otherPsalterIdentifier": "231, 232"
     },
     {
         "identifier": "86A",
@@ -4493,7 +4643,8 @@
             "Some token of Thy love bestow, \nWhich they who hate me now may see; \nLet all, O LORD, be brought to know \nThat Thou dost help and comfort me."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_86A.aac"
+        "audioFile": "2025/Audio/_86A.aac",
+        "otherPsalterIdentifier": "233, 234"
     },
     {
         "identifier": "86B",
@@ -4505,7 +4656,8 @@
             "LORD, hear me while I pray, \nWhile now in trouble’s day \nI seek Thy face. \nTo answer, Lord, is Thine; \nThou only art divine, \nMost bright Thy glories shine, \nO God of grace."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_86B.aac"
+        "audioFile": "2025/Audio/_86B.aac",
+        "otherPsalterIdentifier": "235"
     },
     {
         "identifier": "86C",
@@ -4518,7 +4670,8 @@
             "Show me Thy mercy true, \nThy servant’s strength renew, \nDeliv’rance send; \nTo me Thy goodness show, \nThy comfort, LORD, bestow; \nLet those that hate me know \nThou art my friend."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_86C.aac"
+        "audioFile": "2025/Audio/_86C.aac",
+        "otherPsalterIdentifier": "236"
     },
     {
         "identifier": "87A",
@@ -4530,7 +4683,8 @@
             "When the LORD shall count the nations, \nSons and daughters He shall see, \nBorn to endless life in Zion, \nAnd their joyful song shall be, \nBlessed Zion, Blessed Zion, \nAll our fountains are in thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_87A.aac"
+        "audioFile": "2025/Audio/_87A.aac",
+        "otherPsalterIdentifier": "238"
     },
     {
         "identifier": "87B",
@@ -4542,7 +4696,8 @@
             "When the LORD shall count the nations, \nSons and daughters He shall see, \nBorn to endless life in Zion, \nAnd their joyful song shall be, \nBlessed Zion, \nAll our fountains are in thee.\nBlessed Zion, \nAll our fountains are in thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_87B.aac"
+        "audioFile": "2025/Audio/_87B.aac",
+        "otherPsalterIdentifier": "237"
     },
     {
         "identifier": "87C",
@@ -4553,7 +4708,8 @@
             "When the LORD the names shall write \nOf thy sons, a countless throng, \nGod Most High will thee requite, \nHe Himself will make thee strong. \nThen in song and joyful mirth \nShall thy ransomed sons agree, \nSinging forth throughout the earth, \nAll my fountains are in thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_87C.aac"
+        "audioFile": "2025/Audio/_87C.aac",
+        "otherPsalterIdentifier": "239"
     },
     {
         "identifier": "87D",
@@ -4567,7 +4723,8 @@
             "Then shall God’s name with holy adoration\nAnd joyful tones be praised by Israel’s throng;\nBoth harp and voice will blend in swelling song:\nIn Zion are the founts of my salvation."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_87D.aac"
+        "audioFile": "2025/Audio/_87D.aac",
+        "otherPsalterIdentifier": "442"
     },
     {
         "identifier": "88A",
@@ -4581,7 +4738,8 @@
             "Friend and lover are departed, \nDark and lonely is my way; \nLORD, be Thou my friend and helper, \nStill to Thee, O Lord, I pray. \nLORD, the God of my salvation, \nDay and night I cry to Thee; \nLet my pray’r now find acceptance, \nIn Thy mercy answer me."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_88A.aac"
+        "audioFile": "2025/Audio/_88A.aac",
+        "otherPsalterIdentifier": "240"
     },
     {
         "identifier": "88B",
@@ -4629,12 +4787,14 @@
             "Remember how I bear within my heart, O Lord,\nThe insults and the taunts that I have long endured.\nThy servant has been mocked and jeered by all the nations;\nFoes taunted Thine anointed with their provocations.\nYet praise and worship GOD! His mercy will not waver.\nYes, Amen and Amen. Praised be the Lord forever!"
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_89A.aac"
+        "audioFile": "2025/Audio/_89A.aac",
+        "otherPsalterIdentifier": "422"
     },
     {
         "identifier": "89B",
         "title": "My Song Forever Shall Record",
         "psalm": 89,
+        "psalmVerses": "1-12",
         "verses": [
             "My song forever shall record \nThe tender mercies of the LORD; \nThy faithfulness will I proclaim, \nAnd ev’ry age shall know Thy name.",
             "I sing of mercies that endure, \nForever builded firm and sure, \nOf faithfulness that never dies, \nEstablished changeless in the skies.",
@@ -4647,7 +4807,8 @@
             "The heav’ns and earth, by right divine,\nThe world and all therein are Thine;\nThe whole creation’s wondrous frame\nProclaims its maker’s glorious name."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_89B.aac"
+        "audioFile": "2025/Audio/_89B.aac",
+        "otherPsalterIdentifier": "241"
     },
     {
         "identifier": "89C",
@@ -4660,12 +4821,14 @@
             "All glory unto God we yield, \nJehovah is our help and shield; \nAll praise and honour we will bring \nTo Israel’s Holy One, our King."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_89C.aac"
+        "audioFile": "2025/Audio/_89C.aac",
+        "otherPsalterIdentifier": "242"
     },
     {
         "identifier": "89D",
         "title": "In Vision to His Saints God Spake",
         "psalm": 89,
+        "psalmVerses": "19-37, 52",
         "verses": [
             "In vision to His saints God spake: \nFrom out the people one I take, \nA mighty leader, true and brave, \nOrdained, exalted, strong to save, \nOrdained, exalted, strong to save. ",
             "My chosen servant I appoint, \nWith holy oil his head anoint; \nMy hand with him shall still remain, \nMy arm his strength shall well sustain, \nMy arm his strength shall well sustain. ",
@@ -4679,7 +4842,8 @@
             "Blest be the LORD for evermore,\nWhose promise stands from days of yore.\nHis word is faithful now as then;\nBlest be His name. Amen, Amen.\nBlest be His name. Amen, Amen."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_89D.aac"
+        "audioFile": "2025/Audio/_89D.aac",
+        "otherPsalterIdentifier": "243"
     },
     {
         "identifier": "89E",
@@ -4692,7 +4856,8 @@
             "Remember, Lord, the bitter shame\nHeaped on Thine own anointed’s name.\nBlest be the LORD for evermore,\nWhose promise stands from days of yore.\nHis word is faithful now as then;\nBlest be His name. Amen, Amen."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_89E.aac"
+        "audioFile": "2025/Audio/_89E.aac",
+        "otherPsalterIdentifier": "243"
     },
     {
         "identifier": "90A",
@@ -4706,7 +4871,8 @@
             "Long the clouds of evil lower;\nBless us now with gladsome days;\nLet Thy servants see Thy power,\nLet their children learn Thy praise.\nOn us let the grace and beauty \nOf the LORD our God remain,\nStrengthen us for noble duty\nThat our work be not in vain."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_90A.aac"
+        "audioFile": "2025/Audio/_90A.aac",
+        "otherPsalterIdentifier": "244"
     },
     {
         "identifier": "90B",
@@ -4723,7 +4889,8 @@
             "So let there be on us bestowed\nThe beauty of the LORD our God;\nThe work accomplished by our hand\nEstablish Thou, and make it stand;\nYea, let our hopeful labour be\nEstablished evermore by Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_90B.aac"
+        "audioFile": "2025/Audio/_90B.aac",
+        "otherPsalterIdentifier": "245, 246"
     },
     {
         "identifier": "90C",
@@ -4735,12 +4902,14 @@
             "So let there be on us bestowed\nThe beauty of the LORD our God;\nThe work accomplished by our hand\nEstablish Thou, and make it stand;\nYea, let our hopeful labour be\nEstablished evermore by Thee,\nEstablished evermore by Thee."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_90C.aac"
+        "audioFile": "2025/Audio/_90C.aac",
+        "otherPsalterIdentifier": "246"
     },
     {
         "identifier": "90D",
         "title": "O GOD, Our Help in Ages Past",
         "psalm": 90,
+        "psalmVerses": "1-2, 4-5",
         "verses": [
             "O GOD, our help in ages past,\nOur hope for years to come,\nOur shelter from the stormy blast,\nAnd our eternal home.",
             "Under the shadow of Thy throne\nThy saints have dwelt secure;\nSufficient is Thine arm alone,\nAnd our defense is sure.",
@@ -4750,12 +4919,14 @@
             "O GOD, our help in ages past,\nOur hope for years to come,\nBe Thou our guard while troubles last,\nAnd our eternal home."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_90D.aac"
+        "audioFile": "2025/Audio/_90D.aac",
+        "otherPsalterIdentifier": "247"
     },
     {
         "identifier": "90E",
         "title": "O GOD, Our Help in Ages Past",
         "psalm": 90,
+        "psalmVerses": "1-2, 4-5",
         "verses": [
             "O GOD, our help in ages past,\nOur hope for years to come,\nOur shelter from the stormy blast,\nAnd our eternal home.",
             "Under the shadow of Thy throne\nThy saints have dwelt secure;\nSufficient is Thine arm alone,\nAnd our defense is sure.",
@@ -4765,7 +4936,8 @@
             "O GOD, our help in ages past,\nOur hope for years to come,\nBe Thou our guard while troubles last,\nAnd our eternal home."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_90E.aac"
+        "audioFile": "2025/Audio/_90E.aac",
+        "otherPsalterIdentifier": "247"
     },
     {
         "identifier": "91A",
@@ -4784,6 +4956,7 @@
         "identifier": "91B",
         "title": "The Man Who Once Has Found Abode",
         "psalm": 91,
+        "psalmVerses": "1-8",
         "verses": [
             "The man who once has found abode\nWithin the secret place of God\nShall with Almighty God abide,\nAnd in His shadow safely hide.",
             "I of the LORD my God will say,\nHe is my refuge and my stay;\nTo Him for safety I will flee,\nIn Him my constant trust shall be.",
@@ -4799,12 +4972,14 @@
             "Complete deliv’rance I will give,\nAnd honour him while he shall live;\nAbundant life I will bestow,\nTo him My full salvation show."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_91B.aac"
+        "audioFile": "2025/Audio/_91B.aac",
+        "otherPsalterIdentifier": "248"
     },
     {
         "identifier": "91C",
         "title": "Because Thy Trust Is GOD Alone",
         "psalm": 91,
+        "psalmVerses": "9-16",
         "verses": [
             "Because thy trust is GOD alone,\nThy refuge is the Highest One,\nNo evil shall upon thee come,\nNor plague approach thy guarded home.",
             "Angelic guards at His commands\nWill bear thee safely in their hands,\nWill keep thee, lest, if left alone,\nThou dash thy foot against a stone.",
@@ -4814,7 +4989,8 @@
             "Complete deliv’rance I will give,\nAnd honour him while he shall live;\nAbundant life I will bestow,\nTo him My full salvation show."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_91C.aac"
+        "audioFile": "2025/Audio/_91C.aac",
+        "otherPsalterIdentifier": "249"
     },
     {
         "identifier": "92A",
@@ -4828,7 +5004,8 @@
             "The righteous man shall flourish well,\nAnd in the house of GOD shall dwell;\nHe shall be like a goodly tree,\nAnd all his life shall fruitful be;\nFor righteous is the LORD and just,\nHe is my rock, in Him I trust."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_92A.aac"
+        "audioFile": "2025/Audio/_92A.aac",
+        "otherPsalterIdentifier": "250"
     },
     {
         "identifier": "92B",
@@ -4840,7 +5017,8 @@
             "But the good shall live before Thee,\nPlanted in Thy dwelling place,\nFruitful trees and ever verdant,\nNourished by Thy boundless grace.\nIn His goodness to the righteous\nGOD His righteousness displays;\nGod my rock, my strength and refuge,\nJust and true are all His ways."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_92B.aac"
+        "audioFile": "2025/Audio/_92B.aac",
+        "otherPsalterIdentifier": "251"
     },
     {
         "identifier": "93",
@@ -4853,7 +5031,8 @@
             "Thy testimonies, LORD,\nIn faithfulness excel,\nAnd holy must Thy servants be\nWho in Thy temple dwell."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_93.aac"
+        "audioFile": "2025/Audio/_93.aac",
+        "otherPsalterIdentifier": "252"
     },
     {
         "identifier": "94A",
@@ -4874,7 +5053,8 @@
             "Our God, the refuge of His saints,\nWill fight against iniquity;\nAvenger of the innocent\nThe LORD omnipotent will be."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_94A.aac"
+        "audioFile": "2025/Audio/_94A.aac",
+        "otherPsalterIdentifier": "253"
     },
     {
         "identifier": "94B",
@@ -4903,7 +5083,8 @@
             "Take heed that ye provoke Him not\nAs did your fathers, who forgot,\nWith erring heart, God’s holy ways\nAnd grieved Him all their sinful days;\nTo whom in wrath Jehovah sware,\nMy promised rest they shall not share."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_95A.aac"
+        "audioFile": "2025/Audio/_95A.aac",
+        "otherPsalterIdentifier": "254"
     },
     {
         "identifier": "95B",
@@ -4916,12 +5097,14 @@
             "God proclaims His great salvation.\nLet us hear His voice today,\nLest, if we our hearts should harden,\nWe should perish in the way;\nLest to us, so unbelieving,\nHe in judgment shall declare:\nYe, so long My Spirit grieving, \nNever in My rest can share."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_95B.aac"
+        "audioFile": "2025/Audio/_95B.aac",
+        "otherPsalterIdentifier": "255"
     },
     {
         "identifier": "95C",
         "title": "O Come and to Jehovah Sing",
         "psalm": 95,
+        "psalmVerses": "1-6",
         "verses": [
             "O come and to Jehovah sing,\nTo Him our voices raise;\nLet us in our most joyful songs\nThe Lord our Saviour praise,\nThe Lord our Saviour praise.",
             "Before His presence let us come\nWith praise and thankful voice;\nLet us sing psalms to Him with grace,\nWith grateful hearts rejoice,\nWith grateful hearts rejoice.",
@@ -4930,7 +5113,8 @@
             "O come, and bowing down to Him\nOur worship let us bring;\nYea, let us kneel before the LORD,\nOur maker and our King,\nOur maker and our King."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_95C.aac"
+        "audioFile": "2025/Audio/_95C.aac",
+        "otherPsalterIdentifier": "256"
     },
     {
         "identifier": "96A",
@@ -4944,7 +5128,8 @@
             "Let heav’n and earth and sounding sea\nTo Him glad tribute bring;\nLet field and wood and all therein\nBefore Jehovah sing;\nFor, lo, He comes to judge the earth,\nAnd all the world shall see\nHis everlasting faithfulness,\nHis truth and equity."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_96A.aac"
+        "audioFile": "2025/Audio/_96A.aac",
+        "otherPsalterIdentifier": "257"
     },
     {
         "identifier": "96B",
@@ -4960,7 +5145,8 @@
             "So let them shout before our GOD,\nFor, lo, He comes, He comes with might,\nTo wield the sceptre and the rod,\nTo judge the world with truth and right."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_96B.aac"
+        "audioFile": "2025/Audio/_96B.aac",
+        "otherPsalterIdentifier": "258"
     },
     {
         "identifier": "96C",
@@ -4975,7 +5161,8 @@
             "Let heav’n and earth be glad; waves of the ocean,\nForest and field exultation express;\nFor GOD is coming, the Judge of the nations,\nComing to judge in His righteousness."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_96C.aac"
+        "audioFile": "2025/Audio/_96C.aac",
+        "otherPsalterIdentifier": "259"
     },
     {
         "identifier": "97A",
@@ -4991,7 +5178,8 @@
             "Jehovah’s kindly face\nGives happiness and grace\nTo all that are pure-hearted;\nTo them is life imparted.\nRejoice in GOD, ye just,\nHe raised you from the dust;\nGive thanks, ye people all,\nHis holy name recall,\nRepose in Him your trust."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_97A.aac"
+        "audioFile": "2025/Audio/_97A.aac",
+        "otherPsalterIdentifier": "423"
     },
     {
         "identifier": "97B",
@@ -5006,7 +5194,8 @@
             "For good men light and joy are sown\nTo bless them in the harvest time;\nYe saints, your joy in GOD make known\nAnd ever praise His name sublime."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_97B.aac"
+        "audioFile": "2025/Audio/_97B.aac",
+        "otherPsalterIdentifier": "260"
     },
     {
         "identifier": "98A",
@@ -5022,7 +5211,8 @@
             "For lo, He comes; at His command\nAll nations shall in judgment stand;\nIn justice robed, and throned in light,\nThe LORD shall judge, dispensing right."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_98A.aac"
+        "audioFile": "2025/Audio/_98A.aac",
+        "otherPsalterIdentifier": "264"
     },
     {
         "identifier": "98B",
@@ -5034,7 +5224,8 @@
             "Seas with all your fullness thunder,\nAll earth’s peoples now rejoice;\nFloods and hills in praise uniting\nTo the Lord lift up your voice.\nFor, behold, Jehovah cometh,\nRobed in justice and in might;\nHe alone will judge the nations, \nAnd His judgment shall be right."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_98B.aac"
+        "audioFile": "2025/Audio/_98B.aac",
+        "otherPsalterIdentifier": "261"
     },
     {
         "identifier": "98C",
@@ -5047,7 +5238,8 @@
             "Let all the streams in joyous union\nNow clap their hands and praise accord,\nThe hills rejoice in glad communion,\nAnd skip for joy before the LORD.\nHe comes, He comes to judge the people,\nArrayed in truth and equity;\nThe world shall He redeem from evil,\nAnd righteous shall His judgment be."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_98C.aac"
+        "audioFile": "2025/Audio/_98C.aac",
+        "otherPsalterIdentifier": "424"
     },
     {
         "identifier": "98D",
@@ -5059,7 +5251,8 @@
             "Waves of mighty ocean,\nEarth with fullness stored\nFloods and fields and mountains,\nSing before the LORD;\nFor He comes with justice,\nEvil to redress,\nAnd to judge the nations\nIn His righteousness."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_98D.aac"
+        "audioFile": "2025/Audio/_98D.aac",
+        "otherPsalterIdentifier": "262"
     },
     {
         "identifier": "98E",
@@ -5071,7 +5264,8 @@
             "Waves of mighty ocean,\nEarth with fullness stored,\nFloods and fields and mountains,\nSing before the LORD;\nFor He comes with justice,\nEvil to redress,\nAnd to judge the nations\nIn His righteousness."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_98E.aac"
+        "audioFile": "2025/Audio/_98E.aac",
+        "otherPsalterIdentifier": "263"
     },
     {
         "identifier": "99A",
@@ -5083,7 +5277,8 @@
             "When priests and prophets called on GOD,\nHe their petitions heard;\nHis cloudy pillar led them on,\nAnd they obeyed His word.\nThough sending judgments for their sins,\nHe pardoned graciously;\nExalt the LORD and worship Him,\nThe Holy One is He."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_99A.aac"
+        "audioFile": "2025/Audio/_99A.aac",
+        "otherPsalterIdentifier": "265"
     },
     {
         "identifier": "99B",
@@ -5095,7 +5290,8 @@
             "Holy men of old in Him alone confided;\nHe forgave their sins, although they felt His chast’ning rod;\nIn His holy temple worship and adore Him,\nFaithful and holy is the LORD our God."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_99B.aac"
+        "audioFile": "2025/Audio/_99B.aac",
+        "otherPsalterIdentifier": "266"
     },
     {
         "identifier": "99C",
@@ -5108,7 +5304,8 @@
             "Exalt ye now the LORD, \nOur God in praises laud,\nAnd at His footstool worship Him,\nFor holy is our God."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_99C.aac"
+        "audioFile": "2025/Audio/_99C.aac",
+        "otherPsalterIdentifier": "267"
     },
     {
         "identifier": "100A",
@@ -5165,6 +5362,7 @@
         "identifier": "101B",
         "title": "LORD, I Will Sing to Thee with Great Rejoicing",
         "psalm": 101,
+        "psalmVerses": "1-5",
         "verses": [
             "LORD, I will sing to Thee with great rejoicing,\nThy justice and Thy lovingkindness voicing;\nA joyful psalm, Jehovah, I will raise\nUnto Thy praise.",
             "I’ll wisely tread the pathway of perfection;\nWhen wilt Thou come, O Lord, for my direction?\nI’ll walk within my house with perfect heart,\nFrom sin apart.",

@@ -65,7 +65,7 @@ export class Psalter {
     }
     get subIdentifier() { // letter
         let l = this.identifier[this.identifier.length - 1];
-        return parseInt(l) ? '' : l;
+        return isNaN(parseInt(l)) ? l : '';
     }
 }
 
