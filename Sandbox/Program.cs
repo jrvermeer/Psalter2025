@@ -11,7 +11,7 @@ internal class Program
     const string NG_PUBLIC_FOLDER = "C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\";
     private static async Task Main(string[] args)
     {
-        //Generate2025Psalters();
+        Generate2025Psalters();
         await Migrate1912ToNewSchema();
 
         //var http = new HttpClient();
@@ -68,12 +68,13 @@ internal class Program
             var number = ReadWhileDigit(identifier).Value;
             var letter = identifier[number.ToString().Length..];
             int? psalm = titleAndIdentifier[1].StartsWith("Psalm") ? number : null;
-            var isSpiritualSong = titleAndIdentifier[1].StartsWith("SS");
+            if (titleAndIdentifier[1].StartsWith("SS"))
+                identifier = "SS" + identifier;
 
-            var psalter = newPsalters.FirstOrDefault(x => x.Number == number && x.Letter == letter && x.IsSpiritualSong.GetValueOrDefault() == isSpiritualSong);
+            var psalter = newPsalters.FirstOrDefault(x => x.Identifier == identifier);
             if (psalter == null)
             {
-                newPsalters.Add(psalter = new NewSchema { Number = number, Letter = letter });
+                newPsalters.Add(psalter = new NewSchema { Identifier = identifier });
 
                 var expectedMaxVerses = parts.Select(x => ReadWhileDigit(x)).Max() ?? 1;
                 var verses = parts.Skip(1).ToList();
@@ -91,10 +92,7 @@ internal class Program
                 }
             }
 
-            if (isSpiritualSong)
-                identifier = "SS" + identifier;
-
-            psalter.IsSpiritualSong = isSpiritualSong ? true : null;
+            psalter.Identifier = identifier;
             psalter.Title = titleAndIdentifier[0];
             psalter.Psalm = psalm;
 
@@ -108,8 +106,6 @@ internal class Program
                 psalter.IsCompletePsalm = psalter.PsalmVerses.IsNullOrWhiteSpace();
 
         }
-
-        newPsalters = newPsalters.OrderByDescending(x => x.IsSpiritualSong != true).ThenBy(x => x.Number).ThenBy(x => x.Letter).ToList();
 
         WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
     }
@@ -136,9 +132,9 @@ internal class Program
         foreach (var newPsalter in newPsalters)
         {
             var oldNumbersForNewPsalter = new List<int>();
-            if (!newPsalter.OtherPsalterNumber.IsNullOrWhiteSpace())
+            if (!newPsalter.OtherPsalterIdentifier.IsNullOrWhiteSpace())
             {
-                var parts = newPsalter.OtherPsalterNumber.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                var parts = newPsalter.OtherPsalterIdentifier.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                 foreach (var part in parts) 
                 {
                     if (part.Contains("-"))
@@ -153,12 +149,12 @@ internal class Program
 
             foreach (var oldPsalterNumber in oldNumbersForNewPsalter)
             {
-                var oldPsalter = oldPsalters.FirstOrDefault(x => x.Number == oldPsalterNumber);
+                var oldPsalter = oldPsalters.FirstOrDefault(x => x.Identifier == oldPsalterNumber.ToString());
                 if (oldPsalter != null) // 437
                 {
-                    if (!oldPsalter.OtherPsalterNumber.IsNullOrWhiteSpace())
-                        oldPsalter.OtherPsalterNumber += ", ";
-                    oldPsalter.OtherPsalterNumber += newPsalter.Number + newPsalter.Letter;
+                    if (!oldPsalter.OtherPsalterIdentifier.IsNullOrWhiteSpace())
+                        oldPsalter.OtherPsalterIdentifier += ", ";
+                    oldPsalter.OtherPsalterIdentifier += newPsalter.Identifier;
                 }
             }
         }
@@ -201,8 +197,8 @@ internal class Program
 
         var newSchema = new NewSchema
         {
-            Number = old.number,
-            SecondTune = old.Title.Contains("2nd") ? true : null,
+            Identifier = old.number.ToString(),
+            IsSecondTune = old.Title.Contains("2nd") ? true : null,
 
             Title = old.heading,
             Psalm = old.psalm,
@@ -212,7 +208,7 @@ internal class Program
             ScoreFiles = [old.scoreFileName],            
         };
 
-        newSchema.AudioFile = $"1912\\Audio\\_{old.number}{(newSchema.SecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
+        newSchema.AudioFile = $"1912\\Audio\\_{old.number}{(newSchema.IsSecondTune.GetValueOrDefault() ? "_2" : "")}.mp3";
         if (!File.Exists($"{NG_PUBLIC_FOLDER}{newSchema.AudioFile}"))
             newSchema.AudioFile = null;
 
@@ -242,20 +238,18 @@ public class OldSchema
 
 public class NewSchema
 {
-    public required int Number { get; set; }
-    public string? Letter { get; set; } // 2025
-    public bool? SecondTune { get; set; } // 1912
+    public string Identifier { get; set; }
+    public bool? IsSecondTune { get; set; } // 1912
 
     public string Title { get; set; }
     public int? Psalm { get; set; }
     public string? PsalmVerses { get; set; } // 2025
     public bool? IsCompletePsalm { get; set; } // 2025
-    public bool? IsSpiritualSong { get; set; } // 2025
 
     public List<string> Verses { get; set; }
     public string? Chorus { get; set; }
     public int? NumVersesInsideStaff { get; set; } // 1912
     public List<string> ScoreFiles { get; set; }
     public string? AudioFile { get; set; }
-    public string? OtherPsalterNumber { get; set; }
+    public string? OtherPsalterIdentifier { get; set; }
 }

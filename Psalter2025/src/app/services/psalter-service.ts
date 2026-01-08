@@ -13,12 +13,16 @@ export class PsalterService {
 
     private _1912: Psalter[];
     get1912() {
-        return this._1912 ? of(this._1912) : this.http.get<Psalter[]>('1912/psalter.json').pipe(tap(x => this._1912 = x));
+        return this._1912 ? of(this._1912) : this.http.get<Psalter[]>('1912/psalter.json').pipe(
+            map(x => x.map(x => new Psalter(x))),
+            tap(x => this._1912 = x));
     }
 
     private _2025: Psalter[];
     get2025() {
-        return this._2025 ? of(this._2025) : this.http.get<Psalter[]>('2025/psalter.json').pipe(tap(x => this._2025 = x));
+        return this._2025 ? of(this._2025) : this.http.get<Psalter[]>('2025/psalter.json').pipe(
+            map(x => x.map(x => new Psalter(x))),
+            tap(x => this._2025 = x));
     }
 
     private _ranges: Range[] = [];
@@ -40,23 +44,29 @@ export class Psalter {
     constructor(c?: Partial<Psalter>) {
         Object.assign(this, c)
     }
-    number: number
-    letter: string // 2025
-    title: string
+    identifier: string
+    secondTune: boolean // 1912 (make part of identifier so it's unique?)
 
+    title: string
     psalm: number
     psalmVerses: string // 2025
     isCompletePsalm: boolean // 2025
-    isSpiritualSong: boolean // 2025
 
     verses: string[]
     chorus: string
     audioFile: string
     scoreFiles: string[]
-    otherPsalterNumber: string
+    otherPsalterIdentifier: string
 
-    secondTune: boolean // 1912
     numVersesInsideStaff: number // 1912
+
+    get mainIdentifier() { // number
+        return this.identifier.substring(0, this.identifier.length - this.subIdentifier.length)
+    }
+    get subIdentifier() { // letter
+        let l = this.identifier[this.identifier.length - 1];
+        return parseInt(l) ? '' : l;
+    }
 }
 
 export class PsalterSearchResult {

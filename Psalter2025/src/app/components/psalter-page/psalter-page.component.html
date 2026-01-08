@@ -9,13 +9,9 @@
         <div class="ui-slide-container" [style.width.px]="containerWidth">
             <div class="ui-header">
                 <div class="d-flex align-end">
-                    <h1><span *ngIf="psalter.isSpiritualSong">SS</span>{{psalter.number}}</h1>
-                    @if (psalter.letter) {
-                        <h2>{{psalter.letter}}</h2>
-                    }
-                    @if (psalter.secondTune) {
-                        <span class="ml-1">(2nd tune)</span>
-                    }
+                    <h1>{{psalter.mainIdentifier}}</h1>
+                    <h2 *ngIf="psalter.subIdentifier">{{psalter.subIdentifier}}</h2>
+                    <span *ngIf="psalter.secondTune" class="ml-1">(2nd tune)</span>
                 </div>
                 <h2 class="ml-1">{{psalter.title}}</h2>
             </div>
@@ -49,8 +45,8 @@
                     }
                 </tbody>
             </table>
-            @if(psalter.otherPsalterNumber){
-                <button matButton (click)="app.togglePsalter()">[{{psalter.otherPsalterNumber}}]</button>
+            @if(psalter.otherPsalterIdentifier){
+                <button matButton (click)="app.togglePsalter()">[{{psalter.otherPsalterIdentifier}}]</button>
             }
         </div>
     </swiper-slide>

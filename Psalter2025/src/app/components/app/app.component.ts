@@ -135,9 +135,9 @@ export class AppComponent {
             let searchResult = new PsalterSearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
             let add = !searchText;
             if (searchText) {
-                const isNumberMatch = `${psalter.number}${psalter.letter}`.toLowerCase().startsWith(searchText);
+                const isIdentifierMatch = psalter.identifier.toLowerCase().startsWith(searchText);
                 const isPsalmMatch = psalter.psalm?.toString() == searchText;
-                if (isNumberMatch || isPsalmMatch) {
+                if (isIdentifierMatch || isPsalmMatch) {
                     add = true
                     searchResult.showPsalm = isPsalmMatch;
                 }
