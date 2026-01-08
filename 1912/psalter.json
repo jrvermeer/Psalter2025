@@ -1,6 +1,6 @@
 [
     {
-        "number": 1,
+        "identifier": "1",
         "title": "The Blessedness of the Godly",
         "psalm": 1,
         "verses": [
@@ -15,10 +15,10 @@
             "1912/Score/_1.webp"
         ],
         "audioFile": "1912\\Audio\\_1.mp3",
-        "otherPsalterNumber": "1A"
+        "otherPsalterIdentifier": "1A"
     },
     {
-        "number": 2,
+        "identifier": "2",
         "title": "The Righteous and Unrighteous",
         "psalm": 1,
         "verses": [
@@ -33,11 +33,11 @@
             "1912/Score/_2.webp"
         ],
         "audioFile": "1912\\Audio\\_2.mp3",
-        "otherPsalterNumber": "1B"
+        "otherPsalterIdentifier": "1B"
     },
     {
-        "number": 2,
-        "secondTune": true,
+        "identifier": "2",
+        "isSecondTune": true,
         "title": "The Righteous and Unrighteous",
         "psalm": 1,
         "verses": [
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "number": 3,
+        "identifier": "3",
         "title": "The Kingship of Jesus Christ",
         "psalm": 2,
         "verses": [
@@ -67,10 +67,10 @@
             "1912/Score/_3.webp"
         ],
         "audioFile": "1912\\Audio\\_3.mp3",
-        "otherPsalterNumber": "2A"
+        "otherPsalterIdentifier": "2A"
     },
     {
-        "number": 4,
+        "identifier": "4",
         "title": "Christ's Inheritance",
         "psalm": 2,
         "verses": [
@@ -85,10 +85,10 @@
             "1912/Score/_4.webp"
         ],
         "audioFile": "1912\\Audio\\_4.mp3",
-        "otherPsalterNumber": "2B"
+        "otherPsalterIdentifier": "2B"
     },
     {
-        "number": 5,
+        "identifier": "5",
         "title": "God Our Guardian",
         "psalm": 3,
         "verses": [
@@ -103,10 +103,10 @@
             "1912/Score/_5.webp"
         ],
         "audioFile": "1912\\Audio\\_5.mp3",
-        "otherPsalterNumber": "3A"
+        "otherPsalterIdentifier": "3A"
     },
     {
-        "number": 6,
+        "identifier": "6",
         "title": "A Trustful Appeal to God",
         "psalm": 4,
         "verses": [
@@ -122,10 +122,10 @@
             "1912/Score/_6.webp"
         ],
         "audioFile": "1912\\Audio\\_6.mp3",
-        "otherPsalterNumber": "4A"
+        "otherPsalterIdentifier": "4A"
     },
     {
-        "number": 7,
+        "identifier": "7",
         "title": "Quieting Thoughts",
         "psalm": 4,
         "verses": [
@@ -138,10 +138,10 @@
             "1912/Score/_7.webp"
         ],
         "audioFile": "1912\\Audio\\_7.mp3",
-        "otherPsalterNumber": "4B"
+        "otherPsalterIdentifier": "4B"
     },
     {
-        "number": 8,
+        "identifier": "8",
         "title": "Faith and Peace",
         "psalm": 4,
         "verses": [
@@ -155,10 +155,10 @@
             "1912/Score/_8.webp"
         ],
         "audioFile": "1912\\Audio\\_8.mp3",
-        "otherPsalterNumber": "4C"
+        "otherPsalterIdentifier": "4C"
     },
     {
-        "number": 9,
+        "identifier": "9",
         "title": "An Entreaty for Guidance",
         "psalm": 5,
         "verses": [
@@ -171,10 +171,10 @@
             "1912/Score/_9.webp"
         ],
         "audioFile": "1912\\Audio\\_9.mp3",
-        "otherPsalterNumber": "5A"
+        "otherPsalterIdentifier": "5A"
     },
     {
-        "number": 10,
+        "identifier": "10",
         "title": "Confident Access to God",
         "psalm": 5,
         "verses": [
@@ -187,10 +187,10 @@
             "1912/Score/_10.webp"
         ],
         "audioFile": "1912\\Audio\\_10.mp3",
-        "otherPsalterNumber": "5A, 5B"
+        "otherPsalterIdentifier": "5A, 5B"
     },
     {
-        "number": 11,
+        "identifier": "11",
         "title": "Prayer and Protection",
         "psalm": 5,
         "verses": [
@@ -204,10 +204,10 @@
             "1912/Score/_11.webp"
         ],
         "audioFile": "1912\\Audio\\_11.mp3",
-        "otherPsalterNumber": "5A"
+        "otherPsalterIdentifier": "5A"
     },
     {
-        "number": 12,
+        "identifier": "12",
         "title": "Divine Chastisement",
         "psalm": 6,
         "verses": [
@@ -221,10 +221,10 @@
             "1912/Score/_12.webp"
         ],
         "audioFile": "1912\\Audio\\_12.mp3",
-        "otherPsalterNumber": "6A"
+        "otherPsalterIdentifier": "6A"
     },
     {
-        "number": 13,
+        "identifier": "13",
         "title": "Confidence in Divine Justice",
         "psalm": 7,
         "verses": [
@@ -241,10 +241,10 @@
             "1912/Score/_13.webp"
         ],
         "audioFile": "1912\\Audio\\_13.mp3",
-        "otherPsalterNumber": "7B"
+        "otherPsalterIdentifier": "7B"
     },
     {
-        "number": 14,
+        "identifier": "14",
         "title": "The Name of the Lord",
         "psalm": 8,
         "verses": [
@@ -261,10 +261,10 @@
             "1912/Score/_14.webp"
         ],
         "audioFile": "1912\\Audio\\_14.mp3",
-        "otherPsalterNumber": "8A"
+        "otherPsalterIdentifier": "8A"
     },
     {
-        "number": 15,
+        "identifier": "15",
         "title": "God's Glory in His Works",
         "psalm": 8,
         "verses": [
@@ -277,10 +277,10 @@
             "1912/Score/_15.webp"
         ],
         "audioFile": "1912\\Audio\\_15.mp3",
-        "otherPsalterNumber": "8B"
+        "otherPsalterIdentifier": "8B"
     },
     {
-        "number": 16,
+        "identifier": "16",
         "title": "The Lord the Righteous Judge",
         "psalm": 9,
         "verses": [
@@ -299,10 +299,10 @@
             "1912/Score/_16.webp"
         ],
         "audioFile": "1912\\Audio\\_16.mp3",
-        "otherPsalterNumber": "9A"
+        "otherPsalterIdentifier": "9A"
     },
     {
-        "number": 17,
+        "identifier": "17",
         "title": "Whole-Hearted Praise",
         "psalm": 9,
         "verses": [
@@ -316,11 +316,11 @@
         "scoreFiles": [
             "1912/Score/_17.webp"
         ],
-        "otherPsalterNumber": "9B"
+        "otherPsalterIdentifier": "9B"
     },
     {
-        "number": 17,
-        "secondTune": true,
+        "identifier": "17",
+        "isSecondTune": true,
         "title": "Whole-Hearted Praise",
         "psalm": 9,
         "verses": [
@@ -337,7 +337,7 @@
         "audioFile": "1912\\Audio\\_17_2.mp3"
     },
     {
-        "number": 18,
+        "identifier": "18",
         "title": "Complaint Against the Wicked",
         "psalm": 10,
         "verses": [
@@ -356,10 +356,10 @@
             "1912/Score/_18.webp"
         ],
         "audioFile": "1912\\Audio\\_18.mp3",
-        "otherPsalterNumber": "10A"
+        "otherPsalterIdentifier": "10A"
     },
     {
-        "number": 19,
+        "identifier": "19",
         "title": "Prayer for the Oppressed",
         "psalm": 10,
         "verses": [
@@ -374,10 +374,10 @@
             "1912/Score/_19.webp"
         ],
         "audioFile": "1912\\Audio\\_19.mp3",
-        "otherPsalterNumber": "10B"
+        "otherPsalterIdentifier": "10B"
     },
     {
-        "number": 20,
+        "identifier": "20",
         "title": "Unshaken Faith Amid Danger",
         "psalm": 11,
         "verses": [
@@ -390,10 +390,10 @@
             "1912/Score/_20.webp"
         ],
         "audioFile": "1912\\Audio\\_20.mp3",
-        "otherPsalterNumber": "11A, 11B"
+        "otherPsalterIdentifier": "11A, 11B"
     },
     {
-        "number": 21,
+        "identifier": "21",
         "title": "Assurances for Evil Days",
         "psalm": 12,
         "verses": [
@@ -407,10 +407,10 @@
             "1912/Score/_21.webp"
         ],
         "audioFile": "1912\\Audio\\_21.mp3",
-        "otherPsalterNumber": "12"
+        "otherPsalterIdentifier": "12"
     },
     {
-        "number": 22,
+        "identifier": "22",
         "title": "Trust in the Mercy of God",
         "psalm": 13,
         "verses": [
@@ -423,10 +423,10 @@
             "1912/Score/_22.webp"
         ],
         "audioFile": "1912\\Audio\\_22.mp3",
-        "otherPsalterNumber": "13A"
+        "otherPsalterIdentifier": "13A"
     },
     {
-        "number": 23,
+        "identifier": "23",
         "title": "Human Corruption",
         "psalm": 14,
         "verses": [
@@ -442,11 +442,11 @@
             "1912/Score/_23.webp"
         ],
         "audioFile": "1912\\Audio\\_23.mp3",
-        "otherPsalterNumber": "14"
+        "otherPsalterIdentifier": "14"
     },
     {
-        "number": 23,
-        "secondTune": true,
+        "identifier": "23",
+        "isSecondTune": true,
         "title": "Human Corruption",
         "psalm": 14,
         "verses": [
@@ -463,7 +463,7 @@
         ]
     },
     {
-        "number": 24,
+        "identifier": "24",
         "title": "Tests of Christian Character",
         "psalm": 15,
         "verses": [
@@ -476,10 +476,10 @@
             "1912/Score/_24.webp"
         ],
         "audioFile": "1912\\Audio\\_24.mp3",
-        "otherPsalterNumber": "15A"
+        "otherPsalterIdentifier": "15A"
     },
     {
-        "number": 25,
+        "identifier": "25",
         "title": "The Godly Man",
         "psalm": 15,
         "verses": [
@@ -493,10 +493,10 @@
             "1912/Score/_25.webp"
         ],
         "audioFile": "1912\\Audio\\_25.mp3",
-        "otherPsalterNumber": "15B"
+        "otherPsalterIdentifier": "15B"
     },
     {
-        "number": 26,
+        "identifier": "26",
         "title": "An Ideal Worshipper",
         "psalm": 15,
         "verses": [
@@ -511,10 +511,10 @@
             "1912/Score/_26.webp"
         ],
         "audioFile": "1912\\Audio\\_26.mp3",
-        "otherPsalterNumber": "15C"
+        "otherPsalterIdentifier": "15C"
     },
     {
-        "number": 27,
+        "identifier": "27",
         "title": "God the Highest Good",
         "psalm": 16,
         "verses": [
@@ -529,10 +529,10 @@
             "1912/Score/_27.webp"
         ],
         "audioFile": "1912\\Audio\\_27.mp3",
-        "otherPsalterNumber": "16A"
+        "otherPsalterIdentifier": "16A"
     },
     {
-        "number": 28,
+        "identifier": "28",
         "title": "Fellowship with God",
         "psalm": 16,
         "verses": [
@@ -547,10 +547,10 @@
             "1912/Score/_28.webp"
         ],
         "audioFile": "1912\\Audio\\_28.mp3",
-        "otherPsalterNumber": "16A, 16B"
+        "otherPsalterIdentifier": "16A, 16B"
     },
     {
-        "number": 29,
+        "identifier": "29",
         "title": "Immortality and Resurrection",
         "psalm": 16,
         "verses": [
@@ -563,10 +563,10 @@
             "1912/Score/_29.webp"
         ],
         "audioFile": "1912\\Audio\\_29.mp3",
-        "otherPsalterNumber": "16C"
+        "otherPsalterIdentifier": "16C"
     },
     {
-        "number": 30,
+        "identifier": "30",
         "title": "The Lord Our Inheritance",
         "psalm": 16,
         "verses": [
@@ -579,10 +579,10 @@
             "1912/Score/_30.webp"
         ],
         "audioFile": "1912\\Audio\\_30.mp3",
-        "otherPsalterNumber": "16D"
+        "otherPsalterIdentifier": "16D"
     },
     {
-        "number": 31,
+        "identifier": "31",
         "title": "The Prayer of the Righteous",
         "psalm": 17,
         "verses": [
@@ -599,10 +599,10 @@
             "1912/Score/_31.webp"
         ],
         "audioFile": "1912\\Audio\\_31.mp3",
-        "otherPsalterNumber": "17A, 17B"
+        "otherPsalterIdentifier": "17A, 17B"
     },
     {
-        "number": 32,
+        "identifier": "32",
         "title": "Our Need of Divine Help",
         "psalm": 17,
         "verses": [
@@ -616,10 +616,10 @@
             "1912/Score/_32.webp"
         ],
         "audioFile": "1912\\Audio\\_32.mp3",
-        "otherPsalterNumber": "17A"
+        "otherPsalterIdentifier": "17A"
     },
     {
-        "number": 33,
+        "identifier": "33",
         "title": "Our Refuge in the Lord",
         "psalm": 17,
         "verses": [
@@ -633,11 +633,11 @@
         "scoreFiles": [
             "1912/Score/_33.webp"
         ],
-        "otherPsalterNumber": "17C"
+        "otherPsalterIdentifier": "17C"
     },
     {
-        "number": 33,
-        "secondTune": true,
+        "identifier": "33",
+        "isSecondTune": true,
         "title": "Our Refuge in the Lord",
         "psalm": 17,
         "verses": [
@@ -654,7 +654,7 @@
         "audioFile": "1912\\Audio\\_33_2.mp3"
     },
     {
-        "number": 34,
+        "identifier": "34",
         "title": "God's Strength Our Protection",
         "psalm": 18,
         "verses": [
@@ -674,10 +674,10 @@
             "1912/Score/_34.webp"
         ],
         "audioFile": "1912\\Audio\\_34.mp3",
-        "otherPsalterNumber": "18B"
+        "otherPsalterIdentifier": "18B"
     },
     {
-        "number": 35,
+        "identifier": "35",
         "title": "Holiness and Divine Favor",
         "psalm": 18,
         "verses": [
@@ -693,10 +693,10 @@
             "1912/Score/_35.webp"
         ],
         "audioFile": "1912\\Audio\\_35.mp3",
-        "otherPsalterNumber": "18C"
+        "otherPsalterIdentifier": "18C"
     },
     {
-        "number": 36,
+        "identifier": "36",
         "title": "Our Source of Strength",
         "psalm": 18,
         "verses": [
@@ -711,10 +711,10 @@
             "1912/Score/_36.webp"
         ],
         "audioFile": "1912\\Audio\\_36.mp3",
-        "otherPsalterNumber": "18C, 18D"
+        "otherPsalterIdentifier": "18C, 18D"
     },
     {
-        "number": 37,
+        "identifier": "37",
         "title": "Nature's Tribute to God",
         "psalm": 19,
         "verses": [
@@ -728,10 +728,10 @@
             "1912/Score/_37.webp"
         ],
         "audioFile": "1912\\Audio\\_37.mp3",
-        "otherPsalterNumber": "19B"
+        "otherPsalterIdentifier": "19B"
     },
     {
-        "number": 38,
+        "identifier": "38",
         "title": "The Perfect Law of God",
         "psalm": 19,
         "verses": [
@@ -746,10 +746,10 @@
             "1912/Score/_38.webp"
         ],
         "audioFile": "1912\\Audio\\_38.mp3",
-        "otherPsalterNumber": "19B"
+        "otherPsalterIdentifier": "19B"
     },
     {
-        "number": 39,
+        "identifier": "39",
         "title": "The Witness of Nature to God",
         "psalm": 19,
         "verses": [
@@ -763,10 +763,10 @@
             "1912/Score/_39.webp"
         ],
         "audioFile": "1912\\Audio\\_39.mp3",
-        "otherPsalterNumber": "19A"
+        "otherPsalterIdentifier": "19A"
     },
     {
-        "number": 40,
+        "identifier": "40",
         "title": "The Divine Law",
         "psalm": 19,
         "verses": [
@@ -782,10 +782,10 @@
             "1912/Score/_40.webp"
         ],
         "audioFile": "1912\\Audio\\_40.mp3",
-        "otherPsalterNumber": "19A"
+        "otherPsalterIdentifier": "19A"
     },
     {
-        "number": 41,
+        "identifier": "41",
         "title": "The Value of Holy Scripture",
         "psalm": 19,
         "verses": [
@@ -802,10 +802,10 @@
             "1912/Score/_41.webp"
         ],
         "audioFile": "1912\\Audio\\_41.mp3",
-        "otherPsalterNumber": "19D"
+        "otherPsalterIdentifier": "19D"
     },
     {
-        "number": 42,
+        "identifier": "42",
         "title": "Love for God's Word",
         "psalm": 19,
         "verses": [
@@ -820,10 +820,10 @@
             "1912/Score/_42.webp"
         ],
         "audioFile": "1912\\Audio\\_42.mp3",
-        "otherPsalterNumber": "19C"
+        "otherPsalterIdentifier": "19C"
     },
     {
-        "number": 43,
+        "identifier": "43",
         "title": "Mutual Intercession",
         "psalm": 20,
         "verses": [
@@ -839,10 +839,10 @@
             "1912/Score/_43.webp"
         ],
         "audioFile": "1912\\Audio\\_43.mp3",
-        "otherPsalterNumber": "20A"
+        "otherPsalterIdentifier": "20A"
     },
     {
-        "number": 44,
+        "identifier": "44",
         "title": "The Safeguards of Prayer",
         "psalm": 20,
         "verses": [
@@ -856,10 +856,10 @@
             "1912/Score/_44.webp"
         ],
         "audioFile": "1912\\Audio\\_44.mp3",
-        "otherPsalterNumber": "20B"
+        "otherPsalterIdentifier": "20B"
     },
     {
-        "number": 45,
+        "identifier": "45",
         "title": "Jesus Crowned and Triumphant",
         "psalm": 21,
         "verses": [
@@ -875,10 +875,10 @@
             "1912/Score/_45.webp"
         ],
         "audioFile": "1912\\Audio\\_45.mp3",
-        "otherPsalterNumber": "21A"
+        "otherPsalterIdentifier": "21A"
     },
     {
-        "number": 46,
+        "identifier": "46",
         "title": "The Coronation of Jesus Christ",
         "psalm": 21,
         "verses": [
@@ -891,11 +891,11 @@
         "scoreFiles": [
             "1912/Score/_46.webp"
         ],
-        "otherPsalterNumber": "21B"
+        "otherPsalterIdentifier": "21B"
     },
     {
-        "number": 46,
-        "secondTune": true,
+        "identifier": "46",
+        "isSecondTune": true,
         "title": "The Coronation of Jesus Christ",
         "psalm": 21,
         "verses": [
@@ -911,7 +911,7 @@
         "audioFile": "1912\\Audio\\_46_2.mp3"
     },
     {
-        "number": 47,
+        "identifier": "47",
         "title": "The Cross of Calvary",
         "psalm": 22,
         "verses": [
@@ -932,10 +932,10 @@
             "1912/Score/_47.webp"
         ],
         "audioFile": "1912\\Audio\\_47.mp3",
-        "otherPsalterNumber": "22A, 22B"
+        "otherPsalterIdentifier": "22A, 22B"
     },
     {
-        "number": 48,
+        "identifier": "48",
         "title": "A Call to Praise",
         "psalm": 22,
         "verses": [
@@ -953,10 +953,10 @@
             "1912/Score/_48.webp"
         ],
         "audioFile": "1912\\Audio\\_48.mp3",
-        "otherPsalterNumber": "22C"
+        "otherPsalterIdentifier": "22C"
     },
     {
-        "number": 49,
+        "identifier": "49",
         "title": "The Triumphs of the Gospel",
         "psalm": 22,
         "verses": [
@@ -970,10 +970,10 @@
             "1912/Score/_49.webp"
         ],
         "audioFile": "1912\\Audio\\_49.mp3",
-        "otherPsalterNumber": "22D"
+        "otherPsalterIdentifier": "22D"
     },
     {
-        "number": 50,
+        "identifier": "50",
         "title": "The Dominion of Jesus Christ",
         "psalm": 22,
         "verses": [
@@ -986,10 +986,10 @@
             "1912/Score/_50.webp"
         ],
         "audioFile": "1912\\Audio\\_50.mp3",
-        "otherPsalterNumber": "22E"
+        "otherPsalterIdentifier": "22E"
     },
     {
-        "number": 51,
+        "identifier": "51",
         "title": "Witness-Bearing and Grateful Praise",
         "psalm": 22,
         "verses": [
@@ -1002,10 +1002,10 @@
             "1912/Score/_51.webp"
         ],
         "audioFile": "1912\\Audio\\_51.mp3",
-        "otherPsalterNumber": "22F"
+        "otherPsalterIdentifier": "22F"
     },
     {
-        "number": 52,
+        "identifier": "52",
         "title": "The Guardian Care of God",
         "psalm": 23,
         "verses": [
@@ -1019,10 +1019,10 @@
             "1912/Score/_52.webp"
         ],
         "audioFile": "1912\\Audio\\_52.mp3",
-        "otherPsalterNumber": "23A"
+        "otherPsalterIdentifier": "23A"
     },
     {
-        "number": 53,
+        "identifier": "53",
         "title": "The Lord Our Shepherd",
         "psalm": 23,
         "verses": [
@@ -1037,10 +1037,10 @@
             "1912/Score/_53.webp"
         ],
         "audioFile": "1912\\Audio\\_53.mp3",
-        "otherPsalterNumber": "23B"
+        "otherPsalterIdentifier": "23B"
     },
     {
-        "number": 54,
+        "identifier": "54",
         "title": "Jesus Our Shepherd",
         "psalm": 23,
         "verses": [
@@ -1057,7 +1057,7 @@
         "audioFile": "1912\\Audio\\_54.mp3"
     },
     {
-        "number": 55,
+        "identifier": "55",
         "title": "The Good Shepherd",
         "psalm": 23,
         "verses": [
@@ -1070,10 +1070,10 @@
             "1912/Score/_55.webp"
         ],
         "audioFile": "1912\\Audio\\_55.mp3",
-        "otherPsalterNumber": "23E"
+        "otherPsalterIdentifier": "23E"
     },
     {
-        "number": 56,
+        "identifier": "56",
         "title": "The Saviour's Constant Presence",
         "psalm": 23,
         "verses": [
@@ -1088,7 +1088,7 @@
         "audioFile": "1912\\Audio\\_56.mp3"
     },
     {
-        "number": 57,
+        "identifier": "57",
         "title": "Conditions of Approach to God",
         "psalm": 24,
         "verses": [
@@ -1101,10 +1101,10 @@
             "1912/Score/_57.webp"
         ],
         "audioFile": "1912\\Audio\\_57.mp3",
-        "otherPsalterNumber": "24B"
+        "otherPsalterIdentifier": "24B"
     },
     {
-        "number": 58,
+        "identifier": "58",
         "title": "The Triumphal Ascension of Christ",
         "psalm": 24,
         "verses": [
@@ -1117,10 +1117,10 @@
             "1912/Score/_58.webp"
         ],
         "audioFile": "1912\\Audio\\_58.mp3",
-        "otherPsalterNumber": "24B, 24C"
+        "otherPsalterIdentifier": "24B, 24C"
     },
     {
-        "number": 59,
+        "identifier": "59",
         "title": "The Divine King and the Worshiper",
         "psalm": 24,
         "verses": [
@@ -1137,10 +1137,10 @@
             "1912/Score/_59.webp"
         ],
         "audioFile": "1912\\Audio\\_59.mp3",
-        "otherPsalterNumber": "24A"
+        "otherPsalterIdentifier": "24A"
     },
     {
-        "number": 60,
+        "identifier": "60",
         "title": "Prayer for Defense and Guidance",
         "psalm": 25,
         "verses": [
@@ -1155,10 +1155,10 @@
             "1912/Score/_60.webp"
         ],
         "audioFile": "1912\\Audio\\_60.mp3",
-        "otherPsalterNumber": "25A, 25D"
+        "otherPsalterIdentifier": "25A, 25D"
     },
     {
-        "number": 61,
+        "identifier": "61",
         "title": "The Sins of Youth",
         "psalm": 25,
         "verses": [
@@ -1172,10 +1172,10 @@
             "1912/Score/_61.webp"
         ],
         "audioFile": "1912\\Audio\\_61.mp3",
-        "otherPsalterNumber": "25A, 25E"
+        "otherPsalterIdentifier": "25A, 25E"
     },
     {
-        "number": 62,
+        "identifier": "62",
         "title": "The Friendship of the Lord",
         "psalm": 25,
         "verses": [
@@ -1189,10 +1189,10 @@
             "1912/Score/_62.webp"
         ],
         "audioFile": "1912\\Audio\\_62.mp3",
-        "otherPsalterNumber": "25A"
+        "otherPsalterIdentifier": "25A"
     },
     {
-        "number": 63,
+        "identifier": "63",
         "title": "Forgiveness and Deliverance",
         "psalm": 25,
         "verses": [
@@ -1206,10 +1206,10 @@
             "1912/Score/_63.webp"
         ],
         "audioFile": "1912\\Audio\\_63.mp3",
-        "otherPsalterNumber": "25A"
+        "otherPsalterIdentifier": "25A"
     },
     {
-        "number": 64,
+        "identifier": "64",
         "title": "Spiritual Aspirations",
         "psalm": 25,
         "verses": [
@@ -1222,10 +1222,10 @@
             "1912/Score/_64.webp"
         ],
         "audioFile": "1912\\Audio\\_64.mp3",
-        "otherPsalterNumber": "25B, 25F"
+        "otherPsalterIdentifier": "25B, 25F"
     },
     {
-        "number": 65,
+        "identifier": "65",
         "title": "The Blessings of the God-Fearing",
         "psalm": 25,
         "verses": [
@@ -1239,10 +1239,10 @@
             "1912/Score/_65.webp"
         ],
         "audioFile": "1912\\Audio\\_65.mp3",
-        "otherPsalterNumber": "25B"
+        "otherPsalterIdentifier": "25B"
     },
     {
-        "number": 66,
+        "identifier": "66",
         "title": "The Look of Faith",
         "psalm": 25,
         "verses": [
@@ -1256,10 +1256,10 @@
             "1912/Score/_66.webp"
         ],
         "audioFile": "1912\\Audio\\_66.mp3",
-        "otherPsalterNumber": "25B"
+        "otherPsalterIdentifier": "25B"
     },
     {
-        "number": 67,
+        "identifier": "67",
         "title": "Aspiration and Supplication",
         "psalm": 25,
         "verses": [
@@ -1276,7 +1276,7 @@
         "audioFile": "1912\\Audio\\_67.mp3"
     },
     {
-        "number": 68,
+        "identifier": "68",
         "title": "The Paths of the Lord",
         "psalm": 25,
         "verses": [
@@ -1290,10 +1290,10 @@
             "1912/Score/_68.webp"
         ],
         "audioFile": "1912\\Audio\\_68.mp3",
-        "otherPsalterNumber": "25G"
+        "otherPsalterIdentifier": "25G"
     },
     {
-        "number": 69,
+        "identifier": "69",
         "title": "The Petition of a Good Conscience",
         "psalm": 26,
         "verses": [
@@ -1310,10 +1310,10 @@
             "1912/Score/_69.webp"
         ],
         "audioFile": "1912\\Audio\\_69.mp3",
-        "otherPsalterNumber": "26B"
+        "otherPsalterIdentifier": "26B"
     },
     {
-        "number": 70,
+        "identifier": "70",
         "title": "Integrity of Character",
         "psalm": 26,
         "verses": [
@@ -1330,7 +1330,7 @@
         "audioFile": "1912\\Audio\\_70.mp3"
     },
     {
-        "number": 71,
+        "identifier": "71",
         "title": "The Fearlessness of Faith",
         "psalm": 27,
         "verses": [
@@ -1345,10 +1345,10 @@
             "1912/Score/_71.webp"
         ],
         "audioFile": "1912\\Audio\\_71.mp3",
-        "otherPsalterNumber": "27A"
+        "otherPsalterIdentifier": "27A"
     },
     {
-        "number": 72,
+        "identifier": "72",
         "title": "Entreaty and Hopeful Trust",
         "psalm": 27,
         "verses": [
@@ -1362,10 +1362,10 @@
             "1912/Score/_72.webp"
         ],
         "audioFile": "1912\\Audio\\_72.mp3",
-        "otherPsalterNumber": "27B"
+        "otherPsalterIdentifier": "27B"
     },
     {
-        "number": 73,
+        "identifier": "73",
         "title": "The Confidence of Faith",
         "psalm": 27,
         "verses": [
@@ -1381,10 +1381,10 @@
             "1912/Score/_73.webp"
         ],
         "audioFile": "1912\\Audio\\_73.mp3",
-        "otherPsalterNumber": "27C"
+        "otherPsalterIdentifier": "27C"
     },
     {
-        "number": 74,
+        "identifier": "74",
         "title": "Desire After God",
         "psalm": 27,
         "verses": [
@@ -1400,7 +1400,7 @@
         "audioFile": "1912\\Audio\\_74.mp3"
     },
     {
-        "number": 75,
+        "identifier": "75",
         "title": "Invocation and Confident Petition",
         "psalm": 28,
         "verses": [
@@ -1416,10 +1416,10 @@
             "1912/Score/_75.webp"
         ],
         "audioFile": "1912\\Audio\\_75.mp3",
-        "otherPsalterNumber": "28A"
+        "otherPsalterIdentifier": "28A"
     },
     {
-        "number": 76,
+        "identifier": "76",
         "title": "Divine Power in Manifestation",
         "psalm": 29,
         "verses": [
@@ -1433,10 +1433,10 @@
             "1912/Score/_76.webp"
         ],
         "audioFile": "1912\\Audio\\_76.mp3",
-        "otherPsalterNumber": "29A"
+        "otherPsalterIdentifier": "29A"
     },
     {
-        "number": 77,
+        "identifier": "77",
         "title": "Commemoration and Praise",
         "psalm": 30,
         "verses": [
@@ -1451,10 +1451,10 @@
             "1912/Score/_77.webp"
         ],
         "audioFile": "1912\\Audio\\_77.mp3",
-        "otherPsalterNumber": "30A"
+        "otherPsalterIdentifier": "30A"
     },
     {
-        "number": 78,
+        "identifier": "78",
         "title": "Grateful Praise",
         "psalm": 30,
         "verses": [
@@ -1467,10 +1467,10 @@
             "1912/Score/_78.webp"
         ],
         "audioFile": "1912\\Audio\\_78.mp3",
-        "otherPsalterNumber": "30B"
+        "otherPsalterIdentifier": "30B"
     },
     {
-        "number": 79,
+        "identifier": "79",
         "title": "Thoughts on God's Loving-Kindness",
         "psalm": 30,
         "verses": [
@@ -1483,10 +1483,10 @@
             "1912/Score/_79.webp"
         ],
         "audioFile": "1912\\Audio\\_79.mp3",
-        "otherPsalterNumber": "30B"
+        "otherPsalterIdentifier": "30B"
     },
     {
-        "number": 80,
+        "identifier": "80",
         "title": "God Our Resort in Trouble",
         "psalm": 31,
         "verses": [
@@ -1508,10 +1508,10 @@
             "1912/Score/_80.webp"
         ],
         "audioFile": "1912\\Audio\\_80.mp3",
-        "otherPsalterNumber": "31A"
+        "otherPsalterIdentifier": "31A"
     },
     {
-        "number": 81,
+        "identifier": "81",
         "title": "The Riches of God's Goodness",
         "psalm": 31,
         "verses": [
@@ -1525,10 +1525,10 @@
             "1912/Score/_81.webp"
         ],
         "audioFile": "1912\\Audio\\_81.mp3",
-        "otherPsalterNumber": "31C"
+        "otherPsalterIdentifier": "31C"
     },
     {
-        "number": 82,
+        "identifier": "82",
         "title": "Security in God",
         "psalm": 31,
         "verses": [
@@ -1541,10 +1541,10 @@
             "1912/Score/_82.webp"
         ],
         "audioFile": "1912\\Audio\\_82.mp3",
-        "otherPsalterNumber": "31B"
+        "otherPsalterIdentifier": "31B"
     },
     {
-        "number": 83,
+        "identifier": "83",
         "title": "Sin and Forgiveness",
         "psalm": 32,
         "verses": [
@@ -1557,10 +1557,10 @@
             "1912/Score/_83.webp"
         ],
         "audioFile": "1912\\Audio\\_83.mp3",
-        "otherPsalterNumber": "32B"
+        "otherPsalterIdentifier": "32B"
     },
     {
-        "number": 84,
+        "identifier": "84",
         "title": "Gracious Guidance",
         "psalm": 32,
         "verses": [
@@ -1572,10 +1572,10 @@
             "1912/Score/_84.webp"
         ],
         "audioFile": "1912\\Audio\\_84.mp3",
-        "otherPsalterNumber": "32B, 32C"
+        "otherPsalterIdentifier": "32B, 32C"
     },
     {
-        "number": 85,
+        "identifier": "85",
         "title": "The Praise of Almighty God",
         "psalm": 33,
         "verses": [
@@ -1588,10 +1588,10 @@
             "1912/Score/_85.webp"
         ],
         "audioFile": "1912\\Audio\\_85.mp3",
-        "otherPsalterNumber": "33A"
+        "otherPsalterIdentifier": "33A"
     },
     {
-        "number": 86,
+        "identifier": "86",
         "title": "The God of Providence and Grace",
         "psalm": 33,
         "verses": [
@@ -1604,10 +1604,10 @@
             "1912/Score/_86.webp"
         ],
         "audioFile": "1912\\Audio\\_86.mp3",
-        "otherPsalterNumber": "33A"
+        "otherPsalterIdentifier": "33A"
     },
     {
-        "number": 87,
+        "identifier": "87",
         "title": "God the Only Deliverer",
         "psalm": 33,
         "verses": [
@@ -1620,10 +1620,10 @@
             "1912/Score/_87.webp"
         ],
         "audioFile": "1912\\Audio\\_87.mp3",
-        "otherPsalterNumber": "33A, 33C"
+        "otherPsalterIdentifier": "33A, 33C"
     },
     {
-        "number": 88,
+        "identifier": "88",
         "title": "The Goodness of God Proved",
         "psalm": 34,
         "verses": [
@@ -1636,10 +1636,10 @@
             "1912/Score/_88.webp"
         ],
         "audioFile": "1912\\Audio\\_88.mp3",
-        "otherPsalterNumber": "34B"
+        "otherPsalterIdentifier": "34B"
     },
     {
-        "number": 89,
+        "identifier": "89",
         "title": "The Secret of a Happy Life",
         "psalm": 34,
         "verses": [
@@ -1654,10 +1654,10 @@
             "1912/Score/_89.webp"
         ],
         "audioFile": "1912\\Audio\\_89.mp3",
-        "otherPsalterNumber": "34C"
+        "otherPsalterIdentifier": "34C"
     },
     {
-        "number": 90,
+        "identifier": "90",
         "title": "Testimony and Praise",
         "psalm": 34,
         "verses": [
@@ -1674,10 +1674,10 @@
             "1912/Score/_90.webp"
         ],
         "audioFile": "1912\\Audio\\_90.mp3",
-        "otherPsalterNumber": "34A, 34D"
+        "otherPsalterIdentifier": "34A, 34D"
     },
     {
-        "number": 91,
+        "identifier": "91",
         "title": "The Safety of Believers",
         "psalm": 34,
         "verses": [
@@ -1691,11 +1691,11 @@
         "scoreFiles": [
             "1912/Score/_91.webp"
         ],
-        "otherPsalterNumber": "34A"
+        "otherPsalterIdentifier": "34A"
     },
     {
-        "number": 91,
-        "secondTune": true,
+        "identifier": "91",
+        "isSecondTune": true,
         "title": "The Safety of Believers",
         "psalm": 34,
         "verses": [
@@ -1712,7 +1712,7 @@
         "audioFile": "1912\\Audio\\_91_2.mp3"
     },
     {
-        "number": 92,
+        "identifier": "92",
         "title": "God Our Advocate and Judge",
         "psalm": 35,
         "verses": [
@@ -1730,10 +1730,10 @@
             "1912/Score/_92.webp"
         ],
         "audioFile": "1912\\Audio\\_92.mp3",
-        "otherPsalterNumber": "35B"
+        "otherPsalterIdentifier": "35B"
     },
     {
-        "number": 93,
+        "identifier": "93",
         "title": "A Wicked Life",
         "psalm": 36,
         "verses": [
@@ -1747,10 +1747,10 @@
             "1912/Score/_93.webp"
         ],
         "audioFile": "1912\\Audio\\_93.mp3",
-        "otherPsalterNumber": "36A"
+        "otherPsalterIdentifier": "36A"
     },
     {
-        "number": 94,
+        "identifier": "94",
         "title": "The Love and Justice of God",
         "psalm": 36,
         "verses": [
@@ -1766,10 +1766,10 @@
             "1912/Score/_94.webp"
         ],
         "audioFile": "1912\\Audio\\_94.mp3",
-        "otherPsalterNumber": "36A"
+        "otherPsalterIdentifier": "36A"
     },
     {
-        "number": 95,
+        "identifier": "95",
         "title": "An Answer to Distrust",
         "psalm": 37,
         "verses": [
@@ -1782,10 +1782,10 @@
             "1912/Score/_95.webp"
         ],
         "audioFile": "1912\\Audio\\_95.mp3",
-        "otherPsalterNumber": "37A"
+        "otherPsalterIdentifier": "37A"
     },
     {
-        "number": 96,
+        "identifier": "96",
         "title": "Contrasted Characters",
         "psalm": 37,
         "verses": [
@@ -1799,10 +1799,10 @@
             "1912/Score/_96.webp"
         ],
         "audioFile": "1912\\Audio\\_96.mp3",
-        "otherPsalterNumber": "37A"
+        "otherPsalterIdentifier": "37A"
     },
     {
-        "number": 97,
+        "identifier": "97",
         "title": "Well-Doing and Well-Being",
         "psalm": 37,
         "verses": [
@@ -1816,10 +1816,10 @@
             "1912/Score/_97.webp"
         ],
         "audioFile": "1912\\Audio\\_97.mp3",
-        "otherPsalterNumber": "37B"
+        "otherPsalterIdentifier": "37B"
     },
     {
-        "number": 98,
+        "identifier": "98",
         "title": "The Rewards of the Righteous",
         "psalm": 37,
         "verses": [
@@ -1833,10 +1833,10 @@
             "1912/Score/_98.webp"
         ],
         "audioFile": "1912\\Audio\\_98.mp3",
-        "otherPsalterNumber": "37B"
+        "otherPsalterIdentifier": "37B"
     },
     {
-        "number": 99,
+        "identifier": "99",
         "title": "The Righteous and the Evil-Doer",
         "psalm": 37,
         "verses": [
@@ -1851,10 +1851,10 @@
             "1912/Score/_99.webp"
         ],
         "audioFile": "1912\\Audio\\_99.mp3",
-        "otherPsalterNumber": "37C"
+        "otherPsalterIdentifier": "37C"
     },
     {
-        "number": 100,
+        "identifier": "100",
         "title": "The Secret of Tranquility",
         "psalm": 37,
         "verses": [
@@ -1868,10 +1868,10 @@
             "1912/Score/_100.webp"
         ],
         "audioFile": "1912\\Audio\\_100.mp3",
-        "otherPsalterNumber": "37D"
+        "otherPsalterIdentifier": "37D"
     },
     {
-        "number": 101,
+        "identifier": "101",
         "title": "The Prosperity of the Upright",
         "psalm": 37,
         "verses": [
@@ -1886,10 +1886,10 @@
             "1912/Score/_101.webp"
         ],
         "audioFile": "1912\\Audio\\_101.mp3",
-        "otherPsalterNumber": "37E"
+        "otherPsalterIdentifier": "37E"
     },
     {
-        "number": 102,
+        "identifier": "102",
         "title": "Penitential Grief and Supplication",
         "psalm": 38,
         "verses": [
@@ -1904,10 +1904,10 @@
             "1912/Score/_102.webp"
         ],
         "audioFile": "1912\\Audio\\_102.mp3",
-        "otherPsalterNumber": "38B"
+        "otherPsalterIdentifier": "38B"
     },
     {
-        "number": 103,
+        "identifier": "103",
         "title": "A Plea for Salvation",
         "psalm": 38,
         "verses": [
@@ -1921,10 +1921,10 @@
             "1912/Score/_103.webp"
         ],
         "audioFile": "1912\\Audio\\_103.mp3",
-        "otherPsalterNumber": "38C"
+        "otherPsalterIdentifier": "38C"
     },
     {
-        "number": 104,
+        "identifier": "104",
         "title": "The Frailty of Life",
         "psalm": 39,
         "verses": [
@@ -1944,10 +1944,10 @@
             "1912/Score/_104.webp"
         ],
         "audioFile": "1912\\Audio\\_104.mp3",
-        "otherPsalterNumber": "39B"
+        "otherPsalterIdentifier": "39B"
     },
     {
-        "number": 105,
+        "identifier": "105",
         "title": "The Brevity of Human Life",
         "psalm": 39,
         "verses": [
@@ -1963,10 +1963,10 @@
             "1912/Score/_105.webp"
         ],
         "audioFile": "1912\\Audio\\_105.mp3",
-        "otherPsalterNumber": "39A"
+        "otherPsalterIdentifier": "39A"
     },
     {
-        "number": 106,
+        "identifier": "106",
         "title": "Chastened Submission",
         "psalm": 39,
         "verses": [
@@ -1982,10 +1982,10 @@
             "1912/Score/_106.webp"
         ],
         "audioFile": "1912\\Audio\\_106.mp3",
-        "otherPsalterNumber": "39A"
+        "otherPsalterIdentifier": "39A"
     },
     {
-        "number": 107,
+        "identifier": "107",
         "title": "A Mourner's Entreaties",
         "psalm": 39,
         "verses": [
@@ -2001,7 +2001,7 @@
         "audioFile": "1912\\Audio\\_107.mp3"
     },
     {
-        "number": 108,
+        "identifier": "108",
         "title": "A Recital of Gracious Experience",
         "psalm": 40,
         "verses": [
@@ -2018,10 +2018,10 @@
             "1912/Score/_108.webp"
         ],
         "audioFile": "1912\\Audio\\_108.mp3",
-        "otherPsalterNumber": "40A"
+        "otherPsalterIdentifier": "40A"
     },
     {
-        "number": 109,
+        "identifier": "109",
         "title": "Personal Devotion to God",
         "psalm": 40,
         "verses": [
@@ -2034,10 +2034,11 @@
         "scoreFiles": [
             "1912/Score/_109.webp"
         ],
-        "audioFile": "1912\\Audio\\_109.mp3"
+        "audioFile": "1912\\Audio\\_109.mp3",
+        "otherPsalterIdentifier": "40B"
     },
     {
-        "number": 110,
+        "identifier": "110",
         "title": "The Mercy of God Besought",
         "psalm": 40,
         "verses": [
@@ -2052,7 +2053,7 @@
         "audioFile": "1912\\Audio\\_110.mp3"
     },
     {
-        "number": 111,
+        "identifier": "111",
         "title": "Grace and Gratitude",
         "psalm": 40,
         "verses": [
@@ -2068,7 +2069,7 @@
         "audioFile": "1912\\Audio\\_111.mp3"
     },
     {
-        "number": 112,
+        "identifier": "112",
         "title": "An Entreaty for Mercy",
         "psalm": 40,
         "verses": [
@@ -2084,7 +2085,7 @@
         "audioFile": "1912\\Audio\\_112.mp3"
     },
     {
-        "number": 113,
+        "identifier": "113",
         "title": "The Friend of the Poor",
         "psalm": 41,
         "verses": [
@@ -2108,7 +2109,7 @@
         "audioFile": "1912\\Audio\\_113.mp3"
     },
     {
-        "number": 114,
+        "identifier": "114",
         "title": "Thirstings for God",
         "psalm": 42,
         "verses": [
@@ -2130,7 +2131,7 @@
         "audioFile": "1912\\Audio\\_114.mp3"
     },
     {
-        "number": 115,
+        "identifier": "115",
         "title": "Longing After God",
         "psalm": 42,
         "verses": [
@@ -2146,7 +2147,7 @@
         "audioFile": "1912\\Audio\\_115.mp3"
     },
     {
-        "number": 116,
+        "identifier": "116",
         "title": "Remembrance of God",
         "psalm": 42,
         "verses": [
@@ -2162,8 +2163,8 @@
         "audioFile": "1912\\Audio\\_116.mp3"
     },
     {
-        "number": 116,
-        "secondTune": true,
+        "identifier": "116",
+        "isSecondTune": true,
         "title": "Remembrance of God",
         "psalm": 42,
         "verses": [
@@ -2178,7 +2179,7 @@
         ]
     },
     {
-        "number": 117,
+        "identifier": "117",
         "title": "Our Support Amidst Distress",
         "psalm": 42,
         "verses": [
@@ -2194,7 +2195,7 @@
         "audioFile": "1912\\Audio\\_117.mp3"
     },
     {
-        "number": 118,
+        "identifier": "118",
         "title": "Spiritual Thirst",
         "psalm": 42,
         "verses": [
@@ -2209,7 +2210,7 @@
         "audioFile": "1912\\Audio\\_118.mp3"
     },
     {
-        "number": 119,
+        "identifier": "119",
         "title": "Devout Longings",
         "psalm": 43,
         "verses": [
@@ -2227,7 +2228,7 @@
         "audioFile": "1912\\Audio\\_119.mp3"
     },
     {
-        "number": 120,
+        "identifier": "120",
         "title": "Hope and Trust",
         "psalm": 43,
         "verses": [
@@ -2244,7 +2245,7 @@
         "audioFile": "1912\\Audio\\_120.mp3"
     },
     {
-        "number": 121,
+        "identifier": "121",
         "title": "God the Giver of Victory",
         "psalm": 44,
         "verses": [
@@ -2260,7 +2261,7 @@
         "audioFile": "1912\\Audio\\_121.mp3"
     },
     {
-        "number": 122,
+        "identifier": "122",
         "title": "The Martyr Church",
         "psalm": 44,
         "verses": [
@@ -2277,7 +2278,7 @@
         "audioFile": "1912\\Audio\\_122.mp3"
     },
     {
-        "number": 123,
+        "identifier": "123",
         "title": "An Importunate Prayer",
         "psalm": 44,
         "verses": [
@@ -2293,7 +2294,7 @@
         "audioFile": "1912\\Audio\\_123.mp3"
     },
     {
-        "number": 124,
+        "identifier": "124",
         "title": "The Royal Majesty of Christ",
         "psalm": 45,
         "verses": [
@@ -2314,7 +2315,7 @@
         "audioFile": "1912\\Audio\\_124.mp3"
     },
     {
-        "number": 125,
+        "identifier": "125",
         "title": "The Church the Bride of Christ",
         "psalm": 45,
         "verses": [
@@ -2333,7 +2334,7 @@
         "audioFile": "1912\\Audio\\_125.mp3"
     },
     {
-        "number": 126,
+        "identifier": "126",
         "title": "God a Very Present Help",
         "psalm": 46,
         "verses": [
@@ -2350,7 +2351,7 @@
         "audioFile": "1912\\Audio\\_126.mp3"
     },
     {
-        "number": 127,
+        "identifier": "127",
         "title": "The Protective Power of God",
         "psalm": 46,
         "verses": [
@@ -2370,7 +2371,7 @@
         "audioFile": "1912\\Audio\\_127.mp3"
     },
     {
-        "number": 128,
+        "identifier": "128",
         "title": "The Lord of Hosts",
         "psalm": 46,
         "verses": [
@@ -2385,7 +2386,7 @@
         "audioFile": "1912\\Audio\\_128.mp3"
     },
     {
-        "number": 129,
+        "identifier": "129",
         "title": "The Universal Sovereignty of Christ",
         "psalm": 47,
         "verses": [
@@ -2402,7 +2403,7 @@
         "audioFile": "1912\\Audio\\_129.mp3"
     },
     {
-        "number": 130,
+        "identifier": "130",
         "title": "The Ascended King",
         "psalm": 47,
         "verses": [
@@ -2419,7 +2420,7 @@
         "audioFile": "1912\\Audio\\_130.mp3"
     },
     {
-        "number": 131,
+        "identifier": "131",
         "title": "The Glory of the Church",
         "psalm": 48,
         "verses": [
@@ -2435,7 +2436,7 @@
         "audioFile": "1912\\Audio\\_131.mp3"
     },
     {
-        "number": 132,
+        "identifier": "132",
         "title": "Meditation and Joyful Gratitude",
         "psalm": 48,
         "verses": [
@@ -2452,7 +2453,7 @@
         "audioFile": "1912\\Audio\\_132.mp3"
     },
     {
-        "number": 133,
+        "identifier": "133",
         "title": "The Church of the Living God",
         "psalm": 48,
         "verses": [
@@ -2467,7 +2468,7 @@
         "audioFile": "1912\\Audio\\_133.mp3"
     },
     {
-        "number": 134,
+        "identifier": "134",
         "title": "Praise and Trust",
         "psalm": 48,
         "verses": [
@@ -2482,7 +2483,7 @@
         "audioFile": "1912\\Audio\\_134.mp3"
     },
     {
-        "number": 135,
+        "identifier": "135",
         "title": "The Vanity of Trust in Riches",
         "psalm": 49,
         "verses": [
@@ -2499,8 +2500,8 @@
         "audioFile": "1912\\Audio\\_135.mp3"
     },
     {
-        "number": 135,
-        "secondTune": true,
+        "identifier": "135",
+        "isSecondTune": true,
         "title": "The Vanity of Trust in Riches",
         "psalm": 49,
         "verses": [
@@ -2516,7 +2517,7 @@
         ]
     },
     {
-        "number": 136,
+        "identifier": "136",
         "title": "The Issues of Life",
         "psalm": 49,
         "verses": [
@@ -2532,7 +2533,7 @@
         "audioFile": "1912\\Audio\\_136.mp3"
     },
     {
-        "number": 137,
+        "identifier": "137",
         "title": "Acceptable Worship",
         "psalm": 50,
         "verses": [
@@ -2550,7 +2551,7 @@
         "audioFile": "1912\\Audio\\_137.mp3"
     },
     {
-        "number": 138,
+        "identifier": "138",
         "title": "Sins of Hypocrisy",
         "psalm": 50,
         "verses": [
@@ -2566,7 +2567,7 @@
         "audioFile": "1912\\Audio\\_138.mp3"
     },
     {
-        "number": 139,
+        "identifier": "139",
         "title": "The Eternal Judgment",
         "psalm": 50,
         "verses": [
@@ -2584,7 +2585,7 @@
         "audioFile": "1912\\Audio\\_139.mp3"
     },
     {
-        "number": 140,
+        "identifier": "140",
         "title": "Penitential Prayers",
         "psalm": 51,
         "verses": [
@@ -2600,8 +2601,8 @@
         "audioFile": "1912\\Audio\\_140.mp3"
     },
     {
-        "number": 140,
-        "secondTune": true,
+        "identifier": "140",
+        "isSecondTune": true,
         "title": "Penitential Prayers",
         "psalm": 51,
         "verses": [
@@ -2616,7 +2617,7 @@
         ]
     },
     {
-        "number": 141,
+        "identifier": "141",
         "title": "Gracious Renewal and Testimony",
         "psalm": 51,
         "verses": [
@@ -2632,7 +2633,7 @@
         "audioFile": "1912\\Audio\\_141.mp3"
     },
     {
-        "number": 142,
+        "identifier": "142",
         "title": "A Penitent's Plea",
         "psalm": 51,
         "verses": [
@@ -2648,7 +2649,7 @@
         "audioFile": "1912\\Audio\\_142.mp3"
     },
     {
-        "number": 143,
+        "identifier": "143",
         "title": "Prayer for Pardon and Cleansing",
         "psalm": 51,
         "verses": [
@@ -2664,7 +2665,7 @@
         "audioFile": "1912\\Audio\\_143.mp3"
     },
     {
-        "number": 144,
+        "identifier": "144",
         "title": "Pardon and Testimony",
         "psalm": 51,
         "verses": [
@@ -2682,7 +2683,7 @@
         "audioFile": "1912\\Audio\\_144.mp3"
     },
     {
-        "number": 145,
+        "identifier": "145",
         "title": "The Vindication of Righteousness",
         "psalm": 52,
         "verses": [
@@ -2700,7 +2701,7 @@
         "audioFile": "1912\\Audio\\_145.mp3"
     },
     {
-        "number": 146,
+        "identifier": "146",
         "title": "The Folly of Unbelief",
         "psalm": 53,
         "verses": [
@@ -2720,7 +2721,7 @@
         "audioFile": "1912\\Audio\\_146.mp3"
     },
     {
-        "number": 147,
+        "identifier": "147",
         "title": "Our Saviour in Trial",
         "psalm": 54,
         "verses": [
@@ -2737,7 +2738,7 @@
         "audioFile": "1912\\Audio\\_147.mp3"
     },
     {
-        "number": 148,
+        "identifier": "148",
         "title": "Earnest Appeal Against Enemies",
         "psalm": 55,
         "verses": [
@@ -2757,7 +2758,7 @@
         "audioFile": "1912\\Audio\\_148.mp3"
     },
     {
-        "number": 149,
+        "identifier": "149",
         "title": "Confession of Trust",
         "psalm": 55,
         "verses": [
@@ -2775,7 +2776,7 @@
         "audioFile": "1912\\Audio\\_149.mp3"
     },
     {
-        "number": 150,
+        "identifier": "150",
         "title": "Desire For Rest",
         "psalm": 55,
         "verses": [
@@ -2791,7 +2792,7 @@
         "audioFile": "1912\\Audio\\_150.mp3"
     },
     {
-        "number": 151,
+        "identifier": "151",
         "title": "Prayer for Deliverance",
         "psalm": 56,
         "verses": [
@@ -2809,7 +2810,7 @@
         "audioFile": "1912\\Audio\\_151.mp3"
     },
     {
-        "number": 152,
+        "identifier": "152",
         "title": "Fear and Faith",
         "psalm": 56,
         "verses": [
@@ -2826,7 +2827,7 @@
         "audioFile": "1912\\Audio\\_152.mp3"
     },
     {
-        "number": 153,
+        "identifier": "153",
         "title": "Heroic Faith",
         "psalm": 56,
         "verses": [
@@ -2842,7 +2843,7 @@
         "audioFile": "1912\\Audio\\_153.mp3"
     },
     {
-        "number": 154,
+        "identifier": "154",
         "title": "Danger and Rescue",
         "psalm": 57,
         "verses": [
@@ -2858,7 +2859,7 @@
         "audioFile": "1912\\Audio\\_154.mp3"
     },
     {
-        "number": 155,
+        "identifier": "155",
         "title": "Assurance Amid Peril",
         "psalm": 57,
         "verses": [
@@ -2874,7 +2875,7 @@
         "audioFile": "1912\\Audio\\_155.mp3"
     },
     {
-        "number": 156,
+        "identifier": "156",
         "title": "Wickedness and Retribution",
         "psalm": 58,
         "verses": [
@@ -2889,8 +2890,8 @@
         ]
     },
     {
-        "number": 156,
-        "secondTune": true,
+        "identifier": "156",
+        "isSecondTune": true,
         "title": "Wickedness and Retribution",
         "psalm": 58,
         "verses": [
@@ -2906,7 +2907,7 @@
         "audioFile": "1912\\Audio\\_156_2.mp3"
     },
     {
-        "number": 157,
+        "identifier": "157",
         "title": "A Cry for Help",
         "psalm": 59,
         "verses": [
@@ -2927,7 +2928,7 @@
         "audioFile": "1912\\Audio\\_157.mp3"
     },
     {
-        "number": 158,
+        "identifier": "158",
         "title": "Defeat and Triumphant Hope",
         "psalm": 60,
         "verses": [
@@ -2947,7 +2948,7 @@
         "audioFile": "1912\\Audio\\_158.mp3"
     },
     {
-        "number": 159,
+        "identifier": "159",
         "title": "Communion with God",
         "psalm": 61,
         "verses": [
@@ -2963,7 +2964,7 @@
         "audioFile": "1912\\Audio\\_159.mp3"
     },
     {
-        "number": 160,
+        "identifier": "160",
         "title": "Confidence in God",
         "psalm": 61,
         "verses": [
@@ -2979,7 +2980,7 @@
         "audioFile": "1912\\Audio\\_160.mp3"
     },
     {
-        "number": 161,
+        "identifier": "161",
         "title": "Dependence on God",
         "psalm": 62,
         "verses": [
@@ -3000,7 +3001,7 @@
         "audioFile": "1912\\Audio\\_161.mp3"
     },
     {
-        "number": 162,
+        "identifier": "162",
         "title": "God our Strength",
         "psalm": 62,
         "verses": [
@@ -3014,7 +3015,7 @@
         "audioFile": "1912\\Audio\\_162.mp3"
     },
     {
-        "number": 163,
+        "identifier": "163",
         "title": "Satisfaction in God",
         "psalm": 63,
         "verses": [
@@ -3029,7 +3030,7 @@
         "audioFile": "1912\\Audio\\_163.mp3"
     },
     {
-        "number": 164,
+        "identifier": "164",
         "title": "Spiritual Longing and Devotion",
         "psalm": 63,
         "verses": [
@@ -3045,7 +3046,7 @@
         "audioFile": "1912\\Audio\\_164.mp3"
     },
     {
-        "number": 165,
+        "identifier": "165",
         "title": "Prayer for Protection",
         "psalm": 64,
         "verses": [
@@ -3060,7 +3061,7 @@
         "audioFile": "1912\\Audio\\_165.mp3"
     },
     {
-        "number": 166,
+        "identifier": "166",
         "title": "Divine Grace Magnified",
         "psalm": 65,
         "verses": [
@@ -3078,7 +3079,7 @@
         "audioFile": "1912\\Audio\\_166.mp3"
     },
     {
-        "number": 167,
+        "identifier": "167",
         "title": "Harvest Thanksgiving",
         "psalm": 65,
         "verses": [
@@ -3094,7 +3095,7 @@
         "audioFile": "1912\\Audio\\_167.mp3"
     },
     {
-        "number": 168,
+        "identifier": "168",
         "title": "The Fatherly Goodness of God",
         "psalm": 65,
         "verses": [
@@ -3111,7 +3112,7 @@
         "audioFile": "1912\\Audio\\_168.mp3"
     },
     {
-        "number": 169,
+        "identifier": "169",
         "title": "Harvest Blessings",
         "psalm": 65,
         "verses": [
@@ -3126,7 +3127,7 @@
         "audioFile": "1912\\Audio\\_169.mp3"
     },
     {
-        "number": 170,
+        "identifier": "170",
         "title": "A Celebration of Divine Grace",
         "psalm": 65,
         "verses": [
@@ -3141,7 +3142,7 @@
         "audioFile": "1912\\Audio\\_170.mp3"
     },
     {
-        "number": 171,
+        "identifier": "171",
         "title": "God in Nature",
         "psalm": 65,
         "verses": [
@@ -3156,7 +3157,7 @@
         "audioFile": "1912\\Audio\\_171.mp3"
     },
     {
-        "number": 172,
+        "identifier": "172",
         "title": "The Blessings of Grace",
         "psalm": 65,
         "verses": [
@@ -3172,7 +3173,7 @@
         "audioFile": "1912\\Audio\\_172.mp3"
     },
     {
-        "number": 173,
+        "identifier": "173",
         "title": "Joyous Praise",
         "psalm": 66,
         "verses": [
@@ -3190,7 +3191,7 @@
         "audioFile": "1912\\Audio\\_173.mp3"
     },
     {
-        "number": 174,
+        "identifier": "174",
         "title": "The Obligations of Grace",
         "psalm": 66,
         "verses": [
@@ -3206,7 +3207,7 @@
         "audioFile": "1912\\Audio\\_174.mp3"
     },
     {
-        "number": 175,
+        "identifier": "175",
         "title": "Personal Testimony",
         "psalm": 66,
         "verses": [
@@ -3222,7 +3223,7 @@
         "audioFile": "1912\\Audio\\_175.mp3"
     },
     {
-        "number": 176,
+        "identifier": "176",
         "title": "A Revived Church and Missions",
         "psalm": 67,
         "verses": [
@@ -3237,7 +3238,7 @@
         "audioFile": "1912\\Audio\\_176.mp3"
     },
     {
-        "number": 177,
+        "identifier": "177",
         "title": "The Missionary Church",
         "psalm": 67,
         "verses": [
@@ -3252,7 +3253,7 @@
         "audioFile": "1912\\Audio\\_177.mp3"
     },
     {
-        "number": 178,
+        "identifier": "178",
         "title": "A Missionary Prayer",
         "psalm": 67,
         "verses": [
@@ -3268,7 +3269,7 @@
         "audioFile": "1912\\Audio\\_178.mp3"
     },
     {
-        "number": 179,
+        "identifier": "179",
         "title": "Invocation and Praise",
         "psalm": 68,
         "verses": [
@@ -3284,7 +3285,7 @@
         "audioFile": "1912\\Audio\\_179.mp3"
     },
     {
-        "number": 180,
+        "identifier": "180",
         "title": "Manifold Mercies",
         "psalm": 68,
         "verses": [
@@ -3304,7 +3305,7 @@
         "audioFile": "1912\\Audio\\_180.mp3"
     },
     {
-        "number": 181,
+        "identifier": "181",
         "title": "God Our Deliverer",
         "psalm": 68,
         "verses": [
@@ -3320,7 +3321,7 @@
         "audioFile": "1912\\Audio\\_181.mp3"
     },
     {
-        "number": 182,
+        "identifier": "182",
         "title": "God the Conquering King",
         "psalm": 68,
         "verses": [
@@ -3339,7 +3340,7 @@
         "audioFile": "1912\\Audio\\_182.mp3"
     },
     {
-        "number": 183,
+        "identifier": "183",
         "title": "Ascension Blessings",
         "psalm": 68,
         "verses": [
@@ -3355,7 +3356,7 @@
         "audioFile": "1912\\Audio\\_183.mp3"
     },
     {
-        "number": 184,
+        "identifier": "184",
         "title": "Suffering and Prayer",
         "psalm": 69,
         "verses": [
@@ -3376,7 +3377,7 @@
         "audioFile": "1912\\Audio\\_184.mp3"
     },
     {
-        "number": 185,
+        "identifier": "185",
         "title": "Petitions for Deliverance",
         "psalm": 69,
         "verses": [
@@ -3397,7 +3398,7 @@
         "audioFile": "1912\\Audio\\_185.mp3"
     },
     {
-        "number": 186,
+        "identifier": "186",
         "title": "Anticipation of Answered Prayer",
         "psalm": 69,
         "verses": [
@@ -3414,7 +3415,7 @@
         "audioFile": "1912\\Audio\\_186.mp3"
     },
     {
-        "number": 187,
+        "identifier": "187",
         "title": "Supplication and Testimony",
         "psalm": 69,
         "verses": [
@@ -3430,7 +3431,7 @@
         "audioFile": "1912\\Audio\\_187.mp3"
     },
     {
-        "number": 188,
+        "identifier": "188",
         "title": "A Suppliant's Urgent Prayer",
         "psalm": 70,
         "verses": [
@@ -3446,7 +3447,7 @@
         "audioFile": "1912\\Audio\\_188.mp3"
     },
     {
-        "number": 189,
+        "identifier": "189",
         "title": "Prayer for Help",
         "psalm": 70,
         "verses": [
@@ -3462,7 +3463,7 @@
         "audioFile": "1912\\Audio\\_189.mp3"
     },
     {
-        "number": 190,
+        "identifier": "190",
         "title": "Trustful Entreaty and Praise",
         "psalm": 71,
         "verses": [
@@ -3478,7 +3479,7 @@
         "audioFile": "1912\\Audio\\_190.mp3"
     },
     {
-        "number": 191,
+        "identifier": "191",
         "title": "Abiding Confidence and Hope",
         "psalm": 71,
         "verses": [
@@ -3497,7 +3498,7 @@
         "audioFile": "1912\\Audio\\_191.mp3"
     },
     {
-        "number": 192,
+        "identifier": "192",
         "title": "A Prayer of Faith",
         "psalm": 71,
         "verses": [
@@ -3515,7 +3516,7 @@
         "audioFile": "1912\\Audio\\_192.mp3"
     },
     {
-        "number": 193,
+        "identifier": "193",
         "title": "The Reign of Christ",
         "psalm": 72,
         "verses": [
@@ -3533,7 +3534,7 @@
         "audioFile": "1912\\Audio\\_193.mp3"
     },
     {
-        "number": 194,
+        "identifier": "194",
         "title": "The Kingdom of Our Lord",
         "psalm": 72,
         "verses": [
@@ -3551,7 +3552,7 @@
         "audioFile": "1912\\Audio\\_194.mp3"
     },
     {
-        "number": 195,
+        "identifier": "195",
         "title": "Christ and His Cause",
         "psalm": 72,
         "verses": [
@@ -3567,7 +3568,7 @@
         "audioFile": "1912\\Audio\\_195.mp3"
     },
     {
-        "number": 196,
+        "identifier": "196",
         "title": "Grateful Adoration",
         "psalm": 72,
         "verses": [
@@ -3581,7 +3582,7 @@
         "audioFile": "1912\\Audio\\_196.mp3"
     },
     {
-        "number": 197,
+        "identifier": "197",
         "title": "The Doxology",
         "psalm": 72,
         "verses": [
@@ -3595,7 +3596,7 @@
         "audioFile": "1912\\Audio\\_197.mp3"
     },
     {
-        "number": 198,
+        "identifier": "198",
         "title": "The Blessings of Immanuel's Reign",
         "psalm": 72,
         "verses": [
@@ -3614,7 +3615,7 @@
         "audioFile": "1912\\Audio\\_198.mp3"
     },
     {
-        "number": 199,
+        "identifier": "199",
         "title": "The King and His Kingdom",
         "psalm": 72,
         "verses": [
@@ -3630,8 +3631,8 @@
         ]
     },
     {
-        "number": 199,
-        "secondTune": true,
+        "identifier": "199",
+        "isSecondTune": true,
         "title": "The King and His Kingdom",
         "psalm": 72,
         "verses": [
@@ -3648,7 +3649,7 @@
         "audioFile": "1912\\Audio\\_199_2.mp3"
     },
     {
-        "number": 200,
+        "identifier": "200",
         "title": "The Enthroned Christ",
         "psalm": 72,
         "verses": [
@@ -3665,7 +3666,7 @@
         "audioFile": "1912\\Audio\\_200.mp3"
     },
     {
-        "number": 201,
+        "identifier": "201",
         "title": "A Vindication of God's Ways",
         "psalm": 73,
         "verses": [
@@ -3683,8 +3684,8 @@
         ]
     },
     {
-        "number": 201,
-        "secondTune": true,
+        "identifier": "201",
+        "isSecondTune": true,
         "title": "A Vindication of God's Ways",
         "psalm": 73,
         "verses": [
@@ -3703,7 +3704,7 @@
         "audioFile": "1912\\Audio\\_201_2.mp3"
     },
     {
-        "number": 202,
+        "identifier": "202",
         "title": "Guidance and Glory",
         "psalm": 73,
         "verses": [
@@ -3719,7 +3720,7 @@
         "audioFile": "1912\\Audio\\_202.mp3"
     },
     {
-        "number": 203,
+        "identifier": "203",
         "title": "Life With God",
         "psalm": 73,
         "verses": [
@@ -3736,7 +3737,7 @@
         "audioFile": "1912\\Audio\\_203.mp3"
     },
     {
-        "number": 204,
+        "identifier": "204",
         "title": "God Our Only Good",
         "psalm": 73,
         "verses": [
@@ -3752,8 +3753,8 @@
         "audioFile": "1912\\Audio\\_204.mp3"
     },
     {
-        "number": 204,
-        "secondTune": true,
+        "identifier": "204",
+        "isSecondTune": true,
         "title": "God Our Only Good",
         "psalm": 73,
         "verses": [
@@ -3768,7 +3769,7 @@
         ]
     },
     {
-        "number": 205,
+        "identifier": "205",
         "title": "The Church in Trial",
         "psalm": 74,
         "verses": [
@@ -3793,7 +3794,7 @@
         "audioFile": "1912\\Audio\\_205.mp3"
     },
     {
-        "number": 206,
+        "identifier": "206",
         "title": "The Righteous Judgment of God",
         "psalm": 75,
         "verses": [
@@ -3810,7 +3811,7 @@
         "audioFile": "1912\\Audio\\_206.mp3"
     },
     {
-        "number": 207,
+        "identifier": "207",
         "title": "Zion's Glory and Safety",
         "psalm": 76,
         "verses": [
@@ -3826,7 +3827,7 @@
         "audioFile": "1912\\Audio\\_207.mp3"
     },
     {
-        "number": 208,
+        "identifier": "208",
         "title": "Aspects of the Divine Character",
         "psalm": 76,
         "verses": [
@@ -3842,7 +3843,7 @@
         "audioFile": "1912\\Audio\\_208.mp3"
     },
     {
-        "number": 209,
+        "identifier": "209",
         "title": "Doubts Overcome by Faith",
         "psalm": 77,
         "verses": [
@@ -3865,7 +3866,7 @@
         "audioFile": "1912\\Audio\\_209.mp3"
     },
     {
-        "number": 210,
+        "identifier": "210",
         "title": "Questionings and Comfort",
         "psalm": 77,
         "verses": [
@@ -3882,7 +3883,7 @@
         "audioFile": "1912\\Audio\\_210.mp3"
     },
     {
-        "number": 211,
+        "identifier": "211",
         "title": "The Wonderful Deeds of God",
         "psalm": 77,
         "verses": [
@@ -3897,7 +3898,7 @@
         "audioFile": "1912\\Audio\\_211.mp3"
     },
     {
-        "number": 212,
+        "identifier": "212",
         "title": "Hallowed Memories",
         "psalm": 77,
         "verses": [
@@ -3915,8 +3916,8 @@
         "audioFile": "1912\\Audio\\_212.mp3"
     },
     {
-        "number": 212,
-        "secondTune": true,
+        "identifier": "212",
+        "isSecondTune": true,
         "title": "Hallowed Memories",
         "psalm": 77,
         "verses": [
@@ -3930,7 +3931,7 @@
         ]
     },
     {
-        "number": 213,
+        "identifier": "213",
         "title": "Lessons From the Past",
         "psalm": 78,
         "verses": [
@@ -3957,7 +3958,7 @@
         "audioFile": "1912\\Audio\\_213.mp3"
     },
     {
-        "number": 214,
+        "identifier": "214",
         "title": "Reminders from Israel's History",
         "psalm": 78,
         "verses": [
@@ -3976,7 +3977,7 @@
         "audioFile": "1912\\Audio\\_214.mp3"
     },
     {
-        "number": 215,
+        "identifier": "215",
         "title": "Religious Training",
         "psalm": 78,
         "verses": [
@@ -3994,7 +3995,7 @@
         "audioFile": "1912\\Audio\\_215.mp3"
     },
     {
-        "number": 216,
+        "identifier": "216",
         "title": "The Church Under Discipline",
         "psalm": 79,
         "verses": [
@@ -4010,7 +4011,7 @@
         "audioFile": "1912\\Audio\\_216.mp3"
     },
     {
-        "number": 217,
+        "identifier": "217",
         "title": "Forgiving Mercy Besought",
         "psalm": 79,
         "verses": [
@@ -4026,7 +4027,7 @@
         "audioFile": "1912\\Audio\\_217.mp3"
     },
     {
-        "number": 218,
+        "identifier": "218",
         "title": "A Suppliant Church",
         "psalm": 80,
         "verses": [
@@ -4044,7 +4045,7 @@
         "audioFile": "1912\\Audio\\_218.mp3"
     },
     {
-        "number": 219,
+        "identifier": "219",
         "title": "Restoration and Revival",
         "psalm": 80,
         "verses": [
@@ -4058,7 +4059,7 @@
         "audioFile": "1912\\Audio\\_219.mp3"
     },
     {
-        "number": 220,
+        "identifier": "220",
         "title": "Prayer for Restoring Grace",
         "psalm": 80,
         "verses": [
@@ -4076,7 +4077,7 @@
         "audioFile": "1912\\Audio\\_220.mp3"
     },
     {
-        "number": 221,
+        "identifier": "221",
         "title": "Longing for Revival",
         "psalm": 80,
         "verses": [
@@ -4091,7 +4092,7 @@
         "audioFile": "1912\\Audio\\_221.mp3"
     },
     {
-        "number": 222,
+        "identifier": "222",
         "title": "A Summons to Joyful Worship",
         "psalm": 81,
         "verses": [
@@ -4112,7 +4113,7 @@
         "audioFile": "1912\\Audio\\_222.mp3"
     },
     {
-        "number": 223,
+        "identifier": "223",
         "title": "Responsibility of Civil Officers",
         "psalm": 82,
         "verses": [
@@ -4127,7 +4128,7 @@
         "audioFile": "1912\\Audio\\_223.mp3"
     },
     {
-        "number": 224,
+        "identifier": "224",
         "title": "The Foes of the Church",
         "psalm": 83,
         "verses": [
@@ -4145,7 +4146,7 @@
         "audioFile": "1912\\Audio\\_224.mp3"
     },
     {
-        "number": 225,
+        "identifier": "225",
         "title": "Delight in the House of God",
         "psalm": 84,
         "verses": [
@@ -4160,7 +4161,7 @@
         "audioFile": "1912\\Audio\\_225.mp3"
     },
     {
-        "number": 226,
+        "identifier": "226",
         "title": "Longings for Sanctuary Fellowship",
         "psalm": 84,
         "verses": [
@@ -4175,7 +4176,7 @@
         "audioFile": "1912\\Audio\\_226.mp3"
     },
     {
-        "number": 227,
+        "identifier": "227",
         "title": "Delight in Church Ordinances",
         "psalm": 84,
         "verses": [
@@ -4190,7 +4191,7 @@
         "audioFile": "1912\\Audio\\_227.mp3"
     },
     {
-        "number": 228,
+        "identifier": "228",
         "title": "True Blessedness",
         "psalm": 84,
         "verses": [
@@ -4205,7 +4206,7 @@
         "audioFile": "1912\\Audio\\_228.mp3"
     },
     {
-        "number": 229,
+        "identifier": "229",
         "title": "Days in the Sanctuary",
         "psalm": 84,
         "verses": [
@@ -4223,7 +4224,7 @@
         "audioFile": "1912\\Audio\\_229.mp3"
     },
     {
-        "number": 230,
+        "identifier": "230",
         "title": "Assurance of Blessing",
         "psalm": 85,
         "verses": [
@@ -4242,7 +4243,7 @@
         "audioFile": "1912\\Audio\\_230.mp3"
     },
     {
-        "number": 231,
+        "identifier": "231",
         "title": "Encouragement in Prayer",
         "psalm": 85,
         "verses": [
@@ -4257,7 +4258,7 @@
         "audioFile": "1912\\Audio\\_231.mp3"
     },
     {
-        "number": 232,
+        "identifier": "232",
         "title": "Expectancy of Grace",
         "psalm": 85,
         "verses": [
@@ -4272,7 +4273,7 @@
         "audioFile": "1912\\Audio\\_232.mp3"
     },
     {
-        "number": 233,
+        "identifier": "233",
         "title": "Confident Pleading",
         "psalm": 86,
         "verses": [
@@ -4290,7 +4291,7 @@
         "audioFile": "1912\\Audio\\_233.mp3"
     },
     {
-        "number": 234,
+        "identifier": "234",
         "title": "Devout Prayers and Pleas",
         "psalm": 86,
         "verses": [
@@ -4306,8 +4307,8 @@
         ]
     },
     {
-        "number": 234,
-        "secondTune": true,
+        "identifier": "234",
+        "isSecondTune": true,
         "title": "Devout Prayers and Pleas",
         "psalm": 86,
         "verses": [
@@ -4324,7 +4325,7 @@
         "audioFile": "1912\\Audio\\_234_2.mp3"
     },
     {
-        "number": 235,
+        "identifier": "235",
         "title": "Confiding Prayer",
         "psalm": 86,
         "verses": [
@@ -4339,7 +4340,7 @@
         "audioFile": "1912\\Audio\\_235.mp3"
     },
     {
-        "number": 236,
+        "identifier": "236",
         "title": "Desires and Aspirations",
         "psalm": 86,
         "verses": [
@@ -4355,7 +4356,7 @@
         "audioFile": "1912\\Audio\\_236.mp3"
     },
     {
-        "number": 237,
+        "identifier": "237",
         "title": "The Church of God",
         "psalm": 87,
         "verses": [
@@ -4370,7 +4371,7 @@
         "audioFile": "1912\\Audio\\_237.mp3"
     },
     {
-        "number": 238,
+        "identifier": "238",
         "title": "The Church Universal",
         "psalm": 87,
         "verses": [
@@ -4385,7 +4386,7 @@
         "audioFile": "1912\\Audio\\_238.mp3"
     },
     {
-        "number": 239,
+        "identifier": "239",
         "title": "The Church of Christ",
         "psalm": 87,
         "verses": [
@@ -4399,7 +4400,7 @@
         "audioFile": "1912\\Audio\\_239.mp3"
     },
     {
-        "number": 240,
+        "identifier": "240",
         "title": "An Outpouring of Sorrow",
         "psalm": 88,
         "verses": [
@@ -4416,7 +4417,7 @@
         "audioFile": "1912\\Audio\\_240.mp3"
     },
     {
-        "number": 241,
+        "identifier": "241",
         "title": "The Mercies and Faithfulness of God",
         "psalm": 89,
         "verses": [
@@ -4437,7 +4438,7 @@
         "audioFile": "1912\\Audio\\_241.mp3"
     },
     {
-        "number": 242,
+        "identifier": "242",
         "title": " God the Source of Joy",
         "psalm": 89,
         "verses": [
@@ -4453,7 +4454,7 @@
         "audioFile": "1912\\Audio\\_242.mp3"
     },
     {
-        "number": 243,
+        "identifier": "243",
         "title": "Covenant Faithfulness",
         "psalm": 89,
         "verses": [
@@ -4480,7 +4481,7 @@
         "audioFile": "1912\\Audio\\_243.mp3"
     },
     {
-        "number": 244,
+        "identifier": "244",
         "title": "The Cry of the Mortal",
         "psalm": 90,
         "verses": [
@@ -4497,7 +4498,7 @@
         "audioFile": "1912\\Audio\\_244.mp3"
     },
     {
-        "number": 245,
+        "identifier": "245",
         "title": "The Lord Our Dwelling-Place",
         "psalm": 90,
         "verses": [
@@ -4514,7 +4515,7 @@
         "audioFile": "1912\\Audio\\_245.mp3"
     },
     {
-        "number": 246,
+        "identifier": "246",
         "title": "A Pilgrim's Prayers",
         "psalm": 90,
         "verses": [
@@ -4529,7 +4530,7 @@
         "audioFile": "1912\\Audio\\_246.mp3"
     },
     {
-        "number": 247,
+        "identifier": "247",
         "title": "God Our Help and Hope",
         "psalm": 90,
         "verses": [
@@ -4546,8 +4547,8 @@
         ]
     },
     {
-        "number": 247,
-        "secondTune": true,
+        "identifier": "247",
+        "isSecondTune": true,
         "title": "God Our Help and Hope",
         "psalm": 90,
         "verses": [
@@ -4565,7 +4566,7 @@
         "audioFile": "1912\\Audio\\_247_2.mp3"
     },
     {
-        "number": 248,
+        "identifier": "248",
         "title": "Overshadowing Protection",
         "psalm": 91,
         "verses": [
@@ -4583,7 +4584,7 @@
         "audioFile": "1912\\Audio\\_248.mp3"
     },
     {
-        "number": 249,
+        "identifier": "249",
         "title": "The Reward of Perfect Trust",
         "psalm": 91,
         "verses": [
@@ -4601,7 +4602,7 @@
         "audioFile": "1912\\Audio\\_249.mp3"
     },
     {
-        "number": 250,
+        "identifier": "250",
         "title": "The Duty of Praise",
         "psalm": 92,
         "verses": [
@@ -4618,7 +4619,7 @@
         "audioFile": "1912\\Audio\\_250.mp3"
     },
     {
-        "number": 251,
+        "identifier": "251",
         "title": "Joyful Worship",
         "psalm": 92,
         "verses": [
@@ -4633,7 +4634,7 @@
         "audioFile": "1912\\Audio\\_251.mp3"
     },
     {
-        "number": 252,
+        "identifier": "252",
         "title": "The Divine Rule and Power",
         "psalm": 93,
         "verses": [
@@ -4649,7 +4650,7 @@
         "audioFile": "1912\\Audio\\_252.mp3"
     },
     {
-        "number": 253,
+        "identifier": "253",
         "title": "God the Righteous Judge",
         "psalm": 94,
         "verses": [
@@ -4673,7 +4674,7 @@
         "audioFile": "1912\\Audio\\_253.mp3"
     },
     {
-        "number": 254,
+        "identifier": "254",
         "title": "An Invitation to Worship",
         "psalm": 95,
         "verses": [
@@ -4690,7 +4691,7 @@
         "audioFile": "1912\\Audio\\_254.mp3"
     },
     {
-        "number": 255,
+        "identifier": "255",
         "title": "Adoration and Submission",
         "psalm": 95,
         "verses": [
@@ -4706,7 +4707,7 @@
         "audioFile": "1912\\Audio\\_255.mp3"
     },
     {
-        "number": 256,
+        "identifier": "256",
         "title": "Worship and Its Motives",
         "psalm": 95,
         "verses": [
@@ -4723,7 +4724,7 @@
         "audioFile": "1912\\Audio\\_256.mp3"
     },
     {
-        "number": 257,
+        "identifier": "257",
         "title": "The Evangel of the Kingdom",
         "psalm": 96,
         "verses": [
@@ -4740,7 +4741,7 @@
         "audioFile": "1912\\Audio\\_257.mp3"
     },
     {
-        "number": 258,
+        "identifier": "258",
         "title": "The Message of Redemption",
         "psalm": 96,
         "verses": [
@@ -4759,7 +4760,7 @@
         "audioFile": "1912\\Audio\\_258.mp3"
     },
     {
-        "number": 259,
+        "identifier": "259",
         "title": "The Universal King",
         "psalm": 96,
         "verses": [
@@ -4777,7 +4778,7 @@
         "audioFile": "1912\\Audio\\_259.mp3"
     },
     {
-        "number": 260,
+        "identifier": "260",
         "title": " Divine Sovereignty",
         "psalm": 97,
         "verses": [
@@ -4795,8 +4796,8 @@
         "audioFile": "1912\\Audio\\_260.mp3"
     },
     {
-        "number": 260,
-        "secondTune": true,
+        "identifier": "260",
+        "isSecondTune": true,
         "title": " Divine Sovereignty",
         "psalm": 97,
         "verses": [
@@ -4813,7 +4814,7 @@
         ]
     },
     {
-        "number": 261,
+        "identifier": "261",
         "title": "The Victories of Jesus Christ",
         "psalm": 98,
         "verses": [
@@ -4828,7 +4829,7 @@
         "audioFile": "1912\\Audio\\_261.mp3"
     },
     {
-        "number": 262,
+        "identifier": "262",
         "title": "A Salvation for the World",
         "psalm": 98,
         "verses": [
@@ -4843,7 +4844,7 @@
         "audioFile": "1912\\Audio\\_262.mp3"
     },
     {
-        "number": 263,
+        "identifier": "263",
         "title": "The Glad Tidings",
         "psalm": 98,
         "verses": [
@@ -4858,7 +4859,7 @@
         "audioFile": "1912\\Audio\\_263.mp3"
     },
     {
-        "number": 264,
+        "identifier": "264",
         "title": "Missionary Triumphs",
         "psalm": 98,
         "verses": [
@@ -4877,7 +4878,7 @@
         "audioFile": "1912\\Audio\\_264.mp3"
     },
     {
-        "number": 265,
+        "identifier": "265",
         "title": "The Majesty and Holiness of God",
         "psalm": 99,
         "verses": [
@@ -4892,7 +4893,7 @@
         "audioFile": "1912\\Audio\\_265.mp3"
     },
     {
-        "number": 266,
+        "identifier": "266",
         "title": "The Holiness of God",
         "psalm": 99,
         "verses": [
@@ -4907,7 +4908,7 @@
         "audioFile": "1912\\Audio\\_266.mp3"
     },
     {
-        "number": 267,
+        "identifier": "267",
         "title": "God the Righteous King",
         "psalm": 99,
         "verses": [
@@ -4923,7 +4924,7 @@
         "audioFile": "1912\\Audio\\_267.mp3"
     },
     {
-        "number": 268,
+        "identifier": "268",
         "title": "Thanksgiving and Praise",
         "psalm": 100,
         "verses": [
@@ -4939,7 +4940,7 @@
         "audioFile": "1912\\Audio\\_268.mp3"
     },
     {
-        "number": 269,
+        "identifier": "269",
         "title": "Universal Praise",
         "psalm": 100,
         "verses": [
@@ -4955,7 +4956,7 @@
         "audioFile": "1912\\Audio\\_269.mp3"
     },
     {
-        "number": 270,
+        "identifier": "270",
         "title": "Gladness in Worship",
         "psalm": 100,
         "verses": [
@@ -4971,7 +4972,7 @@
         "audioFile": "1912\\Audio\\_270.mp3"
     },
     {
-        "number": 271,
+        "identifier": "271",
         "title": "Godly Resolves",
         "psalm": 101,
         "verses": [
@@ -4986,7 +4987,7 @@
         "audioFile": "1912\\Audio\\_271.mp3"
     },
     {
-        "number": 272,
+        "identifier": "272",
         "title": "Affliction and Appeal",
         "psalm": 102,
         "verses": [
@@ -5002,7 +5003,7 @@
         "audioFile": "1912\\Audio\\_272.mp3"
     },
     {
-        "number": 273,
+        "identifier": "273",
         "title": "The Deliverance of Zion",
         "psalm": 102,
         "verses": [
@@ -5021,7 +5022,7 @@
         "audioFile": "1912\\Audio\\_273.mp3"
     },
     {
-        "number": 274,
+        "identifier": "274",
         "title": "Mortality and Immortality",
         "psalm": 102,
         "verses": [
@@ -5037,7 +5038,7 @@
         "audioFile": "1912\\Audio\\_274.mp3"
     },
     {
-        "number": 275,
+        "identifier": "275",
         "title": "The Covenant God and His Church",
         "psalm": 102,
         "verses": [
@@ -5053,7 +5054,7 @@
         "audioFile": "1912\\Audio\\_275.mp3"
     },
     {
-        "number": 276,
+        "identifier": "276",
         "title": "The Church and Her Head",
         "psalm": 102,
         "verses": [
@@ -5069,7 +5070,7 @@
         "audioFile": "1912\\Audio\\_276.mp3"
     },
     {
-        "number": 277,
+        "identifier": "277",
         "title": "Thankful Joy and Praise",
         "psalm": 103,
         "verses": [
@@ -5089,7 +5090,7 @@
         "audioFile": "1912\\Audio\\_277.mp3"
     },
     {
-        "number": 278,
+        "identifier": "278",
         "title": "The Fatherly Love of God",
         "psalm": 103,
         "verses": [
@@ -5106,7 +5107,7 @@
         "audioFile": "1912\\Audio\\_278.mp3"
     },
     {
-        "number": 279,
+        "identifier": "279",
         "title": "The Universal Debt of Praise",
         "psalm": 103,
         "verses": [
@@ -5122,7 +5123,7 @@
         "audioFile": "1912\\Audio\\_279.mp3"
     },
     {
-        "number": 280,
+        "identifier": "280",
         "title": "The Tender Mercies of God",
         "psalm": 103,
         "verses": [
@@ -5138,7 +5139,7 @@
         "audioFile": "1912\\Audio\\_280.mp3"
     },
     {
-        "number": 281,
+        "identifier": "281",
         "title": "A Mindful God",
         "psalm": 103,
         "verses": [
@@ -5154,7 +5155,7 @@
         "audioFile": "1912\\Audio\\_281.mp3"
     },
     {
-        "number": 282,
+        "identifier": "282",
         "title": "The Blessed and Only Potentate",
         "psalm": 103,
         "verses": [
@@ -5170,7 +5171,7 @@
         "audioFile": "1912\\Audio\\_282.mp3"
     },
     {
-        "number": 283,
+        "identifier": "283",
         "title": "Motives to Gratitude",
         "psalm": 103,
         "verses": [
@@ -5188,7 +5189,7 @@
         "audioFile": "1912\\Audio\\_283.mp3"
     },
     {
-        "number": 284,
+        "identifier": "284",
         "title": "The Wonders of Divine Grace",
         "psalm": 103,
         "verses": [
@@ -5206,7 +5207,7 @@
         "audioFile": "1912\\Audio\\_284.mp3"
     },
     {
-        "number": 285,
+        "identifier": "285",
         "title": "The Greatness of God in Nature",
         "psalm": 104,
         "verses": [
@@ -5222,7 +5223,7 @@
         "audioFile": "1912\\Audio\\_285.mp3"
     },
     {
-        "number": 286,
+        "identifier": "286",
         "title": "A Faithful Creator",
         "psalm": 104,
         "verses": [
@@ -5240,7 +5241,7 @@
         "audioFile": "1912\\Audio\\_286.mp3"
     },
     {
-        "number": 287,
+        "identifier": "287",
         "title": "A Meditation on Providence",
         "psalm": 104,
         "verses": [
@@ -5255,7 +5256,7 @@
         "audioFile": "1912\\Audio\\_287.mp3"
     },
     {
-        "number": 288,
+        "identifier": "288",
         "title": "The Creator Glorified",
         "psalm": 104,
         "verses": [
@@ -5271,7 +5272,7 @@
         "audioFile": "1912\\Audio\\_288.mp3"
     },
     {
-        "number": 289,
+        "identifier": "289",
         "title": "The Unfailing Faithfulness of God",
         "psalm": 105,
         "verses": [
@@ -5302,8 +5303,8 @@
         "audioFile": "1912\\Audio\\_289.mp3"
     },
     {
-        "number": 289,
-        "secondTune": true,
+        "identifier": "289",
+        "isSecondTune": true,
         "title": "The Unfailing Faithfulness of God",
         "psalm": 105,
         "verses": [
@@ -5333,7 +5334,7 @@
         ]
     },
     {
-        "number": 290,
+        "identifier": "290",
         "title": "Praise and Confession",
         "psalm": 106,
         "verses": [
@@ -5356,7 +5357,7 @@
         "audioFile": "1912\\Audio\\_290.mp3"
     },
     {
-        "number": 291,
+        "identifier": "291",
         "title": "Sin and Divine Patience",
         "psalm": 106,
         "verses": [
@@ -5380,7 +5381,7 @@
         "audioFile": "1912\\Audio\\_291.mp3"
     },
     {
-        "number": 292,
+        "identifier": "292",
         "title": "Redeeming Love",
         "psalm": 107,
         "verses": [
@@ -5397,7 +5398,7 @@
         "audioFile": "1912\\Audio\\_292.mp3"
     },
     {
-        "number": 293,
+        "identifier": "293",
         "title": "Emancipation from Spiritual Slavery",
         "psalm": 107,
         "verses": [
@@ -5412,7 +5413,7 @@
         "audioFile": "1912\\Audio\\_293.mp3"
     },
     {
-        "number": 294,
+        "identifier": "294",
         "title": "Praise for Gracious Deliverances",
         "psalm": 107,
         "verses": [
@@ -5427,7 +5428,7 @@
         "audioFile": "1912\\Audio\\_294.mp3"
     },
     {
-        "number": 295,
+        "identifier": "295",
         "title": "The Sovereign of the Sea",
         "psalm": 107,
         "verses": [
@@ -5443,7 +5444,7 @@
         "audioFile": "1912\\Audio\\_295.mp3"
     },
     {
-        "number": 296,
+        "identifier": "296",
         "title": "Providential Visitations",
         "psalm": 107,
         "verses": [
@@ -5460,7 +5461,7 @@
         "audioFile": "1912\\Audio\\_296.mp3"
     },
     {
-        "number": 297,
+        "identifier": "297",
         "title": "The Praise of the Redeemed",
         "psalm": 107,
         "verses": [
@@ -5475,7 +5476,7 @@
         "audioFile": "1912\\Audio\\_297.mp3"
     },
     {
-        "number": 298,
+        "identifier": "298",
         "title": "Gratitude and Confidence",
         "psalm": 108,
         "verses": [
@@ -5490,7 +5491,7 @@
         "audioFile": "1912\\Audio\\_298.mp3"
     },
     {
-        "number": 299,
+        "identifier": "299",
         "title": "Exultant Confidence",
         "psalm": 108,
         "verses": [
@@ -5509,7 +5510,7 @@
         "audioFile": "1912\\Audio\\_299.mp3"
     },
     {
-        "number": 300,
+        "identifier": "300",
         "title": "Divine Retribution for Evil",
         "psalm": 109,
         "verses": [
@@ -5534,7 +5535,7 @@
         "audioFile": "1912\\Audio\\_300.mp3"
     },
     {
-        "number": 301,
+        "identifier": "301",
         "title": "Supplication and Trust",
         "psalm": 109,
         "verses": [
@@ -5550,7 +5551,7 @@
         "audioFile": "1912\\Audio\\_301.mp3"
     },
     {
-        "number": 302,
+        "identifier": "302",
         "title": "Our Lord Jesus",
         "psalm": 110,
         "verses": [
@@ -5565,7 +5566,7 @@
         "audioFile": "1912\\Audio\\_302.mp3"
     },
     {
-        "number": 303,
+        "identifier": "303",
         "title": "Christ Our Priest-King",
         "psalm": 110,
         "verses": [
@@ -5580,7 +5581,7 @@
         "audioFile": "1912\\Audio\\_303.mp3"
     },
     {
-        "number": 304,
+        "identifier": "304",
         "title": "The Marvelous Works of God",
         "psalm": 111,
         "verses": [
@@ -5599,7 +5600,7 @@
         "audioFile": "1912\\Audio\\_304.mp3"
     },
     {
-        "number": 305,
+        "identifier": "305",
         "title": "The Blessed Life",
         "psalm": 112,
         "verses": [
@@ -5617,7 +5618,7 @@
         "audioFile": "1912\\Audio\\_305.mp3"
     },
     {
-        "number": 306,
+        "identifier": "306",
         "title": "The Glory and Condescension of God",
         "psalm": 113,
         "verses": [
@@ -5633,7 +5634,7 @@
         "audioFile": "1912\\Audio\\_306.mp3"
     },
     {
-        "number": 307,
+        "identifier": "307",
         "title": "Bondage and Deliverance",
         "psalm": 114,
         "verses": [
@@ -5649,7 +5650,7 @@
         "audioFile": "1912\\Audio\\_307.mp3"
     },
     {
-        "number": 308,
+        "identifier": "308",
         "title": "The Living and True God",
         "psalm": 115,
         "verses": [
@@ -5666,7 +5667,7 @@
         "audioFile": "1912\\Audio\\_308.mp3"
     },
     {
-        "number": 309,
+        "identifier": "309",
         "title": "Benediction Upon the God-Fearing",
         "psalm": 115,
         "verses": [
@@ -5682,7 +5683,7 @@
         "audioFile": "1912\\Audio\\_309.mp3"
     },
     {
-        "number": 310,
+        "identifier": "310",
         "title": "Redemption and Grateful Love",
         "psalm": 116,
         "verses": [
@@ -5700,7 +5701,7 @@
         "audioFile": "1912\\Audio\\_310.mp3"
     },
     {
-        "number": 311,
+        "identifier": "311",
         "title": "The Living Sacrifice",
         "psalm": 116,
         "verses": [
@@ -5717,7 +5718,7 @@
         "audioFile": "1912\\Audio\\_311.mp3"
     },
     {
-        "number": 312,
+        "identifier": "312",
         "title": "Granted Prayers",
         "psalm": 116,
         "verses": [
@@ -5735,7 +5736,7 @@
         "audioFile": "1912\\Audio\\_312.mp3"
     },
     {
-        "number": 313,
+        "identifier": "313",
         "title": "Consecration and Dedication",
         "psalm": 116,
         "verses": [
@@ -5752,7 +5753,7 @@
         "audioFile": "1912\\Audio\\_313.mp3"
     },
     {
-        "number": 314,
+        "identifier": "314",
         "title": "World-Wide Worship",
         "psalm": 117,
         "verses": [
@@ -5766,7 +5767,7 @@
         "audioFile": "1912\\Audio\\_314.mp3"
     },
     {
-        "number": 315,
+        "identifier": "315",
         "title": "The Universal Fellowship of Worship",
         "psalm": 117,
         "verses": [
@@ -5779,7 +5780,7 @@
         "audioFile": "1912\\Audio\\_315.mp3"
     },
     {
-        "number": 316,
+        "identifier": "316",
         "title": "The World-Wide Praise of God",
         "psalm": 117,
         "verses": [
@@ -5792,7 +5793,7 @@
         "audioFile": "1912\\Audio\\_316.mp3"
     },
     {
-        "number": 317,
+        "identifier": "317",
         "title": "God an All-Sufficient Helper",
         "psalm": 118,
         "verses": [
@@ -5808,7 +5809,7 @@
         "audioFile": "1912\\Audio\\_317.mp3"
     },
     {
-        "number": 318,
+        "identifier": "318",
         "title": "Thoughts for the Sanctuary",
         "psalm": 118,
         "verses": [
@@ -5827,7 +5828,7 @@
         "audioFile": "1912\\Audio\\_318.mp3"
     },
     {
-        "number": 319,
+        "identifier": "319",
         "title": "Deliverance and Victory",
         "psalm": 118,
         "verses": [
@@ -5844,7 +5845,7 @@
         "audioFile": "1912\\Audio\\_319.mp3"
     },
     {
-        "number": 320,
+        "identifier": "320",
         "title": "Thankfulness and Triumphant Joy",
         "psalm": 118,
         "verses": [
@@ -5861,7 +5862,7 @@
         "audioFile": "1912\\Audio\\_320.mp3"
     },
     {
-        "number": 321,
+        "identifier": "321",
         "title": " The Blessings of Obedience",
         "psalm": 119,
         "verses": [
@@ -5877,7 +5878,7 @@
         "audioFile": "1912\\Audio\\_321.mp3"
     },
     {
-        "number": 322,
+        "identifier": "322",
         "title": "Guidance for Youth",
         "psalm": 119,
         "verses": [
@@ -5893,7 +5894,7 @@
         "audioFile": "1912\\Audio\\_322.mp3"
     },
     {
-        "number": 323,
+        "identifier": "323",
         "title": "Our Pilgrimage Guide",
         "psalm": 119,
         "verses": [
@@ -5909,7 +5910,7 @@
         "audioFile": "1912\\Audio\\_323.mp3"
     },
     {
-        "number": 324,
+        "identifier": "324",
         "title": "Our Only Source of Help",
         "psalm": 119,
         "verses": [
@@ -5925,7 +5926,7 @@
         "audioFile": "1912\\Audio\\_324.mp3"
     },
     {
-        "number": 325,
+        "identifier": "325",
         "title": "Instruction in the Divine Law",
         "psalm": 119,
         "verses": [
@@ -5941,7 +5942,7 @@
         "audioFile": "1912\\Audio\\_325.mp3"
     },
     {
-        "number": 326,
+        "identifier": "326",
         "title": "Promised Mercies",
         "psalm": 119,
         "verses": [
@@ -5957,7 +5958,7 @@
         "audioFile": "1912\\Audio\\_326.mp3"
     },
     {
-        "number": 327,
+        "identifier": "327",
         "title": "Comfort in Affliction",
         "psalm": 119,
         "verses": [
@@ -5973,7 +5974,7 @@
         "audioFile": "1912\\Audio\\_327.mp3"
     },
     {
-        "number": 328,
+        "identifier": "328",
         "title": "God the Portion of the Soul",
         "psalm": 119,
         "verses": [
@@ -5989,7 +5990,7 @@
         "audioFile": "1912\\Audio\\_328.mp3"
     },
     {
-        "number": 329,
+        "identifier": "329",
         "title": "The Divine Goodness",
         "psalm": 119,
         "verses": [
@@ -6005,7 +6006,7 @@
         "audioFile": "1912\\Audio\\_329.mp3"
     },
     {
-        "number": 330,
+        "identifier": "330",
         "title": "Illumination and Testimony",
         "psalm": 119,
         "verses": [
@@ -6021,7 +6022,7 @@
         "audioFile": "1912\\Audio\\_330.mp3"
     },
     {
-        "number": 331,
+        "identifier": "331",
         "title": "Patient Endurance and Submission",
         "psalm": 119,
         "verses": [
@@ -6037,7 +6038,7 @@
         "audioFile": "1912\\Audio\\_331.mp3"
     },
     {
-        "number": 332,
+        "identifier": "332",
         "title": "The Immutable Word",
         "psalm": 119,
         "verses": [
@@ -6053,7 +6054,7 @@
         "audioFile": "1912\\Audio\\_332.mp3"
     },
     {
-        "number": 333,
+        "identifier": "333",
         "title": "The Profit of Bible Study",
         "psalm": 119,
         "verses": [
@@ -6069,7 +6070,7 @@
         "audioFile": "1912\\Audio\\_333.mp3"
     },
     {
-        "number": 334,
+        "identifier": "334",
         "title": "The Enlightening Power of the Word",
         "psalm": 119,
         "verses": [
@@ -6085,7 +6086,7 @@
         "audioFile": "1912\\Audio\\_334.mp3"
     },
     {
-        "number": 335,
+        "identifier": "335",
         "title": "Devotion to the Divine Law",
         "psalm": 119,
         "verses": [
@@ -6100,7 +6101,7 @@
         "audioFile": "1912\\Audio\\_335.mp3"
     },
     {
-        "number": 336,
+        "identifier": "336",
         "title": "Watching and Eager Longing",
         "psalm": 119,
         "verses": [
@@ -6114,7 +6115,7 @@
         "audioFile": "1912\\Audio\\_336.mp3"
     },
     {
-        "number": 337,
+        "identifier": "337",
         "title": "The Wondrous Testimonies of God",
         "psalm": 119,
         "verses": [
@@ -6130,7 +6131,7 @@
         "audioFile": "1912\\Audio\\_337.mp3"
     },
     {
-        "number": 338,
+        "identifier": "338",
         "title": "True Love for the Word",
         "psalm": 119,
         "verses": [
@@ -6146,7 +6147,7 @@
         "audioFile": "1912\\Audio\\_338.mp3"
     },
     {
-        "number": 339,
+        "identifier": "339",
         "title": "Importunate Prayer",
         "psalm": 119,
         "verses": [
@@ -6162,7 +6163,7 @@
         "audioFile": "1912\\Audio\\_339.mp3"
     },
     {
-        "number": 340,
+        "identifier": "340",
         "title": "Divine Help Invoked",
         "psalm": 119,
         "verses": [
@@ -6178,7 +6179,7 @@
         "audioFile": "1912\\Audio\\_340.mp3"
     },
     {
-        "number": 341,
+        "identifier": "341",
         "title": "Praise and Perfect Peace",
         "psalm": 119,
         "verses": [
@@ -6194,7 +6195,7 @@
         "audioFile": "1912\\Audio\\_341.mp3"
     },
     {
-        "number": 342,
+        "identifier": "342",
         "title": "Longing and Confession",
         "psalm": 119,
         "verses": [
@@ -6210,7 +6211,7 @@
         "audioFile": "1912\\Audio\\_342.mp3"
     },
     {
-        "number": 343,
+        "identifier": "343",
         "title": "The False Tongue",
         "psalm": 120,
         "verses": [
@@ -6226,7 +6227,7 @@
         "audioFile": "1912\\Audio\\_343.mp3"
     },
     {
-        "number": 344,
+        "identifier": "344",
         "title": "Quiet Trust",
         "psalm": 121,
         "verses": [
@@ -6242,7 +6243,7 @@
         "audioFile": "1912\\Audio\\_344.mp3"
     },
     {
-        "number": 345,
+        "identifier": "345",
         "title": "Our Unsleeping Guardian",
         "psalm": 121,
         "verses": [
@@ -6256,7 +6257,7 @@
         "audioFile": "1912\\Audio\\_345.mp3"
     },
     {
-        "number": 346,
+        "identifier": "346",
         "title": "Unwavering Trust in God",
         "psalm": 121,
         "verses": [
@@ -6270,7 +6271,7 @@
         "audioFile": "1912\\Audio\\_346.mp3"
     },
     {
-        "number": 347,
+        "identifier": "347",
         "title": "The Watchful Care of God",
         "psalm": 121,
         "verses": [
@@ -6286,7 +6287,7 @@
         "audioFile": "1912\\Audio\\_347.mp3"
     },
     {
-        "number": 348,
+        "identifier": "348",
         "title": "Attachment to the Church",
         "psalm": 122,
         "verses": [
@@ -6304,7 +6305,7 @@
         "audioFile": "1912\\Audio\\_348.mp3"
     },
     {
-        "number": 349,
+        "identifier": "349",
         "title": "Love for the Lord's House",
         "psalm": 122,
         "verses": [
@@ -6320,7 +6321,7 @@
         "audioFile": "1912\\Audio\\_349.mp3"
     },
     {
-        "number": 350,
+        "identifier": "350",
         "title": "Devotion to the Church",
         "psalm": 122,
         "verses": [
@@ -6337,7 +6338,7 @@
         "audioFile": "1912\\Audio\\_350.mp3"
     },
     {
-        "number": 351,
+        "identifier": "351",
         "title": "Attentive Waiting",
         "psalm": 123,
         "verses": [
@@ -6351,7 +6352,7 @@
         "audioFile": "1912\\Audio\\_351.mp3"
     },
     {
-        "number": 352,
+        "identifier": "352",
         "title": "Escape from Enemies",
         "psalm": 124,
         "verses": [
@@ -6367,7 +6368,7 @@
         "audioFile": "1912\\Audio\\_352.mp3"
     },
     {
-        "number": 353,
+        "identifier": "353",
         "title": "Divine Deliverance",
         "psalm": 124,
         "verses": [
@@ -6382,7 +6383,7 @@
         "audioFile": "1912\\Audio\\_353.mp3"
     },
     {
-        "number": 354,
+        "identifier": "354",
         "title": "Our Sure Defense",
         "psalm": 125,
         "verses": [
@@ -6400,8 +6401,8 @@
         "audioFile": "1912\\Audio\\_354.mp3"
     },
     {
-        "number": 354,
-        "secondTune": true,
+        "identifier": "354",
+        "isSecondTune": true,
         "title": "Our Sure Defense",
         "psalm": 125,
         "verses": [
@@ -6418,7 +6419,7 @@
         ]
     },
     {
-        "number": 355,
+        "identifier": "355",
         "title": "Protecting Grace",
         "psalm": 125,
         "verses": [
@@ -6433,7 +6434,7 @@
         "audioFile": "1912\\Audio\\_355.mp3"
     },
     {
-        "number": 356,
+        "identifier": "356",
         "title": "The Divine Protection",
         "psalm": 125,
         "verses": [
@@ -6448,7 +6449,7 @@
         "audioFile": "1912\\Audio\\_356.mp3"
     },
     {
-        "number": 357,
+        "identifier": "357",
         "title": "Rescue from Spiritual Bondage",
         "psalm": 126,
         "verses": [
@@ -6464,7 +6465,7 @@
         "audioFile": "1912\\Audio\\_357.mp3"
     },
     {
-        "number": 358,
+        "identifier": "358",
         "title": "Deliverance and Restoration",
         "psalm": 126,
         "verses": [
@@ -6480,7 +6481,7 @@
         "audioFile": "1912\\Audio\\_358.mp3"
     },
     {
-        "number": 359,
+        "identifier": "359",
         "title": "Conscious Dependence on God",
         "psalm": 127,
         "verses": [
@@ -6496,7 +6497,7 @@
         "audioFile": "1912\\Audio\\_359.mp3"
     },
     {
-        "number": 360,
+        "identifier": "360",
         "title": "Family Happiness",
         "psalm": 128,
         "verses": [
@@ -6513,7 +6514,7 @@
         "audioFile": "1912\\Audio\\_360.mp3"
     },
     {
-        "number": 361,
+        "identifier": "361",
         "title": "Conflict and Victory",
         "psalm": 129,
         "verses": [
@@ -6529,7 +6530,7 @@
         "audioFile": "1912\\Audio\\_361.mp3"
     },
     {
-        "number": 362,
+        "identifier": "362",
         "title": "Redemption and Forgiveness",
         "psalm": 130,
         "verses": [
@@ -6544,7 +6545,7 @@
         "audioFile": "1912\\Audio\\_362.mp3"
     },
     {
-        "number": 363,
+        "identifier": "363",
         "title": "Waiting Upon God",
         "psalm": 130,
         "verses": [
@@ -6561,7 +6562,7 @@
         "audioFile": "1912\\Audio\\_363.mp3"
     },
     {
-        "number": 364,
+        "identifier": "364",
         "title": "Penitence and Hope",
         "psalm": 130,
         "verses": [
@@ -6577,7 +6578,7 @@
         "audioFile": "1912\\Audio\\_364.mp3"
     },
     {
-        "number": 365,
+        "identifier": "365",
         "title": "Pardoning Mercy",
         "psalm": 130,
         "verses": [
@@ -6593,8 +6594,8 @@
         "audioFile": "1912\\Audio\\_365.mp3"
     },
     {
-        "number": 365,
-        "secondTune": true,
+        "identifier": "365",
+        "isSecondTune": true,
         "title": "Pardoning Mercy",
         "psalm": 130,
         "verses": [
@@ -6609,7 +6610,7 @@
         ]
     },
     {
-        "number": 366,
+        "identifier": "366",
         "title": "Humility and Meekness",
         "psalm": 131,
         "verses": [
@@ -6624,7 +6625,7 @@
         "audioFile": "1912\\Audio\\_366.mp3"
     },
     {
-        "number": 367,
+        "identifier": "367",
         "title": "God and His Church",
         "psalm": 132,
         "verses": [
@@ -6641,7 +6642,7 @@
         "audioFile": "1912\\Audio\\_367.mp3"
     },
     {
-        "number": 368,
+        "identifier": "368",
         "title": "The House of God",
         "psalm": 132,
         "verses": [
@@ -6658,7 +6659,7 @@
         "audioFile": "1912\\Audio\\_368.mp3"
     },
     {
-        "number": 369,
+        "identifier": "369",
         "title": "Brotherly Love",
         "psalm": 133,
         "verses": [
@@ -6673,7 +6674,7 @@
         "audioFile": "1912\\Audio\\_369.mp3"
     },
     {
-        "number": 370,
+        "identifier": "370",
         "title": "The Communion of the Saints",
         "psalm": 133,
         "verses": [
@@ -6687,7 +6688,7 @@
         "audioFile": "1912\\Audio\\_370.mp3"
     },
     {
-        "number": 371,
+        "identifier": "371",
         "title": "The Unity of Brotherhood",
         "psalm": 133,
         "verses": [
@@ -6701,7 +6702,7 @@
         "audioFile": "1912\\Audio\\_371.mp3"
     },
     {
-        "number": 372,
+        "identifier": "372",
         "title": "Doxology and Benediction",
         "psalm": 134,
         "verses": [
@@ -6715,7 +6716,7 @@
         "audioFile": "1912\\Audio\\_372.mp3"
     },
     {
-        "number": 373,
+        "identifier": "373",
         "title": "Incentives to Praise",
         "psalm": 135,
         "verses": [
@@ -6737,7 +6738,7 @@
         "audioFile": "1912\\Audio\\_373.mp3"
     },
     {
-        "number": 374,
+        "identifier": "374",
         "title": "Adoration of God",
         "psalm": 135,
         "verses": [
@@ -6754,7 +6755,7 @@
         "audioFile": "1912\\Audio\\_374.mp3"
     },
     {
-        "number": 375,
+        "identifier": "375",
         "title": "Invitations to Praise",
         "psalm": 135,
         "verses": [
@@ -6771,7 +6772,7 @@
         "audioFile": "1912\\Audio\\_375.mp3"
     },
     {
-        "number": 376,
+        "identifier": "376",
         "title": "Enduring Mercy",
         "psalm": 136,
         "verses": [
@@ -6789,7 +6790,7 @@
         "audioFile": "1912\\Audio\\_376.mp3"
     },
     {
-        "number": 377,
+        "identifier": "377",
         "title": "Divine Love",
         "psalm": 136,
         "verses": [
@@ -6808,7 +6809,7 @@
         "audioFile": "1912\\Audio\\_377.mp3"
     },
     {
-        "number": 378,
+        "identifier": "378",
         "title": "The Unfailing Mercy of God",
         "psalm": 136,
         "verses": [
@@ -6823,7 +6824,7 @@
         "audioFile": "1912\\Audio\\_378.mp3"
     },
     {
-        "number": 379,
+        "identifier": "379",
         "title": "Memories of Zion",
         "psalm": 137,
         "verses": [
@@ -6841,7 +6842,7 @@
         "audioFile": "1912\\Audio\\_379.mp3"
     },
     {
-        "number": 380,
+        "identifier": "380",
         "title": "Remembrance of Church Privileges",
         "psalm": 137,
         "verses": [
@@ -6857,7 +6858,7 @@
         "audioFile": "1912\\Audio\\_380.mp3"
     },
     {
-        "number": 381,
+        "identifier": "381",
         "title": "Exultation in God",
         "psalm": 138,
         "verses": [
@@ -6873,7 +6874,7 @@
         "audioFile": "1912\\Audio\\_381.mp3"
     },
     {
-        "number": 382,
+        "identifier": "382",
         "title": "A Vision of God",
         "psalm": 139,
         "verses": [
@@ -6890,7 +6891,7 @@
         "audioFile": "1912\\Audio\\_382.mp3"
     },
     {
-        "number": 383,
+        "identifier": "383",
         "title": "The Lord Our Maker",
         "psalm": 139,
         "verses": [
@@ -6907,7 +6908,7 @@
         "audioFile": "1912\\Audio\\_383.mp3"
     },
     {
-        "number": 384,
+        "identifier": "384",
         "title": "Searcher of Hearts",
         "psalm": 139,
         "verses": [
@@ -6923,8 +6924,8 @@
         ]
     },
     {
-        "number": 384,
-        "secondTune": true,
+        "identifier": "384",
+        "isSecondTune": true,
         "title": "Searcher of Hearts",
         "psalm": 139,
         "verses": [
@@ -6941,7 +6942,7 @@
         "audioFile": "1912\\Audio\\_384_2.mp3"
     },
     {
-        "number": 385,
+        "identifier": "385",
         "title": "Peril and Prayer",
         "psalm": 140,
         "verses": [
@@ -6956,7 +6957,7 @@
         "audioFile": "1912\\Audio\\_385.mp3"
     },
     {
-        "number": 386,
+        "identifier": "386",
         "title": "Prayerful Desire",
         "psalm": 141,
         "verses": [
@@ -6976,7 +6977,7 @@
         "audioFile": "1912\\Audio\\_386.mp3"
     },
     {
-        "number": 387,
+        "identifier": "387",
         "title": "Our Only Saviour",
         "psalm": 142,
         "verses": [
@@ -6994,7 +6995,7 @@
         "audioFile": "1912\\Audio\\_387.mp3"
     },
     {
-        "number": 388,
+        "identifier": "388",
         "title": "Christ our Refuge and Portion",
         "psalm": 142,
         "verses": [
@@ -7011,7 +7012,7 @@
         "audioFile": "1912\\Audio\\_388.mp3"
     },
     {
-        "number": 389,
+        "identifier": "389",
         "title": "Contrite Trust",
         "psalm": 143,
         "verses": [
@@ -7029,8 +7030,8 @@
         "audioFile": "1912\\Audio\\_389.mp3"
     },
     {
-        "number": 389,
-        "secondTune": true,
+        "identifier": "389",
+        "isSecondTune": true,
         "title": "Contrite Trust",
         "psalm": 143,
         "verses": [
@@ -7047,7 +7048,7 @@
         ]
     },
     {
-        "number": 390,
+        "identifier": "390",
         "title": "Earnest Desire and Supplication",
         "psalm": 143,
         "verses": [
@@ -7062,7 +7063,7 @@
         "audioFile": "1912\\Audio\\_390.mp3"
     },
     {
-        "number": 391,
+        "identifier": "391",
         "title": "Reliance and Supplication",
         "psalm": 143,
         "verses": [
@@ -7078,8 +7079,8 @@
         "audioFile": "1912\\Audio\\_391.mp3"
     },
     {
-        "number": 391,
-        "secondTune": true,
+        "identifier": "391",
+        "isSecondTune": true,
         "title": "Reliance and Supplication",
         "psalm": 143,
         "verses": [
@@ -7094,7 +7095,7 @@
         ]
     },
     {
-        "number": 392,
+        "identifier": "392",
         "title": "Trustful Praise and Prayer",
         "psalm": 144,
         "verses": [
@@ -7112,7 +7113,7 @@
         "audioFile": "1912\\Audio\\_392.mp3"
     },
     {
-        "number": 393,
+        "identifier": "393",
         "title": "National Prosperity",
         "psalm": 144,
         "verses": [
@@ -7127,7 +7128,7 @@
         "audioFile": "1912\\Audio\\_393.mp3"
     },
     {
-        "number": 394,
+        "identifier": "394",
         "title": "Our Glorious King",
         "psalm": 145,
         "verses": [
@@ -7142,7 +7143,7 @@
         "audioFile": "1912\\Audio\\_394.mp3"
     },
     {
-        "number": 395,
+        "identifier": "395",
         "title": "The Kingdom of Grace",
         "psalm": 145,
         "verses": [
@@ -7158,7 +7159,7 @@
         "audioFile": "1912\\Audio\\_395.mp3"
     },
     {
-        "number": 396,
+        "identifier": "396",
         "title": "The Goodness of God",
         "psalm": 145,
         "verses": [
@@ -7176,7 +7177,7 @@
         "audioFile": "1912\\Audio\\_396.mp3"
     },
     {
-        "number": 397,
+        "identifier": "397",
         "title": "The Greatness and Grace of God",
         "psalm": 145,
         "verses": [
@@ -7196,7 +7197,7 @@
         "audioFile": "1912\\Audio\\_397.mp3"
     },
     {
-        "number": 398,
+        "identifier": "398",
         "title": "Divine Grace and Compassion",
         "psalm": 145,
         "verses": [
@@ -7211,7 +7212,7 @@
         "audioFile": "1912\\Audio\\_398.mp3"
     },
     {
-        "number": 399,
+        "identifier": "399",
         "title": "The Excellency of God",
         "psalm": 145,
         "verses": [
@@ -7227,7 +7228,7 @@
         "audioFile": "1912\\Audio\\_399.mp3"
     },
     {
-        "number": 400,
+        "identifier": "400",
         "title": "Trust and Praise",
         "psalm": 146,
         "verses": [
@@ -7246,7 +7247,7 @@
         "audioFile": "1912\\Audio\\_400.mp3"
     },
     {
-        "number": 401,
+        "identifier": "401",
         "title": "The One True Helper",
         "psalm": 146,
         "verses": [
@@ -7262,7 +7263,7 @@
         "audioFile": "1912\\Audio\\_401.mp3"
     },
     {
-        "number": 402,
+        "identifier": "402",
         "title": "Reasons for Praise",
         "psalm": 147,
         "verses": [
@@ -7280,7 +7281,7 @@
         "audioFile": "1912\\Audio\\_402.mp3"
     },
     {
-        "number": 403,
+        "identifier": "403",
         "title": "Thankful Commemoration",
         "psalm": 147,
         "verses": [
@@ -7295,7 +7296,7 @@
         "audioFile": "1912\\Audio\\_403.mp3"
     },
     {
-        "number": 404,
+        "identifier": "404",
         "title": "Universal Adoration",
         "psalm": 148,
         "verses": [
@@ -7312,7 +7313,7 @@
         "audioFile": "1912\\Audio\\_404.mp3"
     },
     {
-        "number": 405,
+        "identifier": "405",
         "title": "Praise-Voices",
         "psalm": 148,
         "verses": [
@@ -7331,7 +7332,7 @@
         "audioFile": "1912\\Audio\\_405.mp3"
     },
     {
-        "number": 406,
+        "identifier": "406",
         "title": "Exultant Praise",
         "psalm": 149,
         "verses": [
@@ -7348,7 +7349,7 @@
         "audioFile": "1912\\Audio\\_406.mp3"
     },
     {
-        "number": 407,
+        "identifier": "407",
         "title": "The Promise of Victory",
         "psalm": 149,
         "verses": [
@@ -7364,7 +7365,7 @@
         "audioFile": "1912\\Audio\\_407.mp3"
     },
     {
-        "number": 408,
+        "identifier": "408",
         "title": "Triumphant Joy in God",
         "psalm": 149,
         "verses": [
@@ -7379,7 +7380,7 @@
         "audioFile": "1912\\Audio\\_408.mp3"
     },
     {
-        "number": 409,
+        "identifier": "409",
         "title": "A Summons to Praise",
         "psalm": 150,
         "verses": [
@@ -7396,7 +7397,7 @@
         "audioFile": "1912\\Audio\\_409.mp3"
     },
     {
-        "number": 410,
+        "identifier": "410",
         "title": "A Universal Doxology",
         "psalm": 150,
         "verses": [
@@ -7410,7 +7411,7 @@
         "audioFile": "1912\\Audio\\_410.mp3"
     },
     {
-        "number": 411,
+        "identifier": "411",
         "title": "The Offering of Praise",
         "psalm": 150,
         "verses": [
@@ -7424,7 +7425,7 @@
         "audioFile": "1912\\Audio\\_411.mp3"
     },
     {
-        "number": 412,
+        "identifier": "412",
         "title": "The Exaltation of God",
         "psalm": 150,
         "verses": [
@@ -7438,7 +7439,7 @@
         "audioFile": "1912\\Audio\\_412.mp3"
     },
     {
-        "number": 413,
+        "identifier": "413",
         "title": "The Hallelujah Chorus",
         "psalm": 150,
         "verses": [
@@ -7452,7 +7453,7 @@
         "audioFile": "1912\\Audio\\_413.mp3"
     },
     {
-        "number": 414,
+        "identifier": "414",
         "title": "O Lord, How Swiftly Grows",
         "psalm": 3,
         "verses": [
@@ -7466,10 +7467,10 @@
             "1912/Score/_414.webp"
         ],
         "audioFile": "1912\\Audio\\_414.mp3",
-        "otherPsalterNumber": "3B"
+        "otherPsalterIdentifier": "3B"
     },
     {
-        "number": 415,
+        "identifier": "415",
         "title": "Unto Thee, O Lord Jehovah",
         "psalm": 25,
         "verses": [
@@ -7489,10 +7490,10 @@
             "1912/Score/_415.webp"
         ],
         "audioFile": "1912\\Audio\\_415.mp3",
-        "otherPsalterNumber": "25C"
+        "otherPsalterIdentifier": "25C"
     },
     {
-        "number": 416,
+        "identifier": "416",
         "title": "As the Hart, About to Falter",
         "psalm": 42,
         "verses": [
@@ -7511,7 +7512,7 @@
         "audioFile": "1912\\Audio\\_416.mp3"
     },
     {
-        "number": 417,
+        "identifier": "417",
         "title": "Send Forth, O Lord of My Salvation",
         "psalm": 43,
         "verses": [
@@ -7526,7 +7527,7 @@
         "audioFile": "1912\\Audio\\_417.mp3"
     },
     {
-        "number": 418,
+        "identifier": "418",
         "title": "Praise the Lord, Ye Lands",
         "psalm": 47,
         "verses": [
@@ -7541,7 +7542,7 @@
         "audioFile": "1912\\Audio\\_418.mp3"
     },
     {
-        "number": 419,
+        "identifier": "419",
         "title": "Forth from Thy Courts, Thy Sacred Dwelling",
         "psalm": 65,
         "verses": [
@@ -7558,7 +7559,7 @@
         "audioFile": "1912\\Audio\\_419.mp3"
     },
     {
-        "number": 420,
+        "identifier": "420",
         "title": "God Shall Arise and by His Might",
         "psalm": 68,
         "verses": [
@@ -7576,7 +7577,7 @@
         "audioFile": "1912\\Audio\\_420.mp3"
     },
     {
-        "number": 421,
+        "identifier": "421",
         "title": "O God of Hosts, O God of Grace",
         "psalm": 84,
         "verses": [
@@ -7594,7 +7595,7 @@
         "audioFile": "1912\\Audio\\_421.mp3"
     },
     {
-        "number": 422,
+        "identifier": "422",
         "title": "My Mouth Shall Sing for Aye",
         "psalm": 89,
         "verses": [
@@ -7614,7 +7615,7 @@
         "audioFile": "1912\\Audio\\_422.mp3"
     },
     {
-        "number": 423,
+        "identifier": "423",
         "title": "Jehovah Reigns As King",
         "psalm": 97,
         "verses": [
@@ -7633,7 +7634,7 @@
         "audioFile": "1912\\Audio\\_423.mp3"
     },
     {
-        "number": 424,
+        "identifier": "424",
         "title": "Sing, Sing A New Song to Jehovah",
         "psalm": 98,
         "verses": [
@@ -7649,7 +7650,7 @@
         "audioFile": "1912\\Audio\\_424.mp3"
     },
     {
-        "number": 425,
+        "identifier": "425",
         "title": "Unto the Lord Lift Thankful Voices",
         "psalm": 105,
         "verses": [
@@ -7667,7 +7668,7 @@
         "audioFile": "1912\\Audio\\_425.mp3"
     },
     {
-        "number": 426,
+        "identifier": "426",
         "title": "I Love the Lord",
         "psalm": 116,
         "verses": [
@@ -7689,7 +7690,7 @@
         "audioFile": "1912\\Audio\\_426.mp3"
     },
     {
-        "number": 427,
+        "identifier": "427",
         "title": "Let All Exalt Jehovah's Goodness",
         "psalm": 118,
         "verses": [
@@ -7709,7 +7710,7 @@
         "audioFile": "1912\\Audio\\_427.mp3"
     },
     {
-        "number": 428,
+        "identifier": "428",
         "title": "How Blessed Are the Perfect in the Way",
         "psalm": 119,
         "verses": [
@@ -7731,7 +7732,7 @@
         "audioFile": "1912\\Audio\\_428.mp3"
     },
     {
-        "number": 429,
+        "identifier": "429",
         "title": "With All My Heart Will I Record",
         "psalm": 138,
         "verses": [
@@ -7747,7 +7748,7 @@
         "audioFile": "1912\\Audio\\_429.mp3"
     },
     {
-        "number": 430,
+        "identifier": "430",
         "title": "Hallelujah! Praise Ye God!",
         "psalm": 150,
         "verses": [
@@ -7762,7 +7763,7 @@
         "audioFile": "1912\\Audio\\_430.mp3"
     },
     {
-        "number": 431,
+        "identifier": "431",
         "title": "Unto God, Our King",
         "psalm": 81,
         "verses": [
@@ -7780,7 +7781,7 @@
         "audioFile": "1912\\Audio\\_431.mp3"
     },
     {
-        "number": 432,
+        "identifier": "432",
         "title": "God Jehovah Reigns",
         "psalm": 99,
         "verses": [
@@ -7796,7 +7797,7 @@
         "audioFile": "1912\\Audio\\_432.mp3"
     },
     {
-        "number": 433,
+        "identifier": "433",
         "title": "The Lord's Prayer (with Amen)",
         "verses": [
             "Our Father which art in heaven,\nHallowed be Thy Name. Thy kingdom come.\nThy will be done, on earth, as it is in heaven.\nGive us this day our daily bread.\nForgive us our debts, as we forgive our debtors.\nAnd lead us not into temptation,\nbut deliver us from evil:\nFor Thine is the kingdom,\nthe pow'r and the glory\nnow and forevermore. \nAmen."
@@ -7808,7 +7809,7 @@
         "audioFile": "1912\\Audio\\_433.mp3"
     },
     {
-        "number": 434,
+        "identifier": "434",
         "title": "Our Father Which In Heaven Art (with Amen)",
         "verses": [
             "Our Father which in heaven art, \nhallowed be Thy name.\nThy kingdom come, \nThy will be done, \non earth as it is in heav'n.\nGive us this day our daily bread. \nForgive, O Lord, forgive our debts,\nas we forgive our debtors. \nInto temptation lead us not, \nbut deliver us from evil.\nFor Thine is the kingdom,\nthe pow'r and the glory \nboth now and forevermore.\nAmen."
