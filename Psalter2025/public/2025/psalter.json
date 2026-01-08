@@ -2266,6 +2266,7 @@
         "letter": "B",
         "title": "The Offering on the Altar Burned",
         "psalm": 40,
+        "psalmVerses": "6-10",
         "verses": [
             "The off’ring on the altar burned\nGives no delight to Thee;\nThe hearing ear, the willing heart,\nThou givest unto me.",
             "Then, O my God, I come, I come,\nThy purpose to fulfill;\nThy law is written in my heart,\n’Tis joy to do Thy will.",
@@ -2273,7 +2274,8 @@
             "I never have within my heart\nThy faithfulness concealed,\nBut Thy salvation and Thy truth\nTo men I have revealed."
         ],
         "scoreFiles": [],
-        "audioFile": "2025/Audio/_40B.aac"
+        "audioFile": "2025/Audio/_40B.aac",
+        "otherPsalterNumber": "109"
     },
     {
         "number": 40,
