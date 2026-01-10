@@ -13,22 +13,6 @@ internal class Program
     {
         Generate2025Psalters();
         await Migrate1912ToNewSchema();
-
-        //var http = new HttpClient();
-        //var audio = File.ReadAllText("C:\\Users\\verme\\Documents\\Psalter app files\\2025\\audio-urls.txt").Split("\n", StringSplitOptions.RemoveEmptyEntries);
-        //foreach (var line in audio)
-        //{
-        //    var parts = line.Split(": ", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-
-        //    var url = parts[1];
-        //    var fileName = $"_{parts[0]}{Path.GetExtension(url)}";
-
-        //    var audioStream = await http.GetStreamAsync(url);
-        //    using FileStream fileStream = new FileStream($"{NG_PUBLIC_FOLDER}2025\\Audio\\{fileName}", FileMode.Create, FileAccess.Write);
-
-        //    // 3. Asynchronously copy the download stream to the file stream
-        //    await audioStream.CopyToAsync(fileStream);
-        //}
     }
 
     private static void Generate2025Psalters()
@@ -42,8 +26,6 @@ internal class Program
             {
                 ScoreFilePath = $"2025/Score/{x}",
                 FileName = Path.GetFileNameWithoutExtension(x),
-                //Number = ReadWhileDigit(x.TrimStart("_")),
-                //Letter = new string(Path.GetFileNameWithoutExtension(x).SkipWhile(x => !char.IsLetter(x)).Take(1).ToArray()),
                 IsRefrain = x.ToLower().Contains("_refrain")
             }).ToList();
 
@@ -101,21 +83,11 @@ internal class Program
                 .Where(x => x.FileName.TrimStart("_").Split("_").First() == identifier)
                 .Select(x => x.ScoreFilePath)
                 .ToList();
-
-            if (psalter.Psalm > 99 || psalter.Psalm == null)
-                psalter.OtherPsalterIdentifier = "";
-
         }
 
         WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
     }
 
-    //private (int, string) GetNumberAndLetter(string numberAndLetter)
-    //{
-    //    var number = ReadWhileDigit(numberAndLetter).Value;
-    //    var letter = numberAndLetter[number.ToString().Length..];
-    //    return (number, letter);
-    //}
     private static int? ReadWhileDigit(string text)
     {
         var numericText = new string(text.TakeWhile(char.IsDigit).ToArray());
