@@ -102,8 +102,8 @@ internal class Program
                 .Select(x => x.ScoreFilePath)
                 .ToList();
 
-            if (psalter.Psalm > 102)
-                psalter.PsalmVerses = "";
+            if (psalter.Psalm > 99 || psalter.Psalm == null)
+                psalter.OtherPsalterIdentifier = "";
 
         }
 
