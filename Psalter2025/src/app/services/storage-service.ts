@@ -16,6 +16,9 @@ export class StorageService {
     get textScale() { return this.getFloat('textScale', 1) }
     set textScale(val: number) { localStorage.setItem('textScale', val.toString()) }
 
+    get imgScale() { return this.getFloat('imgScale', 1) }
+    set imgScale(val: number) { localStorage.setItem('imgScale', val.toString()) }
+
     get lastIndex() { return this.getInt('lastIndex') }
     set lastIndex(val: number) { localStorage.setItem('lastIndex', val.toString()) }
 
