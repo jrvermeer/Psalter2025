@@ -98,7 +98,7 @@ internal class Program
 
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
             psalter.ScoreFiles = scoreFiles
-                .Where(x => x.FileName.TrimStart("_").StartsWith(identifier))
+                .Where(x => x.FileName.TrimStart("_").Split("_").First() == identifier)
                 .Select(x => x.ScoreFilePath)
                 .ToList();
 
