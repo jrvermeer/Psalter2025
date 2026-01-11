@@ -142,22 +142,30 @@ export class AppComponent {
             let searchResult = new PsalterSearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
             let add = !searchText;
             if (searchText) {
-                const isIdentifierMatch = psalter.identifier.toLowerCase().startsWith(searchText);
-                const isPsalmMatch = psalter.psalm?.toString() == searchText;
-                if (isIdentifierMatch || isPsalmMatch) {
+                if (psalter.identifier.toLowerCase().startsWith(searchText)) {
                     add = true
-                    searchResult.showPsalm = isPsalmMatch && !isIdentifierMatch;
                 }
-                else if (searchText.length > 1) {
-                    searchResult.verseResults = [];
-                    let verseNum = 1
-                    for (let verse of psalter.verses)
-                        this.addVerseSearchHits(searchResult, `${verseNum++}.`, verse, searchText)
+                else if (psalter.psalm?.toString() == searchText) {
+                    add = searchResult.showPsalm = true
+                }
+                else {
+                    let otherIdentifier = psalter.otherPsalterIdentifiers?.find(x => x.toLowerCase() == searchText);
+                    if (otherIdentifier) {
+                        add = true;
+                        searchResult.otherPsalterIdentifier = otherIdentifier
+                    }
+                    else if (searchText.length > 1) {
+                        searchResult.verseResults = [];
+                        let verseNum = 1
+                        for (let verse of psalter.verses)
+                            this.addVerseSearchHits(searchResult, `${verseNum++}.`, verse, searchText)
 
-                    if (psalter.chorus)
-                        this.addVerseSearchHits(searchResult, 'chorus', psalter.chorus, searchText)
+                        if (psalter.chorus)
+                            this.addVerseSearchHits(searchResult, 'chorus', psalter.chorus, searchText)
 
-                    add = !!searchResult.verseResults.length
+                        add = !!searchResult.verseResults.length
+                    }
+
                 }
             }
 

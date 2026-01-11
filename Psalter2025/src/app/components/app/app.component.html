@@ -10,6 +10,7 @@
                         <span *ngIf="result.psalter.secondTune" class="ml-1">(2nd)</span>
                     </div>
                     <span *ngIf="result.showPsalm">Psalm {{result.psalter.psalm}}</span>
+                    <span *ngIf="result.otherPsalterIdentifier">[{{result.otherPsalterIdentifier}}]</span>
                 </div>
                 <div class="m-auto">
                     <table *ngIf="result.verseResults">
