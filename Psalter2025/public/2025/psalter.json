@@ -306,11 +306,11 @@
     },
     {
         "identifier": "9A",
-        "title": "whole-hearted Thanksgiving",
+        "title": "Whole-hearted Thanksgiving",
         "psalm": 9,
         "isCompletePsalm": true,
         "verses": [
-            "whole-hearted thanksgiving to Thee I will bring, \nIn praise of Thy marvelous deeds I will sing, \nIn Thee I will joy and exultingly cry, \nThy name I will praise O Jehovah Most High. ",
+            "Whole-hearted thanksgiving to Thee I will bring, \nIn praise of Thy marvelous deeds I will sing, \nIn Thee I will joy and exultingly cry, \nThy name I will praise O Jehovah Most High. ",
             "My enemies turn and are scattered in fear,\nThey stumble and perish because Thou art near;\nFor Thou hast defended my right and my cause,\nThou sittest in judgment, upholding Thy laws.",
             "Rebuked are the nations, the wicked destroyed,\nTheir memory perished, their dwelling place void;\nEnthroned and eternal, Jehovah shall reign,\nThe peoples to judge and the right to maintain.",
             "Thou, LORD, art a refuge for all the oppressed; \nAll trust Thee who know Thee, and trusting are blest; \nFor never, O LORD, did Thy mercy forsake \nThe soul that has sought of Thy grace to partake.",
@@ -423,8 +423,7 @@
             "2025/Score/_11B.jpg",
             "2025/Score/_11B_2.jpg"
         ],
-        "audioFile": "2025/Audio/_11B.aac",
-        "otherPsalterIdentifier": "20"
+        "audioFile": "2025/Audio/_11B.aac"
     },
     {
         "identifier": "12",

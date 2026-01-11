@@ -139,7 +139,7 @@ export class AppComponent {
                 const isPsalmMatch = psalter.psalm?.toString() == searchText;
                 if (isIdentifierMatch || isPsalmMatch) {
                     add = true
-                    searchResult.showPsalm = isPsalmMatch;
+                    searchResult.showPsalm = isPsalmMatch && !isIdentifierMatch;
                 }
                 else if (searchText.length > 1) {
                     searchResult.verseResults = [];
@@ -156,16 +156,7 @@ export class AppComponent {
 
             if (add) 
                 this.searchResults.push(searchResult)
-
         }
-
-        // rendering too many verses causes UI lag (switch to virtual vertical swiper?)
-        //this.searchMaxResultsMessage = undefined;
-        //let numHidden = AppComponent.MAX_PSALTER_RESULTS - this.searchResults.length
-        //if (numHidden > 1) {
-        //    this.searchResults.splice(AppComponent.MAX_PSALTER_RESULTS, numHidden)
-        //    this.searchMaxResultsMessage = `${numHidden} results hidden`
-        //}
 
         // rendering too many verses causes UI lag (switch to virtual vertical swiper?)
         this.searchMaxResultsMessage = undefined;

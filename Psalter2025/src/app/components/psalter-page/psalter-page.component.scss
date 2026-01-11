@@ -1,0 +1,59 @@
+swiper-container {
+    height: 100%;
+    --swiper-theme-color: var(--mat-sys-primary);
+}
+
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    overflow: auto;
+}
+
+.ui-slide-container {
+    max-width: 100%;
+    padding: 16px 4px 4px 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-header-wrapper {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: initial;
+    line-height: initial;
+
+    .ui-header {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        .ui-identifier {
+            display: flex;
+            align-items: baseline;
+            margin-right: 16px;
+        }
+    }
+
+    .ui-psalm-link {
+        --mat-button-text-container-height: 2em;
+        padding-left: 0;
+        align-self: start;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.verse {
+    white-space: pre-line;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.ui-verse-descriptor {
+    vertical-align: top;
+    font-weight: bold;
+}

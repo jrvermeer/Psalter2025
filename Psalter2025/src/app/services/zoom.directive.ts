@@ -29,7 +29,7 @@ export class ZoomDirective {
         if (evt.touches.length === 2) {
             evt.preventDefault();
             this.initialPinchDistance = this.calculateDistance(evt.touches[0], evt.touches[1])
-            this.initialImgScale = Math.min(this.storage.imgScale);
+            this.initialImgScale = this.storage.imgScale;
         }
     }
 

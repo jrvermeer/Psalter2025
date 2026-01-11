@@ -6,24 +6,24 @@
                   (swiperslidechange)="slideChange($event)">
     @for (psalter of psalters; track $index) {
     <swiper-slide>
-        <div class="ui-slide-container" [style.width.px]="containerWidth">
-            <div class="ui-header">
-                <div class="d-flex align-end">
-                    <h1>{{psalter.mainIdentifier}}</h1>
-                    <h2 *ngIf="psalter.subIdentifier">{{psalter.subIdentifier}}</h2>
-                    <span *ngIf="psalter.secondTune" class="ml-1">(2nd tune)</span>
+        <div class="ui-slide-container">
+            <div class="ui-header-wrapper">
+                <div class="ui-header">
+                    <div class="ui-identifier">
+                        <h1>{{psalter.mainIdentifier}}</h1>
+                        <h2 *ngIf="psalter.subIdentifier">{{psalter.subIdentifier}}</h2>
+                        <span *ngIf="psalter.secondTune" class="ml-1">(2nd tune)</span>
+                    </div>
+                    <h2 class="ml-1">{{psalter.title}}</h2>
                 </div>
-                <h2 class="ml-1">{{psalter.title}}</h2>
-            </div>
-            <div class="d-flex-col align-start">
-                @if (psalter.psalm) {
-                <a matButton href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}&version=KJV" target="_blank" class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
-                }
+                <a *ngIf="psalter.psalm" matButton target="_blank"
+                   href="https://www.biblegateway.com/passage/?search={{getPsalmSearchText(psalter)}}&version=KJV"
+                   class="ui-psalm-link">{{getPsalmDisplayText(psalter)}}</a>
             </div>
             @if (storage.showScore && psalter.scoreFiles?.length) {
                 @for(scoreSrc of psalter.scoreFiles; track $index) {
                     <psalter-separator *ngIf="$index > 0"></psalter-separator>
-                    <img [src]="scoreSrc" loading="lazy" />
+                    <img [src]="scoreSrc" loading="lazy" [style.width.px]="imgWidth"/>
                 }
             }
             <table class="verses">

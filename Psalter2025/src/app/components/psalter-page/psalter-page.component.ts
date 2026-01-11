@@ -8,7 +8,7 @@ import { AppComponent } from '../app/app.component';
 @Component({
     selector: 'psalter-page',
     templateUrl: './psalter-page.component.html',
-    styleUrl: './psalter-page.component.css',
+    styleUrl: './psalter-page.component.scss',
     standalone: false
 })
 export class PsalterPageComponent {
@@ -51,7 +51,7 @@ export class PsalterPageComponent {
     }
 
     enableNavArrows = false;
-    get containerWidth() { return 500 * this.storage.imgScale; }
+    get imgWidth() { return 500 * this.storage.imgScale; }
 
     @Input()
     psalters: Psalter[];

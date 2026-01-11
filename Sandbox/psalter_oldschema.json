@@ -2690,19 +2690,19 @@
         "psalm": 72,
         "scoreFileName": "1912/Score/_197.webp"
     },
-    {
-        "NumVersesInsideStaff": 5,
-        "Title": "#198",
-        "_id": 207,
-        "audioFileName": "1912/Audio/_198.mp3",
-        "heading": "The Blessings of Immanuel's Reign",
-        "isFavorite": 0,
-        "lyrics": "1. O God, be Thy Anointed Son\nWith truth and righteousness endowed,\nThat justice may on earth be done,\nThe meek protected from the proud.\n\n2. Then over mountain side and plain\nShall peace spring forth from righteousness;\nThe poor man's cause will He maintain,\nAnd save the weak, that none oppress.\n\n3. Then shall Thy fear on earth be known\nLong as the sun and moon shall shine;\nWhile endless generations run\nKingdom and glory shall be Thine.\n\n4. Like copious rain in time of dearth,\nSo shall His gracious coming be;\nAs gentle showers that cheer the earth,\nSo shall He bring prosperity.\n\n5. The just shall flourish in His day,\nAnd evermore shall peace extend;\nFrom sea to sea shall be His sway,\nAnd to the earth's remotest end.\n\n6. The desert lands to Him shall bow,\nAnd all the islands of the sea,\nAnd kings with gifts shall pay their vow,\nHis enemies shall bend the knee.\n\n7. In great compassion for the weak\nHe ever will maintain their right,\nWill help the poor and save the meek;\nTheir lives are precious in His sight.",
-        "number": 198,
-        "numverses": 7,
-        "psalm": 72,
-        "scoreFileName": "1912/Score/_198.webp"
-    },
+  {
+    "NumVersesInsideStaff": 5,
+    "Title": "#198",
+    "_id": 207,
+    "audioFileName": "1912/Audio/_198.mp3",
+    "heading": "The Blessings of Immanuel's Reign",
+    "isFavorite": 0,
+    "lyrics": "1. O God, be Thy Anointed Son\nWith truth and righteousness endowed,\nThat justice may on earth be done,\nThe meek protected from the proud.\n\n2. Then over mountain side and plain\nShall peace spring forth from righteousness;\nThe poor man's cause will He maintain,\nAnd save the weak, that none oppress.\n\n3. Then shall Thy fear on earth be known\nLong as the sun and moon shall shine;\nWhile endless generations run\nKingdom and glory shall be Thine.\n\n4. Like copious rain in time of dearth,\nSo shall His gracious coming be;\nAs gentle showers that cheer the earth,\nSo He shall bring prosperity.\n\n5. The just shall flourish in His day,\nAnd evermore shall peace extend;\nFrom sea to sea shall be His sway,\nAnd to the earth's remotest end.\n\n6. The desert lands to Him shall bow,\nAnd all the islands of the sea,\nAnd kings with gifts shall pay their vow,\nHis enemies shall bend the knee.\n\n7. In great compassion for the weak\nHe ever will maintain their right,\nWill help the poor and save the meek;\nTheir lives are precious in His sight.",
+    "number": 198,
+    "numverses": 7,
+    "psalm": 72,
+    "scoreFileName": "1912/Score/_198.webp"
+  },
     {
         "NumVersesInsideStaff": 5,
         "Title": "#199",

@@ -67,16 +67,12 @@ internal class Program
                 }
                 psalter.Verses = verses.Select(x => RemoveVerseNumber(x)).ToList();
                 if (psalter.Verses.Count != expectedMaxVerses)
-                {
-                    newPsalters.Remove(psalter);
-                    WriteJson($"{NG_PUBLIC_FOLDER}2025\\psalter.json", newPsalters);
                     throw new Exception();
-                }
-            }
 
-            psalter.Identifier = identifier;
-            psalter.Title = titleAndIdentifier[0];
-            psalter.Psalm = psalm;
+                psalter.Identifier = identifier;
+                psalter.Title = titleAndIdentifier[0];
+                psalter.Psalm = psalm;
+            }
 
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
             psalter.ScoreFiles = scoreFiles
