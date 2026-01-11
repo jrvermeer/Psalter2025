@@ -56,7 +56,7 @@ export class Psalter {
     chorus: string
     audioFile: string
     scoreFiles: string[]
-    otherPsalterIdentifier: string
+    otherPsalterIdentifiers: string[]
 
     numVersesInsideStaff: number // 1912
 

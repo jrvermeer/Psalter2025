@@ -73,6 +73,10 @@ internal class Program
                 psalter.Title = titleAndIdentifier[0];
                 psalter.Psalm = psalm;
             }
+            psalter.OtherPsalterIdentifiers = GetOtherIdentifiers(psalter.OtherPsalterIdentifier);
+            psalter.OtherPsalterIdentifier = null;
+            if (!psalter.OtherPsalterIdentifiers.Any())
+                psalter.OtherPsalterIdentifiers = null;
 
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
             psalter.ScoreFiles = scoreFiles
@@ -99,35 +103,38 @@ internal class Program
 
         foreach (var newPsalter in newPsalters)
         {
-            var oldNumbersForNewPsalter = new List<int>();
-            if (!newPsalter.OtherPsalterIdentifier.IsNullOrWhiteSpace())
+            foreach (var oldPsalterNumber in newPsalter.OtherPsalterIdentifiers ?? [])
             {
-                var parts = newPsalter.OtherPsalterIdentifier.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                foreach (var part in parts) 
-                {
-                    if (part.Contains("-"))
-                    {
-                        var range = part.Split("-").Select(x => int.Parse(x)).ToList();
-                        oldNumbersForNewPsalter.AddRange(Enumerable.Range(range[0], range[1] - range[0] + 1));
-                    }
-                    else
-                        oldNumbersForNewPsalter.Add(int.Parse(part));
-                }
-            }
-
-            foreach (var oldPsalterNumber in oldNumbersForNewPsalter)
-            {
-                var oldPsalter = oldPsalters.FirstOrDefault(x => x.Identifier == oldPsalterNumber.ToString());
+                var oldPsalter = oldPsalters.FirstOrDefault(x => x.Identifier == oldPsalterNumber);
                 if (oldPsalter != null) // 437
                 {
-                    if (!oldPsalter.OtherPsalterIdentifier.IsNullOrWhiteSpace())
-                        oldPsalter.OtherPsalterIdentifier += ", ";
-                    oldPsalter.OtherPsalterIdentifier += newPsalter.Identifier;
+                    oldPsalter.OtherPsalterIdentifiers ??= [];
+                    oldPsalter.OtherPsalterIdentifiers.Add(newPsalter.Identifier);
                 }
             }
         }
 
         WriteJson($"{NG_PUBLIC_FOLDER}1912\\psalter.json", oldPsalters);
+    }
+
+    private static List<string> GetOtherIdentifiers(string combinedIdentifiers)
+    {
+        var oldNumbersForNewPsalter = new List<string>();
+        if (combinedIdentifiers.IsNullOrWhiteSpace())
+            return oldNumbersForNewPsalter;
+
+        var parts = combinedIdentifiers.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+        foreach (var part in parts)
+        {
+            if (part.Contains("-"))
+            {
+                var range = part.Split("-").Select(x => int.Parse(x)).ToList();
+                oldNumbersForNewPsalter.AddRange(Enumerable.Range(range[0], range[1] - range[0] + 1).Select(x => x.ToString()));
+            }
+            else
+                oldNumbersForNewPsalter.Add(part);
+        }
+        return oldNumbersForNewPsalter;
     }
 
     private static void WriteJson(string path, List<NewSchema> newSchema)
@@ -220,4 +227,5 @@ public class NewSchema
     public List<string> ScoreFiles { get; set; }
     public string? AudioFile { get; set; }
     public string? OtherPsalterIdentifier { get; set; }
+    public List<string>? OtherPsalterIdentifiers { get; set; }
 }

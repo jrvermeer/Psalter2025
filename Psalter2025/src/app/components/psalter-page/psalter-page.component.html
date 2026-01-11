@@ -45,9 +45,9 @@
                     }
                 </tbody>
             </table>
-            @if(psalter.otherPsalterIdentifier){
-                <button matButton (click)="app.togglePsalter()">[{{psalter.otherPsalterIdentifier}}]</button>
-            }
+            <div *ngIf="psalter.otherPsalterIdentifiers">
+                <button *ngFor="let otherIdentifier of psalter.otherPsalterIdentifiers" matButton (click)="app.togglePsalter(otherIdentifier)">[{{otherIdentifier}}]</button>
+            </div>
         </div>
     </swiper-slide>
     }

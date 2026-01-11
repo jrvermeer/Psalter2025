@@ -22,22 +22,10 @@ export class PsalterPageComponent {
 
     ngOnChanges(changes: SimpleChanges): void {
         if (this.swiper && changes['psalters']) {
-            let goToIndex: number
-            let isFirstInitialization = !changes['psalters'].previousValue;
-            if (!isFirstInitialization && this.service.currentPsalter?.otherPsalterIdentifier) {
-                const iComma = this.service.currentPsalter.otherPsalterIdentifier.indexOf(',')
-                const iDash = this.service.currentPsalter.otherPsalterIdentifier.indexOf('-')
-                const iCommaOrDash = Math.max(iComma, iDash);
-                let otherPsalterIdentifier = this.service.currentPsalter.otherPsalterIdentifier;
-                if (iCommaOrDash > -1)
-                    otherPsalterIdentifier = otherPsalterIdentifier.substring(0, iCommaOrDash);
-                goToIndex = this.psalters.findIndex(x => x.identifier == otherPsalterIdentifier)
-            }
-
             this.resetSwiper();
 
-            if (goToIndex)
-                this.swiper.nativeElement.swiper.slideTo(goToIndex, 0);
+            if (this.initial)
+                this.goToPsalter(this.initial, false);
         }
     }
 
@@ -45,7 +33,7 @@ export class PsalterPageComponent {
         this.resetSwiper();
 
         if (this.initial)
-            this.goToPsalter(this.initial);
+            this.goToPsalter(this.initial, false);
         else if (this.storage.lastIndex)
             this.goToIndex(this.storage.lastIndex, false);
     }
@@ -94,9 +82,9 @@ export class PsalterPageComponent {
         this.goToIndex(i);
     }
 
-    goToPsalter(psalter: Psalter) {
+    goToPsalter(psalter: Psalter, animate = true) {
         const i = this.psalters.indexOf(psalter);
-        this.goToIndex(i)
+        this.goToIndex(i, animate)
     }
 
     goToIndex(i: number, animate = true) {

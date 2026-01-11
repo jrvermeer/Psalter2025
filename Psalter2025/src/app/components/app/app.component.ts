@@ -20,7 +20,7 @@ export class AppComponent {
         @Inject(DOCUMENT) private document: Document) {
 
         this.toggleTheme(storage.darkTheme);
-        this.togglePsalter(storage.oldPsalter);
+        this.togglePsalter(undefined, storage.oldPsalter);
         navigator.wakeLock?.request();
 
         this.searchInputModeControl.valueChanges
@@ -70,16 +70,23 @@ export class AppComponent {
         this.storage.darkTheme = darkTheme;
     }
 
-    togglePsalter(oldPsalter?: boolean) {
+    togglePsalter(otherPsalterIdentifier?: string, oldPsalter?: boolean) {
         if (oldPsalter == undefined)
             oldPsalter = !this.storage.oldPsalter;
 
         this.cancelAudio();
 
-        if (oldPsalter)
-            this.service.get1912().subscribe(x => this.psalters = x);
-        else
-            this.service.get2025().subscribe(x => this.psalters = x);
+        let obs = oldPsalter ? this.service.get1912() : this.service.get2025();
+        obs.subscribe(x => {
+            this.psalters = x;
+            if (otherPsalterIdentifier)
+                this.goToPsalter = x.find(x => x.identifier == otherPsalterIdentifier);
+            else if (this.service.currentPsalter.otherPsalterIdentifiers?.length)
+                this.goToPsalter = x.find(x => x.identifier == this.service.currentPsalter.otherPsalterIdentifiers[0])
+            else if (this.service.currentPsalter.psalm)
+                this.goToPsalter = x.find(x => x.psalm == this.service.currentPsalter.psalm)
+                
+        })
 
         this.storage.oldPsalter = oldPsalter;
     }
