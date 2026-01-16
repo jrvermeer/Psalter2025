@@ -21,7 +21,6 @@ export class AppComponent {
 
         this.toggleTheme(storage.darkTheme);
         this.togglePsalter(undefined, storage.oldPsalter);
-        navigator.wakeLock?.request();
 
         this.searchInputModeControl.valueChanges
             .pipe(startWith(this.searchInputModeControl.value))
@@ -38,6 +37,10 @@ export class AppComponent {
             e.preventDefault();
             this.installEvent = e
         });
+    }
+
+    ngOnInit() {
+        navigator.wakeLock?.request();
     }
     
     installEvent: any;
@@ -106,7 +109,7 @@ export class AppComponent {
                 if (this.currentVerse > this.service.currentPsalter.verses.length)
                     this.cancelAudio()
                 else
-                    setTimeout(() => this.audio?.play(), 1000)
+                    setTimeout(() => this.audio?.play(), 700)
             }
             this.service.currentPsalter$.subscribe(x => this.cancelAudio())
         }
