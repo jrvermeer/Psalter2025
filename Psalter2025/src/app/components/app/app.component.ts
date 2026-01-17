@@ -33,7 +33,7 @@ export class AppComponent {
             .pipe(debounceTime(200))
             .subscribe(x => this.updateSearchResults())
 
-        window.addEventListener('beforeinstallprompt', (e: Event) => {
+        window.addEventListener('beforeinstallprompt', (e: Event) => { 
             e.preventDefault();
             this.installEvent = e
         });
@@ -43,7 +43,11 @@ export class AppComponent {
         this.requestWakeLock();
     }
 
-    private requestWakeLock() {
+    @HostListener('document:visibilitychange')
+    requestWakeLock() {
+        if (document.hidden)
+            return;
+
         try {
             from(navigator.wakeLock?.request())
                 .subscribe(x => this.setDebugMessage('wakelock received', x))
