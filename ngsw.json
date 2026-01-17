@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1768617492945,
+  "timestamp": 1768618283710,
   "index": "/Psalter2025/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/Psalter2025/index.html",
-        "/Psalter2025/main-YAN5MAC3.js",
+        "/Psalter2025/main-QLL4DTF7.js",
         "/Psalter2025/manifest.webmanifest",
         "/Psalter2025/polyfills-5CFQRCPP.js",
         "/Psalter2025/styles-HOC67NMU.css"
@@ -2273,8 +2273,8 @@
     "/Psalter2025/icons/maskable_icon_x512.png": "751e5b3152cbc4f4789f3a5024f8252a6ba23ee1",
     "/Psalter2025/icons/maskable_icon_x72.png": "10d9dc00d6a832acefc92901ef440a7c0c0ea81a",
     "/Psalter2025/icons/maskable_icon_x96.png": "44d8022f10402e4778a4e2e69e3baa403d29e5a7",
-    "/Psalter2025/index.html": "8d5995c23b3eef51132ef9c9c7fca00a926be5ef",
-    "/Psalter2025/main-YAN5MAC3.js": "6ae22f27bf59eb01867dac7ad324011fda5ab719",
+    "/Psalter2025/index.html": "5dd733f4a0cfac8c2c3cfba71711ed46fda7026a",
+    "/Psalter2025/main-QLL4DTF7.js": "6d25ed0020e79e3e733bdf370dfbb03e7bc2883f",
     "/Psalter2025/manifest.webmanifest": "a0d4c38962529b2d35dc0eb58122139e57e212b8",
     "/Psalter2025/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/Psalter2025/styles-HOC67NMU.css": "47bda11c6700396507d0d2e7526943e56092f54f"
