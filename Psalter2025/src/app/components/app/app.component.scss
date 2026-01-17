@@ -1,5 +1,5 @@
 :host {
-    height: 100dvh;
+    height: 100vh;
     display: block;
     --app-navbar-height: 60px;
 }
@@ -10,7 +10,7 @@ psalter-page {
 }
 
 main {
-    height: calc(100dvh - var(--app-navbar-height));
+    height: calc(100vh - var(--app-navbar-height));
     overflow: auto;
 }
 
@@ -93,4 +93,11 @@ td {
 
 ::highlight(ui-search-hit) {
     color: var(--mat-sys-primary);
+}
+
+.ui-debug {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    margin: 0;
 }

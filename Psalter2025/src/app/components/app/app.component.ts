@@ -3,7 +3,7 @@ import { Psalter, PsalterService, PsalterSearchResult, StartEndIndex, VerseSearc
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
-import { startWith, debounceTime } from 'rxjs';
+import { startWith, debounceTime, from } from 'rxjs';
 
 @Component({
     selector: 'app-root',
@@ -40,9 +40,27 @@ export class AppComponent {
     }
 
     ngOnInit() {
-        navigator.wakeLock?.request();
+        this.requestWakeLock();
     }
-    
+
+    private requestWakeLock() {
+        try {
+            from(navigator.wakeLock?.request())
+                .subscribe(x => this.setDebugMessage('wakelock received', x))
+        }
+        catch (err) {
+            this.setDebugMessage('Error requesting wake lock', err);
+            setTimeout(() => this.requestWakeLock(), 5000)
+        }
+    }
+
+    setDebugMessage(msg: string, ...data: any[]) {
+        console.log(msg, data)
+        this.debugMsg = msg;
+        setTimeout(() => { this.debugMsg = null }, 2000)
+    }
+
+    debugMsg: string;
     installEvent: any;
     audio: HTMLAudioElement;
     currentVerse = 1;
@@ -84,9 +102,9 @@ export class AppComponent {
             this.psalters = x;
             if (otherPsalterIdentifier)
                 this.goToPsalter = x.find(x => x.identifier == otherPsalterIdentifier);
-            else if (this.service.currentPsalter.otherPsalterIdentifiers?.length)
+            else if (this.service.currentPsalter?.otherPsalterIdentifiers?.length)
                 this.goToPsalter = x.find(x => x.identifier == this.service.currentPsalter.otherPsalterIdentifiers[0])
-            else if (this.service.currentPsalter.psalm)
+            else if (this.service.currentPsalter?.psalm)
                 this.goToPsalter = x.find(x => x.psalm == this.service.currentPsalter.psalm)
                 
         })
