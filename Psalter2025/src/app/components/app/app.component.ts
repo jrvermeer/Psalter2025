@@ -1,9 +1,10 @@
-import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
+import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef, inject } from '@angular/core';
 import { Psalter, PsalterService, PsalterSearchResult, StartEndIndex, VerseSearchResult } from '../../services/psalter-service';
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
-import { startWith, debounceTime, from } from 'rxjs';
+import { startWith, debounceTime, from, filter, tap } from 'rxjs';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
     selector: 'app-root',
@@ -17,6 +18,7 @@ export class AppComponent {
         public storage: StorageService,
         private renderer: Renderer2,
         private cdRef: ChangeDetectorRef,
+        private swUpdate: SwUpdate,
         @Inject(DOCUMENT) private document: Document) {
 
         this.toggleTheme(storage.darkTheme);
@@ -37,6 +39,11 @@ export class AppComponent {
             e.preventDefault();
             this.installEvent = e
         });
+
+        swUpdate.versionUpdates.pipe(
+            tap(x => this.setDebugMessage(x.type, x)),
+            filter(x => x.type == 'VERSION_READY'))
+            .subscribe(x => this.updateEvent = () => window.location.reload())
     }
 
     ngOnInit() {
@@ -66,6 +73,7 @@ export class AppComponent {
 
     debugMsg: string;
     installEvent: any;
+    updateEvent: () => void = null;
     audio: HTMLAudioElement;
     currentVerse = 1;
     psalters: Psalter[]

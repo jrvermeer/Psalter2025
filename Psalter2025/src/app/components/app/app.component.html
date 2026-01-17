@@ -32,10 +32,11 @@
         </ng-container>
     </ng-container>
     <ng-container *ngIf="!searching && psalters">
-        <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page>
+        <psalter-page [psalters]="psalters" [initial]="goToPsalter"></psalter-page> 
     </ng-container>
 </main>
 <button matFab *ngIf="installEvent" class="ui-install" (click)="installEvent.prompt()"><mat-icon>download</mat-icon></button>
+<button matFab extended *ngIf="updateEvent && !installEvent" class="ui-install" (click)="updateEvent()">Update available<mat-icon>refresh</mat-icon></button>
 <nav>
     <pre class="ui-debug" *ngIf="debugMsg">{{debugMsg}}</pre>
     <ng-container *ngIf="searching">
@@ -43,9 +44,10 @@
             <mat-label>Search</mat-label>
             <button matIconButton matPrefix (click)="toggleSearch()"><mat-icon>close</mat-icon></button>
             <input #searchInput matInput autofocus [attr.inputmode]="searchInputModeControl.value" type="text" [formControl]="searchInputControl" (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
-            <button matIconButton matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')"><mat-icon>{{searchInputModeControl.value == 'numeric' ? 'abc' : '123'
-                }}</mat-icon></button>
-                </mat-form-field>
+            <button matIconButton matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')">
+                <mat-icon>{{searchInputModeControl.value == 'numeric' ? 'abc' : '123'}}</mat-icon>
+            </button>
+        </mat-form-field>
     </ng-container>
     <ng-container *ngIf="!searching">
     <button matIconButton (click)="toggleSearch()"><mat-icon>search</mat-icon></button>
