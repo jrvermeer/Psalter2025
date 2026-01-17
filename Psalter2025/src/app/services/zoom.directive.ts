@@ -4,7 +4,7 @@ import { StorageService } from './storage-service';
 const MIN_TEXT_SCALE = 1;
 const MAX_TEXT_SCALE = 2;
 
-const MIN_IMG_SCALE = 0.5;
+const MIN_IMG_SCALE = 1;
 const MAX_IMG_SCALE = 2.5;
 
 @Directive({

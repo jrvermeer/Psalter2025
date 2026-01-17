@@ -161,7 +161,7 @@ export class AppComponent {
         }
         this.service.clearHighlights();
         const searchStart = Date.now();
-        const searchText = this.searchInputControl.value?.toLowerCase();
+        const searchText = this.searchInputControl.value?.toLowerCase().trim();
         this.searchResults = [];
         for (let psalter of this.psalters) {
             let searchResult = new PsalterSearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
@@ -190,7 +190,10 @@ export class AppComponent {
 
                         add = !!searchResult.verseResults.length
                     }
-
+                }
+                if (!add && psalter.title?.toLowerCase().indexOf(searchText) > -1) {
+                    add = searchResult.showTitle = true;
+                    searchResult.verseResults.push(new VerseSearchResult({text: psalter.verses[0], verseIdentifier: '1.' }))
                 }
             }
 

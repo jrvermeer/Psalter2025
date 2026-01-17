@@ -76,6 +76,7 @@ export class PsalterSearchResult {
     psalter: Psalter
     preview: string
     showPsalm: boolean
+    showTitle: boolean
     otherPsalterIdentifier: string;
     verseResults: VerseSearchResult[]
 }

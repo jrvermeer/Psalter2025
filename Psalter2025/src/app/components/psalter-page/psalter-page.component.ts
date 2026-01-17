@@ -39,7 +39,7 @@ export class PsalterPageComponent {
     }
 
     enableNavArrows = false;
-    get imgWidth() { return 500 * this.storage.imgScale; }
+    get imgWidth() { return 485 * this.storage.imgScale; }
 
     @Input()
     psalters: Psalter[];

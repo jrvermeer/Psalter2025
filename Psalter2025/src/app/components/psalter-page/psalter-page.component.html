@@ -6,7 +6,7 @@
                   (swiperslidechange)="slideChange($event)">
     @for (psalter of psalters; track $index) {
     <swiper-slide>
-        <div class="ui-slide-container">
+        <div class="ui-slide-container" [style.width.px]="imgWidth">
             <div class="ui-header-wrapper">
                 <div class="ui-header">
                     <div class="ui-identifier">
@@ -23,7 +23,7 @@
             @if (storage.showScore && psalter.scoreFiles?.length) {
                 @for(scoreSrc of psalter.scoreFiles; track $index) {
                     <psalter-separator *ngIf="$index > 0"></psalter-separator>
-                    <img [src]="scoreSrc" loading="lazy" [style.width.px]="imgWidth"/>
+                    <img [src]="scoreSrc" loading="lazy" />
                 }
             }
             <table class="verses">

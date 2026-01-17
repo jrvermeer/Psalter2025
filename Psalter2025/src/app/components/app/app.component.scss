@@ -58,7 +58,6 @@ nav {
     cursor: pointer;
     padding: 8px 24px;
     min-height: 40px;
-
     // copied from mat-list-item for hover styles
     &::before {
         top: 0;
@@ -75,7 +74,12 @@ nav {
     &:hover::before {
         background-color: var(--mat-sys-on-surface);
         opacity: var(--mat-sys-hover-state-layer-opacity);
-    } 
+    }
+
+    .ui-search-contents {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 .ui-max-results { 

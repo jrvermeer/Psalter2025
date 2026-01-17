@@ -12,7 +12,8 @@
                     <span *ngIf="result.showPsalm">Psalm {{result.psalter.psalm}}</span>
                     <span *ngIf="result.otherPsalterIdentifier">[{{result.otherPsalterIdentifier}}]</span>
                 </div>
-                <div class="m-auto">
+                <div class="ui-search-contents">
+                    <h4 *ngIf="result.showTitle">{{result.psalter.title}}</h4>
                     <table *ngIf="result.verseResults">
                         <tbody>
                             <tr *ngFor="let verseResult of result.verseResults">
