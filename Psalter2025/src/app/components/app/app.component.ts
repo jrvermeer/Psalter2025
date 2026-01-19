@@ -35,7 +35,8 @@ export class AppComponent {
             .pipe(debounceTime(200))
             .subscribe(x => this.updateSearchResults())
 
-        window.addEventListener('beforeinstallprompt', (e: Event) => { 
+        window.addEventListener('beforeinstallprompt', (e: Event) => {
+            this.setDebugMessage('beforeinstallprompt')
             e.preventDefault();
             this.installEvent = e
         });
@@ -56,8 +57,9 @@ export class AppComponent {
             return;
 
         try {
-            from(navigator.wakeLock?.request())
-                .subscribe(x => this.setDebugMessage('wakelock received', x))
+            navigator.wakeLock?.request()
+            //from(navigator.wakeLock?.request())
+            //    .subscribe(x => this.setDebugMessage('wakelock received', x))
         }
         catch (err) {
             this.setDebugMessage('Error requesting wake lock', err);
@@ -65,13 +67,17 @@ export class AppComponent {
         }
     }
 
-    setDebugMessage(msg: string, ...data: any[]) {
+    setDebugMessage(msg: string, data?: any) {
         console.log(msg, data)
-        this.debugMsg = msg;
-        setTimeout(() => { this.debugMsg = null }, 2000)
+        if (data) {
+            try { msg = msg + ': ' + JSON.stringify(data) }
+            catch { }
+        }
+        this.debugMessages.push(msg);
+        setTimeout(() => { this.debugMessages.splice(this.debugMessages.indexOf(msg), 1) }, 10_000)
     }
 
-    debugMsg: string;
+    debugMessages: string[] = [];
     installEvent: any;
     updateEvent: () => void = null;
     audio: HTMLAudioElement;
@@ -171,6 +177,8 @@ export class AppComponent {
         const searchStart = Date.now();
         const searchText = this.searchInputControl.value?.toLowerCase().trim();
         this.searchResults = [];
+        let otherPsalterSearchResults: PsalterSearchResult[] = [];
+
         for (let psalter of this.psalters) {
             let searchResult = new PsalterSearchResult({ psalter: psalter, preview: psalter.verses[0].split('\n')[0] });
             let add = !searchText;
@@ -184,8 +192,8 @@ export class AppComponent {
                 else {
                     let otherIdentifier = psalter.otherPsalterIdentifiers?.find(x => x.toLowerCase() == searchText);
                     if (otherIdentifier) {
-                        add = true;
                         searchResult.otherPsalterIdentifier = otherIdentifier
+                        otherPsalterSearchResults.push(searchResult)
                     }
                     else if (searchText.length > 1) {
                         searchResult.verseResults = [];
@@ -208,6 +216,8 @@ export class AppComponent {
             if (add) 
                 this.searchResults.push(searchResult)
         }
+
+        this.searchResults.push(...otherPsalterSearchResults);
 
         // rendering too many verses causes UI lag (switch to virtual vertical swiper?)
         this.searchMaxResultsMessage = undefined;

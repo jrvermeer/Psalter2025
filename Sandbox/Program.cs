@@ -73,11 +73,8 @@ internal class Program
                 psalter.Title = titleAndIdentifier[0];
                 psalter.Psalm = psalm;
             }
-            psalter.OtherPsalterIdentifiers = GetOtherIdentifiers(psalter.OtherPsalterIdentifier);
-            psalter.OtherPsalterIdentifier = null;
-            if (!psalter.OtherPsalterIdentifiers.Any())
-                psalter.OtherPsalterIdentifiers = null;
 
+            psalter.IsCompletePsalm = !psalter.Identifier.StartsWith("SS") && psalter.PsalmVerses.IsNullOrWhiteSpace();
             psalter.AudioFile = audioFiles.FirstOrDefault(x => x.Identifier == identifier)?.FilePath;
             psalter.ScoreFiles = scoreFiles
                 .Where(x => x.FileName.TrimStart("_").Split("_").First() == identifier)
@@ -226,6 +223,5 @@ public class NewSchema
     public int? NumVersesInsideStaff { get; set; } // 1912
     public List<string> ScoreFiles { get; set; }
     public string? AudioFile { get; set; }
-    public string? OtherPsalterIdentifier { get; set; }
     public List<string>? OtherPsalterIdentifiers { get; set; }
 }

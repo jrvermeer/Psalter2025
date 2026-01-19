@@ -22,33 +22,34 @@ main {
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  height: var(--app-navbar-height);
-  background-color: var(--mat-sys-primary-container);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: var(--app-navbar-height);
+    background-color: var(--mat-sys-primary-container);
 
-  .ui-end-buttons {
-    min-width: calc(var(--mat-icon-button-state-layer-size) * 3);
-    text-align: end;
-  }
+    .ui-end-buttons {
+        min-width: calc(var(--mat-icon-button-state-layer-size) * 3);
+        text-align: end;
+    }
 
-  [matFab] {
-      background-color: var(--mat-sys-secondary-container);
-  }
+    [matFab] {
+        background-color: var(--mat-sys-on-primary-container);
+        color: var(--mat-sys-primary-container);
+    }
 }
 
 .ui-searching {
-  color: var(--mat-sys-primary);
-  border: 1px solid var(--mat-sys-outline);
+    color: var(--mat-sys-primary);
+    border: 1px solid var(--mat-sys-outline);
 }
 
 .ui-search-field {
-  flex: 1;
+    flex: 1;
 }
 
 .ui-search-result {
@@ -82,7 +83,7 @@ nav {
     }
 }
 
-.ui-max-results { 
+.ui-max-results {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,9 +102,12 @@ td {
 
 .ui-debug {
     position: absolute;
-    top: -1rem;
+    bottom: var(--app-navbar-height);
     left: 0;
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1rem;
+
+    pre {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin: 4px;
+    }
 }
