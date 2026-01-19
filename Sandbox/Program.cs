@@ -11,13 +11,16 @@ internal class Program
     const string NG_PUBLIC_FOLDER = "C:\\Users\\verme\\source\\repos\\Psalter2025\\Psalter2025\\public\\";
     private static async Task Main(string[] args)
     {
-        //var http = new HttpClient();
-        //var resp = await http.GetAsync("https://jrvermeer.github.io/Psalter2025/");
-        //var bytes = await resp.Content.ReadAsByteArrayAsync();
-        //var s = await resp.Content.ReadAsStringAsync();
+        var http = new HttpClient();
+        var resp = await http.GetAsync("https://jrvermeer.github.io/Psalter2025/");
+        var bytes = await resp.Content.ReadAsByteArrayAsync();
+        var s = await resp.Content.ReadAsStringAsync();
 
-        //var distFile = File.ReadAllBytes("C:\\Users\\verme\\Downloads\\index.html");
-        //var distString = File.ReadAllText("C:\\Users\\verme\\Downloads\\index.html");
+        var ghPagesResp = await http.GetAsync("https://raw.githubusercontent.com/jrvermeer/Psalter2025/refs/heads/gh-pages/index.html");
+        var ghPagesString = await ghPagesResp.Content.ReadAsStringAsync();
+
+        var distFile = File.ReadAllBytes("C:\\Users\\verme\\Downloads\\index.html");
+        var distString = File.ReadAllText("C:\\Users\\verme\\Downloads\\index.html");
 
         Generate2025Psalters();
         await Migrate1912ToNewSchema();
