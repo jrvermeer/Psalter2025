@@ -1,1 +1,3 @@
-* text=auto eol=lf
+# Treat the deployment folder as strictly binary. else git changes \r\n to \n which breaks hashing
+dist/** binary
+/dist/browser/** binary
