@@ -36,7 +36,6 @@ export class AppComponent {
             .subscribe(x => this.updateSearchResults())
 
         window.addEventListener('beforeinstallprompt', (e: Event) => {
-            this.setDebugMessage('beforeinstallprompt')
             e.preventDefault();
             this.installEvent = e
         });
@@ -69,12 +68,8 @@ export class AppComponent {
 
     setDebugMessage(msg: string, data?: any) {
         console.log(msg, data)
-        if (data) {
-            try { msg = msg + ': ' + JSON.stringify(data) }
-            catch { }
-        }
         this.debugMessages.push(msg);
-        setTimeout(() => { this.debugMessages.splice(this.debugMessages.indexOf(msg), 1) }, 10_000)
+        setTimeout(() => { this.debugMessages.splice(this.debugMessages.indexOf(msg), 1) }, 5_000)
     }
 
     debugMessages: string[] = [];

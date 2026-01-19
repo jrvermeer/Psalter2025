@@ -1,5 +1,5 @@
 :host {
-    height: 100vh;
+    height: 100%;
     display: block;
     --app-navbar-height: 60px;
 }
@@ -10,7 +10,7 @@ psalter-page {
 }
 
 main {
-    height: calc(100vh - var(--app-navbar-height));
+    height: calc(100% - var(--app-navbar-height));
     overflow: auto;
 }
 
