@@ -2,6 +2,7 @@
 using Sandbox;
 using System;
 using System.Runtime.CompilerServices;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
@@ -15,6 +16,7 @@ internal class Program
         var resp = await http.GetAsync("https://jrvermeer.github.io/Psalter2025/");
         var bytes = await resp.Content.ReadAsByteArrayAsync();
         var s = await resp.Content.ReadAsStringAsync();
+        var hash1 = Encoding.ASCII.GetString(System.Security.Cryptography.SHA1.HashData(bytes));
 
         var ghPagesResp = await http.GetAsync("https://raw.githubusercontent.com/jrvermeer/Psalter2025/refs/heads/gh-pages/index.html");
         var ghPagesString = await ghPagesResp.Content.ReadAsStringAsync();
