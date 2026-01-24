@@ -9,13 +9,6 @@
 @import 'blue-theme.scss';
 //@import 'app_theme-colors.scss';
 
-html, body { 
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  font-family: sans-serif; 
-  color-scheme: light;  
-}  
   
 html { 
   @include mat.theme((  
@@ -28,11 +21,6 @@ html {
     typography: Roboto,
     density: 0,
   ));
-  
-  --mat-sys-surface: light-dark(#eee, #141414);
-  --mat-sys-on-surface: light-dark(#444, #e0e3e2);
-  --mat-icon-button-state-layer-size: 60px;
-  --mat-icon-button-touch-target-size: 60px;
 }
   
 html .ui-1912-theme { 
@@ -42,11 +30,29 @@ html .ui-1912-theme {
       tertiary: $blue-tertiary-palette,
     )
   ));
-  
-  --mat-sys-surface: light-dark(#eee, #141414);
-  --mat-sys-on-surface: light-dark(#444, #e0e3e2);
-  --mat-icon-button-state-layer-size: 60px;
-  --mat-icon-button-touch-target-size: 60px;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    color-scheme: light;
+
+    --mat-sys-surface: light-dark(#eee, #141414) !important;
+    --mat-sys-on-surface: light-dark(#444, #e0e3e2) !important;
+    --mat-icon-button-state-layer-size: 60px !important;
+    --mat-icon-button-touch-target-size: 60px !important;
+}
+
+[matIconButton].ui-larger {
+    --mat-icon-button-icon-size: 45px;
+
+    mat-icon {
+        font-size: var(--mat-icon-button-icon-size);
+        width: var(--mat-icon-button-icon-size);
+        height: var(--mat-icon-button-icon-size);
+    }
 }
 
 body {
