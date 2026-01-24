@@ -10,7 +10,7 @@ psalter-page {
 }
 
 main {
-    height: calc(100% - var(--app-navbar-height));
+    height: calc(100% - var(--app-navbar-height) - env(safe-area-inset-bottom, 0));
     overflow: auto;
 }
 
@@ -30,6 +30,7 @@ nav {
     right: 0;
     z-index: 999;
     height: var(--app-navbar-height);
+    padding-bottom: env(safe-area-inset-bottom, 0);
     background-color: var(--mat-sys-primary-container);
 
     .ui-end-buttons {
