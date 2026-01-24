@@ -1,5 +1,5 @@
-import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef, inject } from '@angular/core';
-import { Psalter, PsalterService, PsalterSearchResult, StartEndIndex, VerseSearchResult } from '../../services/psalter-service';
+import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
+import { Psalter, PsalterService, PsalterSearchResult, VerseSearchResult } from '../../services/psalter-service';
 import { StorageService } from '../../services/storage-service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
@@ -96,17 +96,15 @@ export class AppComponent {
         if (darkTheme == undefined)
             darkTheme = !this.storage.darkTheme;
 
-        let darkThemeClass = 'ui-dark-theme';
-        let lightThemeClass = 'ui-light-theme';
-
-        this.renderer.removeClass(this.document.body, darkTheme ? lightThemeClass : darkThemeClass)
-        this.renderer.addClass(this.document.body, darkTheme ? darkThemeClass : lightThemeClass)
+        this.setDocumentClass('ui-dark-theme', darkTheme);
         this.storage.darkTheme = darkTheme;
     }
 
     togglePsalter(otherPsalterIdentifier?: string, oldPsalter?: boolean) {
         if (oldPsalter == undefined)
             oldPsalter = !this.storage.oldPsalter;
+
+        this.setDocumentClass('ui-1912-theme', oldPsalter);
 
         this.cancelAudio();
 
@@ -123,6 +121,13 @@ export class AppComponent {
         })
 
         this.storage.oldPsalter = oldPsalter;
+    }
+
+    private setDocumentClass(cssClass: string, add: boolean) {
+        if (add)
+            this.renderer.addClass(this.document.body, cssClass)
+        else
+            this.renderer.removeClass(this.document.body, cssClass)
     }
 
     get isPlaying() { return this.audio && !this.audio.paused }

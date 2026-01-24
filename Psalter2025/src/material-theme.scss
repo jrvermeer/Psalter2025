@@ -6,7 +6,8 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 @import 'gold-theme.scss';
-/*@import 'app_theme-colors.scss';*/
+@import 'blue-theme.scss';
+//@import 'app_theme-colors.scss';
 
 html, body { 
   padding: 0;
@@ -26,11 +27,21 @@ html {
     typography: Roboto,
     density: 0,
   ));
-
+  
+  color-scheme: light;
   --mat-sys-surface: light-dark(#eee, #141414);
   --mat-sys-on-surface: light-dark(#444, #e0e3e2);
   --mat-icon-button-state-layer-size: 60px;
   --mat-icon-button-touch-target-size: 60px;
+}
+  
+html .ui-1912-theme { 
+  @include mat.theme((  
+    color: (
+      primary: $blue-primary-palette,
+      tertiary: $blue-tertiary-palette,
+    )
+  ));
 }
 
 body {
@@ -51,15 +62,11 @@ body {
   color-scheme: dark;
 }
 
-.ui-light-theme {
-  color-scheme: light;
-}
-
 .ui-dark-theme img {
   filter: contrast(0.84) invert(1);
 }
 
-.ui-light-theme img {
+img {
   filter: contrast(0.875);
 }
 
