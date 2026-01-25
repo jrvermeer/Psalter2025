@@ -125,9 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // material override to support detail lines inside fab
-.ui-label-subtext .mdc-button__label {
-    position: absolute;
+[matfab].ui-label-subtext .mdc-button__label {
+    position: absolute !important;
     bottom: 4px;
     font-size: 0.8em;
 }
-

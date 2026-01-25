@@ -58,9 +58,9 @@
 
     <span class="flex-space"></span>
 
-    <button matFab class="ui-label-subtext" (click)="toggleAudio()" [disabled]="!service.currentPsalter?.audioFile">
-        <mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
-        <mat-label *ngIf="isPlaying">{{currentVerse}} / {{service.currentPsalter.verses.length}}</mat-label>
+    <button matFab class="ui-label-subtext" (click)="audio.toggleAudio()" [disabled]="!service.currentPsalter?.audioFile">
+        <mat-icon>{{audio.isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
+        <mat-label *ngIf="audio.isPlaying">{{audio.isPlaying}}</mat-label>
     </button>
 
     <span class="flex-space"></span>

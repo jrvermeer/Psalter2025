@@ -19,7 +19,6 @@ export class ZoomDirective {
         this.scaleTextSize(storage.textScale);
     }
 
-
     initialImgScale: number;
     initialPinchDistance: number
     scaleFactor: number;

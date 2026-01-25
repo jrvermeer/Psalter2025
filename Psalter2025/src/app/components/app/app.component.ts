@@ -5,6 +5,7 @@ import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
 import { startWith, debounceTime, from, filter, tap } from 'rxjs';
 import { SwUpdate } from '@angular/service-worker';
+import { AudioService } from '../../services/audio-service.service';
 
 @Component({
     selector: 'app-root',
@@ -16,6 +17,7 @@ export class AppComponent {
     constructor(
         public service: PsalterService,
         public storage: StorageService,
+        public audio: AudioService,
         private renderer: Renderer2,
         private cdRef: ChangeDetectorRef,
         private swUpdate: SwUpdate,
@@ -75,8 +77,6 @@ export class AppComponent {
     debugMessages: string[] = [];
     installEvent: any;
     updateEvent: () => void = null;
-    audio: HTMLAudioElement;
-    currentVerse = 1;
     psalters: Psalter[]
     goToPsalter: Psalter;
 
@@ -106,7 +106,7 @@ export class AppComponent {
 
         this.setDocumentClass('ui-1912-theme', oldPsalter);
 
-        this.cancelAudio();
+        this.audio.cancelAudio();
 
         let obs = oldPsalter ? this.service.get1912() : this.service.get2025();
         obs.subscribe(x => {
@@ -128,42 +128,6 @@ export class AppComponent {
             this.renderer.addClass(this.document.body, cssClass)
         else
             this.renderer.removeClass(this.document.body, cssClass)
-    }
-
-    get isPlaying() { return this.audio && (!this.audio.paused || this.isBetweenVerses) }
-    private isBetweenVerses: any
-    toggleAudio() {
-        if (this.isBetweenVerses) {
-            clearTimeout(this.isBetweenVerses);
-            this.isBetweenVerses = null;
-        }
-        else if (this.isPlaying)
-            this.audio?.pause();
-        else if (this.audio)
-            this.audio.play();
-        else {
-            this.audio = new Audio(this.service.currentPsalter.audioFile);
-            this.currentVerse = 1;
-            this.audio.play();
-            this.audio.onended = () => {
-                this.currentVerse++;
-                if (this.currentVerse > this.service.currentPsalter.verses.length)
-                    this.cancelAudio()
-                else {
-                    this.isBetweenVerses = setTimeout(() => {
-                        this.isBetweenVerses = null;
-                        this.audio?.play()
-                    }, 700)
-
-                }
-            }
-            this.service.currentPsalter$.subscribe(x => this.cancelAudio())
-        }
-    }
-
-    private cancelAudio() {
-        this.audio?.pause();
-        this.audio = null;
     }
 
     public toggleSearch(goToPsalter?: PsalterSearchResult) {

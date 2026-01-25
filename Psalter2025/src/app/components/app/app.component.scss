@@ -37,7 +37,7 @@ nav {
         text-align: end;
     }
 
-    [matFab] {
+    [matFab]:not([disabled]) {
         background-color: var(--mat-sys-on-primary-container);
         color: var(--mat-sys-primary-container);
     }
