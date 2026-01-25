@@ -45,16 +45,6 @@ html, body {
     --mat-icon-button-touch-target-size: 60px !important;
 }
 
-[matIconButton].ui-larger {
-    --mat-icon-button-icon-size: 45px;
-
-    mat-icon {
-        font-size: var(--mat-icon-button-icon-size);
-        width: var(--mat-icon-button-icon-size);
-        height: var(--mat-icon-button-icon-size);
-    }
-}
-
 body {
   // Default the application to a light color theme. This can be changed to
   // `dark` to enable the dark color theme, or to `light dark` to defer to the
@@ -118,5 +108,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ml-1 {
   margin-left: 8px;
+}
+
+[matIconButton].ui-larger {
+    --mat-icon-button-icon-size: 45px;
+
+    mat-icon {
+        font-size: var(--mat-icon-button-icon-size);
+        width: var(--mat-icon-button-icon-size);
+        height: var(--mat-icon-button-icon-size);
+    }
+}
+
+[matIconButton].ui-primary {
+    color: var(--mat-sys-primary);
+}
+
+// material override to support detail lines inside fab
+.ui-label-subtext .mdc-button__label {
+    position: absolute;
+    bottom: 4px;
+    font-size: 0.8em;
 }
 

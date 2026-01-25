@@ -130,9 +130,14 @@ export class AppComponent {
             this.renderer.removeClass(this.document.body, cssClass)
     }
 
-    get isPlaying() { return this.audio && !this.audio.paused }
+    get isPlaying() { return this.audio && (!this.audio.paused || this.isBetweenVerses) }
+    private isBetweenVerses: any
     toggleAudio() {
-        if (this.isPlaying)
+        if (this.isBetweenVerses) {
+            clearTimeout(this.isBetweenVerses);
+            this.isBetweenVerses = null;
+        }
+        else if (this.isPlaying)
             this.audio?.pause();
         else if (this.audio)
             this.audio.play();
@@ -144,8 +149,13 @@ export class AppComponent {
                 this.currentVerse++;
                 if (this.currentVerse > this.service.currentPsalter.verses.length)
                     this.cancelAudio()
-                else
-                    setTimeout(() => this.audio?.play(), 700)
+                else {
+                    this.isBetweenVerses = setTimeout(() => {
+                        this.isBetweenVerses = null;
+                        this.audio?.play()
+                    }, 700)
+
+                }
             }
             this.service.currentPsalter$.subscribe(x => this.cancelAudio())
         }

@@ -46,7 +46,7 @@
             <mat-label>Search</mat-label>
             <button matIconButton matPrefix (click)="toggleSearch()"><mat-icon>close</mat-icon></button>
             <input #searchInput matInput autofocus [attr.inputmode]="searchInputModeControl.value" type="text" [formControl]="searchInputControl" (keydown.enter)="searchResults.length && toggleSearch(searchResults[0])" />
-            <button matIconButton class="ui-larger" matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')">
+            <button matIconButton class="ui-larger ui-primary" matSuffix (click)="searchInputModeControl.setValue(searchInputModeControl.value == 'numeric' ? undefined : 'numeric')">
                 <mat-icon>{{searchInputModeControl.value == 'numeric' ? 'abc' : '123'}}</mat-icon>
             </button>
         </mat-form-field>
@@ -58,7 +58,10 @@
 
     <span class="flex-space"></span>
 
-    <button matFab (click)="toggleAudio()" [disabled]="!service.currentPsalter?.audioFile"><mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon></button>
+    <button matFab class="ui-label-subtext" (click)="toggleAudio()" [disabled]="!service.currentPsalter?.audioFile">
+        <mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
+        <mat-label *ngIf="isPlaying">{{currentVerse}} / {{service.currentPsalter.verses.length}}</mat-label>
+    </button>
 
     <span class="flex-space"></span>
 
