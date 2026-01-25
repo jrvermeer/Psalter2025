@@ -1,5 +1,6 @@
 import { ApplicationRef, ChangeDetectorRef, Injectable } from '@angular/core';
 import { PsalterService } from './psalter.service';
+import { distinctUntilChanged } from 'rxjs';
 
 @Injectable({
     providedIn: 'root',
@@ -13,6 +14,10 @@ export class AudioService {
         navigator.mediaSession?.setActionHandler('play', () => { this.toggleAudio(); this.cdRef.tick() })
         navigator.mediaSession?.setActionHandler('pause', () => { this.toggleAudio(); this.cdRef.tick() })
         navigator.mediaSession?.setActionHandler('stop', () => { this.cancelAudio(); this.cdRef.tick() })
+
+        this.service.currentPsalter$
+            .pipe(distinctUntilChanged())
+            .subscribe(x => this.cancelAudio())
     }
 
     audio: HTMLAudioElement;
@@ -51,7 +56,6 @@ export class AudioService {
 
                 }
             }
-            this.service.currentPsalter$.subscribe(x => this.cancelAudio())
         }
     }
 

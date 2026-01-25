@@ -36,6 +36,8 @@ export class PsalterPageComponent {
             this.goToPsalter(this.initial, false);
         else if (this.storage.lastIndex)
             this.goToIndex(this.storage.lastIndex, false);
+        else
+            this.service.currentPsalter$.next(this.psalters[0]);
     }
 
     enableNavArrows = false;
@@ -128,6 +130,5 @@ export class PsalterPageComponent {
         // have to initialize after all slides are loaded for virtual swipers (needed w/ *ngFor even if not fetching over network)
         this.cdRef.detectChanges();
         this.swiper.nativeElement.initialize();
-        this.service.currentPsalter$.next(this.psalters[0]);
     }
 }
