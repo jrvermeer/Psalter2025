@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Directive, ElementRef, Input } from '@angular/core';
-import { PsalterService, StartEndIndex } from './psalter-service';
+import { PsalterService, StartEndIndex } from './psalter.service';
 
 @Directive({
   selector: '[highlightRange]',

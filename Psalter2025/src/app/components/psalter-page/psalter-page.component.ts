@@ -1,8 +1,8 @@
 import { ChangeDetectorRef, Component, ElementRef, HostListener, Input, SimpleChanges, ViewChild } from '@angular/core';
 import { SwiperContainer, SwiperSlide } from 'swiper/element';
-import { Psalter, PsalterService } from '../../services/psalter-service';
+import { Psalter, PsalterService } from '../../services/psalter.service';
 import { Swiper } from 'swiper/types';
-import { StorageService } from '../../services/storage-service';
+import { StorageService } from '../../services/storage.service';
 import { AppComponent } from '../app/app.component';
 
 @Component({

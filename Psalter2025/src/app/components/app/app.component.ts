@@ -1,11 +1,11 @@
 import { Component, DOCUMENT, Inject, Renderer2, HostListener, ElementRef, ViewChild, ChangeDetectorRef } from '@angular/core';
-import { Psalter, PsalterService, PsalterSearchResult, VerseSearchResult } from '../../services/psalter-service';
-import { StorageService } from '../../services/storage-service';
+import { Psalter, PsalterService, PsalterSearchResult, VerseSearchResult } from '../../services/psalter.service';
+import { StorageService } from '../../services/storage.service';
 import { PsalterPageComponent } from '../psalter-page/psalter-page.component';
 import { FormControl } from '@angular/forms';
 import { startWith, debounceTime, from, filter, tap } from 'rxjs';
 import { SwUpdate } from '@angular/service-worker';
-import { AudioService } from '../../services/audio-service.service';
+import { AudioService } from '../../services/audio.service';
 
 @Component({
     selector: 'app-root',

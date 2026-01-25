@@ -1,5 +1,5 @@
 import { ApplicationRef, ChangeDetectorRef, Injectable } from '@angular/core';
-import { PsalterService } from './psalter-service';
+import { PsalterService } from './psalter.service';
 
 @Injectable({
     providedIn: 'root',
@@ -72,7 +72,6 @@ export class AudioService {
             ]
         });
     }
-
 
     public cancelAudio() {
         this.audio?.pause();

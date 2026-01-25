@@ -1,5 +1,5 @@
 import { Directive, DOCUMENT, HostListener, Inject, Renderer2 } from '@angular/core';
-import { StorageService } from './storage-service';
+import { StorageService } from './storage.service';
 
 const MIN_TEXT_SCALE = 1;
 const MAX_TEXT_SCALE = 2;
