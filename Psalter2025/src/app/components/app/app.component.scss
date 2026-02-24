@@ -111,3 +111,25 @@ td {
         margin: 4px;
     }
 }
+
+nav {
+    --mat-icon-button-state-layer-size: 40px !important;
+    --mat-icon-button-touch-target-size: 40px !important;
+}
+
+// center play button is 56px
+// 50*6 + 56 = 356
+@media (min-width: 356px) {
+    nav {
+        --mat-icon-button-state-layer-size: 50px !important;
+        --mat-icon-button-touch-target-size: 50px !important;
+    }
+}
+
+// 60*6 + 56 = 416
+@media (min-width: 415px) {
+    nav {
+        --mat-icon-button-state-layer-size: 60px !important;
+        --mat-icon-button-touch-target-size: 60px !important;
+    }
+}

@@ -45,7 +45,7 @@ export class Psalter {
         Object.assign(this, c)
     }
     identifier: string
-    secondTune: boolean // 1912 (make part of identifier so it's unique?)
+    isSecondTune: boolean // 1912 (make part of identifier so it's unique?)
 
     title: string
     psalm: number

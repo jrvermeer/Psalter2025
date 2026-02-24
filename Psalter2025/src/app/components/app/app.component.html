@@ -7,7 +7,7 @@
                     <div class="d-flex align-end">
                         <h3>{{result.psalter.mainIdentifier}}</h3>
                         <span *ngIf="result.psalter.subIdentifier">{{result.psalter.subIdentifier}}</span>
-                        <span *ngIf="result.psalter.secondTune" class="ml-1">(2nd)</span>
+                        <span *ngIf="result.psalter.isSecondTune" class="ml-1">(2nd)</span>
                     </div>
                     <span *ngIf="result.showPsalm">Psalm {{result.psalter.psalm}}</span>
                     <span *ngIf="result.otherPsalterIdentifier">[{{result.otherPsalterIdentifier}}]</span>
